@@ -2,7 +2,7 @@
 breadcrumbs:
 - - /chromium-os/developer-library/guides
   - ChromiumOS > Developer Library > Guides
-page_name: igt
+page_name: cv3-getting-started
 title: Getting Started with Chamelium V3
 ---
 
@@ -179,3 +179,9 @@ Using the standard `Plug()` on the MST parent will plug just this port without a
 def Unplug(mst_port)
 ```
 To unplug all MST ports just use regular `Unplug`.
+
+## 6. ChameleonD
+ChameleonD is the daemon that runs on Cv3 and is responsible for all the heavy lifting. It's the one that interacts with the hardware and exposes the API for the clients to interact with.
+The daemon is written in Python and can be found in the [chameleond directory](https://chromium.googlesource.com/chromiumos/platform/chameleon/+/refs/heads/main/v3/chameleond/).
+This is what you will interact with through the XMLRPC interface calls, or interactively as described above.
+All available calls are listed [here](./chameleond.md)
