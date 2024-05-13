@@ -76,6 +76,15 @@ FPGA_DP2 = 5
 ```
 The ITE ship can still support only 1 display, so you can only get 1 HDMI, but the FPGA chip can support multiple physical displays, so the most you can do here is 3 simultaneous ports: (`ITE_HDMI1|2`), `FPGA_DP1` and `FPGA_DP2`.
 *NOTE: Physically speaking, `ITE_DP1`&`FPGA_DP1` relate to the same physical port (same for \*_DP2), but the port ID is what tells Chameleon whether it's able to drive multiple displays and reroutes the correct hardware.*
+**Activate a Port**
+To "turn on" a port, 2 steps are needed: Setting an EDID and Plugging the port. You can't plug a port without setting an EDID.
+There is no default EDIDs set. After `Reset()` all EDIDs are cleared. Test code needs to explicitly call `ApplyEdid()` before plugging the port.
+If you don't care what EDID is set, there is a predefined EDID 0 ready to be applied so `CreateEdid()` call can be skipped and following pattern can be used:
+```
+X = chameleond.GetSupportedPorts()[0] # discover any port, here I take the first one
+chameleond.ApplyEdid(X, 0)
+chameleond.Plug(X)
+```
 **MST**
 The discussion is long, so jump to [Understand MST](#n-understand-mst) section below
 
@@ -96,7 +105,8 @@ The discussion is long, so jump to [Understand MST](#n-understand-mst) section b
 *NOTE: This interactive shell can be run from within Chamelium itself*
 1. `ssh cv3`
 2. `python chameleon/client/test_server.py --chameleon_host localhost`
-3. `>>> p.Plug(0)`
+3. `>>> p.ApplyEdid(0, 0)`
+4. `>>> p.Plug(0)`
 
 All calls are found in the [interface file](https://chromium.googlesource.com/chromiumos/platform/chameleon/+/refs/heads/main/chameleond/interface.py)
 
