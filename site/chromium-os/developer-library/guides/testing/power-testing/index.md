@@ -1,5 +1,11 @@
+---
+breadcrumbs:
+- - /chromium-os/developer-library/guides
+  - ChromiumOS > Guides
+page_name: power-testing
+title: Power testing
+---
 
-# Power testing
 ## Description
 Modern mobile computers are sold with an advertised battery life, ranging from a
 few to tens of hours. Nonetheless, when these devices are used on a daily basis,
@@ -24,6 +30,7 @@ The parameters of the device under test (DUT) are as follows:
     not be determined via
     [backlight_tool --get_initial_brightness --lux=150][2].
   * Keyboard: Depends on existance of ALS / Hover sensor
+  
     | ALS | hover | keyboard backlight level               |
     |-----|-------|----------------------------------------|
     | No  |  No   | default                                |
