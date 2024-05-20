@@ -547,12 +547,6 @@ causes them to be invalidated.
             as needed during X server startup. They’re removed on the first boot
             after any update; this happens in src/install-completed.conf in
             src/platform/installer.
-*   The VPD cache - this collection of files is created by dump_vpd_logs
-            during basic services startup; see the sources under
-            src/platform/vpd for more details. The cached data comes from
-            read-only firmware and never needs to be invalidated. However, after
-            powerwash, the read-only firmware must be re-read, and this can be
-            expensive on some platforms.
 
 ### Measuring Performance
 

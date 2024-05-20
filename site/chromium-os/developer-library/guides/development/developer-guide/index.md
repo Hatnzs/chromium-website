@@ -1573,7 +1573,6 @@ enrollment setting:
     ```bash
     (device)
     $ vpd -i RW_VPD -s check_enrollment=0
-    $ dump_vpd_log --force
     $ crossystem clear_tpm_owner_request=1
     $ reboot
     ```
