@@ -188,7 +188,7 @@ Install the git revision control system, the curl download helper, and more.
 (outside)
 # On Ubuntu, make sure to enable the universe repository.
 $ sudo add-apt-repository universe
-$ sudo apt-get install git gitk git-gui curl xz-utils
+$ sudo apt-get install git gitk git-gui curl xz-utils zstd
 ```
 
 These commands also installs git's graphical front end (`git gui`) and revision
