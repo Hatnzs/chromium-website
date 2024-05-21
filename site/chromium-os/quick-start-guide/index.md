@@ -21,7 +21,7 @@ You should have
 *   [Ubuntu](http://www.ubuntu.com/) Linux (version == 22.04 - Jammy)
     *   This is the only officially support distro, but building
                 Chromium OS should work fine on any x86_64 Linux distro running
-                a 2.6.16+ kernel
+                a recent kernel
 
 *   a 64-bit system for performing the build
 
