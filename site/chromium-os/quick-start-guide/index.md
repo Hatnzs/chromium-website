@@ -27,11 +27,10 @@ You should have
 
 *   an account with sudo access
 
-1.  Install the git revision control system, the curl download helper, and
-            xz-utils. On Ubuntu, the magic incantation to do this is:
+1.  Install required tools. On Ubuntu, the command is:
 
     ```none
-    sudo apt-get install git gitk git-gui curl xz-utils
+    sudo apt-get install git gitk git-gui curl xz-utils zstd
     ```
 
 2.  You must also [install

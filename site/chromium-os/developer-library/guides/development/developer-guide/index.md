@@ -182,8 +182,6 @@ $ sudo apt-get install python3.9
 Some host OS tools are needed to manipulate code, bootstrap the development
 environment, and run preupload hooks later on.
 
-Install the git revision control system, the curl download helper, and more.
-
 ```bash
 (outside)
 # On Ubuntu, make sure to enable the universe repository.
