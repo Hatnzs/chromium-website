@@ -28,7 +28,7 @@ need to follow it. Important points are:
 ### Task 1: Handling Component=Blink issues (mandatory, daily)
 
 1) Search for ["Component=Blink -Hotlist=CodeHealth -Needs=Feedback
--Needs=Reduction"](https://g-issues.chromium.org/issues?q=customfield1222907:Blink%20status:open%20-hotlistid:5433459%20-customfield1223031:Needs-Reduction%20-customfield1223031:Hotlist-CodeHealth)
+-Needs=Reduction"](https://issues.chromium.org/issues?q=customfield1222907:Blink%20status:open%20-hotlistid:5433459%20-customfield1223031:Needs-Reduction%20-customfield1223031:Hotlist-CodeHealth)
 
 2) Read the issue description and comments and add Blink&gt;*Foo* component and
 remove Blink component, if the area/ownership is clear. Otherwise:
