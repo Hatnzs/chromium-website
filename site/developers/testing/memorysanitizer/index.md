@@ -84,14 +84,23 @@ GN args". Add all of them, except the goma_dir.
 
 **Running on gLinux locally**
 
-testing/xvfb.py out/msan/unit_tests --gtest_filter="&lt;your test filter&gt;"
+Important: the `cd` in the instructions below is load-bearing, since MSan
+binaries [require a newer libc (and consequently, a newer ld.so as
+well)](https://crrev.com/c/5513300).
+
+```shell
+cd out/msan
+../../testing/xvfb.py ./unit_tests --gtest_filter="&lt;your test filter&gt;"
+```
+
 **Running on Ubuntu Trusty**
 
 Run the resulting binaries as usual. Pipe both stderr and stdout through
 `tools/valgrind/asan/asan_symbolize.py` to get symbolized reports:
 
 ```shell
-./out/msan/browser_tests |& tools/valgrind/asan/asan_symbolize.py
+cd out/msan
+./browser_tests |& tools/valgrind/asan/asan_symbolize.py
 ```
 
 ### **Disable OpenGL**
