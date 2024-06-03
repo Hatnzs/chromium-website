@@ -3930,5 +3930,20 @@ such as the auto update until date, first release, and more.
     <td>Clamshell</td>
     <td>Yes</td>
     <td>Yes</td>
+ </tr>
+   <tr>
+    <td>2024-03-15</td>
+    <td>HP</td>
+    <td><a href="https://www.hp.com/us-en/shop/pdp/hp-chromebook-14a-nf0050nr">HP Chromebook PLUS laptop14 inch-14a-nf0050nr (CX5403)</a></td>
+    <td>Yahiko</td>
+    <td>Nissa</td>
+    <td>Nissa</td>
+    <td>x86_64</td>
+    <td>6.1</td>
+    <td>x86_64</td>
+    <td>Alderlake-N</td>
+    <td>Clamshell</td>
+    <td>Yes</td>
+    <td>Yes</td>
   </tr>
 </table>
