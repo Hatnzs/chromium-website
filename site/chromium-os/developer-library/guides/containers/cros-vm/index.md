@@ -185,7 +185,7 @@ is_debug = false
 
 # For Googlers:
 is_chrome_branded = true
-use_goma = true
+use_remoteexec = true
 ```
 
 Then use gn to generate your ninja file and build:

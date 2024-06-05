@@ -80,7 +80,7 @@ If you are trying to reproduce a test run from the [Linux ChromiumOS MSan
 Tests](https://ci.chromium.org/p/chromium/builders/ci/Linux%20ChromiumOS%20MSan%20Tests)
 build, other GN args may also be needed.
 You can look for them via your test run page, under the section "lookup builder
-GN args". Add all of them, except the goma_dir.
+GN args".
 
 **Running on gLinux locally**
 
