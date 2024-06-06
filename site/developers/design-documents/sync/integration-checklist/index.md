@@ -45,6 +45,11 @@ If you want to integrate with our infrastructure, please follow these steps:
     [`SyncServiceFactory`][SyncServiceFactory].
 *   Implement the actual data type logic. This will mostly be an implementation
     of the [`ModelTypeSyncBridge`][Bridge] interface.
+    *   Add the sync team as co-owners of the bridge (and any associated
+        helpers, if appropriate), by adding something like
+        `per-file *sync_bridge*=file://components/sync/OWNERS` to your
+        OWNERS file. This allows us to do refactorings that touch all the
+        bridges without needing reviews from tens of owners.
 *   Write some [integration tests](../model-api/#automated-testing).
 *   While rolling out your new data type, keep the Sync team in the loop! E.g.
     CC your assigned champion on all Finch CLs.
