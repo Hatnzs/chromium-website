@@ -542,7 +542,7 @@ target "boards". The following are some example boards:
     device (find your board name [here][ChromeOS Devices]); recommended for
     deploying to official hardware
 *   **betty** - (Googlers only) builds an ARC++-enabled image for running in a
-    VM
+    VM; recommended for Chromium developers.
 
 To list all known boards in your checkout, run this command:
 
@@ -806,6 +806,20 @@ serving on localhost on the default VNC port (5900). You can connect to
 A good VNC client for Linux is the package tigervnc-viewer (available on at
 least Debian); its command line program is `vncviewer`. Note that before you use
 it, you should click **Options** → **Misc** → **Show dot when no cursor**.
+To download tigervnc-viewer, run:
+
+```bash
+(outside)
+$ sudo apt-get install tigervnc-viewer
+```
+
+To connect to `localhost` using vncviewer, run:
+
+```bash
+(outside)
+$ vncviewer localhost:5900 &
+```
+
 Other options include the VNC feature in [ChromiumIDE]'s device management, and
 [novnc], which makes the device accessible via a web browser.
 
