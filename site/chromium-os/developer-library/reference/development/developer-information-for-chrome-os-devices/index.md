@@ -3946,4 +3946,20 @@ such as the auto update until date, first release, and more.
     <td>Yes</td>
     <td>Yes</td>
   </tr>
+  <tr>
+    <td>2024-04-16</td>
+    <td>Acer</td>
+    <td><a href="https://www.acer.com/us-en/chromebooks/acer-chromebook-plus-spin-cp714-1h-cp714-1hn">Acer Chromebook Plus Spin 714 (CP714-1H/CP714-1HN),Acer Chromebook Plus Enterprise Spin 714 (CPE794-1N)</a></td>
+    <td>Karis</td>
+    <td>Rex</td>
+    <td>Rex</td>
+    <td>x86_64</td>
+    <td>6.1</td>
+    <td>x86_64</td>
+    <td>Meteor Lake</td>
+    <td>Convertible</td>
+    <td></td>
+    <td></td>
+ </tr>
+
 </table>
