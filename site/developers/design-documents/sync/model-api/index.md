@@ -59,13 +59,13 @@ per-storage basis, not a per-type basis.
 ### Specifics
 
 Model types will define a proto that contains the necessary fields of the
-corresponding native type (e.g. [`TypedUrlSpecifics`][TypedUrlSpecifics]
-contains a URL and a list of visit timestamps) and include it as a field in the
-generic [`EntitySpecifics`][EntitySpecifics] proto. This is the form that all
-communications with sync will use. This proto form of the model data is referred
-to as the specifics.
+corresponding native type (e.g. [`ReadingListSpecifics`][ReadingListSpecifics]
+contains a URL, the "read" status, and a few other things) and include it as a
+field in the generic [`EntitySpecifics`][EntitySpecifics] proto. This is the
+form that all communications with sync will use. This proto form of the model
+data is referred to as the specifics.
 
-[TypedUrlSpecifics]: https://cs.chromium.org/chromium/src/components/sync/protocol/typed_url_specifics.proto
+[ReadingListSpecifics]: https://cs.chromium.org/chromium/src/components/sync/protocol/reading_list_specifics.proto
 [EntitySpecifics]: https://cs.chromium.org/search/?q="message+EntitySpecifics"+file:sync.proto
 
 ### Identifiers
