@@ -13,6 +13,14 @@ title: MobLab release notes
 *   [Wyvern (puff) OS Recovery
             Image](https://storage.googleapis.com/moblab-recovery-images/chromeos_14526.55.0_puff-moblab_recovery_stable-channel_mp-v3.bin.zip)
 
+# June 17th 2024: Moblab Release
+
+**You should reboot Moblab when tests are not running to get this latest version of the software.**
+After the update you will be running Moblab version R-2.25.1
+
+**Highlights**
+- Removed the obsolete faft_setup suite
+
 # June 5th 2024: Moblab Release
 
 **You should reboot Moblab when tests are not running to get this latest version of the software.**
