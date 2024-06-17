@@ -955,7 +955,7 @@ no way of enforcing those builds are never used or leaked externally, and this
 wouldn't protect from [insider threats].
 
 
-[Adding Reviewers]: #reviewers
+[Adding Reviewers]: #Add reviewers
 [archive mirrors]: /chromium-os/developer-library/reference/third-party/archive-mirrors/
 [Breakage and Flake Policy]: /chromium-os/developer-library/guides/testing/breakages-and-flakes/
 [Change-Id]: https://gerrit-review.googlesource.com/Documentation/user-changeid.html
