@@ -465,6 +465,13 @@ This will store authentication credentials in `~${HOME}/.config/gcloud` that
 will be mapped into the chroot, and which will allow Bazel executions within
 your builds to authenticate as you to RBE to access the remote cache it hosts.
 
+If you need to disable remote caching for packages that build under Bazel and
+have remote caching enabled, this can be done via
+`BAZEL_USE_REMOTE_CACHING=false cros build-packages ...`
+
+For Googlers, please reach out to chromeos-build-discuss@google.com if you
+believe you should have access to remote Bazel caching but don't.
+
 More details about configuring remote caching for non-Google organizations is
 available at [bazel_remote_caching].
 
