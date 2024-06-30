@@ -1935,19 +1935,19 @@ Below are a few links to external sites that you might also find helpful
 
 
 [README.md]: README.md
-[Prerequisites]: #Prerequisites
-[Getting the source code]: #Get-the-Source
-[sync to stable]: #Sync-to-stable
-[Building ChromiumOS]: #Building-ChromiumOS
-[Installing ChromiumOS on your Device]: #Installing-ChromiumOS-on-your-Device
-[Making changes to packages whose source code is checked into ChromiumOS git repositories]: #Making-changes-to-packages-whose-source-code-is-checked-into-ChromiumOS-git-repositories
-[Making changes to non-cros-workon-able packages]: #Making-changes-to-non_cros-workon_able-packages
-[Local Debugging]: #Local-Debugging
-[Remote Debugging]: #Remote-Debugging
-[Troubleshooting]: #Troubleshooting
-[Running Tests]: #Running-Tests
-[Additional information]: #Additional-information
-[Attribution requirements]: #Attribution-requirements
+[Prerequisites]: #prerequisites
+[Getting the source code]: #get-the-source
+[sync to stable]: #sync-to-stable
+[Building ChromiumOS]: #building-chromiumos
+[Installing ChromiumOS on your Device]: #installing-chromiumos-on-your-device
+[Making changes to packages whose source code is checked into ChromiumOS git repositories]: #making-changes-to-packages-whose-source-code-is-checked-into-chromiumos-git-repositories
+[Making changes to non-cros-workon-able packages]: #making-changes-to-non_cros-workon_able-packages
+[Local Debugging]: #local-debugging
+[Remote Debugging]: #remote-debugging
+[Troubleshooting]: #troubleshooting
+[Running Tests]: #running-tests
+[Additional information]: #additional-information
+[Attribution requirements]: #attribution-requirements
 [Ubuntu]: https://www.ubuntu.com/
 [RAM-thread]: https://groups.google.com/a/chromium.org/d/topic/chromium-os-dev/ZcbP-33Smiw/discussion
 [install depot_tools]: https://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up
