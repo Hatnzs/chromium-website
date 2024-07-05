@@ -23,7 +23,10 @@ If you want to integrate with our infrastructure, please follow these steps:
 *   At this point, there are also some server-side integration steps to be done.
     They should be discussed in the thread or bug created above.
 *   Add it to the [`ModelType`][ModelType] enum and
-    [`kModelTypeInfoMap`][info_map].
+    [`kModelTypeInfoMap`][info_map]. There are several static_assert() which
+    will need to be updated. Some of those live in code specific to platforms
+    you're not compiling to, so it's worth trying to find them via
+    code search, e.g. with this [query][model-type-static-asserts].
 *   Add to the `SyncModelTypes` enum in [`enums.xml`][enums] and to the
     `SyncModelType` suffix in [`histograms.xml`][histograms].
 *   If your type should have its own toggle in sync settings, add an entry to
@@ -78,3 +81,4 @@ If you want to integrate with our infrastructure, please follow these steps:
 [histograms]: https://source.chromium.org/chromium/chromium/src/+/main:tools/metrics/histograms/metadata/sync/histograms.xml
 [DataTypeHistogram]: https://cs.chromium.org/chromium/src/components/sync/base/data_type_histogram.h
 [sync-integration-feedback]: http://go/sync-integration-feedback
+[model-type-static-asserts]: https://source.chromium.org/search?q=f:%2Fsync%2F%20static_assert.*ModelType%20-f:(%5Eout)&ss=chromium%2Fchromium%2Fsrc
