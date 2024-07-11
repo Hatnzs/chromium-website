@@ -206,7 +206,7 @@ These changes must be applied to the local model.
 Here’s an example implementation of a type using `ModelTypeStore`:
 
 ```cpp
-absl::optional<ModelError> DeviceInfoSyncBridge::ApplyIncrementalSyncChanges(
+std::optional<ModelError> DeviceInfoSyncBridge::ApplyIncrementalSyncChanges(
     std::unique_ptr<MetadataChangeList> metadata_change_list,
     EntityChangeList entity_changes) {
   std::unique_ptr<WriteBatch> batch = store_->CreateWriteBatch();
