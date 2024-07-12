@@ -17,7 +17,7 @@ useful metadata like bugs the change helps fix, trybots which should be run to
 test the change, and more. This page includes a listing of well-known footers,
 their meanings, and their formats.
 
-See also https://chromium.googlesource.com/chromium/src/+/main/docs/infra/cq.md#options
+See also <https://chromium.googlesource.com/chromium/src/+/main/docs/infra/cq.md#options>
 
 **Bug:**
 
