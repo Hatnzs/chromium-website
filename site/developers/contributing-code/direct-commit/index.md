@@ -8,8 +8,6 @@ page_name: direct-commit
 title: Directly committing code
 ---
 
-[TOC]
-
 When [contributing code](/developers/contributing-code) to Chromium, the last
 step in the life of a change list is committing it, after which it's closed.
 
