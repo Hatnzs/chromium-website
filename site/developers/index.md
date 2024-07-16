@@ -194,7 +194,7 @@ See also: All [How-tos](/developers/how-tos).
 *   [Core Product Principles](/developers/core-principles)
     *   [No Hidden
                 Preferences](/developers/core-principles/no-hidden-preferences)
-*   [Contributing code](/developers/contributing-code)
+*   [Contributing code](https://chromium.googlesource.com/chromium/src/+/main/docs/contributing.md)
     *   [Coding style](/developers/coding-style)
         *   [C++ Dos and
                     Don'ts](/developers/coding-style/cpp-dos-and-donts)
