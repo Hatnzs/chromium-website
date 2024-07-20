@@ -27,7 +27,7 @@ Here are some ways you can get involved with Chromium:
     introduction and the [Contributing](https://chromium.googlesource.com/chromium/src/+/main/docs/contributing.md)
     page
   * Adopt a bug that's marked
-    [GoodFirstBug](http://code.google.com/p/chromium/issues/list?q=Hotlist:GoodFirstBug&can=2)
+    [GoodFirstBug](https://issues.chromium.org/hotlists/5483263)
   * Submit [patches](/developers/contributing-code) (submit enough
     and you can [become a committer](/getting-involved/become-a-committer)!)
   * Optionally apply for a Chromium account by emailing
