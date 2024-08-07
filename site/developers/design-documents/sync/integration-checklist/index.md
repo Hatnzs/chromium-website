@@ -34,11 +34,11 @@ If you want to integrate with our infrastructure, please follow these steps:
     * [Desktop][toggles_desktop]
     * [Android][toggles_android]
     * [iOS][toggles_ios]
-4. Register a [`ModelTypeController`][ModelTypeController] in
+4. Register a [`DataTypeController`][DataTypeController] in
     [`CommonControllerBuilder`][CommonControllerBuilder] or platform-specific
     equivalent in the //chrome or //ios implementations of
-    [`SyncClient::CreateModelTypeControllers`][CreateModelTypeControllers].
-    Use a trivial implementation of [`ModelTypeSyncBridge`][Bridge] for now.
+    [`SyncClient::CreateDataTypeControllers`][CreateDataTypeControllers].
+    Use a trivial implementation of [`DataTypeSyncBridge`][Bridge] for now.
     *   Add the sync team as co-owners of the bridge (and any associated
         helpers, if appropriate), by adding something like
         `per-file *sync_bridge*=file://components/sync/OWNERS` to your
@@ -52,15 +52,15 @@ If you want to integrate with our infrastructure, please follow these steps:
 
 [create-new-sync-data-type-bug]: http://go/create-new-sync-data-type-bug
 [protocol]: https://cs.chromium.org/chromium/src/components/sync/protocol/
-[ModelType]: https://cs.chromium.org/chromium/src/components/sync/base/model_type.h
-[info_map]: https://cs.chromium.org/search/?q="kModelTypeInfoMap%5B%5D"+file:model_type.cc
+[DataType]: https://cs.chromium.org/chromium/src/components/sync/base/data_type.h
+[info_map]: https://cs.chromium.org/search/?q="kDataTypeInfoMap%5B%5D"+file:data_type.cc
 [conversions]: https://cs.chromium.org/chromium/src/components/sync/protocol/proto_value_conversions.h
 [EntitySpecifics]: https://source.chromium.org/chromium/chromium/src/+/main:components/sync/protocol/entity_specifics.proto
-[ModelTypeController]: https://cs.chromium.org/chromium/src/components/sync/service/model_type_controller.h
+[DataTypeController]: https://cs.chromium.org/chromium/src/components/sync/service/data_type_controller.h
 [CommonControllerBuilder ]: https://source.chromium.org/chromium/chromium/src/+/main:components/browser_sync/common_controller_builder.h
-[CreateModelTypeControllers]: https://cs.chromium.org/search/?q="SyncClient::CreateModelTypeControllers"
+[CreateDataTypeControllers]: https://cs.chromium.org/search/?q="SyncClient::CreateDataTypeControllers"
 [SyncServiceFactory]: https://cs.chromium.org/search/?q=:SyncServiceFactory%5C(%5C)
-[Bridge]: https://source.chromium.org/search?q=ModelTypeSyncBridge
+[Bridge]: https://source.chromium.org/search?q=DataTypeSyncBridge
 [NigoriSpecifics]: https://cs.chromium.org/chromium/src/components/sync/protocol/nigori_specifics.proto
 [UserSelectableType]: https://cs.chromium.org/chromium/src/components/sync/base/user_selectable_type.h?type=cs&q="enum+class+UserSelectableType"
 [pref_names]: https://cs.chromium.org/chromium/src/components/sync/base/pref_names.h
@@ -73,4 +73,4 @@ If you want to integrate with our infrastructure, please follow these steps:
 [histograms]: https://source.chromium.org/chromium/chromium/src/+/main:tools/metrics/histograms/metadata/sync/histograms.xml
 [DataTypeHistogram]: https://cs.chromium.org/chromium/src/components/sync/base/data_type_histogram.h
 [sync-integration-feedback]: http://go/sync-integration-feedback
-[model-type-static-asserts]: https://source.chromium.org/search?q=f:%2Fsync%2F%20static_assert.*ModelType%20-f:(%5Eout)&ss=chromium%2Fchromium%2Fsrc
+[data-type-static-asserts]: https://source.chromium.org/search?q=f:%2Fsync%2F%20static_assert.*DataType%20-f:(%5Eout)&ss=chromium%2Fchromium%2Fsrc

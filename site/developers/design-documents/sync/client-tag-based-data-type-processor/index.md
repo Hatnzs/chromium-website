@@ -6,30 +6,32 @@ breadcrumbs:
   - Design Documents
 - - /developers/design-documents/sync
   - Sync
-page_name: client-tag-based-model-type-processor
-title: ClientTagBasedModelTypeProcessor
+page_name: client-tag-based-data-type-processor
+title: ClientTagBasedDataTypeProcessor
 ---
 
-The [`ClientTagBasedModelTypeProcessor`][SMTP] is a crucial piece of the USS
-codepath. It lives on the model thread and performs the tracking of sync
-metadata for the [`ModelTypeSyncBridge`][MTSB] that owns it by implementing the
-[`ModelTypeChangeProcessor`][MTCP] interface, as well as sending commit requests
-to the [`ModelTypeWorker`][MTW] on the sync thread via the [`CommitQueue`][CQ]
-interface and receiving updates from the same worker via the
-[`ModelTypeProcessor`][MTP] interface.
+The [`ClientTagBasedDataTypeProcessor`][ClientTagBasedDataTypeProcessor] is a
+crucial piece of the USS codepath. It lives on the model thread and performs the
+tracking of sync metadata for the [`DataTypeSyncBridge`][DataTypeSyncBridge]
+that owns it by implementing the
+[`DataTypeLocalChangeProcessor`][DataTypeLocalChangeProcessor] interface, as
+well as sending commit requests to the [`DataTypeWorker`][DataTypeWorker] on the
+sync thread via the [`CommitQueue`][CommitQueue] interface and receiving updates
+from the same worker via the [`DataTypeProcessor`][DataTypeProcessor] interface.
 
 This processor supports types that use a client tag, which is currently
 includes all except bookmarks. This means all changes in flight (either incoming
-remote changes provided via the [`ModelTypeWorker`][MTW], or local changes
-reported by the [`ModelTypeSyncBridge`][MTSB]) must specify a client tag, which
-is considered (after being hashed) the main global identifier of a sync entity.
+remote changes provided via the [`DataTypeWorker`][DataTypeWorker], or local
+changes reported by the [`DataTypeSyncBridge`][DataTypeSyncBridge]) must specify
+a client tag, which is considered (after being hashed) the main global
+identifier of a sync entity.
 
-[SMTP]: https://cs.chromium.org/chromium/src/components/sync/model/client_tag_based_model_type_processor.h
-[MTSB]: https://cs.chromium.org/chromium/src/components/sync/model/model_type_sync_bridge.h
-[MTCP]: https://cs.chromium.org/chromium/src/components/sync/model/model_type_change_processor.h
-[MTW]: https://cs.chromium.org/chromium/src/components/sync/engine/model_type_worker.h
-[CQ]: https://cs.chromium.org/chromium/src/components/sync/engine/commit_queue.h
-[MTP]: https://cs.chromium.org/chromium/src/components/sync/engine/model_type_processor.h
+[ClientTagBasedDataTypeProcessor]: https://cs.chromium.org/chromium/src/components/sync/model/client_tag_based_data_type_processor.h
+[DataTypeSyncBridge]: https://cs.chromium.org/chromium/src/components/sync/model/data_type_sync_bridge.h
+[DataTypeLocalChangeProcessor]: https://cs.chromium.org/chromium/src/components/sync/model/data_type_local_change_processor.h
+[DataTypeWorker]: https://cs.chromium.org/chromium/src/components/sync/engine/data_type_worker.h
+[CommitQueue]: https://cs.chromium.org/chromium/src/components/sync/engine/commit_queue.h
+[DataTypeProcessor]: https://cs.chromium.org/chromium/src/components/sync/engine/data_type_processor.h
 
 [TOC]
 
@@ -83,8 +85,8 @@ transitions and how to determine them.
         cleared; we're really waiting for DisableSync instead of connect.
     *   Determined by: `error_handler_ && !start_callback_`
 *   `CONNECTED`
-    *   We have a [`CommitQueue`][CQ] that passes changes to the
-        [`ModelTypeWorker`][MTW] on the sync thread.
+    *   We have a [`CommitQueue`][CommitQueue] that passes changes to the
+        [`DataTypeWorker`][DataTypeWorker] on the sync thread.
     *   Determined by: `!!worker_`
 
 ### Processor States
@@ -99,13 +101,13 @@ progresses through 3 states worth noting:
     *   Indicates that not metadata is being tracked and that `Put` and `Delete`
         calls will be ignored.
     *   This state is entered if the loaded metadata shows an initial merge
-        hasn't happened (`ModelTypeState::initial_sync_done` is false).
+        hasn't happened (`DataTypeState::initial_sync_done` is false).
     *   Exposed via `IsTrackingMetadata` for optimization, not correctness.
 *   `TRACKING`
     *   Indicates that metadata is being tracked and `Put` and `Delete` calls
         must happen for entity changes.
     *   This state is entered if the loaded metadata shows an initial merge
-        has happened (`ModelTypeState::initial_sync_done` is true).
+        has happened (`DataTypeState::initial_sync_done` is true).
 *   `SYNCING`
     *   Indicates that commits can be sent and updates can be received from the
         sync server. This is a superstate of `TRACKING`.
@@ -116,15 +118,15 @@ progresses through 3 states worth noting:
 
 ## Entity Tracker
 
-The [`ProcessorEntity`][PET] tracks the state of individual entities for
-the processor. It keeps the [`EntityMetadata`][EM] proto in memory, as well as
-any pending commit data until it gets acked by the server. It also stores the
-special `commit_requested_sequence_number_`, which tracks the sequence number of
-the last version that's been sent to the server.
+The [`ProcessorEntity`][ProcessorEntity] tracks the state of individual entities
+for the processor. It keeps the [`EntityMetadata`][EntityMetadata] proto in
+memory, as well as any pending commit data until it gets acked by the server. It
+also stores the special `commit_requested_sequence_number_`, which tracks the
+sequence number of the last version that's been sent to the server.
 
 The tracker holds the metadata in memory forever, which is needed so we know
 what to update the on-disk memory with when we get a new local or remote change.
 Changing this would require being able to handle updates asynchronously.
 
-[PET]: https://cs.chromium.org/chromium/src/components/sync/model/processor_entity.h
-[EM]: https://cs.chromium.org/chromium/src/components/sync/protocol/entity_metadata.proto
+[ProcessorEntity]: https://cs.chromium.org/chromium/src/components/sync/model/processor_entity.h
+[EntityMetadata]: https://cs.chromium.org/chromium/src/components/sync/protocol/entity_metadata.proto
