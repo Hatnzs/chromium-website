@@ -477,55 +477,6 @@ available at [bazel_remote_caching].
 
 ## Building ChromiumOS
 
-### Create a chroot
-
-To make sure everyone uses the same exact environment and tools to build
-ChromiumOS, all building is done inside a [chroot]. This chroot is its own
-little world: it contains its own compiler, its own tools (its own copy of bash,
-its own copy of sudo), etc. Now that you've synced down the source code, you
-need to create this chroot. Assuming you're already in `~/chromiumos` (or
-wherever your source lives), the command to download and install the chroot is:
-
-```bash
-(outside)
-$ cros_sdk --create
-```
-
-If this does not work, make sure you've added the depot_tools directory to your
-PATH already (as was needed above with using `repo`).
-
-This will download and setup a prebuilt chroot from ChromiumOS mirrors (under
-400MB). If you prefer to build it from source, or have trouble accessing the
-servers, use `cros_sdk --bootstrap`. Note that this will also enter the chroot.
-If you prefer to build only, use `--download`.
-
-The command with `--bootstrap` takes about half an hour to run on a four core
-machine. It compiles quite a bit of software, which it installs into your
-chroot, and downloads some additional items (around 300MB). While it is building
-you will see a regular update of the number of packages left to build. Once the
-command finishes, the chroot will take up total disk space of a little over 3GB.
-
-The chroot lives by default at `~/chromiumos/chroot`. Inside that
-directory you will find system directories like `/usr/bin` and `/etc`. These are
-local to the chroot and are separate from the system directories on your
-machine. For example, the chroot has its own version of the `ls` utility. It
-will be very similar, but it is actually a different binary than the normal one
-you use on your machine.
-
-**IMPORTANT NOTES**:
-
-*   **If you need to delete your chroot**, use `cros_sdk --delete` to delete it
-    properly. Using `rm -rf` could end up deleting your source tree due to the
-    active bind mounts.
-
-**SIDE NOTES:**
-
-*   You shouldn't have to create the chroot very often. Most developers create
-    it once and never touch it again unless someone explicitly sends out an
-    email telling them to recreate their chroot.
-*   The `cros_sdk` command currently doesn't work behind a proxy server, but
-    there is a [workaround][crosbug/10048].
-
 ### Select a board
 
 Building ChromiumOS produces a disk image (usually just called an "image") that
