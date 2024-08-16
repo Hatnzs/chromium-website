@@ -413,6 +413,29 @@ building off of.
 Please refer to [Switch repo to the snapshot](/recreating_a_snapshot_or_buildspec.md#switch-repo-to-the-buildspec).
 ***
 
+#### Enable `cros cron` for faster syncing and builds
+
+If you work on ChromiumOS often and want syncing your tree to be fast, turn on
+[`cros cron`](https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/docs/cros-cron.md).
+to automatically prefetch git objects and SDK artifacts hourly in the
+background:
+
+```shellsession
+(outside)
+$ cros cron enable
+```
+
+*** note
+**Note:** `cros cron` daily bandwidth consumption of 10 GB.  If you pay for your
+internet by the gigabyte, enabling it is not recommended.
+***
+
+*** note
+**Note:** `cros cron` works best when you ran `repo init` with either
+`-b stable` or `-b snapshot`.  Using `-b main` will require a `git fetch` on
+every repository when you sync, and is therefore not recommended.
+***
+
 #### Optionally add Google API keys
 
 *** note
