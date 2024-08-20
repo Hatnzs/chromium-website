@@ -3683,9 +3683,9 @@ such as the auto update until date, first release, and more.
     <td>Rusty</td>
     <td>Corsola</td>
     <td>Corsola</td>
-    <td>arm</td>
+    <td>aarch64</td>
     <td>5.15</td>
-    <td>arm</td>
+    <td>aarch64</td>
     <td>MT8186</td>
     <td>Clamshell</td>
     <td></td>
@@ -3698,9 +3698,9 @@ such as the auto update until date, first release, and more.
     <td>Steelix</td>
     <td>Corsola</td>
     <td>Corsola</td>
-    <td>arm</td>
+    <td>aarch64</td>
     <td>5.15</td>
-    <td>arm</td>
+    <td>aarch64</td>
     <td>MT8186</td>
     <td>Convertible</td>
     <td></td>
@@ -3728,9 +3728,9 @@ such as the auto update until date, first release, and more.
     <td>Magneton</td>
     <td>Corsola</td>
     <td>Corsola</td>
-    <td>arm</td>
+    <td>aarch64</td>
     <td>5.15</td>
-    <td>arm</td>
+    <td>aarch64</td>
     <td>MT8186</td>
     <td>Convertible</td>
     <td></td>
@@ -3743,9 +3743,9 @@ such as the auto update until date, first release, and more.
     <td>Tentacruel</td>
     <td>Corsola</td>
     <td>Corsola</td>
-    <td>arm</td>
+    <td>aarch64</td>
     <td>5.15</td>
-    <td>arm</td>
+    <td>aarch64</td>
     <td>MT8186</td>
     <td>Convertible</td>
     <td></td>
@@ -3758,9 +3758,9 @@ such as the auto update until date, first release, and more.
     <td>Tentacool</td>
     <td>Corsola</td>
     <td>Corsola</td>
-    <td>arm</td>
+    <td>aarch64</td>
     <td>5.15</td>
-    <td>arm</td>
+    <td>aarch64</td>
     <td>MT8186</td>
     <td>Clamshell</td>
     <td></td>
