@@ -3961,5 +3961,20 @@ such as the auto update until date, first release, and more.
     <td></td>
     <td></td>
  </tr>
+  <tr>
+    <td>2024-08-08</td>
+    <td>Lenovo</td>
+    <td><a href="https://pcsupport.lenovo.com/us/en/products/chromebook-laptops/lenovo-chromebooks-series/lnv-cb-duet-11m889?searchType=3&keyWordSearch=LNV%20CB%20Duet%2011M889">Lenovo Chromebook Duet (11", 9) / Lenovo Chromebook Duet EDU G2</a></td>
+    <td>Ciri</td>
+    <td>Geralt</td>
+    <td>Geralt</td>
+    <td>aarch64</td>
+    <td>6.1</td>
+    <td>aarch64</td>
+    <td>MT8188</td>
+    <td>Detachable</td>
+    <td></td>
+    <td></td>
+ </tr>
 
 </table>
