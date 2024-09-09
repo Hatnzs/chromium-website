@@ -239,12 +239,12 @@ Next boot stage     | `Ctrl + X`
 
 
 [official support page]: https://support.google.com/chromebook/answer/183101
-[firmware keyboard UI]: #Firmware-Keyboard-Interface
+[firmware keyboard UI]: #firmware-keyboard-interface
 [Magic SysRq]: https://www.kernel.org/doc/html/latest/admin-guide/sysrq.html
 [Developer Mode]: /chromium-os/developer-library/guides/device/developer-mode/
 [convertible]: https://en.wikipedia.org/wiki/Laptop#Convertible
-[firmware menu UI]: #Firmware-Menu-Interface
-[EC debug mode]: #EC-Debug-Mode
+[firmware menu UI]: #firmware-menu-interface
+[EC debug mode]: #ec-debug-mode
 [smart battery]: http://sbs-forum.org/specs/sbdat110.pdf
 [device-specific developer information]: https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices
 [boot firmware screen]: /chromium-os/developer-library/guides/device/developer-mode/
