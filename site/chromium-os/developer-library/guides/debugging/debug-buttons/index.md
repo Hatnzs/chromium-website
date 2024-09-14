@@ -34,7 +34,8 @@ Full system reset                     | `Power + Refresh + ChromeOS-Back (F1)`, 
 EC reset                              | `Power + Refresh`
 Recovery mode                         | See [firmware keyboard UI] section
 Developer mode                        | See [firmware keyboard UI] section
-Battery cutoff                        | `Power + Refresh`, hold down, remove power for 5 seconds
+Battery cutoff (newer devices)        | `Refresh`, hold down, remove power for 5 seconds
+Battery cutoff (older* devices)       | `Power + Refresh`, hold down, remove power for 5 seconds
 Warm AP reset                         | `Alt + Volume-Up + R`
 Restart Chrome                        | `Alt + Volume-Up + X` **\***
 Kernel panic/reboot                   | `Alt + Volume-Up + X + X` **\***
@@ -51,6 +52,7 @@ Virtual terminal switching            | `Ctrl + Alt + F1 (or F2, F3, F4)` **\***
     mode, you can enable SysRq key combinations as documented in the Linux
     kernel docs.
 *   Overriding the charging port is only supported on Samus.
+*   **Older** devices (see Battery cutoff) can be identified by the lack of the `G` (Google) key in the keyboard bottom-row.
 
 ### Firmware Keyboard Interface
 
