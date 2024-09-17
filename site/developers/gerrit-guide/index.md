@@ -31,14 +31,6 @@ title: Gerrit Guide
     1.  Visit <https://chromium-review.googlesource.com/#/settings/> and
                 check the "Full Name" field.
 
-### (EVERYONE) Configure local checkouts for your account
-
-Now that you've configured your account on the server, you should configure your
-local checkouts.
-
-1.  Run `cd src && git config --local gerrit.host true` to default
-            to uploading your reviews to Gerrit.
-
 ### (Googler) Link @chromium.org & @google.com accounts
 
 If you have both @chromium.org and @google.com accounts, you may want to link
