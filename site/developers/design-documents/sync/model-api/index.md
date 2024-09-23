@@ -263,6 +263,14 @@ void WriteLocalChange(std::string key, ModelData data) {
 }
 ```
 
+### Forward Compatibility
+
+Any new fields in a proto are unrecognized by older clients. Thus, any such
+changes face an inherent risk of leading to data loss for a multi-client Sync
+user. Refer to
+[Protection against data override by old Sync clients](../old-sync-clients-data-override-protection)
+for details on the problem and the solution.
+
 ## Error handling
 
 If any errors occur during store operations that could compromise the
