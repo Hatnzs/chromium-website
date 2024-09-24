@@ -7,8 +7,10 @@ breadcrumbs:
 - - /developers/design-documents/sync
   - Sync
 page_name: sync-data-best-practices
-title: Sync Data Best Practices (Needs update)
+title: Sync Data Best Practices
 ---
+
+### Changing fields in specifics
 
 [The new sync API](/developers/design-documents/sync/syncable-service-api) uses
 protobufs to communicate with Chrome services, which is nice because protobufs
@@ -43,3 +45,22 @@ same time! Fortunately, there are some best practices to help make it easy:
             sync traffic spikes on version upgrades). Finally, once the stable
             version of Chrome becomes the first Chrome version with the
             migration code, you can remove data in the old field.
+
+### Conflict resolution
+
+A conflict can occur when an entity has a pending local commit and an update for
+the same entity comes from another client during an incremental update. There is
+a default implementation of conflict resolution which is sufficient in most
+cases. However it's possible to provide in the bridge a custom
+[`ResolveConflict`][ResolveConflict] implementation. The result can be either
+keeping the local pending change, or fully apply the remote update. Note that
+currently merging is not supported during the conflict resolution.
+
+It is recommended to avoid any additional logic to detect conflicts or merge
+local data with remote updates. This may lead to inconsistency between the
+client and the server, and hence between different clients. Re-uploading of such
+merged data should also be avoided because it may result in a ping-pong issue
+when two different clients would indefinitely reupload merged results of each
+other.
+
+[ResolveConflict]: https://cs.chromium.org/search/?q=ResolveConflict+file:/data_type_sync_bridge.h

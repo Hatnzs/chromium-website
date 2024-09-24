@@ -201,7 +201,8 @@ the meantime.
 ### ApplyIncrementalSyncChanges
 
 This method is called whenever new changes have been downloaded from the server.
-These changes must be applied to the local model.
+These changes must be applied to the local model. See also
+[Sync Best Practices][SyncBestPractices] for more details.
 
 Here’s an example implementation of a type using `DataTypeStore`:
 
@@ -230,6 +231,10 @@ std::optional<ModelError> DeviceInfoSyncBridge::ApplyIncrementalSyncChanges(
 }
 ```
 
+Note that it is recommended to apply remote changes to the local model as is
+without custom conflict detection, and merging remote and local data should also
+be avoided.
+
 A conflict can occur when an entity has a pending local commit when an update
 for the same entity comes from another client. In this case, the bridge’s
 [`ResolveConflict`][ResolveConflict] method will have been called prior to the
@@ -239,6 +244,7 @@ unless the remote version is a tombstone, in which case the local version wins.
 
 [EntityChange]: https://cs.chromium.org/chromium/src/components/sync/model/entity_change.h
 [ResolveConflict]: https://cs.chromium.org/search/?q=ResolveConflict+file:/data_type_sync_bridge.h
+[SyncBestPractices]: /developers/design-documents/sync/sync-data-best-practices/
 
 ### Local changes
 
