@@ -64,3 +64,27 @@ when two different clients would indefinitely reupload merged results of each
 other.
 
 [ResolveConflict]: https://cs.chromium.org/search/?q=ResolveConflict+file:/data_type_sync_bridge.h
+
+### Avoiding ping-pong
+
+**tl;dr**: Do not call `change_processor()->Put(..)` in your
+`ApplyIncrementalSyncChanges` implementation! In other words, an incoming sync
+update must never directly lead to an outgoing update.
+
+Sometimes, incoming changes from the server can be "bad" in some way - for
+example, some older version of Chrome committed invalid or incomplete data. In
+such cases, it's tempting to fix the data, by committing a "fixed" version
+directly when receiving the "bad" data in `ApplyIncrementalSyncChanges`.
+
+However, doing this can lead to "ping-pong" issues: If two clients try to fix
+bad data, but disagree on what the correct state is, they'll continuously
+re-update the same entity back and forth, as fast as their network connections
+allow. If enough clients get into this state, this amounts to a DDoS attack on
+the sync server. \
+Note that it's effectively impossible to ensure that no *past or future* Chrome
+version disagrees with your current code's behavior.
+
+Instead, it's usually best to fix up the data locally *without* committing it,
+and relying on the next natural change to commit the fixed data to the server.
+If you absolutely must re-upload the fixed data, this must be rate-limited in
+some way, e.g. do it at most once per browser startup.
