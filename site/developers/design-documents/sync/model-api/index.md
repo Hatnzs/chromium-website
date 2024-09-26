@@ -286,6 +286,14 @@ user. Refer to
 [Protection against data override by old Sync clients](../old-sync-clients-data-override-protection)
 for details on the problem and the solution.
 
+### Unique Positions
+
+Data types which require ordering may use unique positions to sync the order of
+entities across devices. See [Unique Positions][UniquePositions] for the details
+on how to use them in the bridge.
+
+[UniquePositions]: /developers/design-documents/sync/unique-positions
+
 ## Error handling
 
 If any errors occur during store operations that could compromise the
