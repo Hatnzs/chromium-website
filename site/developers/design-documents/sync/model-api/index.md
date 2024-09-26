@@ -246,6 +246,15 @@ unless the remote version is a tombstone, in which case the local version wins.
 [ResolveConflict]: https://cs.chromium.org/search/?q=ResolveConflict+file:/data_type_sync_bridge.h
 [SyncBestPractices]: /developers/design-documents/sync/sync-data-best-practices/
 
+### ApplyDisableSyncChanges
+
+This method is called when sync is being disabled and the sync metadata needs to
+cleared. The data type can choose to delete the data but **the metadata should
+always be deleted** when this method is called. This means that the passed
+`MetadataChangeList` must always be deleted from the storage (for example using
+`ApplyIncrementalSyncChang(metadata_change_list)` as in default implementation),
+if the store is not just fully erased.
+
 ### Local changes
 
 The [`DataTypeLocalChangeProcessor`][DataTypeLocalChangeProcessor] must be
