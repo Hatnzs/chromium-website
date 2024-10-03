@@ -26,9 +26,7 @@ title: For Developers
             commands.
 *   Look at our [Git
             Cookbook](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/git_cookbook.md)
-            for a helpful walk-through, or the [Fast Intro to Git
-            Internals](/developers/fast-intro-to-git-internals) for a background
-            intro to git.
+            for a helpful walk-through.
 *   [Changelogs for Chromium and Blink](/developers/change-logs).
 
 #### Development Guides
