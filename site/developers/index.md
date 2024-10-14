@@ -235,7 +235,6 @@ Design documents
 
 *   [Getting around the source code
             directories](/developers/how-tos/getting-around-the-chrome-source-code)
-*   [Tech Talks: Videos & Presentations](/developers/tech-talk-videos)
 *   [Engineering design docs](/developers/design-documents)
 *   [User experience design docs](/user-experience)
 *   *Sharing design documents on Google drive: share on Chromium domain*
