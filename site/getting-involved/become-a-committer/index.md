@@ -100,6 +100,9 @@ like "more patches" or "not enough people are familiar with this person's work."
 If the person you ask to nominate you thinks you're not ready, they should
 be able to tell you why not and what you need to do to meet the criteria.
 
+If you haven't done so already **you'll need to set up a security key on your
+account before you're added to the committer list**.
+
 Mechanically, being a committer means that you are a member of
 committers@chromium.org. It may take a few days longer after your nomination
 to actually be added to the list, but the whole process usually won't take
@@ -122,9 +125,6 @@ address to be re-nominated. To do so, send an email to accounts@chromium.org.
 
 If you have questions about this process, you can ask on community@chromium.org
 and people there will be happy to help you.
-
-Googlers can also look up the committers list
-[here](https://goto.google.com/chromium-committers).
 
 ## Other statuses
 
