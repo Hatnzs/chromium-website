@@ -28,13 +28,13 @@ title: Training
     <tr>
       <td>Callbacks in Chromium</td>
       <td>
-        <a href="go/callbacks-in-chromium-video"
+        <a href="http://goto.google.com/callbacks-in-chromium-video"
            target="_blank">
           Video
         </a>
       </td>
       <td>
-        <a href="go/callbacks-in-chromium-slides"
+        <a href="http://goto.google.com/callbacks-in-chromium-slides"
            target="_blank">
           Slides
         </a>
