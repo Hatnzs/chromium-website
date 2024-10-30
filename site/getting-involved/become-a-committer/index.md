@@ -73,14 +73,14 @@ still be trivial. For example, changes that are more-or-less mechanical (e.g.,
 renaming functions) will probably be considered trivial. Here are some
 guidelines:
 
-* "nontrivial" means literally "anything other than trivial"; it explicitly is
+* "Non-trivial" means literally "anything other than trivial"; it explicitly is
   not the same thing as "major" or "significant". If it took you more than a
-  minute of thought, it's probably nontrivial.
-* Even a small change is nontrivial if the rationale or benefit was nontrivial
-  to arrive at.
+  minute of thought, it's probably non-trivial.
+* Even a small change is non-trivial if the rationale or benefit was
+  non-trivial to arrive at.
 * Almost any change that isn't a pure comment change, symbol rename, or
   clearly-obvious-on-its-face rewording whose effects are completely local (e.g.
-  a transforms like "a += 1" -> "++a") is a nontrivial change.
+  a transforms like "a += 1" -> "++a") is a non-trivial change.
 * Don't worry that the bar is impossibly high; you won't normally need a hundred
   CLs to find ten that qualify.
 * If you aren't certain whether your work meets the bar, ask an existing
