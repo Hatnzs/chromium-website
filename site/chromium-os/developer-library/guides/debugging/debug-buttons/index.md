@@ -34,7 +34,7 @@ Full system reset                     | `Power + Refresh + ChromeOS-Back (F1)`, 
 EC reset                              | `Power + Refresh`
 Recovery mode                         | See [firmware keyboard UI] section
 Developer mode                        | See [firmware keyboard UI] section
-Battery cutoff (newer devices)        | While pressing the `Refresh` key, disconnect the power adapter cord for 5 seconds.
+Battery cutoff (newer devices)        | Press and hold the `Refresh` key, and tap `Power`. Then, while holding `Refresh`,  disconnect the power adapter cord for 5 seconds.
 Battery cutoff (older* devices)       | While pressing the `Power + Refresh` keys, disconnect the power adapter cord for 5 seconds.
 Warm AP reset                         | `Alt + Volume-Up + R`
 Restart Chrome                        | `Alt + Volume-Up + X` **\***
