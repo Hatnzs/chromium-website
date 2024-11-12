@@ -60,7 +60,6 @@ lucicfg.config(
         "luci-milo.cfg",
         "luci-scheduler.cfg",
         "realms.cfg",
-        "tricium-prod.cfg",
     ],
     fail_on_warnings = True,
 )
@@ -72,7 +71,6 @@ luci.project(
     milo = "luci-milo",
     scheduler = "luci-scheduler",
     swarming = "chromium-swarm.appspot.com",
-    tricium = "tricium-prod.appspot.com",
     acls = [
         acl.entry(
             [
@@ -165,7 +163,7 @@ luci.cq_group(
             groups = ["project-chromium-website-committers"],
         ),
         acl.entry(
-            [acl.CQ_DRY_RUNNER],
+            [acl.CQ_DRY_RUNNER, acl.CQ_NEW_PATCHSET_RUN_TRIGGERER],
             groups = ["project-chromium-website-tryjob-access"],
         ),
     ],
@@ -180,7 +178,7 @@ luci.cq_group(
         luci.cq_tryjob_verifier(
             builder = "chromium-website-try-builder",
             mode_allowlist = [
-                cq.MODE_ANALYZER_RUN,
+                cq.MODE_NEW_PATCHSET_RUN,
                 cq.MODE_DRY_RUN,
                 cq.MODE_FULL_RUN,
             ],
@@ -191,8 +189,7 @@ luci.cq_group(
 luci.bucket(name = "try", acls = [
     acl.entry(
         [acl.BUILDBUCKET_TRIGGERER],
-        groups = ["project-chromium-website-tryjob-access", "service-account-cq"],
-        users = ["tricium-prod@appspot.gserviceaccount.com"],
+        groups = ["project-chromium-website-tryjob-access"],
     ),
 ])
 
