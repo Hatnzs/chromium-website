@@ -120,6 +120,15 @@ do not expect us to figure out your distro.
     Things might work if you're running a different Linux distribution, but you
     will probably find life easier if you're on one of these.
 
+    Ubuntu 24.04 has [disabled user namespaces](https://ubuntu.com/blog/ubuntu-23-10-restricted-unprivileged-user-namespaces) by default. Run the
+    following to re-enable them, otherwise you might encounter some strange
+    failures, such as `Permission denied: '/proc/self/setgroups'`:
+
+    ```
+    sudo sysctl -w kernel.apparmor_restrict_unprivileged_unconfined=0
+    sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+    ```
+
 *   an x86_64 64-bit system for performing the build
 
 *   an account with `sudo` access
