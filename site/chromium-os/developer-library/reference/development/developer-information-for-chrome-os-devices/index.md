@@ -4021,5 +4021,20 @@ such as the auto update until date, first release, and more.
     <td></td>
     <td></td>
  </tr>
+<tr>
+    <td>2024-11-02</td>
+    <td>Lenovo</td>
+    <td><a href="https://pcsupport.lenovo.com/us/en/products/chromebook-laptops/lenovo-chromebooks-series/lenovo-500e-chromebook-gen-4s?linkTrack=Caps%3ABody_SearchProduct&searchType=3&keyWordSearch=Lenovo%20500e%20Chromebook%20Gen%204s">Lenovo 500e Chromebook Gen 4s</a></td>
+    <td>Pujjoga</td>
+    <td>Nissa</td>
+    <td>Nissa</td>
+    <td>x86_64</td>
+    <td>5.15</td>
+    <td>x86_64</td>
+    <td>AlderLake-N</td>
+    <td>Chromebook</td>
+    <td>Yes</td>
+    <td>Yes</td>
+  </tr>
 
 </table>
