@@ -17,7 +17,7 @@ Binary objects (PDFs, images, etc.) are stored in a
 [Google Cloud Storage](cloud.google.com/storage) bucket, indexed by
 SHA-1 checksums that are committed into this repo. Run
 [//scripts/upload_lobs.py](../scripts/upload_lobs.py) to upload things
-(you must be a contributor be able to run this script).
+(you must be a contributor to be able to run this script).
 
 ## Front matter
 
