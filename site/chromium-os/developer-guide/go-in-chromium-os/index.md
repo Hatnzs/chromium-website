@@ -58,8 +58,8 @@ simply, `"go"`.
 
 *   The host compiler is included in the chromiumos-sdk (`cros_sdk`) and
             is installed automatically when a chroot is created.
-*   A few useful utilities like `"gofmt"`, `"godoc"`, `"golint"`, and
-            `"goguru"` are also in the SDK and installed in the chroot.
+*   A few useful utilities like `"gofmt"`, `"godoc"`, `"goguru"`, and
+            `"staticcheck"` are also in the SDK and installed in the chroot.
     *   `"repo upload"` is configured to warn when trying to upload a
                 change containing any Go files not formatted with `gofmt`.
 
