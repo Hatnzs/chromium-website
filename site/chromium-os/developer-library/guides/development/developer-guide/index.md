@@ -373,6 +373,19 @@ $ repo init -u https://chrome-internal.googlesource.com/chromeos/manifest-intern
 $ repo sync -j4
 ```
 
+Gerrit Review-Enforcement has been enabled on the Chromium/Chrome gerrit hosts.
+In order to only require one CR+2 from another Googler you need to use the
+`sso://` URLs when uploading a CL. Add the following to  your `.git/config`:
+```
+[url "sso://chromium"]
+	insteadof = https://chromium.googlesource.com
+	insteadof = https://chromium-review.googlesource.com
+[url "sso://chrome-internal"]
+	insteadof = https://chrome-internal.googlesource.com
+	insteadof = https://chrome-internal-review.googlesource.com
+
+```
+
 *** note
 **Note:** `-j4` tells `repo` to concurrently sync up to 4 repositories at once.
 You can adjust the number based on how fast your internet connection is. For
