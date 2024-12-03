@@ -32,7 +32,8 @@ from other platform. In addition, just as with
 some APIs may be more prevalant on that platform than others.
 
 A change to Android WebView is *potentially high risk* if one of the following hold:
-* Theh change removes an API or  changes its behavior such that app code that calls the API may start throwing an exception or otherwise hard-crash
+* The change removes an API, especially if it has an associated [WebView Java API](https://developer.android.com/reference/android/webkit/WebSettings)
+* The change alters an API's behavior such that app code that calls the API may start throwing an exception or otherwise hard-crash
 * The change has significant impact on the architecture of the Android WebView platform as it differs from other platforms
 
 A change to Android WebView is likely not *potentially high risk* if one of the following hold:
