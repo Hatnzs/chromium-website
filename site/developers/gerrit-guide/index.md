@@ -20,12 +20,9 @@ title: Gerrit Guide
     ```
     git config --global depot-tools.useNewAuthStack 1
     ```
-4.  If you are not using a @google.com account:
-    1.  Log in by running `luci-auth login -scopes "https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/gerritcodereview"`.
-        *   Log in with the email you use for your git commits
-5.  If you are using a @google.com account:
+4.  If you are using a @google.com account:
     1.  Run `gcert` once a day to authenticate your account.
-6.  Make sure to set your real name.
+5.  Make sure to set your real name.
     1.  Visit <https://chromium-review.googlesource.com/#/settings/> and
                 check the "Full Name" field.
 
