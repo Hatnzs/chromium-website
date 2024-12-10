@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 """Generic collection of functions and objects used by different scripts."""
+
 import dataclasses
 import multiprocessing
 import os
@@ -162,8 +163,8 @@ class JobQueue:
 
     def _print(self, msg, truncate=True):
         if not self._isatty:
-            print('[%d/%d] %s' % (len(self.finished), len(self.all_tasks()),
-                                  msg))
+            print('[%d/%d] %s' %
+                  (len(self.finished), len(self.all_tasks()), msg))
             return
 
         if len(msg) > 76 and truncate:
@@ -183,8 +184,8 @@ def _worker(request_q, response_q, handler):
     while True:
         message, task, obj = request_q.get()
 
-        assert message in ('exit', 'handle'), (
-            "Unknown message type '%s'" % message)
+        assert message in ('exit',
+                           'handle'), ("Unknown message type '%s'" % message)
 
         if message == 'exit':
             break
