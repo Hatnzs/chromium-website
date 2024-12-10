@@ -106,3 +106,8 @@ def CheckLobIgnores(input_api, output_api):
                 error = output_api.PresubmitError(error_msg)
                 output_status.append(error)
     return output_status
+
+
+def CheckPatchFormatted(input_api, output_api):
+    """Check formatting of files."""
+    return input_api.canned_checks.CheckPatchFormatted(input_api, output_api)
