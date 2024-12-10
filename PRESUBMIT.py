@@ -7,8 +7,6 @@ See http://www.chromium.org/developers/how-tos/depottools/presubmit-scripts
 for more details about the presubmit API built into depot_tools.
 """
 
-import os
-
 PRESUBMIT_VERSION = '2.0.0'
 
 # This line is 'magic' in that git-cl looks for it to decide whether to
@@ -86,7 +84,6 @@ def CheckForLobs(input_api, output_api):
 
 
 def CheckLobIgnores(input_api, output_api):
-    del input_api
     output_status = []
     with open("site/.gitignore", 'r') as ignore_file:
         ignored_lobs = list(line.rstrip() for line in ignore_file.readlines())
@@ -95,9 +92,9 @@ def CheckLobIgnores(input_api, output_api):
                          1:ignored_lobs.index('#end_lob_ignore')])
 
         for ignored_lob in ignored_lobs:
-            lob_sha_file = os.path.join('site', ignored_lob + '.sha1')
-            if not lob_sha_file.startswith('#') and not os.path.exists(
-                    lob_sha_file):
+            lob_sha_file = input_api.os_path.join('site', ignored_lob + '.sha1')
+            if not lob_sha_file.startswith(
+                    '#') and not input_api.os_path.exists(lob_sha_file):
                 error_msg = (
                     'The sha1 file \'{removed_file}\' no longer exists, '
                     'please remove "{ignored_file}" from site/.gitignore'.
