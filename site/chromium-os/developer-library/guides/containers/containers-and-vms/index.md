@@ -993,7 +993,7 @@ It's not that [crouton] is bad, it's simply a completely different model.
 [stable channel]: https://support.google.com/chromebook/answer/1086915
 [beta channel]: https://support.google.com/chromebook/answer/1086915
 [dev channel]: https://support.google.com/chromebook/answer/1086915
-[device list]: /chromium-os/developer-information-for-chrome-os-devices
+[device list]: /chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices
 [feedback-report]: https://support.google.com/chromebook/answer/2982029
 [known-bugs]: https://issuetracker.google.com/issues?q=componentid:960622
 [new-bug]: https://issuetracker.google.com/issues/new?component=960622&template=1758622

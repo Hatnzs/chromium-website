@@ -259,5 +259,5 @@ Then go grab a coffee...
 ### Debugging
 
 You can use [chromium os debugging
-tips](/chromium-os/how-tos-and-troubleshooting/debugging-tips#TOC-We-recommend-that-developers-use-gd)
+tips](/chromium-os/developer-library/guides/debugging/debugging-tips#TOC-We-recommend-that-developers-use-gd)
 on VM as well.

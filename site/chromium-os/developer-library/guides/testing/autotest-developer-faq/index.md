@@ -370,7 +370,7 @@ Autotest](/chromium-os/developer-library/guides/autotest-design-patterns#TOC-Wra
 
 ### How do I bundle a bunch of tests into a suite that can be scheduled and run as a group?
 
-See [Test Suites](/chromium-os/testing/test-suites)
+See [Test Suites](/chromium-os/developer-library/guides/testing/test-suites)
 
 ### How do I write a test that requires some human interaction?
 

@@ -2,9 +2,9 @@
 breadcrumbs:
 - - /chromium-os
   - ChromiumOS
-- - /chromium-os/developer-information-for-chrome-os-devices
+- - /chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices
   - Developer Information for ChromeOS Devices
-- - /chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information
+- - /chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information
   - Cr-48 Chrome Notebook Developer Information
 page_name: how-to-boot-ubuntu-on-a-cr-48
 title: How to boot Ubuntu on a Cr-48
@@ -58,16 +58,16 @@ is required by Ubuntu. That leaves us three possibilities:
 
 1.  Use the existing ChromeOS kernel with the Ubuntu rootfs.
 2.  Recompile the Ubuntu kernel to do without `initrd`
-            ([ugh](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/how-to-boot-ubuntu-on-a-cr-48#TOC-Ugh)).
+            ([ugh](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/how-to-boot-ubuntu-on-a-cr-48#TOC-Ugh)).
 3.  Modify the ChromeOS bootstub to handle `initrd`
-            ([double-ugh](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/how-to-boot-ubuntu-on-a-cr-48#TOC-Double-ugh)).
+            ([double-ugh](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/how-to-boot-ubuntu-on-a-cr-48#TOC-Double-ugh)).
 
 Let's take door #1.
 
 ## Free up some SSD space for Ubuntu
 
 To begin our journey, first switch the Cr-48 into [developer
-mode](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information)
+mode](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information)
 and reboot. When you see the blue frowny face with the "ChromeOS verification
 is turned off" message, either wait 30 seconds or hit Ctrl-D to boot
 immediately. This screen is always shown when booting in developer mode, to

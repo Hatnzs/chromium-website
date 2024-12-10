@@ -64,8 +64,8 @@ is not so prefixed.
 ### Modifying this document
 
 If you're a ChromiumOS developer, **YOU SHOULD UPDATE THIS DOCUMENT** and fix
-things as appropriate. See [README.md] for how to update this document. Bias
-towards action:
+things as appropriate. See [CONTRIBUTING.md] for how to update this document.
+Bias towards action:
 
 *   If you see a TODO and you know the right answer, fix it!
 *   If you see something wrong, fix it.
@@ -1180,12 +1180,12 @@ not a `cros workon`-able package), you need to do the following:
 
 First, find the package ebuild file under `third_party/chromiumos-overlay`.
 
-Then, [create a patch file](portage/how_to_patch_an_ebuild.md) from the exact
-version of the package that is used by the current ebuild. If other patches
-are already in the ebuild, you'll want to add your patch LAST, and build the
-patch off of the source that has already had the existing patches applied
-(either do it by hand, or set `FEATURES=noclean` and build your patch off of
-the temp source). Note that patch order is significant, since the ebuild
+Then, [create a patch file](/chromium-os/developer-library/guides/portage/how-to-patch-an-ebuild)
+from the exact version of the package that is used by the current ebuild. If
+other patches are already in the ebuild, you'll want to add your patch LAST,
+and build the patch off of the source that has already had the existing patches
+applied (either do it by hand, or set `FEATURES=noclean` and build your patch
+off of the temp source). Note that patch order is significant, since the ebuild
 expects each patch line number to be accurate after the previous patch is
 applied.
 
@@ -2216,9 +2216,10 @@ ordered by relevance):
 *   The [Go in ChromiumOS] page provides information on using [Go] in
     ChromiumOS, including recommendations for project organization, importing
     and managing third party packages, and writing ebuilds.
-*   The [SELinux](security/selinux.md) page provides information on SELinux in Chrome
-    OS, including overview, writing policies, and troubleshooting.
-*   The [Running a single binary with UBSAN](testing/single-binary-ubsan.md)
+*   The [SELinux](/chromium-os/developer-library/reference/security/selinux)
+    page provides information on SELinux in ChromeOS, including overview,
+    writing policies, and troubleshooting.
+*   The [Running a single binary with UBSAN](/chromium-os/developer-library/guides/testing/single-binary-ubsan)
     page gives tips for using UBSAN (undefined behavior sanitizer) to find bugs
     in a binary. Instructions can also be used for ASAN (address sanitizer) and
     TSAN (thread sanitizer).
@@ -2252,7 +2253,7 @@ Below are a few links to external sites that you might also find helpful
 *   The  [repo-discuss group]  is a good place to talk about repo.
 
 
-[README.md]: README.md
+[CONTRIBUTING.md]: https://chromium.googlesource.com/website/+/HEAD/docs/CONTRIBUTING.md
 [Prerequisites]: #prerequisites
 [Getting the source code]: #get-the-source
 [sync to stable]: #sync-to-stable
@@ -2286,7 +2287,7 @@ Below are a few links to external sites that you might also find helpful
 [What does cros build-packages actually do?]: /chromium-os/developer-library/guides/portage/ebuild-faq/#what-does-build-packages-do
 [CrOS Flash page]: /chromium-os/developer-library/reference/tools/cros-flash/
 [Debug Button Shortcuts]: /chromium-os/developer-library/guides/debugging/debug-buttons
-[ChromeOS Devices]: /chromium-os/developer-information-for-chrome-os-devices
+[ChromeOS Devices]: /chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices
 [Developer Hardware]: /chromium-os/getting-dev-hardware/dev-hardware-list
 [crosh]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/crosh/
 [cros_vm]: /chromium-os/developer-library/guides/containers/cros-vm/#launch-a-locally-built-vm-from-within-the-chroot
@@ -2307,18 +2308,18 @@ Below are a few links to external sites that you might also find helpful
 [ChromeOS lab]: http://sites/chromeos/for-team-members/lab/lab-faq
 [Autotest User Documentation]: https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md
 [Creating a new Autotest test]: https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md#Writing-and-developing-tests
-[Running Autotest Smoke Suite On a VM Image]: /chromium-os/testing/running-smoke-suite-on-a-vm-image
+[Running Autotest Smoke Suite On a VM Image]: /chromium-os/developer-library/guides/testing/testing/running-smoke-suite-on-a-vm-image
 [Seeing which Autotest tests are implemented by an ebuild]: https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md#Q4_I-have-an-ebuild_what-tests-does-it-build
 [Creating an image that has been modified for test]: https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md#W4_Create-and-run-a-test_enabled-image-on-your-device
 [devserver]: https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/docs/devserver.md
 [directory structure]: /chromium-os/developer-library/reference/development/source-layout/
-[The ChromiumOS developer FAQ]: /chromium-os/how-tos-and-troubleshooting/developer-faq
+[The ChromiumOS developer FAQ]: /chromium-os/developer-library/reference/development/developer-faq
 [ChromiumOS Portage Build FAQ]: /chromium-os/developer-library/guides/portage/ebuild-faq/
 [rootfs-thread]: https://groups.google.com/a/chromium.org/group/chromium-os-dev/browse_thread/thread/967e783e27dd3a9d/0fa20a1547de2c77?lnk=gst
-[Running Smoke Suite on a VM Image]: /chromium-os/testing/running-smoke-suite-on-a-vm-image
-[Debugging Tips]: /chromium-os/how-tos-and-troubleshooting/debugging-tips
+[Running Smoke Suite on a VM Image]: /chromium-os/developer-library/guides/testing/testing/running-smoke-suite-on-a-vm-image
+[Debugging Tips]: /chromium-os/developer-library/guides/debugging/debugging-tips
 [Working on a Branch]: /chromium-os/developer-library/guides/development/work-on-branch/
-[Git server-side information]: /chromium-os/how-tos-and-troubleshooting/git-server-side-information
+[Git server-side information]: /chromium-os/developer-library/reference/development/source-layout#git-server-layout
 [Portage Package Upgrade Process]: /chromium-os/developer-library/guides/portage/package-upgrade-process/
 [ChromiumOS Sandboxing]: /chromium-os/developer-library/guides/development/sandboxing/
 [Go in ChromiumOS]: /chromium-os/developer-guide/go-in-chromium-os

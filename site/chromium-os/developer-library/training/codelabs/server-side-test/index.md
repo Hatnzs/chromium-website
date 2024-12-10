@@ -11,7 +11,7 @@ title: Server Side test for ChromiumOS autotest codelab
 ## References
 
 - [Autotest Best Practices](https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/best-practices.md)
-- [Writing Autotests](/chromium-os/testing/autotest-developer-faq#TOC-Writing-Autotests)
+- [Writing Autotests](/chromium-os/developer-library/guides/testing/autotest-developer-faq#TOC-Writing-Autotests)
 - [Codelab for Writing an Autotest Test](https://wiki.corp.google.com/twiki/bin/view/Codelab/WritingAutotestTests)
     - This is a codelab teaching you how to write a generic test for Autotest.
 - [Autotest for ChromiumOS developers](/chromium-os/testing/autotest-user-doc)
@@ -201,7 +201,14 @@ The method initialize runs once for each job. The method is equivalent to _init_
 
 *Setup*
 
-This method is the only one called when you `cros build-packages --withautotest`, while other methods are called during testing.  The method is triggered when version attribute's value is changed or the test package is built the first time to produce expected binaries.  If the test is scheduled to run in a DUT in which the test has already been installed, Autotest will check the version attribute's value of the test class.  If the value is changed, the test will be reinstalled.  One sample usage of this method can be found [here](/chromium-os/testing/autotest-developer-faq#TOC-Adding-binaries-for-your-tests-to-call-as-part-of-the-test).
+This method is the only one called when you
+`cros build-packages --withautotest`, while other methods are called during
+testing.  The method is triggered when version attribute's value is changed or
+the test package is built the first time to produce expected binaries.  If the
+test is scheduled to run in a DUT in which the test has already been installed,
+Autotest will check the version attribute's value of the test class.  If the
+value is changed, the test will be reinstalled.  One sample usage of this method
+can be found [here](/chromium-os/developer-library/guides/testing/autotest-developer-faq#TOC-Adding-binaries-for-your-tests-to-call-as-part-of-the-test).
 
 *run_once*
 
@@ -317,9 +324,9 @@ from autotest_lib.server import utils
 
 These modules include some useful base classes to be used to run commands in a
 test device or control a servo device. More details about how
-[import](/chromium-os/testing/autotest-developer-faq#TOC-Writing-Autotests)
+[import](/chromium-os/developer-library/guides/testing/autotest-developer-faq#TOC-Writing-Autotests)
 is used in Autotest can be found
-[here](/chromium-os/testing/autotest-developer-faq#TOC-A-word-about-imports).
+[here](/chromium-os/developer-library/guides/testing/autotest-developer-faq#TOC-A-word-about-imports).
 Note that each line only imports one module and modules are ordered
 alphabetically.
 
@@ -505,7 +512,7 @@ def cleanup(self):
     self._set_brightness_percent(self._original_brightness)
 ```
 
-For more information on writing your test, see the [frequently asked questions](/chromium-os/testing/autotest-developer-faq).
+For more information on writing your test, see the [frequently asked questions](/chromium-os/developer-library/guides/testing/autotest-developer-faq).
 
 ## Verify Test by Running Autotest Manually
 

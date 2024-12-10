@@ -97,11 +97,11 @@ device to boot from USB.
 *   On a non-chromebook, set your system to boot from a usb drive using
             instructions specific to your device.
 *   On a chromebook, [enter developer-mode for your specific type of
-            hardware](/chromium-os/developer-information-for-chrome-os-devices).
+            hardware](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices).
             For Samsung / Acer devices, you can now boot from your usb image
             using Ctrl+U on the developer mode screen. For the CR-48, you’ll
             have to follow the instructions to [build a recovery
-            image](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information)
+            image](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information)
             and install from it using those same instructions.
 
 With that done, hit Ctrl+Alt+Back (F2). At the prompt type chronos and install

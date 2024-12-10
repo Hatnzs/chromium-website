@@ -894,11 +894,11 @@ Some notes about the above:
 [Chrome source code and depot_tools]: https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/build_instructions.md
 [instructions for running tests on Linux]: https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/build_instructions.md#Running-test-targets
 [update .gclient]: https://chromium.googlesource.com/chromium/src/+/HEAD/docs/chromeos_build_instructions.md#updating-your-gclient-config
-[ChromeOS board name]: /chromium-os/developer-information-for-chrome-os-devices
+[ChromeOS board name]: /chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices
 [GN build configuration]: /developers/gn-build-configuration
 [quick start guide]: https://gn.googlesource.com/gn/+/HEAD/docs/quick_start.md
-[device-specific instructions]: /chromium-os/developer-information-for-chrome-os-devices
-[generic instructions]: /chromium-os/developer-information-for-chrome-os-devices/generic
+[device-specific instructions]: /chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices
+[generic instructions]: /chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic
 [rootfs has been removed]: /chromium-os/developer-library/guides/device/developer-mode/#TOC-Making-changes-to-the-filesystem
 [remounted as read-write]: /chromium-os/developer-library/guides/debugging#TOC-Setting-up-the-device
 [additional debugging tips]: /chromium-os/developer-library/guides/debugging#TOC-Enabling-core-dumps

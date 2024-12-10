@@ -121,8 +121,8 @@ Example 2: Flash a specific version or board.
 
 You can find version numbers, and the corresponding release number, by searching
 on go/goldeneye. See
-[Understanding chromeOS releases](understanding_releases.md) for more detail on
-version numbers.
+[Understanding ChromeOS releases](/chromium-os/developer-library/reference/release/understanding-chromeos-releases)
+for more detail on version numbers.
 
 Each image is downloaded to your workstation, and each image is several GB in
 size. You should periodically remove these downloaded images to prevent filling

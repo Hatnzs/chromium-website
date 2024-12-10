@@ -340,7 +340,7 @@ title: Glossary
 ## ChromiumOS
 
 *   __board__: The name of the system you're building ChromiumOS for; see the
-    [official ChromeOS device list](/chromium-os/developer-information-for-chrome-os-devices)
+    [official ChromeOS device list](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices)
     for examples.
 *   __build_target__: The new, preferred term for board.
 *   __model__: Model generally refers to a ChromeOS device that is unique in

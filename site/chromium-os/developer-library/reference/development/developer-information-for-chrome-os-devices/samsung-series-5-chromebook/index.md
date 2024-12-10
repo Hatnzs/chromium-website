@@ -2,7 +2,7 @@
 breadcrumbs:
 - - /chromium-os
   - ChromiumOS
-- - /chromium-os/developer-information-for-chrome-os-devices
+- - /chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices
   - Developer Information for ChromeOS Devices
 page_name: samsung-series-5-chromebook
 title: Samsung Series 5 Chromebook
@@ -234,7 +234,7 @@ the EC may take a moment or two to fully reboot.
 ## Firmware
 
 See the [H2C firmware
-page](/chromium-os/developer-information-for-chrome-os-devices/h2c-firmware) for
+page](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/h2c-firmware) for
 more details.
 
 ## What's inside?

@@ -152,7 +152,7 @@ report Chromium crashes, or build Chrome instead of Chromium. For the former,
 see instructions related to `collect_chrome_crashes`, below. For the latter, use
 the "--internal" flag to cros chrome-sdk, as explained in the instructions for
 [building Chrome on Chrome
-OS](/chromium-os/how-tos-and-troubleshooting/building-chromium-browser).
+OS](/chromium-os/developer-library/guides/development/simple-chrome-workflow).
 
 Bear in mind that crash_reporter won't upload crash reports by default for
 developer images. See FAQ entry [Will a developer's build image upload crash

@@ -50,14 +50,14 @@ enable_profiling = true
 symbol_level = 1
 ```
 
-And then run the usual [build command](developing.md#building-chrome):
+And then run the usual [build command](/chromium-os/developer-library/getting-started/build-chromium):
 
 ```shell
 $ autoninja -C out_${SDK_BOARD}/Release chrome
 ```
 
 Note: You can set `symbol_level=2` for more detailed debugging and
-`dcheck_always_on=true` to test [DCHECKs](developing.md#turn-onoff-dchecks).
+`dcheck_always_on=true` to test [DCHECKs](/chromium-os/developer-library/reference/cpp/cpp-invariant-checks).
 
 Note: Here is more information on
 [gn configurations](/developers/gn-build-configuration)
@@ -586,4 +586,5 @@ $ cp /tmp/debug-logs_20230120-094809.tgz /home/user/278487735245a0c7255572b1704a
 ```
 
 Step 4: From your files app, nearby share the tarball to your corp computer to
-analyze. See [Bluetooth 101](cros_101.md) for insight on analyzing Bluetooth.
+analyze. See [Bluetooth 101](http://go/chromeos-software-bt-101) for insight on
+analyzing Bluetooth.

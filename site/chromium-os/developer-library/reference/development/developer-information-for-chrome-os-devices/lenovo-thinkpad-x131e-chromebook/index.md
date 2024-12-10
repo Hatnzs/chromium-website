@@ -2,7 +2,7 @@
 breadcrumbs:
 - - /chromium-os
   - ChromiumOS
-- - /chromium-os/developer-information-for-chrome-os-devices
+- - /chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices
   - Developer Information for ChromeOS Devices
 page_name: lenovo-thinkpad-x131e-chromebook
 title: Lenovo Thinkpad X131e Chromebook

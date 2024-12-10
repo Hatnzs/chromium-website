@@ -498,7 +498,7 @@ but this type of setup is against Google policy. Wireguard should not be used.
 ### Optional: Make the drive writable
 
 Note: This step is automatically performed for you when you
-[deploy Chrome to your test Chromebook](developing.md#deploying-chrome).
+[deploy Chrome to your test Chromebook](/chromium-os/developer-library/getting-started/deploy-chromium).
 However, you may need to explicitly use this step if, for example, you're
 debugging a crash on Chrome binary directly from Goldeneye
 ([link](https://docs.google.com/document/d/1QRrh3ipnW9PWI9bJzqK_y_A_pOfA7otAoKM5rV1mYFo/edit#heading=h.c0uts5ftkk58)),
@@ -531,8 +531,7 @@ $ restart ui
 
 The most common reason you’ll want to edit `/etc/chrome_dev.conf` is to pass the
 flags that enable logs. See the
-[Logging]([logging.md](/chromium-os/developer-library/guides/logging/logging/))
-documentation.
+[Logging documentation](/chromium-os/developer-library/guides/logging/logging/).
 
 ### Optional: Ensure your firmware is up-to-date
 

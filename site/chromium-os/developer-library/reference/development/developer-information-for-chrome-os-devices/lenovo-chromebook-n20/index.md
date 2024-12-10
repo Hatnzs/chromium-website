@@ -2,7 +2,7 @@
 breadcrumbs:
 - - /chromium-os
   - ChromiumOS
-- - /chromium-os/developer-information-for-chrome-os-devices
+- - /chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices
   - Developer Information for ChromeOS Devices
 page_name: lenovo-chromebook-n20
 title: Lenovo Chromebook N20 & N20P
@@ -65,7 +65,7 @@ height=150 width=200>
 cause hardware, software or security issues and may void warranty.**
 
 Details for working with developer mode can be found [on this
-page](/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook).
+page](../acer-c720-chromebook).
 
 ## Firmware
 

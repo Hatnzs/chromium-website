@@ -2,7 +2,7 @@
 breadcrumbs:
 - - /chromium-os
   - ChromiumOS
-- - /chromium-os/developer-information-for-chrome-os-devices
+- - /chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices
   - Developer Information for ChromeOS Devices
 page_name: acer-ac700-chromebook
 title: Acer AC700 Chromebook
@@ -208,7 +208,7 @@ instead of booting normally.
 ## Firmware
 
 See the [H2C firmware
-page](/chromium-os/developer-information-for-chrome-os-devices/h2c-firmware) for
+page](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/h2c-firmware) for
 more details.
 
 ## What's inside?

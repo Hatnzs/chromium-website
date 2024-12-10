@@ -384,7 +384,7 @@ See [Chrome Logging on ChromeOS](https://chromium.googlesource.com/chromium/src/
 ### Host Services
 
 Host services typically log to `/var/log/messages`. See also
-[Logging on ChromeOS](logging.md).
+[Logging on ChromeOS](/chromium-os/developer-library/reference/logging/logging).
 
 ### Termina Services
 

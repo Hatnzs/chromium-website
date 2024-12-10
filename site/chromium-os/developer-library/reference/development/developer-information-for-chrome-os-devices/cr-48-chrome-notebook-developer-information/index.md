@@ -2,7 +2,7 @@
 breadcrumbs:
 - - /chromium-os
   - ChromiumOS
-- - /chromium-os/developer-information-for-chrome-os-devices
+- - /chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices
   - Developer Information for ChromeOS Devices
 page_name: cr-48-chrome-notebook-developer-information
 title: Cr-48 Chrome Notebook Developer Information
@@ -181,7 +181,7 @@ enough to make a chroot and that you're currently in the chroot.
 You'll need to get a "recovery kernel" for your ChromeOS Notebook in order to
 follow these instructions. You can download the an officially-signed Recovery
 Kernel for the [Cr-48
-Chromebook](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information)
+Chromebook](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information)
 (AKA Mario) by running the steps below from inside the chroot:
 
 ```none
@@ -376,7 +376,7 @@ directly to a USB drive, without making any modifications to it.
 ## How to install a different OS on your SSD
 
 There's an example of configuring a Cr-48 to dual-boot ChromeOS and Ubuntu
-[here](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/how-to-boot-ubuntu-on-a-cr-48).
+[here](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/how-to-boot-ubuntu-on-a-cr-48).
 
 ## Troubleshooting
 
@@ -397,7 +397,7 @@ it again. You might be able to workaround it by doing:
 ## Firmware
 
 See the [H2C firmware
-page](/chromium-os/developer-information-for-chrome-os-devices/h2c-firmware) for
+page](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/h2c-firmware) for
 more details.
 
 ## What's inside?

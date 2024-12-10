@@ -190,7 +190,7 @@ component is probeable to avoid SKU explosion.
 
 Any other information about a device should be captured and stored in the higher
 level configuration system. See
-[SKU and FW Configuration Fields](../firmware_config/) for more details.
+[SKU and FW Configuration Fields](../firmware-config/) for more details.
 
 Below are a few, non-exhaustive examples of how the firmware configuration bits
 could be portioned.

@@ -18,9 +18,9 @@ title: Creating and deploying ChromiumOS dynamic test suites
             test](/chromium-os/developer-library/training/codelabs/server-side-test)
 3.  [Codelab: Writing a client side test](/system/errors/NodeNotFound)
 4.  [Design Doc: Dynamic Test
-            Suites](/chromium-os/testing/dynamic-test-suites)
+            Suites](/chromium-os/developer-library/reference/design-docs/dynamic-test-suites)
 5.  [Documentation: Working with Test
-            Suites](/chromium-os/testing/test-suites)
+            Suites](/chromium-os/developer-library/guides/testing/test-suites)
 6.  [Test Dependencies in Dynamic
             Suites](/chromium-os/testing/test-dependencies-in-dynamic-suites)
 
@@ -342,7 +342,7 @@ be run, which branches should trigger the suite to run, which machine pool the
 suite should be assigned to, and the number of DUTs that the suite should
 attempt to use. For more information on what pool to select, refer to [What pool
 should I
-select](/chromium-os/testing/test-suites#TOC-What-pool-should-I-select-).
+select](/chromium-os/developer-library/guides/testing/test-suites#TOC-What-pool-should-I-select-).
 
 If you have added a new suite to suite_scheduler.ini, one for which a suite
 control file did not exist before, you need to pay attention to the branch_specs

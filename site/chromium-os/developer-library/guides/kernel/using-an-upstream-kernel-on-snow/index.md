@@ -144,11 +144,11 @@ messing with what you have on eMMC. That way you can always get back to a
 running system. The quick set of steps for that is:
 
 *   Switch to [developer
-            mode](/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook).
+            mode](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/samsung-arm-chromebook).
 *   At the command prompt (VT2), enable USB (and SD card) booting with `crossystem dev_boot_usb=1`.
     Note: the exact method might differ between boards; see the [Developer
     Information for Chrome OS Devices
-    page](/chromium-os/developer-information-for-chrome-os-devices) for specific
+    page](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices) for specific
     details.
 *   Insert an SD card with an image that you installed with `[cros
             flash](/chromium-os/build/cros-flash)`.

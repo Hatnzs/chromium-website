@@ -25,15 +25,16 @@ you can split by board/form factor/etc.
 
 ### Running Tast tests
 
-Check out the [automated E2E test](e2e_tests.md) section to learn more about
+Check out the [automated E2E test](../e2e-tests) section to learn more about
 running Tast tests, including how to setup your local DUT, how to enter the
 chroot, and how to write good Tast tests.
 
 ### Running Tast tests on lab machines
 
-Check out the [Crosfleet](crosfleet.md) section to learn more about leasing lab
-machines for use. There are also helpful pointers within
-[go/run-nearby-tast-tests](http://go/run-nearby-tast-tests)for using crosfleet.
+Check out the [Crosfleet](/chromium-os/developer-library/guides/device/crosfleet)
+section to learn more about leasing lab machines for use. There are also helpful
+pointers within [go/run-nearby-tast-tests](http://go/run-nearby-tast-tests) for
+using crosfleet.
 
 Only certain lab machines are equipped with Bluetooth-enabled Raspberry Pis ("bt
 peers") which are necessary for running most Bluetooth tests. To check for
@@ -124,7 +125,7 @@ to connect a display and run the command `ifconfig`.
 
 At this point, you should have your Raspberry Pi and DUTs setup on the same
 local network shown in Figure 1. You can setup your DUT using the
-[automated E2E test](e2e_tests.md) docs. I **highly recommend** using wired
+[automated E2E test](../e2e-tests) docs. I **highly recommend** using wired
 (ethernet) connections between all of the devices on your local network since
 those IP addresses tend to be more stable. You may need to purchase an ethernet
 switch if your router doesn't have enough ports. You should also know the

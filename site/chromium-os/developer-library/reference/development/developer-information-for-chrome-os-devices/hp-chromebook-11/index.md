@@ -2,7 +2,7 @@
 breadcrumbs:
 - - /chromium-os
   - ChromiumOS
-- - /chromium-os/developer-information-for-chrome-os-devices
+- - /chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices
   - Developer Information for ChromeOS Devices
 page_name: hp-chromebook-11
 title: HP Chromebook 11
@@ -59,7 +59,7 @@ with a slightly different BOM.
 cause hardware, software or security issues and may void warranty.**
 
 Details for working with developer mode can be found [on this
-page](/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook).
+page](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/samsung-arm-chromebook).
 
 ## Firmware
 

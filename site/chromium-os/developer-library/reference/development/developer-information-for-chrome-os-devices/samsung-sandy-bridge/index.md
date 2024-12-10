@@ -2,7 +2,7 @@
 breadcrumbs:
 - - /chromium-os
   - ChromiumOS
-- - /chromium-os/developer-information-for-chrome-os-devices
+- - /chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices
   - Developer Information for ChromeOS Devices
 page_name: samsung-sandy-bridge
 title: Samsung Series 5 550 Chromebook and Series 3 Chromebox
@@ -208,7 +208,7 @@ that hole unless you have your power cord handy.
 These two devices shipped with a BIOS that hard disables VMX during the boot
 time. It is possible to fix this though. Please see the [Hacking VMX Support
 Into
-Coreboot](/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/coreboot-vmx-hack)
+Coreboot](/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/samsung-sandy-bridge/coreboot-vmx-hack)
 guide for more information.
 
 ## Firmware
