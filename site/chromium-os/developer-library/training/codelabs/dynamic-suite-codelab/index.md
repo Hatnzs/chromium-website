@@ -104,7 +104,7 @@ Google Docs has been known to convert consecutive whitespace characters into
 unicode characters, which will break your control file. Using CTRL-C + CTRL-V is
 safer than using middle-click pasting on Linux.**
 
-<pre><code># Copyright 2013 The ChromiumOS Authors.
+<pre><code># Copyright 2013 The ChromiumOS Authors
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 AUTHOR = "ChromeOS Team"
@@ -153,7 +153,7 @@ to convert consecutive whitespace characters into unicode characters, which will
 break your control file. Using CTRL-C + CTRL-V is safer than using middle-click
 pasting on Linux.**
 
-<pre><code># Copyright 2013 The ChromiumOS Authors.
+<pre><code># Copyright 2013 The ChromiumOS Authors
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 AUTHOR = "ChromeOS Team"

@@ -292,7 +292,7 @@ src/third_party/chromiumos-overlay/profiles/default/linux/package.mask/
 directory:
 
 ```none
-# Copyright <year> The ChromiumOS Authors.
+# Copyright <year> The ChromiumOS Authors
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file
 # TODO(username): Masked for testing!

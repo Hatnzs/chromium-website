@@ -85,7 +85,7 @@ Write an ebuild to fetch and install third party packages to
             [dev-go/errors](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/dev-go/errors)
 
     ```none
-    # Copyright 2018 The ChromiumOS Authors.
+    # Copyright 2018 The ChromiumOS Authors
     # Distributed under the terms of the GNU General Public License v2.
     
     EAPI="6"
@@ -117,7 +117,7 @@ Write an ebuild to fetch and install third party packages to
             [dev-go/glog](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/dev-go/glog/glog-0.0.1.ebuild)
 
     ```none
-    # Copyright 2018 The ChromiumOS Authors.
+    # Copyright 2018 The ChromiumOS Authors
     # Distributed under the terms of the GNU General Public License v2.
 
     EAPI="6"
@@ -149,7 +149,7 @@ Write an ebuild to fetch and install third party packages to
             [dev-go/go-sys](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/dev-go/go-sys/go-sys-0.0.1.ebuild)
 
     ```none
-    # Copyright 2018 The ChromiumOS Authors.
+    # Copyright 2018 The ChromiumOS Authors
     # Distributed under the terms of the GNU General Public License v2.
 
     EAPI="6"
@@ -229,7 +229,7 @@ other projects, its ebuild only needs to fetch and install the package files to
             [dev-go/seccomp](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/dev-go/seccomp/seccomp-9999.ebuild)
 
     ```none
-    # Copyright 2018 The ChromiumOS Authors.
+    # Copyright 2018 The ChromiumOS Authors
     # Distributed under the terms of the GNU General Public License v2.
 
     EAPI="6"
@@ -277,7 +277,7 @@ For a typical Go project that needs to build and install executables:
             [dev-go/golint](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/dev-go/golint/golint-0.0.1.ebuild)
 
     ```none
-    # Copyright 2018 The ChromiumOS Authors.
+    # Copyright 2018 The ChromiumOS Authors
     # Distributed under the terms of the GNU General Public License v2.
 
     EAPI="6"
@@ -319,7 +319,7 @@ for other projects to import.
             [dev-go/go-tools](https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/dev-go/go-tools/go-tools-0.0.1.ebuild)
 
     ```none
-    # Copyright 2018 The ChromiumOS Authors.
+    # Copyright 2018 The ChromiumOS Authors
     # Distributed under the terms of the GNU General Public License v2.
 
     EAPI="6"

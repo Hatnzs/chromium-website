@@ -64,7 +64,7 @@ and has consented thereto, including your potential receipt of a reward. You
 further warrant that your actions do not violate your employer’s or company’s
 policies and procedures.
 
-3. SPONSOR: The Program is sponsored by Google Inc. (“Google” or "Sponsor"), a
+3. SPONSOR: The Program is sponsored by Google LLC (“Google” or "Sponsor"), a
 Delaware corporation with principal place of business at 1600 Amphitheatre
 Parkway, Mountain View, CA, 94043, USA.
 
