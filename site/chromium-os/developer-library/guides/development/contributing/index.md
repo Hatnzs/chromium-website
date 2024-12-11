@@ -967,7 +967,7 @@ wouldn't protect from [insider threats].
 [Developer Guide]: /chromium-os/developer-library/guides/development/developer-guide/
 [FAQ]: #faq
 [Gerrit]: https://gerrit-review.googlesource.com/Documentation/
-[Gerrit Guide]: https://dev.chromium.org/chromium-os/developer-guide/gerrit-guide
+[Gerrit Guide]: /chromium-os/developer-guide/gerrit-guide
 [Gerrit OWNERS documentation]: https://chromium-review.googlesource.com/plugins/code-owners/Documentation/how-to-use.html#add-code-owners-to-your-change
 [Git & Gerrit Intro]: /chromium-os/developer-library/guides/development/git-and-gerrit-intro/
 [Gitiles]: https://gerrit.googlesource.com/gitiles/

@@ -132,8 +132,7 @@ Be aware, however, that after you reboot again, if your boot was not yet marked 
 successful you're back to your old kernel (which can be very confusing... "hey
 where did my new feature go??").
 
-See [disk
-format](https://dev.chromium.org/chromium-os/chromiumos-design-docs/disk-format)
+See [disk format](/chromium-os/chromiumos-design-docs/disk-format)
 for more info on partition layouts, as you may need to use a different
 partition number depending on how you installed your kernel or which
 one you want to replace. The `cgpt` utility can also be used to view a
@@ -495,7 +494,7 @@ git checkout m/master -- chromeos
 #### Commit messages & summary lines (CHROMIUM, UPSTREAM, FROMLIST, BACKPORT)
 
 See the [Kernel Design
-page](https://dev.chromium.org/chromium-os/chromiumos-design-docs/chromium-os-kernel)
+page](/chromium-os/chromiumos-design-docs/chromium-os-kernel)
 for some more details.
 
 For changes which cannot be submitted upstream to the official Linux Kernel

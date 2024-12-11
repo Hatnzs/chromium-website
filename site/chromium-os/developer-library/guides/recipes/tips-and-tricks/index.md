@@ -440,7 +440,7 @@ repo download -b test-branch 344778
 
 
 [ChromiumOS Developer Guide]: /chromium-os/developer-library/guides/development/developer-guide/
-[ChromiumOS Developer FAQ]: https://dev.chromium.org/chromium-os/how-tos-and-troubleshooting/developer-faq
+[ChromiumOS Developer FAQ]: /chromium-os/how-tos-and-troubleshooting/developer-faq
 [repo\_bash\_completion]: https://chromium.googlesource.com/chromiumos/platform/dev-util/+/HEAD/host/repo_bash_completion
 [repo Manifest format docs]: https://gerrit.googlesource.com/git-repo/+/HEAD/docs/manifest-format.md
 [installed depot\_tools]: https://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up

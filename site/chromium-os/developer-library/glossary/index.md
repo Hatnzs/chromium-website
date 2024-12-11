@@ -183,7 +183,7 @@ title: Glossary
 
 *   __buildbot__: A column in the build waterfall, or the slave (machine)
     connected to that column, or the
-    [build waterfall infrastructure](https://dev.chromium.org/developers/testing/chromium-build-infrastructure/tour-of-the-chromium-buildbot)
+    [build waterfall infrastructure](/developers/testing/chromium-build-infrastructure/tour-of-the-chromium-buildbot)
     as a whole.
 *   __clobber__: To delete your build output directory.
 *   __component build__: A shared library / DLL build, not a static library

@@ -126,7 +126,7 @@ Connectivity, Services, and System.
 
 ### Security
 
-If you want to report a security bug, please follow [Reporting Security Bugs](https://dev.chromium.org/Home/chromium-security/reporting-security-bugs).
+If you want to report a security bug, please follow [Reporting Security Bugs](/Home/chromium-security/reporting-security-bugs).
 
 The Security component in the ChromeOS Public Tracker is for issues in Chrome
 OS userland daemons like cryptohome, chaps, attestation, etc. These are also

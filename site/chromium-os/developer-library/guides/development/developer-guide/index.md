@@ -2286,8 +2286,8 @@ Below are a few links to external sites that you might also find helpful
 [What does cros build-packages actually do?]: /chromium-os/developer-library/guides/portage/ebuild-faq/#what-does-build-packages-do
 [CrOS Flash page]: /chromium-os/developer-library/reference/tools/cros-flash/
 [Debug Button Shortcuts]: /chromium-os/developer-library/guides/debugging/debug-buttons
-[ChromeOS Devices]: https://dev.chromium.org/chromium-os/developer-information-for-chrome-os-devices
-[Developer Hardware]: https://dev.chromium.org/chromium-os/getting-dev-hardware/dev-hardware-list
+[ChromeOS Devices]: /chromium-os/developer-information-for-chrome-os-devices
+[Developer Hardware]: /chromium-os/getting-dev-hardware/dev-hardware-list
 [crosh]: https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/crosh/
 [cros_vm]: /chromium-os/developer-library/guides/containers/cros-vm/#launch-a-locally-built-vm-from-within-the-chroot
 [cros deploy]: /chromium-os/developer-library/reference/tools/cros-deploy/
@@ -2307,21 +2307,21 @@ Below are a few links to external sites that you might also find helpful
 [ChromeOS lab]: http://sites/chromeos/for-team-members/lab/lab-faq
 [Autotest User Documentation]: https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md
 [Creating a new Autotest test]: https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md#Writing-and-developing-tests
-[Running Autotest Smoke Suite On a VM Image]: https://dev.chromium.org/chromium-os/testing/running-smoke-suite-on-a-vm-image
+[Running Autotest Smoke Suite On a VM Image]: /chromium-os/testing/running-smoke-suite-on-a-vm-image
 [Seeing which Autotest tests are implemented by an ebuild]: https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md#Q4_I-have-an-ebuild_what-tests-does-it-build
 [Creating an image that has been modified for test]: https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/user-doc.md#W4_Create-and-run-a-test_enabled-image-on-your-device
 [devserver]: https://chromium.googlesource.com/chromiumos/chromite/+/HEAD/docs/devserver.md
 [directory structure]: /chromium-os/developer-library/reference/development/source-layout/
-[The ChromiumOS developer FAQ]: https://dev.chromium.org/chromium-os/how-tos-and-troubleshooting/developer-faq
+[The ChromiumOS developer FAQ]: /chromium-os/how-tos-and-troubleshooting/developer-faq
 [ChromiumOS Portage Build FAQ]: /chromium-os/developer-library/guides/portage/ebuild-faq/
 [rootfs-thread]: https://groups.google.com/a/chromium.org/group/chromium-os-dev/browse_thread/thread/967e783e27dd3a9d/0fa20a1547de2c77?lnk=gst
-[Running Smoke Suite on a VM Image]: https://dev.chromium.org/chromium-os/testing/running-smoke-suite-on-a-vm-image
-[Debugging Tips]: https://dev.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-tips
+[Running Smoke Suite on a VM Image]: /chromium-os/testing/running-smoke-suite-on-a-vm-image
+[Debugging Tips]: /chromium-os/how-tos-and-troubleshooting/debugging-tips
 [Working on a Branch]: /chromium-os/developer-library/guides/development/work-on-branch/
-[Git server-side information]: https://dev.chromium.org/chromium-os/how-tos-and-troubleshooting/git-server-side-information
+[Git server-side information]: /chromium-os/how-tos-and-troubleshooting/git-server-side-information
 [Portage Package Upgrade Process]: /chromium-os/developer-library/guides/portage/package-upgrade-process/
 [ChromiumOS Sandboxing]: /chromium-os/developer-library/guides/development/sandboxing/
-[Go in ChromiumOS]: https://dev.chromium.org/chromium-os/developer-guide/go-in-chromium-os
+[Go in ChromiumOS]: /chromium-os/developer-guide/go-in-chromium-os
 [Go]: https://golang.org
 [ChromiumOS dev group]: https://groups.google.com/a/chromium.org/group/chromium-os-dev
 [Chromium bug tracker]: https://crbug.com/
