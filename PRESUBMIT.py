@@ -7,6 +7,10 @@ See http://www.chromium.org/developers/how-tos/depottools/presubmit-scripts
 for more details about the presubmit API built into depot_tools.
 """
 
+import re
+from typing import NamedTuple
+import urllib.parse
+
 PRESUBMIT_VERSION = '2.0.0'
 
 # This line is 'magic' in that git-cl looks for it to decide whether to
@@ -108,3 +112,72 @@ def CheckLobIgnores(input_api, output_api):
 def CheckPatchFormatted(input_api, output_api):
     """Check formatting of files."""
     return input_api.canned_checks.CheckPatchFormatted(input_api, output_api)
+
+
+class _MdLink(NamedTuple):
+    """Link found in markdown."""
+
+    # The file link is found in.
+    file: str
+
+    # The actual link.
+    uri: str
+
+    # Whether the link supports local/relative paths like /dir/foo.md.
+    relative_ok: bool
+
+    # What line was the link found on?
+    line_num: int
+
+
+def CheckLinks(input_api, output_api):
+    """Check links used in markdown."""
+    # Build up the files to analyze.
+    affected_files = input_api.AffectedFiles(
+        file_filter=lambda x: x.LocalPath().endswith('.md'))
+
+    # Extract the links from the files.  We have a variety of styles:
+    #   [text](link)
+    #   [anchor]: link
+    #   [anchor]: link "extra text"
+    #   <link>
+    #   link
+    links = []
+    for affected_file in affected_files:
+        file = affected_file.LocalPath()
+        for i, line in enumerate(affected_file.NewContents(), start=1):
+            # [text](link)
+            # We don't match the opening [ because it can span multiple lines.
+            # The ](...) part has to be on one line.
+            links += [
+                _MdLink(file, x, True, i)
+                for x in re.findall(r'\]\(([^) ]+)\)', line)
+            ]
+            # [anchor]: link
+            m = re.match(r'^\[[^]]+\]:\s*(\S+)', line)
+            if m:
+                links.append(_MdLink(file, m.group(1), True, i))
+            # <link>
+            links += [
+                _MdLink(file, x, False, i)
+                for x in re.findall(r'<(https?://[^>]+)>', line)
+            ]
+
+    # Check links.
+    results = []
+
+    def _create_result(link, msg, want_uri) -> None:
+        want_link = urllib.parse.urlunparse(want_uri)
+        results.append(
+            output_api.PresubmitError(f'{link.file}:{link.line_num}: {msg}',
+                                      long_text=f'- {link.uri}\n+ {want_link}'))
+
+    for link in links:
+        o = urllib.parse.urlparse(link.uri)
+
+        # Check www.chromium.org aliases.
+        if o.netloc in ('chromium.org', 'dev.chromium.org'):
+            _create_result(link, 'Use www.chromium.org in links',
+                           o._replace(netloc='www.chromium.org'))
+
+    return results
