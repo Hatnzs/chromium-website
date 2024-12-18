@@ -655,9 +655,6 @@ The URL will look like:
 `https://chromium.googlesource.com/${projectname}/+/sandbox/${USER}/${BRANCH_NAME}`.
 Note that the `refs/` part is omitted.
 
-If you want to preview markdown changes (e.g. `README.md`), check out
-[Previewing changes](./README.md#previewing-changes).
-
 Once you're finished with a sandbox, you can delete it:
 
 ```bash

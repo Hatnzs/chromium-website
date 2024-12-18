@@ -300,9 +300,9 @@ directive to see what the actual directory is.
 
 ### How to use the chroot's ClangD Language Server
 
-You can leverage IDE-like functionality in your editor by
-following [this guide](./chroot-clangd-guide.md) to
-use the `clangd` already installed in the chroot.
+You can leverage IDE-like functionality in your editor by following
+[this guide](/chromium-os/developer-library/guides/ides/chroot-clangd-guide)
+to use the `clangd` already installed in the chroot.
 
 ### How to use the chroot's rust-analyzer Language Server
 

@@ -432,7 +432,8 @@ building off of.
 
 *** note
 **Note:** You can also sync to a specific version, for example, `R117-15550`.
-Please refer to [Switch repo to the snapshot](/recreating_a_snapshot_or_buildspec.md#switch-repo-to-the-buildspec).
+Please refer to [Switch repo to the
+snapshot](/chromium-os/developer-library/guides/debugging/recreating-a-snapshot-or-buildspec#switch-repo-to-the-buildspec).
 ***
 
 #### Enable `cros cron` for faster syncing and builds

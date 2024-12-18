@@ -268,4 +268,4 @@ For EC firmware,
 [Servo]: https://chromium.googlesource.com/chromiumos/third_party/hdctools/+/HEAD/README.md
 [suzyQ]: https://chromium.googlesource.com/chromiumos/third_party/hdctools/+/HEAD/docs/ccd.md#suzyq-suzyqable
 [Verified Boot]: /chromium-os/chromiumos-design-docs/verified-boot
-[guide for firmware unlock on 2023+ devices]:  ../../../guides/device/ro-firmware-unlock/index.md
+[guide for firmware unlock on 2023+ devices]: /chromium-os/developer-library/guides/device/ro-firmware-unlock

@@ -140,4 +140,5 @@ we still have to keep the migration code around for everyone.
 
 ## End of Life (EOL) / Auto Update Expiration Devices
 
-This is covered in detail in a [dedicated document](./eol_aue_process.md).
+This is covered in detail in a
+[dedicated document](/chromium-os/developer-library/reference/policies/eol-aue-process).
