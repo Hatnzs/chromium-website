@@ -217,8 +217,7 @@ emerge it onto your chroot and test it there as well.
 
 You probably want to run at least the suite:smoke tests for each board, which
 you can do by following the tips at
-<https://www.chromium.org/chromium-os/testing> (Googlers may
-also use the tips at [goto/cros-test](http://goto/cros_test)). In particular,
+<https://www.chromium.org/chromium-os/testing>. In particular,
 you can use [trybot](/chromium-os/build/local-trybot-documentation) to determine
 what effect your upgrade will have on the greenness of the waterfall.
 

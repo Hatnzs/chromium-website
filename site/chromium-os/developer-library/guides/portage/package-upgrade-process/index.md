@@ -216,10 +216,9 @@ your target boards to test. If your package is added to the host (chroot),
 you'll need to `emerge` it onto your chroot and test it there as well.
 
 You probably want to run at least the `suite:smoke` tests for each board,
-which you can do by following the tips [here](/chromium-os/testing)
-(Googlers may also use the tips at goto/cros-test). In particular, you
-can use [trybot] to determine what effect your upgrade will have on the
-greenness of the waterfall.
+which you can do by following the tips [here](/chromium-os/testing).
+In particular, you can use [trybot] to determine what effect your upgrade will
+have on the greenness of the waterfall.
 
 One common cause of failure is that upstream has introduced new default
 [USE flags]. For example, if the upstream ebuild was set to `-foo` before

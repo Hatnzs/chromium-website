@@ -4472,7 +4472,7 @@ count of Medium+ severity issues to single digits. (We’ve lapsed a bit in the
 past week, but hopefully will recover once everyone returns from July vacation
 :)
 
-As of July 1st, [Clusterfuzz](http://goto/clusterfuzz) has helped us find and
+As of July 1st, [Clusterfuzz](http://go/clusterfuzz) has helped us find and
 fix
 [822](https://code.google.com/p/chromium/issues/list?can=1&q=type%3Abug-security+ClusterFuzz+status%3AFixed+closed-before%3A2013%2F7%2F1&sort=-id+-security_severity+-secseverity+-owner+-modified&colspec=ID+Pri+Status+Summary+Modified+OS+M+Security_severity+Security_impact+Owner&x=m&y=releaseblock&cells=tiles)
 bugs! Last quarter, we added a [new
