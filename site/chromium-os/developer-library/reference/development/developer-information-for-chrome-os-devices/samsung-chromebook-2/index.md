@@ -43,7 +43,7 @@ Guide](http://www.chromium.org/chromium-os/developer-guide).
     *   HDMI Port
     *   1 x USB 2.0 (still uses XHCI)
     *   1 x USB 3.0
-    *   [Micro SD slot](http://en.wikipedia.org/wiki/Secure_Digital)
+    *   [Micro SD slot](https://en.wikipedia.org/wiki/Secure_Digital)
                 (SDXC compatible, has hardware but not software for UHS support)
     *   Headphone/mic combo jack
     *   Camera & mic

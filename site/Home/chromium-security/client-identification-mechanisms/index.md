@@ -56,7 +56,7 @@ goal, including but not limited to:
     Plain old [HTTP cookies](http://tools.ietf.org/html/rfc6265),
 
     Cookie-equivalent plugin features - most notably, Flash [Local Shared
-    Objects](http://en.wikipedia.org/wiki/Local_shared_object).
+    Objects](https://en.wikipedia.org/wiki/Local_shared_object).
 
     HTML5 client storage mechanisms, including
     [*localStorage*](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Storage),
@@ -69,7 +69,7 @@ goal, including but not limited to:
     ETag](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html),
 
     Bits encoded in [HTTP Strict Transport
-    Security](http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) pin
+    Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) pin
     lists across several attacker-controlled host names,
 
     ...and more.

@@ -3893,7 +3893,7 @@ and monitoring user help forums. One source of SSL errors is system clocks with
 the wrong time, so we landed a more informative error message in Chrome 40 to
 let users know they need to fix their clock. We’ve also started working on a
 warning interstitial for [captive
-portals](http://en.wikipedia.org/wiki/Captive_portal) to distinguish those SSL
+portals](https://en.wikipedia.org/wiki/Captive_portal) to distinguish those SSL
 errors from the rest. Finally, we [proposed a plan for browsers to migrate their
 user interface from marking insecure origins (i.e. HTTP) as explicitly
 insecure](/Home/chromium-security/marking-http-as-non-secure); the [initial
@@ -4319,7 +4319,7 @@ new bugs. We’ve added a bunch of new fuzzers to cover Chromium IPC (5 high
 severity bugs), networking protocols (1 critical severity bug from a certificate
 fuzzer, 1 medium severity bug from an HTTP protocol fuzzer), and WebGL (1 high
 severity bug in Angle). Want to write a
-[fuzzer](http://en.wikipedia.org/wiki/Fuzz_testing) to add security fuzzing
+[fuzzer](https://en.wikipedia.org/wiki/Fuzz_testing) to add security fuzzing
 coverage to your code? Check out the [ClusterFuzz
 documentation](/Home/chromium-security/bugs/using-clusterfuzz), or get in touch.
 In November, we helped sponsor a [Pwn2Own contest at the PacSec conference in

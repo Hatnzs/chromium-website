@@ -23,7 +23,7 @@ including additional round trips for connection setup, slow-start delays, and a
 constant rationing by the client where it tries to avoid opening too many
 connections to a single server. HTTP "pipelining" doesn't help, as each
 connection may be blocked on the request at the <a
-href="http://en.wikipedia.org/wiki/Head-of-line_blocking">head of the line</a>;
+href="https://en.wikipedia.org/wiki/Head-of-line_blocking">head of the line</a>;
 in addition, many proxies have poor support for pipelining. Web applications, in
 their desire to create many connections, create many sub-domains to work around
 browser per-domain connection throttling.</td>

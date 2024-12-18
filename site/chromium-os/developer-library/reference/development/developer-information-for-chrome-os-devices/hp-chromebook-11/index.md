@@ -30,7 +30,7 @@ Note: there have been multiple devices released under the moniker "HP Chromebook
 *   GPU: [ARM
             Mali-T604](http://www.arm.com/products/multimedia/mali-graphics-hardware/mali-t604.php)
             (Quad Core)
-    *   1366x768 [IPS screen](http://en.wikipedia.org/wiki/IPS_panel)
+    *   1366x768 [IPS screen](https://en.wikipedia.org/wiki/IPS_panel)
                 with 300 nits (spring board)
     *   1366x768 TN panel (skate board)
 *   RAM: 2 GiB DDR3
@@ -43,11 +43,11 @@ Note: there have been multiple devices released under the moniker "HP Chromebook
     *   USB ports can handle Ethernet dongle
 *   Power supply: 5.25V <img alt="image"
             src="/chromium-os/developer-information-for-chrome-os-devices/direct-current.svg"
-            height=5> ([DC](http://en.wikipedia.org/wiki/Direct_current)) 3.A
+            height=5> ([DC](https://en.wikipedia.org/wiki/Direct_current)) 3.A
             [micro
             USB](https://play.google.com/store/devices/details/Charger_for_HP_Chromebook_11)
 *   No [Kensington Security
-            Slot](http://en.wikipedia.org/wiki/Kensington_Security_Slot)
+            Slot](https://en.wikipedia.org/wiki/Kensington_Security_Slot)
 *   [Servo header](/chromium-os/servo): Standard 2x25 / AXK750347G
 
 The first release was the "spring" board. A later revision was named "skate"

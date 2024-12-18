@@ -91,8 +91,8 @@ a way to compromise a renderer process, for several reasons:
   overruns [can be turned into an
   exploit](https://googleprojectzero.blogspot.com/2014/08/the-poisoned-nul-byte-2014-edition.html).
 * Deployed mitigations (like
-  [ASLR](http://en.wikipedia.org/wiki/Address_space_layout_randomization)
-  or [DEP](http://en.wikipedia.org/wiki/Data_Execution_Prevention))
+  [ASLR](https://en.wikipedia.org/wiki/Address_space_layout_randomization)
+  or [DEP](https://en.wikipedia.org/wiki/Data_Execution_Prevention))
   are [not always
   effective](https://googleprojectzero.blogspot.com/2019/04/virtually-unlimited-memory-escaping.html).
 

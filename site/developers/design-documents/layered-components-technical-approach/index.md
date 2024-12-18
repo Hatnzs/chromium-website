@@ -167,7 +167,7 @@ The iOS FooDriver will implement these methods via an iOS-specific flow.
         in FooDelegate.h. This problem can of course be solved by if-defing, but
         we are looking to avoid if-defing in almost all cases. In some cases, it
         can be solved without ifdefing by the [Pimpl
-        paradigm](http://en.wikipedia.org/wiki/Opaque_pointer).**
+        paradigm](https://en.wikipedia.org/wiki/Opaque_pointer).**
 
     **Alternative to introducing a wrapper API around the content layer and the
     iOS embed layer would be introducing typedef’s**

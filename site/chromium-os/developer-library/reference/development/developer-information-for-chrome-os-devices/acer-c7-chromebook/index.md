@@ -21,12 +21,12 @@ OS Developer Guide](/chromium-os/developer-guide).
 
 ### Specifications
 
-*   CPU: Intel [Sandy Bridge](http://en.wikipedia.org/wiki/Sandy_Bridge)
+*   CPU: Intel [Sandy Bridge](https://en.wikipedia.org/wiki/Sandy_Bridge)
             Celeron (might vary on specific model)
     *   Some later models shipped [Ivy
-                Bridge](http://en.wikipedia.org/wiki/Ivy_Bridge_(microarchitecture));
+                Bridge](https://en.wikipedia.org/wiki/Ivy_Bridge_(microarchitecture));
                 those will use the parrot_ivb board
-*   GPU: Intel [Sandy Bridge](http://en.wikipedia.org/wiki/Sandy_Bridge)
+*   GPU: Intel [Sandy Bridge](https://en.wikipedia.org/wiki/Sandy_Bridge)
             Mobile
     *   11.6" 1366x768 16:9
     *   HDMI port
@@ -34,7 +34,7 @@ OS Developer Guide](/chromium-os/developer-guide).
 *   RAM: 2 GiB or 4GiB DDR3 (might vary on specific model)
 *   Disk: 320 GiB HD or 16 GiB SSD (might vary on specific model)
     *   USB expansion ports
-    *   [SD slot](http://en.wikipedia.org/wiki/Secure_Digital) (SDXC
+    *   [SD slot](https://en.wikipedia.org/wiki/Secure_Digital) (SDXC
                 compatible)
 *   Networking
     *   WiFi 802.11 a/b/g/n
@@ -42,13 +42,13 @@ OS Developer Guide](/chromium-os/developer-guide).
     *   USB ports can handle Ethernet dongles
 *   Power supply: 19V <img alt="image"
             src="/chromium-os/developer-information-for-chrome-os-devices/direct-current.svg"
-            height=5> ([DC](http://en.wikipedia.org/wiki/Direct_current)) 2.15A
+            height=5> ([DC](https://en.wikipedia.org/wiki/Direct_current)) 2.15A
             <img alt="image"
             src="/chromium-os/developer-information-for-chrome-os-devices/center-positive-polarity.svg"
             height=12> ([positive polarity
-            tip](http://en.wikipedia.org/wiki/Polarity_symbols))
+            tip](https://en.wikipedia.org/wiki/Polarity_symbols))
 *   [Kensington Security
-            Slot](http://en.wikipedia.org/wiki/Kensington_Security_Slot)
+            Slot](https://en.wikipedia.org/wiki/Kensington_Security_Slot)
 *   [Servo header](/chromium-os/servo): 1x50 header (now obsolete)
 
 ## Developer Mode

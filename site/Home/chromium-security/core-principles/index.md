@@ -25,8 +25,8 @@ Our goal in designing Chrome’s security architecture was to layer defenses, an
 avoid single points of failure. Chrome’s sandbox architecture represents one of
 the most effective parts of this strategy, but it’s far from the only piece. We
 also employ the best available anti-exploit technologies—including
-[ASLR](http://en.wikipedia.org/wiki/Address_space_layout_randomization),
-[DEP](http://en.wikipedia.org/wiki/Data_Execution_Prevention), [JIT
+[ASLR](https://en.wikipedia.org/wiki/Address_space_layout_randomization),
+[DEP](https://en.wikipedia.org/wiki/Data_Execution_Prevention), [JIT
 hardening](http://www.matasano.com/research/Attacking_Clientside_JIT_Compilers_Paper.pdf#page=24),
 and [SafeSEH](http://msdn.microsoft.com/en-us/library/9a89h429.aspx)—along with
 custom technologies like [Safe

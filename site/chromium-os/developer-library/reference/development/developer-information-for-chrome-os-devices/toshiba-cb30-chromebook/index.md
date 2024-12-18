@@ -28,7 +28,7 @@ OS Developer Guide](/chromium-os/developer-guide).
 *   I/O:
     *   HDMI port
     *   2 x USB 3
-    *   [SD slot](http://en.wikipedia.org/wiki/Secure_Digital) (SDXC
+    *   [SD slot](https://en.wikipedia.org/wiki/Secure_Digital) (SDXC
                 compatible)
     *   Headphone/mic combo jack
     *   Camera & mic
@@ -38,7 +38,7 @@ OS Developer Guide](/chromium-os/developer-guide).
     *   USB ports can handle some Ethernet dongles
     *   [Servo header](/chromium-os/servo): Standard 2x25 / AXK750347G
 *   [Kensington Security
-            Slot](http://en.wikipedia.org/wiki/Kensington_Security_Slot)
+            Slot](https://en.wikipedia.org/wiki/Kensington_Security_Slot)
 
 ## Developer Mode
 

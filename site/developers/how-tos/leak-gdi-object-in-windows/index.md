@@ -102,7 +102,7 @@ Since, metafile records having GDI object creation command and stores into
         *   <http://doxygen.reactos.org/d9/db3/dll_2win32_2gdi32_2misc_2misc_8c_a4086f8e85c3c92a3c6d518ef5bf8a690.html>
     *   WinXP/32bit returns 0x00410000.
 *   Process Environment Block (PEB)
-    *   <http://en.wikipedia.org/wiki/Win32_Thread_Information_Block>
+    *   <https://en.wikipedia.org/wiki/Win32_Thread_Information_Block>
     *   <http://undocumented.ntinternals.net/UserMode/Undocumented%20Functions/NT%20Objects/Thread/TEB.html>
     *   reinterpret_cast&lt;PEB\*&gt;(__readfsdword(0x30))-&gt;GdiSharedHandleTable
                 (PEB+0x94)

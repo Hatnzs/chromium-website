@@ -152,6 +152,7 @@ _MD_HTTPS_HOSTS = {
     # keep-sorted start
     'crbug.com',
     'crrev.com',
+    'en.wikipedia.org',
     'github.com',
     'issuetracker.google.com',
     'youtu.be',

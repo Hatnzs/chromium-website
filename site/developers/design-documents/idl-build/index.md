@@ -95,7 +95,7 @@ implemented interface) is touched, which is infrequent.
 
 The coarsest way to profile a full build – which is sufficient for verifying
 coarse improvements – is to do a build (using ninja), then `touch
-idl_compiler.py` and [`time(1)`](http://en.wikipedia.org/wiki/Time_(Unix))
+idl_compiler.py` and [`time(1)`](https://en.wikipedia.org/wiki/Time_(Unix))
 another build (most finely the targets should be `bindings_core_v8_generated
 bindings_modules_v8_generated` but (for ninja) it's fine for the target to be
 `chrome`); "user time" is most relevant. This should only rebuild the bindings,

@@ -37,13 +37,13 @@ OS Developer Guide](/chromium-os/developer-guide).
     *   USB slot can handle Ethernet dongle
 *   Power supply: 12V <img alt="image"
             src="/chromium-os/developer-information-for-chrome-os-devices/direct-current.svg"
-            height=5> ([DC](http://en.wikipedia.org/wiki/Direct_current)) 3.33A
+            height=5> ([DC](https://en.wikipedia.org/wiki/Direct_current)) 3.33A
             <img alt="image"
             src="/chromium-os/developer-information-for-chrome-os-devices/center-positive-polarity.svg"
             height=12> ([positive polarity
-            tip](http://en.wikipedia.org/wiki/Polarity_symbols))
+            tip](https://en.wikipedia.org/wiki/Polarity_symbols))
 *   No [Kensington Security
-            Slot](http://en.wikipedia.org/wiki/Kensington_Security_Slot)
+            Slot](https://en.wikipedia.org/wiki/Kensington_Security_Slot)
 *   [Servo header](/chromium-os/servo): 1x42 header (now obsolete)
 
 ## Developer Mode

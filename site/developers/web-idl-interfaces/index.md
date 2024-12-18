@@ -160,7 +160,7 @@ See [Web IDL in Blink](/blink/webidl).
 Bindings code assumes that a C++ class exists for each interface, with methods
 for each attribute or operation (with some exceptions). Attributes are
 implemented as
-[properties](http://en.wikipedia.org/wiki/Property_(programming)), meaning that
+[properties](https://en.wikipedia.org/wiki/Property_(programming)), meaning that
 while in the JavaScript interface these are read and written as attributes, in
 C++ these are read and written by getter and setter methods.
 
@@ -221,17 +221,17 @@ class Foo {
 
 Blink objects that are visible in JavaScript need type information,
 fundamentally because JavaScript is [dynamically
-typed](http://en.wikipedia.org/wiki/Dynamic_typing) (so *values* have type),
+typed](https://en.wikipedia.org/wiki/Dynamic_typing) (so *values* have type),
 concretely because the bindings code uses [type
-introspection](http://en.wikipedia.org/wiki/Type_introspection) for [dynamic
-dispatch](http://en.wikipedia.org/wiki/Dynamic_dispatch) (function resolution of
+introspection](https://en.wikipedia.org/wiki/Type_introspection) for [dynamic
+dispatch](https://en.wikipedia.org/wiki/Dynamic_dispatch) (function resolution of
 bindings functions): given a C++ object (representing the implementation of a
 JavaScript object), accessing it from V8 requires calling the correct C++
 binding methods, which requires knowing its JavaScript type (i.e., the IDL
 interface type).
 
 Blink does not use C++ [run-time type
-information](http://en.wikipedia.org/wiki/Run-time_type_information) (RTTI), and
+information](https://en.wikipedia.org/wiki/Run-time_type_information) (RTTI), and
 thus the type information must be stored separately.
 
 There are various ways this is done, most simply (for Blink developers) by the

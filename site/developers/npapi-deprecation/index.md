@@ -236,7 +236,7 @@ demos of various WebGL use cases.
 ## Security
 
 Some services have relied on NPAPI-based security techniques. We recommend
-switching to [TLS](http://en.wikipedia.org/wiki/Transport_Layer_Security) or,
+switching to [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) or,
 soon, [Web Crypto](http://www.w3.org/TR/WebCryptoAPI/#use-cases).
 
 ## Hardware access

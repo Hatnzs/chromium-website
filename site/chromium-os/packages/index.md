@@ -106,7 +106,7 @@ number which are specific to our project. Here you can dive down into them.
 
 *   chaps:
 *   chromeos-ca-certificates: certificates from [certificate
-            authorities](http://en.wikipedia.org/wiki/Certificate_authority)
+            authorities](https://en.wikipedia.org/wiki/Certificate_authority)
             that the browser in ChromeOS will trust (i.e. https://)
 *   chromeos-cryptohome: manager for per-user encrypted home storage
 *   chromeos-minijail:

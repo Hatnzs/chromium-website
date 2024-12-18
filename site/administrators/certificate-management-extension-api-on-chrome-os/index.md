@@ -16,7 +16,7 @@ for client certificate enrollment.
 Client certificates allow secure authentication to digital resources, like
 networks or web resources. A typical certificate based authentication protocol
 is [Transport Layer
-Security](http://en.wikipedia.org/wiki/Transport_Layer_Security) (TLS, formerly
+Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) (TLS, formerly
 known as SSL) and the protocols that are built on top like EAP-TLS for network
 authentication and HTTPS for web resources.
 

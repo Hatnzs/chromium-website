@@ -18,7 +18,7 @@ do a number of things to prevent, identify, and fix Chromium security bugs.
 ## Security fuzzing
 
 We've build fuzzing infrastructure that automatically and continuously security
-["fuzz" test](http://en.wikipedia.org/wiki/Fuzz_testing) Chrome to find new bugs
+["fuzz" test](https://en.wikipedia.org/wiki/Fuzz_testing) Chrome to find new bugs
 and help engineers patch and test fixes.
 [ClusterFuzz](/Home/chromium-security/bugs/using-clusterfuzz), as the system is
 affectionately named, consists of 12000+ cores and fuzzes hundreds of millions

@@ -33,7 +33,7 @@ Guide](/chromium-os/developer-guide).
     *   LTE on some models
 *   Bluetooth 3.0
 *   No [Kensington Security
-            Slot](http://en.wikipedia.org/wiki/Kensington_Security_Slot)
+            Slot](https://en.wikipedia.org/wiki/Kensington_Security_Slot)
 
 ## Developer Mode
 

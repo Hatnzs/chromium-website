@@ -287,11 +287,11 @@ You'll see that some of the components are replaceable:
 *   There is one slot for 204-Pin DDR3 SO-DIMM laptop memory
 *   Power supply: 19V <img alt="image"
             src="/chromium-os/developer-information-for-chrome-os-devices/direct-current.svg"
-            height=5> ([DC](http://en.wikipedia.org/wiki/Direct_current)) 2.1A
+            height=5> ([DC](https://en.wikipedia.org/wiki/Direct_current)) 2.1A
             <img alt="image"
             src="/chromium-os/developer-information-for-chrome-os-devices/center-positive-polarity.svg"
             height=12> ([positive polarity
-            tip](http://en.wikipedia.org/wiki/Polarity_symbols))
+            tip](https://en.wikipedia.org/wiki/Polarity_symbols))
 *   The [servo connector](/chromium-os/servo) (may not be present on
             most units) is a now-obsolete 1x40 connector.
 

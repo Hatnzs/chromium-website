@@ -412,11 +412,11 @@ Here is a rundown of the parts that are not soldered down:
 
 *   Power supply: 19.5V <img alt="image"
             src="/chromium-os/developer-information-for-chrome-os-devices/direct-current.svg"
-            height=5> ([DC](http://en.wikipedia.org/wiki/Direct_current)) 2.05A
+            height=5> ([DC](https://en.wikipedia.org/wiki/Direct_current)) 2.05A
             <img alt="image"
             src="/chromium-os/developer-information-for-chrome-os-devices/center-positive-polarity.svg"
             height=12> ([positive polarity
-            tip](http://en.wikipedia.org/wiki/Polarity_symbols))
+            tip](https://en.wikipedia.org/wiki/Polarity_symbols))
 *   SSD: 16GiB mSATA
 *   RAM: one slot for 204-Pin DDR3 SO-DIMM laptop memory
 

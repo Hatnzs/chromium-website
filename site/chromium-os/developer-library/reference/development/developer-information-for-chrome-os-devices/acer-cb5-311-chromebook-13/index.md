@@ -44,7 +44,7 @@ height=150 width=200>
 *   I/O:
     *   HDMI port
     *   2 x USB 3.0
-    *   [SD slot](http://en.wikipedia.org/wiki/Secure_Digital) (SDXC
+    *   [SD slot](https://en.wikipedia.org/wiki/Secure_Digital) (SDXC
                 compatible)
     *   Headphone/mic combo jack
     *   Camera & mic
@@ -54,7 +54,7 @@ height=150 width=200>
     *   Bluetooth 4.0
     *   USB ports can handle some Ethernet dongles
 *   no [Kensington Security
-            Slot](http://en.wikipedia.org/wiki/Kensington_Security_Slot)
+            Slot](https://en.wikipedia.org/wiki/Kensington_Security_Slot)
 *   Linux 3.10
 
 ## Developer Mode

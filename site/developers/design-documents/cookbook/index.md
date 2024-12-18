@@ -224,7 +224,7 @@ SequencedTaskRunner for the IO thread.
 In cases like this, you should change the code to pass the most fundamental
 objects possible, rather than passing more complex “everything” or “bag of
 stuff” objects. See also [Law of
-Demeter](http://en.wikipedia.org/wiki/Law_of_Demeter).
+Demeter](https://en.wikipedia.org/wiki/Law_of_Demeter).
 
 Examples:
 

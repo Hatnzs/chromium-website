@@ -319,7 +319,7 @@ Elly Jones [landed a
 fix](https://src.chromium.org/viewvc/chrome?revision=224030&view=revision) that
 reduces startup time by 1.5s for most users on Windows. The win was secured by
 decreasing the timeout for
-[WPAD](http://en.wikipedia.org/wiki/Web_Proxy_Autodiscovery_Protocol) to a
+[WPAD](https://en.wikipedia.org/wiki/Web_Proxy_Autodiscovery_Protocol) to a
 reasonable value.
 
 ### 2013-10-31

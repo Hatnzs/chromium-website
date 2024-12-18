@@ -63,7 +63,7 @@ height=150 width=200>
     *   Bluetooth 4.0
     *   100/1000 Ethernet
 *   [Kensington Security
-            Slot](http://en.wikipedia.org/wiki/Kensington_Security_Slot)
+            Slot](https://en.wikipedia.org/wiki/Kensington_Security_Slot)
 *   Linux 3.8
 
 ## Developer Mode
@@ -100,7 +100,7 @@ Fine. If you **must** risk breaking it for good, at least do it the right way.
 *   First, acquire the necessary tools:
     *   A small Phillips head screw driver
     *   A large Philips head screw driver
-    *   A [spudger](http://en.wikipedia.org/wiki/Spudger)
+    *   A [spudger](https://en.wikipedia.org/wiki/Spudger)
 *   Place the computer screen down on a flat surface
 *   Pop the plastic cap with the cable holder off the back by pulling
             from the top

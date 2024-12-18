@@ -40,13 +40,13 @@ another tab or interacting with the rest of the system.
 
 ### Plugins
 
-[Plugins](http://en.wikipedia.org/wiki/Plug-in_%28computing%29) are external
+[Plugins](https://en.wikipedia.org/wiki/Plug-in_%28computing%29) are external
 binaries that add new capabilities to a web browser and are loaded when content
 of the type they declare is embedded into a page. They either come bundled with
 the browser or get downloaded and installed by the user. The most common plugins
-are [Adobe Flash](http://en.wikipedia.org/wiki/Adobe_flash), [Adobe
-Reader](http://en.wikipedia.org/wiki/Acrobat_reader) and
-[Java](http://en.wikipedia.org/wiki/Java_plugin).
+are [Adobe Flash](https://en.wikipedia.org/wiki/Adobe_flash), [Adobe
+Reader](https://en.wikipedia.org/wiki/Acrobat_reader) and
+[Java](https://en.wikipedia.org/wiki/Java_plugin).
 In general, existing plugins cannot be sandboxed like the render process because
 they rely on file system and network access as well as use of native fonts.
 Therefore, Chrome supports [out of process
@@ -66,7 +66,7 @@ new statically linked functionality to the browser.
 framework used by plugins for exchanging data with the browser. It is
 implemented by Chrome, Firefox and most other web browsers, excluding MS
 Internet Explorer, which stopped supporting it in favor of
-[ActiveX](http://en.wikipedia.org/wiki/ActiveX_control).
+[ActiveX](https://en.wikipedia.org/wiki/ActiveX_control).
 Contrary to other single-process browsers, Chrome
 [supports](http://code.google.com/chrome/extensions/npapi.html) NPAPI plugins
 out of process.
@@ -112,14 +112,14 @@ while running in a secure environment with restricted access to the host.
 [Native Client SDK](http://gonacl.com) is a software development kit for
 creating Native Client executables (abbreviated as nexe) from scratch or from
 the existing platform-specific web-based native applications. It consists of a
-[GNU](http://en.wikipedia.org/wiki/GNU_Project)-based toolchain with customized
-versions of [gcc](http://en.wikipedia.org/wiki/GNU_Compiler_Collection),
-[binutils](http://en.wikipedia.org/wiki/Binutils) and
-[gdb](http://en.wikipedia.org/wiki/Gdb) (32-bit x86 only), precompiled API
+[GNU](https://en.wikipedia.org/wiki/GNU_Project)-based toolchain with customized
+versions of [gcc](https://en.wikipedia.org/wiki/GNU_Compiler_Collection),
+[binutils](https://en.wikipedia.org/wiki/Binutils) and
+[gdb](https://en.wikipedia.org/wiki/Gdb) (32-bit x86 only), precompiled API
 libraries and various examples and how-tos. The two usage models include porting
 desktop apps and extending web apps with fast native code.
 [Naclports](http://code.google.com/p/naclports/) is a collection of ports of
-various open-sourced projects (like [zlib](http://en.wikipedia.org/wiki/zlib))
+various open-sourced projects (like [zlib](https://en.wikipedia.org/wiki/zlib))
 to Native Client for gradual up-streaming. It is still in early stages of
 development and is intended to be modeled after
 [Macports](http://www.macports.org/).
@@ -131,10 +131,10 @@ element](https://developer.mozilla.org/en/Gecko_Plugin_API_Reference/Plug-in_Bas
 with “application/x-nacl-srpc” type.
 NaCl includes a "service runtime" subsystem that provides a reduced system call
 interface and resource abstractions to isolate nexes from the host. It provides
-a [POSIX](http://en.wikipedia.org/wiki/Posix)-like environment for nexe
+a [POSIX](https://en.wikipedia.org/wiki/Posix)-like environment for nexe
 execution and is used by nexes to communicate with each other and the browser.
 The nexes are run using a loader program, sel_ldr (secure
-[ELF](http://en.wikipedia.org/wiki/Executable_and_Linkable_Format) loader),
+[ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) loader),
 which is launched as a separate process. The sel_ldr process communicates with
 the NaCl plugin via [SRPC](/system/errors/NodeNotFound) over IMC \[citation
 needed\].

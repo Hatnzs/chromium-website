@@ -57,7 +57,7 @@ parsing server job results.
     as a new TAPReport object. class TAPReport is defined in the same file.
 
     TAPReport is autotest’s support for generating TAP ([Test Anything
-    Protocol](http://en.wikipedia.org/wiki/Test_Anything_Protocol)) report
+    Protocol](https://en.wikipedia.org/wiki/Test_Anything_Protocol)) report
     files.
 
 ### From output file(s) into the results database
