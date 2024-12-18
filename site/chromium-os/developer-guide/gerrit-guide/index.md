@@ -35,7 +35,7 @@ Follow the steps in [Chromium's Gerrit Guide](/developers/gerrit-guide).
 ### (Googlers & Partners) To get access to the internal Chrome Gerrit instance
 
 1.  You must also do the steps above for your @chromium.org account first
-2.  Go to <http://google.com/> and verify you are logged into your
+2.  Go to <https://google.com/> and verify you are logged into your
             @google.com account
 3.  Set up your account on Gerrit by visiting
     <https://chrome-internal-review.googlesource.com/>. Make sure you are logged

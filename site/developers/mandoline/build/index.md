@@ -16,13 +16,13 @@ Build mandoline. The code exclusively uses gn, and does not build with
 is_component_build=true:
 
 `gn gen out/Debug` `ninja -C out/Debug mandoline:all` Run mandoline with these
-flags: `out/Debug/`mandoline `http://google.com`
+flags: `out/Debug/`mandoline `https://google.com`
 
 If you're running over chromoting run:
 
 `ninja -C out/Debug osmesa`
 
-`DISPLAY=:20 out/Debug/`mandoline [`http://google.com`](http://google.com/)
+`DISPLAY=:20 out/Debug/`mandoline [`https://google.com`](https://google.com/)
 --override-use-gl-with-osmesa-for-tests
 
 ### Android:

@@ -12,7 +12,7 @@ title: Frequently Asked Questions
 
 ****Why should we use Google Chrome? What would it give my organization?****
 
-> **Google Chrome offers a number of benefits, including security, speed, stability, and simplicity. Find out about all the features of Google Chrome [here](http://google.com/chrome).**
+> **Google Chrome offers a number of benefits, including security, speed, stability, and simplicity. Find out about all the features of Google Chrome [here](https://google.com/chrome).**
 
 **What is Google Chrome for Enterprise? Is it a different build than the Google
 Chrome I install from google.com?**

@@ -29,8 +29,8 @@ and use dedicated User Data directories.
 
 #### Mac
 
-*   [Stable channel for Mac](http://google.com/chrome?platform=mac)
-*   [Beta channel for Mac](http://google.com/chrome?platform=mac)
+*   [Stable channel for Mac](https://google.com/chrome?platform=mac)
+*   [Beta channel for Mac](https://google.com/chrome?platform=mac)
 *   [Dev channel for
             Mac](http://www.google.com/chrome/intl/en/eula_dev.html?dl=mac)
 *   [Canary build for
