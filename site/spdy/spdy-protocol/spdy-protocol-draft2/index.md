@@ -851,7 +851,7 @@ applications. This means that, from the perspective of the server business logic
 or application API, the features of HTTP must not change. To achieve this, all
 of the application request and response header semantics are preserved, although
 the syntax of conveying those semantics has changed. Thus, the rules from the <a
-href="http://www.w3.org/Protocols/rfc2616/rfc2616.html">HTTP/1.1 specification
+href="https://www.w3.org/Protocols/rfc2616/rfc2616.html">HTTP/1.1 specification
 in RFC 2616</a> apply with the changes in the sections below.</td>
 
 <td>Standard Transactions</td>
@@ -1045,7 +1045,7 @@ asynchronously in the stream.</td>
 
 <td>TODO(mbelshe): Define how HTTP Trailers should work: "For HTTP, the rules
 for http trailers apply, as specified in: <a
-href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.40">http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.40</a>"</td>
+href="https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.40">https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.40</a>"</td>
 
 <td>### Deployment</td>
 

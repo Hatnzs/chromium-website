@@ -154,7 +154,7 @@ dire since it prevents them from viewing the site.
 
 *   Declare your page's content-type correctly, this can either be in an
             [HTTP
-            header](http://www.w3.org/International/tutorials/tutorial-char-enc/#Slide0270)
+            header](https://www.w3.org/International/tutorials/tutorial-char-enc/#Slide0270)
             or a [Meta tag specified in your
             HTML](http://code.google.com/p/doctype/wiki/MetaCharsetAttribute).
 *   The character set your page uses must be a legal value from the
@@ -172,7 +172,7 @@ dire since it prevents them from viewing the site.
             legacy encoding for some reason, make sure to identify the encoding
             correctly as outlined above. For legacy situations involving Hebrew
             sites use [Logical Hebrew encoding
-            (ISO-8859-8-I)](http://www.w3.org/International/geo/html-tech/tech-bidi.html#ri20030112.21380914).
+            (ISO-8859-8-I)](https://www.w3.org/International/geo/html-tech/tech-bidi.html#ri20030112.21380914).
             We strongly **discourage** the use of Visual Hebrew encoding
             (ISO-8859-8). It has no place on the Web anymore and is a remnant of
             old systems lacking logic for rendering RTL text. It causes many

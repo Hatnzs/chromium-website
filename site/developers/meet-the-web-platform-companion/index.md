@@ -32,7 +32,7 @@ on each demo and the technology that powers them.
             Mozilla
 *   Standardization status: All specifications under Web Components
             umbrella are being developed in the [W3C WebApps Working
-            Group](http://www.w3.org/2008/webapps/)
+            Group](https://www.w3.org/2008/webapps/)
 *   Learn more:
     *   A comprehensive [introduction to Web
                 components](http://dvcs.w3.org/hg/webcomponents/raw-file/tip/explainer/index.html)
@@ -74,8 +74,8 @@ on each demo and the technology that powers them.
 *   Standardization status: Fully standardized
 *   Learn more:
     *   The improved [Flexbox
-                specification](http://www.w3.org/TR/css3-flexbox/)
-    *   [Grid layout specification](http://www.w3.org/TR/css3-layout/)
+                specification](https://www.w3.org/TR/css3-flexbox/)
+    *   [Grid layout specification](https://www.w3.org/TR/css3-layout/)
                 (another app layout CSS module that is being actively
                 standardized)
 

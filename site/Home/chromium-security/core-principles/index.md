@@ -95,7 +95,7 @@ techniques are employed by everyone. To that end, we work closely with standards
 bodies and other browser makers to raise the bar by collaborating on various
 standards, including [public key
 pinning](http://tools.ietf.org/html/draft-ietf-websec-key-pinning-01), [Content
-Security Policies](http://www.w3.org/TR/CSP/), and [SPDY](/spdy). We also open
+Security Policies](https://www.w3.org/TR/CSP/), and [SPDY](/spdy). We also open
 source or otherwise make our security technologies widely available (e.g.
 [Native Client](/nativeclient) / Pepper, [Open Type
 Sanitizer](https://code.google.com/p/ots/), [application

@@ -154,13 +154,13 @@ A common use case for NPAPI plug-ins on the modern web is embedded video and/or
 audio. A range of modern web technologies exist to facilitate media streaming.
 The basic building blocks are WebRTC and media elements:
 
-    HTML5 Media Elements. The [HTML5 Specification](http://www.w3.org/TR/html5/)
+    HTML5 Media Elements. The [HTML5 Specification](https://www.w3.org/TR/html5/)
     provides a rich media platform through the
-    [&lt;audio&gt;](http://www.w3.org/TR/html5/embedded-content-0.html#the-audio-element)
+    [&lt;audio&gt;](https://www.w3.org/TR/html5/embedded-content-0.html#the-audio-element)
     and
-    [&lt;video&gt;](http://www.w3.org/TR/html5/embedded-content-0.html#the-video-element)
+    [&lt;video&gt;](https://www.w3.org/TR/html5/embedded-content-0.html#the-video-element)
     elements. More complicated use cases can be achieved using the
-    [&lt;canvas&gt;](http://www.w3.org/TR/html5/embedded-content-0.html#the-canvas-element)
+    [&lt;canvas&gt;](https://www.w3.org/TR/html5/embedded-content-0.html#the-canvas-element)
     element (for example check out the [Video FX Chrome
     Experiment](http://www.chromeexperiments.com/detail/videofx/)).
 
@@ -237,7 +237,7 @@ demos of various WebGL use cases.
 
 Some services have relied on NPAPI-based security techniques. We recommend
 switching to [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) or,
-soon, [Web Crypto](http://www.w3.org/TR/WebCryptoAPI/#use-cases).
+soon, [Web Crypto](https://www.w3.org/TR/WebCryptoAPI/#use-cases).
 
 ## Hardware access
 

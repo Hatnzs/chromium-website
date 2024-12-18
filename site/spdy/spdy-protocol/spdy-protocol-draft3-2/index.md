@@ -1427,7 +1427,7 @@ HEADERS frame for the same stream, the client must issue a stream error (Section
 If the server sends a HEADERS frame after sending a data frame for the same
 stream, the client MAY ignore the HEADERS frame. Ignoring the HEADERS frame
 after a data frame prevents handling of HTTP's trailing headers
-(http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.40).
+(https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.40).
 
 ---
 

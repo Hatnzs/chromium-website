@@ -99,7 +99,7 @@ Dev Contact: Eric Uhrhane (ericu)
 
 Availability: basic in m8, sync api in m9 for web workers
 
-Spec: [w3c spec](http://www.w3.org/TR/file-writer-api/)
+Spec: [w3c spec](https://www.w3.org/TR/file-writer-api/)
 
 Tickets: [webk.it/44358](https://bugs.webkit.org/show_bug.cgi?id=44358)
 
@@ -490,7 +490,7 @@ Dev Contact: Kinuko Yasuda (kinuko)
 
 Availability: m12
 
-Spec: [w3 spec](http://www.w3.org/TR/css3-3d-transforms/)
+Spec: [w3 spec](https://www.w3.org/TR/css3-3d-transforms/)
 
 Notes: Associated GPU rendering quirkiness actively being worked on in prep for
 beta channel release.
@@ -621,7 +621,7 @@ For now, chrome supports both. But you should use the new one!
 Availability: started landing in m18. m21 has the latest and full implementation
 with a bunch of properties renamed.
 
-Spec: [w3 spec](http://www.w3.org/TR/css3-flexbox/)
+Spec: [w3 spec](https://www.w3.org/TR/css3-flexbox/)
 
 Tickets: [webk.it/62048](https://bugs.webkit.org/show_bug.cgi?id=62048)
 
@@ -677,7 +677,7 @@ unprefixed in m10
 [demo](http://peter.sh/files/examples/cross-fading.html)
 
 **image-resolution()**: [landed](http://trac.webkit.org/changeset/119984) for
-m21 [spec](http://www.w3.org/TR/2012/CR-css3-images-20120417/#image-resolution)
+m21 [spec](https://www.w3.org/TR/2012/CR-css3-images-20120417/#image-resolution)
 
 **clip-path:**
 [landed](https://plus.google.com/118075919496626375791/posts/2n8PTisLztW) for
@@ -686,10 +686,10 @@ m24. Prefixed -webkit-clip-path.
 
 **@viewport**: [spec](http://dev.w3.org/csswg/css-device-adapt/), bug
 
-**@supports:** [spec](http://www.w3.org/TR/css3-conditional/#at-supports), bug,
+**@supports:** [spec](https://www.w3.org/TR/css3-conditional/#at-supports), bug,
 
 **CSS viewport % lengths (vw, vh, vmin, vmax):**
-[spec](http://www.w3.org/TR/css3-values/), Availability: m20
+[spec](https://www.w3.org/TR/css3-values/), Availability: m20
 
 ## Graphics
 
@@ -1042,7 +1042,7 @@ Demo: <http://kinlan-presentations.appspot.com/>
 
 Predefined data/options for controls
 
-Spec: [W3C](http://www.w3.org/TR/html-markup/datalist.html)
+Spec: [W3C](https://www.w3.org/TR/html-markup/datalist.html)
 
 Availability: m20. See [html5rocks.com
 update](http://updates.html5rocks.com/2012/04/datalist-landed-in-Chrome-Canary)
@@ -1318,7 +1318,7 @@ Specify and onload or onerror event for a stylesheet to load.
 
 Availability: m19?
 
-Spec: [W3C](http://www.w3.org/TR/html5/the-link-element.html#the-link-element)
+Spec: [W3C](https://www.w3.org/TR/html5/the-link-element.html#the-link-element)
 
 #### Touch Events
 
@@ -1328,7 +1328,7 @@ Android Availability: m16 (0.16)
 
 Availability: m24
 
-Spec: [w3c spec](http://www.w3.org/TR/MathML3/)
+Spec: [w3c spec](https://www.w3.org/TR/MathML3/)
 
 **JS Internationalization API**
 
@@ -1345,7 +1345,7 @@ Spec:
 
 Availability: m25
 
-Spec: [w3c](http://www.w3.org/TR/2011/WD-resource-timing-20110524/)
+Spec: [w3c](https://www.w3.org/TR/2011/WD-resource-timing-20110524/)
 
 **User Timing API**
 
@@ -1385,7 +1385,7 @@ spec](http://www.whatwg.org/specs/web-apps/current-work/multipage/association-of
 
 ## DOM APIs
 
-[Element.matchesSelector](http://www.w3.org/TR/selectors-api2/#matchtesting) -
+[Element.matchesSelector](https://www.w3.org/TR/selectors-api2/#matchtesting) -
 m4
 
 Element.outerHTML - m1

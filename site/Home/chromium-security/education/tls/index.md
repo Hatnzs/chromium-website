@@ -345,5 +345,5 @@ these resources over HTTPS, you may have to serve them from elsewhere or enable
 HTTPS on that server.
 
 You may also want to consider the
-[upgrade-insecure-requests](http://www.w3.org/TR/upgrade-insecure-requests/) CSP
+[upgrade-insecure-requests](https://www.w3.org/TR/upgrade-insecure-requests/) CSP
 directive.

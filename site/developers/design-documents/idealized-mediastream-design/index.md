@@ -30,7 +30,7 @@ specification has evolved from being focused around
 media to remote endpoints and &lt;audio&gt; and &lt;video&gt; tags for local
 playback, to a spec where streaming media can have multiple different endpoints,
 including the above as well as
-[recording](http://www.w3.org/TR/mediastream-recording/) and
+[recording](https://www.w3.org/TR/mediastream-recording/) and
 [WebAudio](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)
 and possibly more in the future.
 
@@ -135,7 +135,7 @@ In the Content and Blink layers, there will be local sink implementations, i.e.
 recipients of the audio and video media from a MediaStreamTrack, for
 &lt;audio&gt; and &lt;video&gt; tags, [WebAudio
 ](https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html)and
-[recording](http://www.w3.org/TR/mediastream-recording/).
+[recording](https://www.w3.org/TR/mediastream-recording/).
 
 ### Remote-Destined Sinks
 
@@ -374,7 +374,7 @@ control over where to place the NetEQ. Two examples are:
     want to have no decoding done on the data whatsoever, and therefore skip the
     NetEQ.
 
-    [Recording](http://www.w3.org/TR/mediastream-recording/) audio. Since
+    [Recording](https://www.w3.org/TR/mediastream-recording/) audio. Since
     recording does not have the same near-real-time demands as does a
     &lt;video&gt; tag showing a live video/audio chat with a remote peer, it can
     afford to let more audio data buffer up in the NetEQ before it starts

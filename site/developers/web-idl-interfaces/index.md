@@ -482,4 +482,4 @@ For reference, documentation by other projects.
                 bindings](https://developer.mozilla.org/en-US/docs/Mozilla/WebIDL_bindings)
     *   [IDL interface
                 rules](https://developer.mozilla.org/en-US/docs/Developer_Guide/Interface_development_guide/IDL_interface_rules)
-*   W3C Wiki: [Web IDL](http://www.w3.org/wiki/Web_IDL)
+*   W3C Wiki: [Web IDL](https://www.w3.org/wiki/Web_IDL)

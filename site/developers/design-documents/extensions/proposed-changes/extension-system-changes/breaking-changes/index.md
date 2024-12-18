@@ -46,7 +46,7 @@ the manifest format, and some change the behavior of existing APIs.
     *   turn on javascript strict mode
                 (<https://developer.mozilla.org/en/JavaScript/Strict_mode>)
     *   turn on CSP
-                (<http://www.w3.org/Security/wiki/Content_Security_Policy>)
+                (<https://www.w3.org/Security/wiki/Content_Security_Policy>)
     *   If a content script injects a &lt;script&gt; tag into the DOM,
                 only allow it if the src is an https url
 *   Split permissions into read and write (Context: captureVisibleTab

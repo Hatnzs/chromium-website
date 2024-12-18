@@ -3554,7 +3554,7 @@ We see migration to HTTPS as foundational to any security whatsoever
 [ones](https://blog.mozilla.org/security/2015/04/30/deprecating-non-secure-http/)),
 so we're actively working to drive #MOARTLS across Google and the Internet at
 large. We shipped [Upgrade Insecure
-Requests](http://www.w3.org/TR/upgrade-insecure-requests/), which eases the
+Requests](https://www.w3.org/TR/upgrade-insecure-requests/), which eases the
 transition to HTTPS by transparently correcting a page's spelling from
 \`http://\` to \`https://\` for all resources before any requests are triggered.
 We've also continued our effort to [deprecate powerful features on insecure
@@ -3647,18 +3647,18 @@ updates to PageInfo and Website Settings on Android.
 
 Beyond the browser, our [web platform efforts](/Home/chromium-security/owp)
 foster cross-vendor cooperation on developer-facing security features. The
-W3C's[ WebAppSec](http://www.w3.org/2011/webappsec/) working group continues to
+W3C's[ WebAppSec](https://www.w3.org/2011/webappsec/) working group continues to
 be a fairly productive venue for a number of important features: we've polished
 the [Subresource
 Integrity](https://w3c.github.io/webappsec/specs/subresourceintegrity/) spec and
 shipped an implementation in Chrome 46, published first drafts of [Credential
 Management](https://w3c.github.io/webappsec/specs/credentialmanagement/) and
 [Entry Point Regulation](https://w3c.github.io/webappsec/specs/epr/), continue
-to push [Content Security Policy Level 2](http://www.w3.org/TR/CSP2/) and [Mixed
-Content](http://www.w3.org/TR/mixed-content/) towards "Recommendation" status,
+to push [Content Security Policy Level 2](https://www.w3.org/TR/CSP2/) and [Mixed
+Content](https://www.w3.org/TR/mixed-content/) towards "Recommendation" status,
 and fixed some [longstanding](https://crbug.com/483458)
 [bugs](https://crbug.com/508310) with our [Referrer
-Policy](http://www.w3.org/TR/referrer-policy/) implementation.
+Policy](https://www.w3.org/TR/referrer-policy/) implementation.
 
 Elsewhere, we've started prototyping [Per-Page
 Suborigins](https://code.google.com/p/chromium/issues/detail?id=336894) with the
@@ -3793,12 +3793,12 @@ features. If you’re interested in helping improve Chrome, you should try it ou
 Beyond the browser, our [web platform efforts](/Home/chromium-security/owp)
 foster cross-vendor cooperation on developer-facing security features. We're
 working hard with the good folks in the W3C's
-[WebAppSec](http://www.w3.org/2011/webappsec/) working group to make progress on
-a number of specifications: [CSP 2](http://www.w3.org/TR/CSP2/) and [Mixed
-Content](http://www.w3.org/TR/mixed-content/) have been published as Candidate
-Recommendations, [Subresource Integrity](http://www.w3.org/TR/SRI/) is
+[WebAppSec](https://www.w3.org/2011/webappsec/) working group to make progress on
+a number of specifications: [CSP 2](https://www.w3.org/TR/CSP2/) and [Mixed
+Content](https://www.w3.org/TR/mixed-content/) have been published as Candidate
+Recommendations, [Subresource Integrity](https://www.w3.org/TR/SRI/) is
 implemented behind a flag and the spec is coming together nicely, and we've
-fixed a number of [Referrer Policy](http://www.w3.org/TR/referrer-policy/)
+fixed a number of [Referrer Policy](https://www.w3.org/TR/referrer-policy/)
 issues. [First-Party-Only
 Cookies](https://tools.ietf.org/html/draft-west-first-party-cookies) are just
 about ready to go, and [Origin

@@ -171,8 +171,8 @@ origins:
     Non-secure (broken HTTPS, HTTP).
 
 For more precise definitions of secure and non-secure, see [Requirements for
-Powerful Features](http://www.w3.org/TR/powerful-features/) and [Mixed
-Content](http://www.w3.org/TR/mixed-content/).
+Powerful Features](https://www.w3.org/TR/powerful-features/) and [Mixed
+Content](https://www.w3.org/TR/mixed-content/).
 
 We know that active tampering and surveillance attacks, as well as passive
 surveillance attacks, are not theoretical but are in fact commonplace on the

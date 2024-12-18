@@ -12,7 +12,7 @@ title: Web MIDI
 
 *   Enabled by default at m43
     *   The base spec is [Working Draft 17 March
-                2015](http://www.w3.org/TR/2015/WD-webmidi-20150317/), but
+                2015](https://www.w3.org/TR/2015/WD-webmidi-20150317/), but
                 MIDIOut::clear() is missed.
 *   [MIDIMessageEvent::receivedTime
             deprecation](https://www.chromestatus.com/features/5665772797952000)

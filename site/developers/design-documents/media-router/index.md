@@ -25,7 +25,7 @@ media without an associated peer-to-peer media streaming session, aka
 "flinging". The media route can be terminated at user or client request, which
 denies access to the media sink from the application.
 
-The Web [Presentation API](http://www.w3.org/2014/secondscreen/) allows a Web
+The Web [Presentation API](https://www.w3.org/2014/secondscreen/) allows a Web
 application to request display of Web content on a secondary (wired, or
 wireless) screen. The content may be rendered locally and streamed to the
 display or rendered remotely. The Web application controls the content by

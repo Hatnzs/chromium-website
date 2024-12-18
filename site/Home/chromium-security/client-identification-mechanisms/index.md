@@ -66,7 +66,7 @@ goal, including but not limited to:
 
     Unique markers stored within locally cached resources or in cache metadata -
     e.g., [Last-Modified and
-    ETag](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html),
+    ETag](https://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html),
 
     Bits encoded in [HTTP Strict Transport
     Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security) pin

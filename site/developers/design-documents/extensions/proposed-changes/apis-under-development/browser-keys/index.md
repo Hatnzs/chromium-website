@@ -74,7 +74,7 @@ support. This issue is larger in scope than this extension can address, but it
 would be a welcome first step.
 
 See "Keyboard Lock" on
-<http://www.w3.org/community/games/2011/11/10/w3c-games-community-group-new-game-summit-november-2011/>
+<https://www.w3.org/community/games/2011/11/10/w3c-games-community-group-new-game-summit-november-2011/>
 
 **Could this API be part of the web platform?**
 

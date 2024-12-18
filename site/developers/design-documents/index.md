@@ -218,7 +218,7 @@ which is the build script generation tool.
             data.
 *   [Geolocation](https://docs.google.com/a/chromium.org/document/pub?id=13rAaY1dG0nrlKpfy7Txlec4U6dsX3PE9aXHkvE37JZo):
             Adding support for [W3C Geolocation
-            API](http://www.w3.org/TR/geolocation-API/) using native WebKit
+            API](https://www.w3.org/TR/geolocation-API/) using native WebKit
             bindings.
 *   [Generic-Sensor](/developers/design-documents/generic-sensor) :
             Access sensor data
