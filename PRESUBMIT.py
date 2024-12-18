@@ -142,6 +142,17 @@ _MD_HOST_ALIASES = {
     # keep-sorted end
 }
 
+# These hosts should always use https://
+# This isn't an exhaustive list, just hosts we commonly refer to.
+# TODO(vapier): Require https:// on all hosts by default, and require any actual http:// hosts
+# be enumerated below.  This requires a large cleanup of existing docs first.
+_MD_HTTPS_HOSTS = {
+    # keep-sorted start
+    'youtu.be',
+    'youtube.com',
+    # keep-sorted end
+}
+
 # These hosts should always use http://
 _MD_HTTP_HOSTS = {
     # keep-sorted start
@@ -195,6 +206,11 @@ def CheckLinks(input_api, output_api):
 
     for link in links:
         o = urllib.parse.urlparse(link.uri)
+
+        # Check bad http:// usage.
+        if o.scheme == 'http' and o.netloc in _MD_HTTPS_HOSTS:
+            _create_result(link, 'Always use https:// with this host',
+                           o._replace(scheme='https'))
 
         # Check bad https:// usage.
         if o.scheme == 'https' and o.netloc in _MD_HTTP_HOSTS:
