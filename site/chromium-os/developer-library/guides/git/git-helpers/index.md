@@ -9,7 +9,7 @@ title: Git helpers
 ## Tech Talks
 
 *   Randall Schwartz's [Tech Talk on
-            git](http://www.youtube.com/watch?v=8dhZ9BXQgc4)
+            git](https://youtube.com/watch?v=8dhZ9BXQgc4)
 *   [gitcasts](http://www.google.com/url?q=http%3A%2F%2Fgitcasts.com%2F&sa=D&sntz=1&usg=AFrqEzdXGanWebnB47ED_tYigjprxxyXlA)
 
 ## Online References

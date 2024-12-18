@@ -851,7 +851,7 @@ For an overview, and explanation of motivations, please see:
 
 *   Video presentation: [Intent to explain: Demystifying the Blink
             shipping process (Chrome Dev Summit
-            2019)](https://www.youtube.com/watch?v=y3EZx_b-7tk&list=PLNYkxOF6rcIDA1uGhqy45bqlul0VcvKMr&index=17)
+            2019)](https://youtube.com/watch?v=y3EZx_b-7tk&list=PLNYkxOF6rcIDA1uGhqy45bqlul0VcvKMr&index=17)
 *   Blog post: [Intent to Explain: Demystifying the Blink Shipping
             Process](https://blog.chromium.org/2019/11/intent-to-explain-demystifying-blink.html)
-*   BlinkOn Talk, 2021: [Risky Business: Launching Faster In Blink](https://www.youtube.com/watch?v=1Z83L6xa1tw)
+*   BlinkOn Talk, 2021: [Risky Business: Launching Faster In Blink](https://youtube.com/watch?v=1Z83L6xa1tw)

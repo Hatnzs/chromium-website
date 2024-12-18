@@ -18,7 +18,7 @@ your device.
 
 ## Recordings and Presentations
 
-*   [YouTube Playlist](https://www.youtube.com/playlist?list=PL9ioqAuyl6UL_1DiG1tPRHbGJlGQ_gQJW)
+*   [YouTube Playlist](https://youtube.com/playlist?list=PL9ioqAuyl6UL_1DiG1tPRHbGJlGQ_gQJW)
 *   [Breakout Talks](https://docs.google.com/spreadsheets/d/1x2MXoLaYENQg7WKHWspzwAuttDB38T5pc74ZHRYEKgo/edit#gid=0)
 *   [Lightning Talks](https://docs.google.com/spreadsheets/d/1pNTdc5CfJ_86FhKhThr-L0E6ptxVA8VuG-Y1LDkbaME/edit#gid=0)
 
@@ -64,7 +64,7 @@ We continue to shift our BlinkOn events to more fairly distribute the burden of
 meeting at challenging times. Next time we will prioritize the EMEA region. We
 apologize this timing is not convenient for everyone, and to make this event as
 accessible as possible, we'll publish all publicly available talks on our
-[BlinkOn YouTube channel](https://www.youtube.com/user/blinkontalks) and within
+[BlinkOn YouTube channel](https://youtube.com/user/blinkontalks) and within
 the event under "Recordings" as soon as we are able. We hope that you understand
 our decision and will join us live, or enjoy recordings on our BlinkOn Channel
 when they become available.

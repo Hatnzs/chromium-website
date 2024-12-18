@@ -49,7 +49,7 @@ title: Training
     <tr>
       <td>ChromiumOS Fast Boot</td>
       <td>
-        <a href="http://www.youtube.com/watch?v=mTFfl7AjNfI" target="_blank">
+        <a href="https://youtube.com/watch?v=mTFfl7AjNfI" target="_blank">
           Video
         </a>
       </td>
@@ -59,7 +59,7 @@ title: Training
     <tr>
       <td>ChromiumOS Security</td>
       <td>
-        <a href="http://www.youtube.com/watch?v=A9WVmNfgjtQ" target="_blank">
+        <a href="https://youtube.com/watch?v=A9WVmNfgjtQ" target="_blank">
           Video
         </a>
       </td>
@@ -69,7 +69,7 @@ title: Training
     <tr>
       <td>ChromiumOS & Open Source</td>
       <td>
-        <a href="http://www.youtube.com/watch?v=KA5RQv9mBoY" target="_blank">
+        <a href="https://youtube.com/watch?v=KA5RQv9mBoY" target="_blank">
           Video
         </a>
       </td>
@@ -118,7 +118,7 @@ title: Training
     <tr>
       <td>What is Google ChromeOS?</td>
       <td>
-        <a href="https://www.youtube.com/watch?v=LwVX42Amcak" target="_blank">
+        <a href="https://youtube.com/watch?v=LwVX42Amcak" target="_blank">
           Video
         </a>
       </td>

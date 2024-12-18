@@ -94,7 +94,7 @@ The following setup instructions are based on this
 [AVL testbed setup guide](https://chromeos.google.com/partner/dlm/docs/component-qual/wf_bt_device_prep.html##raspberry-pi).
 
 Tip: To setup the enclosure (recommended), you'll probably want to follow some
-[YouTube tutorials](https://www.youtube.com/watch?v=BP44pCxQWAY).
+[YouTube tutorials](https://youtube.com/watch?v=BP44pCxQWAY).
 
 Follow the setup instructions on the official
 [Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)

@@ -62,7 +62,7 @@ channels for staying up-to-date:
 *   Chrome Developer Relations: Chrome DevRel posts about new features
             on [web.dev](https://web.dev/), Twitter
             ([@ChromiumDev](https://twitter.com/ChromiumDev)), and
-            [YouTube](https://www.youtube.com/user/ChromeDevelopers/) (Google
+            [YouTube](https://youtube.com/user/ChromeDevelopers/) (Google
             Chrome Developers channel).
 *   [chromestatus.com](https://www.chromestatus.com/): A dashboard where
             we track new feature development.
@@ -90,7 +90,7 @@ implementation of this abstract platform required for running Blink.
 *   [Chromium Development](/developers) - Guides and best practices for
             Chromium development
 *   YouTube ([Chrome
-            University](https://www.youtube.com/playlist?list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx)
+            University](https://youtube.com/playlist?list=PLNYkxOF6rcICgS7eFJrGDhMBwWtdTgzpx)
             Playlist) - Introductory lessons that cover the fundamental concepts
             for Chromium development.
 
@@ -110,7 +110,7 @@ follows the [Blink Coding Style Guidelines](/blink/coding-style).
 *   [Launching a Web Platform Feature](/blink/launching-features)
 *   [Removing a Web Platform Feature](/blink/launching-features#feature-deprecations)
 *   (Video) [Intent to Explain: Demystifying the Blink shipping
-            process](https://www.youtube.com/watch?v=y3EZx_b-7tk)
+            process](https://youtube.com/watch?v=y3EZx_b-7tk)
 
 ### Page Directory
 

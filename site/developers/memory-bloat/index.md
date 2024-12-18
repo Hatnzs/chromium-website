@@ -225,7 +225,7 @@ view**](https://developers.google.com/chrome-developer-tools/docs/timeline#memor
 > with each other.
 
 > **[JavaScript Object Allocation
-> Tracker](http://www.youtube.com/watch?v=x9Jlu_h_Lyw)**
+> Tracker](https://youtube.com/watch?v=x9Jlu_h_Lyw)**
 
 > Dynamic version of the JS heap profiler that allows you to see JS object
 > allocation in real time.

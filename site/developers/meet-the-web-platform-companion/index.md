@@ -14,7 +14,7 @@ born on the cutting edge, where various organizations experiment with new
 capabilities. Those capabilities that capture the imagination of the broader
 community may eventually become a formal part of the web platform.
 The demos in the [Meet the Web Platform
-videos](http://www.youtube.com/watch?v=3i4dtgh3ym0&list=PL0207724E1C9C22A6&feature=plpp_play_all)
+videos](https://youtube.com/watch?v=3i4dtgh3ym0&list=PL0207724E1C9C22A6&feature=plpp_play_all)
 show a few examples of some of the cool stuff you can do on the cutting edge of
 the web platform. Not all of these capabilities have been standardized yet, some
 only work in Chrome today, and some are still actively being implemented in

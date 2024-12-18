@@ -151,10 +151,10 @@ work:
 brick your system and make it unrecoverable. DO NOT ATTEMPT if you are not
 familiar with this process.**
 
-**[Stop.](http://www.youtube.com/watch?feature=fvwp&NR=1&v=Fj3WBfRZ5Nc&t=0m31s)
-[Don't.](http://www.youtube.com/watch?feature=fvwp&NR=1&v=Fj3WBfRZ5Nc&t=0m31s)
+**[Stop.](https://youtube.com/watch?feature=fvwp&NR=1&v=Fj3WBfRZ5Nc&t=0m31s)
+[Don't.](https://youtube.com/watch?feature=fvwp&NR=1&v=Fj3WBfRZ5Nc&t=0m31s)
 [Come
-back.](http://www.youtube.com/watch?feature=fvwp&NR=1&v=Fj3WBfRZ5Nc&t=0m31s)**
+back.](https://youtube.com/watch?feature=fvwp&NR=1&v=Fj3WBfRZ5Nc&t=0m31s)**
 
 Really. Opening the case will allow you to modify the read-only firmware that
 makes recovery possible. If someone from "teh internets" says "You need to

@@ -124,7 +124,7 @@ As for [MiraclePtr](https://docs.google.com/document/d/1pnnOAIz_DMWDI4oIOFoMAqLn
 
 Earlier this year the Chrome Security team stood up [automation](https://ci.chromium.org/ui/p/chromium/builders/ci/linux-codeql-generator) to build a CodeQL database for Chrome once a day. This quarter we started engaging more proactively with GitHub to identify and drive fixes in CodeQL's C++ extractor (e.g. [this issue](https://github.com/github/codeql/issues/16853)) that have led to incomplete CodeQL databases.
 
-Early this quarter we launched the [V8 Sandbox VRP](https://g.co/chrome/vrp/#v8-sandbox-bypass-rewards) alongside a [technical blog post about the sandbox](https://v8.dev/blog/sandbox). While the V8 sandbox is still in development and not yet considered a security boundary, the VRP inclusion is an important step towards that goal. In May we then also [presented about the sandbox at OffensiveCon](https://www.youtube.com/watch?v=5otAw81AHQ0) in Berlin. On the CFI-side, we investigated an approach for [forward-edge CFI based on memory protection keys](https://chromium-review.googlesource.com/c/v8/v8/+/5572947) which appears promising as it has very low performance overhead. We are now aiming to use it to achieve forward-edge CFI for both JavaScript- and WebAssembly calls. Finally, helped by events such as Pwn2Own or the [V8CTF](https://github.com/google/security-research/blob/master/v8ctf/rules.md) (our exploit bounty program), we [collected some statistics](https://docs.google.com/document/d/1njn2dd5_6PB7oZGTmkmoihYnVcJEgRwEFxhHnGoptLk/edit?usp=sharing) about the types of bugs being exploited in V8.
+Early this quarter we launched the [V8 Sandbox VRP](https://g.co/chrome/vrp/#v8-sandbox-bypass-rewards) alongside a [technical blog post about the sandbox](https://v8.dev/blog/sandbox). While the V8 sandbox is still in development and not yet considered a security boundary, the VRP inclusion is an important step towards that goal. In May we then also [presented about the sandbox at OffensiveCon](https://youtube.com/watch?v=5otAw81AHQ0) in Berlin. On the CFI-side, we investigated an approach for [forward-edge CFI based on memory protection keys](https://chromium-review.googlesource.com/c/v8/v8/+/5572947) which appears promising as it has very low performance overhead. We are now aiming to use it to achieve forward-edge CFI for both JavaScript- and WebAssembly calls. Finally, helped by events such as Pwn2Own or the [V8CTF](https://github.com/google/security-research/blob/master/v8ctf/rules.md) (our exploit bounty program), we [collected some statistics](https://docs.google.com/document/d/1njn2dd5_6PB7oZGTmkmoihYnVcJEgRwEFxhHnGoptLk/edit?usp=sharing) about the types of bugs being exploited in V8.
 
 The Chrome Fuzzing team continues work on two fronts: writing novel fuzzers and maintaining the tools and infrastructure used by Chromium engineers to write and run fuzzers.
 
@@ -1001,7 +1001,7 @@ third quarter of 2020.
 The Chrome Safe Browsing team continued the [roll-out of Enhanced Safe
 Browsing](https://security.googleblog.com/2020/05/enhanced-safe-browsing-protection-now.html)
 by launching it on Android in Chrome 86, and [releasing a
-video](https://www.youtube.com/watch?v=w8uNzQqsTrU) with background on the
+video](https://youtube.com/watch?v=w8uNzQqsTrU) with background on the
 feature. We also launched [deep scanning of suspicious
 downloads](https://security.googleblog.com/2020/09/improved-malware-protection-for-users.html),
 initially for users of Google’s Advanced Protection program, which received
@@ -1819,7 +1819,7 @@ decisions, but
 [of](http://www.usablesecurity.org/papers/jackson.pdf)
 [research](http://grouplab.cpsc.ucalgary.ca/grouplab/uploads/Publications/Publications/2011-DomainHighlighting.CHI.pdf)
 suggests that they don’t. We summarized our own research and thinking on this
-topic in an [Enigma 2019 talk](https://www.youtube.com/watch?v=RPoAc0ScdTM). We
+topic in an [Enigma 2019 talk](https://youtube.com/watch?v=RPoAc0ScdTM). We
 open-sourced a [tool](https://github.com/chromium/trickuri) that we use to help
 browser developers display site identity correctly. We also published a set of
 [URL display
@@ -2177,9 +2177,9 @@ To [help users infected with unwanted software](https://support.google.com/chrom
 
 In our effort to move the web to 100% HTTPS, we [announced](https://security.googleblog.com/2018/02/a-secure-web-is-here-to-stay.html) that Chrome will start marking all HTTP pages with a Not Secure warning in July. This is a big milestone that concludes a multi-year effort to roll out this warning to all non-secure pages. Alongside that announcement, we added a [mixed content audit](https://developers.google.com/web/tools/lighthouse/audits/mixed-content) to [Lighthouse](https://developers.google.com/web/tools/lighthouse/), an automated tool for improving webpage quality. This audit helps developers find and fix mixed content, a major hurdle for migrating to HTTPS. We also [announced](https://groups.google.com/a/chromium.org/forum/#!msg/blink-dev/ANnafFBhReY/1Xdr53KxBAAJ) the deprecation of AppCache in nonsecure contexts.
 
-In addition to MOAR TLS, we also want more secure and usable HTTPS, or BETTER TLS. With that goal in mind, we made changes to get better metrics about features intended to help users with client or network misconfigurations that break their HTTPS connections (like our [customized certificate warnings](https://research.google.com/pubs/archive/46359.pdf)). We also added more of these “helper” features too: for example, we now bundle help content targeted at users who are stuck with incorrect clocks, captive portals, or other configuration problems that interfere with HTTPS. Finally, we started preparing for Chrome’s upcoming Certificate Transparency [enforcement deadline](https://groups.google.com/a/chromium.org/d/msg/ct-policy/wHILiYf31DE/iMFmpMEkAQAJ) by analyzing and releasing some [metrics](https://www.youtube.com/watch?v=e_rwG7MA5VU) about the state of CT adoption so far.
+In addition to MOAR TLS, we also want more secure and usable HTTPS, or BETTER TLS. With that goal in mind, we made changes to get better metrics about features intended to help users with client or network misconfigurations that break their HTTPS connections (like our [customized certificate warnings](https://research.google.com/pubs/archive/46359.pdf)). We also added more of these “helper” features too: for example, we now bundle help content targeted at users who are stuck with incorrect clocks, captive portals, or other configuration problems that interfere with HTTPS. Finally, we started preparing for Chrome’s upcoming Certificate Transparency [enforcement deadline](https://groups.google.com/a/chromium.org/d/msg/ct-policy/wHILiYf31DE/iMFmpMEkAQAJ) by analyzing and releasing some [metrics](https://youtube.com/watch?v=e_rwG7MA5VU) about the state of CT adoption so far.
 
-To help make security more usable in Chrome, we’re exploring how [URLs are problematic](https://www.youtube.com/watch?v=UD-ukjVoeLc). We removed https/http schemes and www/m subdomains from the steady-state omnibox, and we’re studying the impact of removing positive security indicators that might mislead or distract from the important security information in the origin.
+To help make security more usable in Chrome, we’re exploring how [URLs are problematic](https://youtube.com/watch?v=UD-ukjVoeLc). We removed https/http schemes and www/m subdomains from the steady-state omnibox, and we’re studying the impact of removing positive security indicators that might mislead or distract from the important security information in the origin.
 
 Chrome OS Security had a busy Q1. The vulnerabilities known as [Meltdown and
 Spectre](https://meltdownattack.com/) were disclosed in early January, and a
@@ -2217,7 +2217,7 @@ Spectre kept us busy on the Chrome Browser side as well. The V8 team landed a la
 * Improving rendering performance for OOPIFs.
 * Starting standards discussions for Cross-Origin Read Blocking (CORB).
 
-Thanks to these improvements, we have been running field trials and are preparing to launch the strict Site Isolation policy on desktop. We [talked about](https://www.youtube.com/watch?v=dBuykrdhK-A) much of this work at Google I/O.
+Thanks to these improvements, we have been running field trials and are preparing to launch the strict Site Isolation policy on desktop. We [talked about](https://youtube.com/watch?v=dBuykrdhK-A) much of this work at Google I/O.
 
 Finally, we continue to work on exploit mitigations and other security hardening efforts. For example, [Oilpan](https://chromium.googlesource.com/chromium/src/+/lkcr/third_party/WebKit/Source/platform/heap/BlinkGCDesign.md), blink's garbage collecting memory management system, [removed its inline metadata](https://bugs.chromium.org/p/chromium/issues/detail?id=633030), which make it more difficult to overwrite with memory corruption bugs. This was the culmination of several years of effort, as performance issues were worked through. In Android P, we refactored the WebView [zygote](https://developer.android.com/topic/performance/memory-overview) to become a child of the main app_process zygote, reducing memory usage and helping with the performance of future Site Isolation efforts. Members of Platform Security also helped coordinate the response to Spectre and Meltdown, and still managed to find time to conduct their routine reviews of new [Chrome features](https://www.chromestatus.com/features).
 
@@ -2702,7 +2702,7 @@ over non-secure origins in Chrome 58, and we’ll [remove
 support](https://groups.google.com/a/chromium.org/forum/m/#!topic/blink-dev/IVgkxkRNtMo)
 for notifications over non-secure origins in Chrome 61. We talked about our
 #MOARTLS methodology and the HTTPS business case at
-[Enigma](https://www.youtube.com/watch?v=jplIY1GXBHM&feature=youtu.be).
+[Enigma](https://youtube.com/watch?v=jplIY1GXBHM&feature=youtu.be).
 
 In addition to #MOARTLS, we want to ensure more secure TLS through work on
 protocols and the certificate ecosystem. TLS 1.3 is the next, major version of
@@ -2838,7 +2838,7 @@ We added a new [HTTPS Usage
 section](https://www.google.com/transparencyreport/https/metrics/?hl=en) to the
 Transparency Report, which shows how the percentage of Chrome pages loaded over
 HTTPS increases with time. We talked externally at O’Reilly Security NYC +
-Amsterdam and [Chrome Dev Summit](https://www.youtube.com/watch?v=iP75a1Y9saY)
+Amsterdam and [Chrome Dev Summit](https://youtube.com/watch?v=iP75a1Y9saY)
 about upcoming HTTP UI changes and the business case for HTTPS. We published
 [positive
 stories](https://blog.chromium.org/2016/11/heres-to-more-https-on-web.html)
@@ -3118,9 +3118,9 @@ we're actively working to drive #MOARTLS across Google and the Internet at
 large.**[ Emily](https://twitter.com/estark37) and[
 Emily](https://twitter.com/emschec) busted HTTPS myths for large audiences at[
 Google
-I/O](https://www.youtube.com/watch?v=YMfW1bfyGSY&index=19&list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC)
+I/O](https://youtube.com/watch?v=YMfW1bfyGSY&index=19&list=PLOU2XLYxmsILe6_eGvDN3GyiodoV3qNSC)
 and the[ Progressive Web App dev
-summit](https://www.youtube.com/watch?v=e6DUrH56g14). The[ HSTS Preload
+summit](https://youtube.com/watch?v=e6DUrH56g14). The[ HSTS Preload
 list](https://cs.chromium.org/chromium/src/net/http/transport_security_state_static.json)
 has seen[ 3x growth](https://twitter.com/lgarron/status/747530273047273472)
 since the beginning of the year – a great problem to have! We’ve addressed some[
@@ -3411,7 +3411,7 @@ large.** We've continued our effort to [deprecate powerful features on insecure
 origins](/Home/chromium-security/deprecating-powerful-features-on-insecure-origins)
 by readying to block insecure usage of [geolocation
 APIs](http://dev.w3.org/geo/api/spec-source.html). We also took to the
-[stage](https://www.youtube.com/watch?v=9WuP4KcDBpI) at the [Chrome Dev
+[stage](https://youtube.com/watch?v=9WuP4KcDBpI) at the [Chrome Dev
 Summit](https://developer.chrome.com/devsummit) to spread the word, telling
 developers about what we’re doing in Chrome to make deploying TLS easier and
 more secure.
@@ -3770,7 +3770,7 @@ renderer-side security checks, sending postMessage between subframes, keeping
 script references alive). Great progress has also been made on session history,
 DevTools, and test/performance infrastructure, and other teams have started
 updating their features for out-of-process iframes after our [Site Isolation
-Summit](https://www.youtube.com/playlist?list=PL9ioqAuyl6UJmC0hyI-k1wYW08O71lBn8).
+Summit](https://youtube.com/playlist?list=PL9ioqAuyl6UJmC0hyI-k1wYW08O71lBn8).
 
 Not all security problems can be solved in[ Chrome’s
 guts](/Home/chromium-security/guts), so[ we work on making security more
@@ -3881,7 +3881,7 @@ be, and we’re ready with testing infrastructure and
 [FYI](http://build.chromium.org/p/chromium.fyi/builders/Site%20Isolation%20Linux)
 [bots](http://build.chromium.org/p/chromium.fyi/builders/Site%20Isolation%20Win).
 As we announced at our recent Site Isolation Summit
-([video](https://www.youtube.com/playlist?list=PL9ioqAuyl6UJmC0hyI-k1wYW08O71lBn8),
+([video](https://youtube.com/playlist?list=PL9ioqAuyl6UJmC0hyI-k1wYW08O71lBn8),
 [slides](https://docs.google.com/presentation/d/10HTTK4dsxO5p6FcpEOq8EkuV4yiBx2n6dBki8cqDWyo/edit?usp=sharing)),
 our goal for Q1 is to finish up OOPIF support with the help of all of Chrome.
 
