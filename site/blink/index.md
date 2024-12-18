@@ -20,7 +20,7 @@ particularly refers to the code living under
 
 ## Participating
 
-[Chromium](http://chromium.org) is an
+[Chromium](https://www.chromium.org) is an
 [inclusive](https://chromium.googlesource.com/chromium/src/+/HEAD/CODE_OF_CONDUCT.md)
 open-source community that values fostering a supportive culture.
 

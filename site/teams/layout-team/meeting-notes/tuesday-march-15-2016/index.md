@@ -63,7 +63,7 @@ parallel and use the new system for certain sub-trees.
 Made more progress than expected, have a prototype that builds and
 supports very basic block layout and paints. Will keep working for the
 rest of the week, should have data to share by the end of the week.
-Work is on a [chromium.org](http://chromium.org/) experimental branch, see bug
+Work is on a [chromium.org](https://www.chromium.org/) experimental branch, see bug
 for URI.
 (leviw, dgrogan, ikilpatrick, shanestephens)
 CSS Containment (leviw) \[[crbug.com/312978](http://crbug.com/312978)\]

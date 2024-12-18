@@ -12,7 +12,7 @@ title: SameSite Updates
             tips](/updates/same-site/test-debug).
 *   **Adding \`SameSite=None; Secure\` to your cookies?** Check the list
             of [incompatible
-            clients](https://chromium.org/updates/same-site/incompatible-clients)
+            clients](https://www.chromium.org/updates/same-site/incompatible-clients)
             here.
 *   **Check the list of [Frequently Asked Questions
             (FAQ)](/updates/same-site/faq)** for common scenarios and use cases.
@@ -140,27 +140,27 @@ new SameSite behavior will not affect Chrome on iOS.
 **All updates:**
 
 *   [Mar 18,
-            2021](https://chromium.org/updates/same-site?pli=1#20210318)
-*   [Jan 8, 2021](https://chromium.org/updates/same-site?pli=1#20210108)
+            2021](https://www.chromium.org/updates/same-site?pli=1#20210318)
+*   [Jan 8, 2021](https://www.chromium.org/updates/same-site?pli=1#20210108)
 *   [Aug 11,
-            2020](https://chromium.org/updates/same-site?pli=1#20200811)
+            2020](https://www.chromium.org/updates/same-site?pli=1#20200811)
 *   [July 28,
-            2020](https://chromium.org/updates/same-site?pli=1#20200728)
+            2020](https://www.chromium.org/updates/same-site?pli=1#20200728)
 *   [July 14,
-            2020](https://chromium.org/updates/same-site?pli=1#20200714)
+            2020](https://www.chromium.org/updates/same-site?pli=1#20200714)
 *   [May 28,
-            2020](https://chromium.org/updates/same-site?pli=1#20200528)
+            2020](https://www.chromium.org/updates/same-site?pli=1#20200528)
 *   [April 3,
-            2020](https://chromium.org/updates/same-site?pli=1#20200403)
+            2020](https://www.chromium.org/updates/same-site?pli=1#20200403)
 *   [Feb 10,
-            2020](https://chromium.org/updates/same-site?pli=1#20200210)
+            2020](https://www.chromium.org/updates/same-site?pli=1#20200210)
 *   [Nov 21,
-            2019](https://chromium.org/updates/same-site?pli=1#20191121)
-*   [Nov 1, 2019](https://chromium.org/updates/same-site?pli=1#20191101)
-*   [Oct 2, 2019](https://chromium.org/updates/same-site?pli=1#20191002)
+            2019](https://www.chromium.org/updates/same-site?pli=1#20191121)
+*   [Nov 1, 2019](https://www.chromium.org/updates/same-site?pli=1#20191101)
+*   [Oct 2, 2019](https://www.chromium.org/updates/same-site?pli=1#20191002)
 *   [Sept 30, 2019](#20190930)
 *   [Sept 26,
-            2019](https://chromium.org/updates/same-site?pli=1#20190926)
+            2019](https://www.chromium.org/updates/same-site?pli=1#20190926)
 
 **Mar 18, 2021**
 

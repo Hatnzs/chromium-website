@@ -244,7 +244,7 @@ other projects, its ebuild only needs to fetch and install the package files to
     inherit cros-workon cros-go
 
     DESCRIPTION="Go support for Chromium OS Seccomp-BPF policy files"
-    HOMEPAGE="https://chromium.org/chromium-os/developer-guide/chromium-os-sandboxing"
+    HOMEPAGE="https://www.chromium.org/chromium-os/developer-guide/chromium-os-sandboxing"
 
     LICENSE="BSD-Google"
     SLOT="0"
