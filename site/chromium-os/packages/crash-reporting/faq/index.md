@@ -199,7 +199,7 @@ For official builds, minidumps are written to
 `/run/daemon-store/crash/<user-hash>` directories, which are only mounted when
 the corresponding user is logged in. cryptohome unmounts the home directory if
 chrome crashes immediately after login and leaves crash dump.
-<http://crbug.com/857317>. You can use the cryptohome command to mount and
+<https://crbug.com/857317>. You can use the cryptohome command to mount and
 decrypt home directories:
 
 ```none

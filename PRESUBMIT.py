@@ -145,10 +145,12 @@ _MD_HOST_ALIASES = {
 
 # These hosts should always use https://
 # This isn't an exhaustive list, just hosts we commonly refer to.
-# TODO(vapier): Require https:// on all hosts by default, and require any actual http:// hosts
-# be enumerated below.  This requires a large cleanup of existing docs first.
+# TODO(vapier): Require https:// on all hosts by default, and require any
+# actual http:// hosts be enumerated below.  This requires a large cleanup
+# of existing docs first.
 _MD_HTTPS_HOSTS = {
     # keep-sorted start
+    'crbug.com',
     'youtu.be',
     'youtube.com',
     # keep-sorted end

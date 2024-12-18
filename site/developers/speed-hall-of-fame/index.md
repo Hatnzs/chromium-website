@@ -23,7 +23,7 @@ This week, we highlight the performance sheriffing process working as it should
 due to reliability improvements. A few weeks ago, Joshua Bell landed a [patch
 impacting IndexedDB](http://f27dd1d7e9322388546c613cfed39bafda153859/). The
 performance sheriff Oystein Eftevaag filed a [bug for an IndexedDB
-regression](http://crbug.com/454622) and the autobisect bot submitted a bisect
+regression](https://crbug.com/454622) and the autobisect bot submitted a bisect
 job on his behalf. It returned with high confidence that Joshua's patch was to
 blame. While the regression was unexpected, Joshua investigated, determined it
 was his patch, and then posted a [fix that resolved the performance

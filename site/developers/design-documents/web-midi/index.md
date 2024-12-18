@@ -32,7 +32,7 @@ title: Web MIDI
     *   See [Prefer Secure Origins For Powerful New
                 Features](/Home/chromium-security/prefer-secure-origins-for-powerful-new-features)
 *   sysex is not available from Chrome Apps
-            ([crbug.com/266338](http://crbug.com/266338))
+            ([crbug.com/266338](https://crbug.com/266338))
 
 ## Web MIDI content layer - Design overview
 

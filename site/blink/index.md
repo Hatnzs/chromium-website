@@ -44,7 +44,7 @@ areas where developer discussions take place:
 
 We use Chromium's [issue
 tracker](https://bugs.chromium.org/p/chromium/issues/list) (aka
-[crbug.com](http://crbug.com)). Web Platform issues live under components in
+[crbug.com](https://crbug.com)). Web Platform issues live under components in
 [Blink](https://bugs.chromium.org/p/chromium/issues/list?q=component%3Ablink&can=2)
 and
 [Internals](https://bugs.chromium.org/p/chromium/issues/list?q=component%3Ainternals&can=2).

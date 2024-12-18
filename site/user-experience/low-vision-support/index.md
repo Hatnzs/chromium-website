@@ -59,7 +59,7 @@ for:
 To access these settings, open the Google Chrome Options, select the Under the
 Hood tab and click the Fonts and Languages button. The dialog that opens allows
 you to adjust your font settings (note: there is an open bug
-([1040](http://crbug.com/1040)) to allow these settings to override fonts
+([1040](https://crbug.com/1040)) to allow these settings to override fonts
 specified in web pages).
 
 [<img alt="image"

@@ -35,7 +35,7 @@ level in many popular browsers.
 
 ### File Bugs
 
-Go to <http://crbug.com/new> and include "service worker" in the summary. You
+Go to <https://crbug.com/new> and include "service worker" in the summary. You
 should get a response from an engineer in about one week.
 
 If the browser **crashed** while you were doing Service Worker development, go

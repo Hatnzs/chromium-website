@@ -21,7 +21,7 @@ intelligently handled in the HTML5 fullscreen case.
 
 Side note: Later on, we seek to improve the fullscreen UX further by introducing
 a new "Fullscreen in Tab" concept for tab capture/screencasting
-(<http://crbug.com/256870>). While a user is "casting," fullscreen content is
+(<https://crbug.com/256870>). While a user is "casting," fullscreen content is
 being displayed on a remote screen. Therefore, the local screen should be usable
 for other tabs or applications. The changes proposed in this document are a
 necessary prerequisite for this.

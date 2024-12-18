@@ -107,7 +107,7 @@ list!**
 
 > #### MemoryPressureListener
 
-> Implemented <http://crbug.com/246125> to replace Memory Purger.
+> Implemented <https://crbug.com/246125> to replace Memory Purger.
 
 ### Real-world Data Collection
 
@@ -208,7 +208,7 @@ reference and else. We have some existing leak finding tools like Massif (in
 
 > #### Memory Purger
 
-> To be removed: discussed in <http://crbug.com/98238>.
+> To be removed: discussed in <https://crbug.com/98238>.
 
 ### [DevTools](https://developers.google.com/chrome-developer-tools/): for Web-application side
 

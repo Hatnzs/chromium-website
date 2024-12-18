@@ -229,7 +229,7 @@ should see your policies listed in that page and their corresponding values.
 
 *   If the policy is present and its value is shown too but it doesn't
             seem to work then this might be a new bug. Please file a new report
-            at [crbug.com](http://crbug.com) with the Enterprise template.
+            at [crbug.com](https://crbug.com) with the Enterprise template.
 *   If the policy is present but the value is invalid then there is a
             problem in the JSON configuration.
 *   If the policy is not present then it wasn't found by Chrome.

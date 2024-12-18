@@ -786,6 +786,6 @@ Fix to run-suite page to only show compatible build target or model selection. -
 Fix so that OAuth credentials are refreshed on configuration changes. -
 <https://crbug.com/1136552>
 
-Fix for issue with remote commands not firing. **- <http://crbug.com/1140613>**
+Fix for issue with remote commands not firing. **- <https://crbug.com/1140613>**
 
 ## [OS Recovery Image](https://storage.googleapis.com/moblab-recovery-images/chromeos_13421.72.0_fizz-moblab_recovery_stable-channel_mp.bin.zip)

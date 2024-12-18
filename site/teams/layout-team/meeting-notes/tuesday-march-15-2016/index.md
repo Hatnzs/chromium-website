@@ -28,9 +28,9 @@ There are a number of new regressions and release blockers that I'm
 working to burn down. The bug that keeps on giving.
 - Almost done with percentage children, patch out for review.
 CSS Grid Layout (svillar, jfernandez, rego, javif)
-\[[crbug.com/79180](http://crbug.com/79180)\]
+\[[crbug.com/79180](https://crbug.com/79180)\]
 - See mail to blink-dev for an update on Grid -
-CSS Multi-column (mstensho) \[[crbug.com/334335](http://crbug.com/334335)\]
+CSS Multi-column (mstensho) \[[crbug.com/334335](https://crbug.com/334335)\]
 - No update since last week -
 CSS Houdini
 - Devtools for main thread worklets. (ikilpatrick)
@@ -41,12 +41,12 @@ review. (ikilpatrick)
 - Might get to the Paint API class/instance management CL. (ikilpatrick)
 - Started making progress on resize observer. (atotic)
 Add API for layout (leviw, pilgrim, dgrogan)
-\[[crbug.com/495288](http://crbug.com/495288)\]
+\[[crbug.com/495288](https://crbug.com/495288)\]
 - Layout API skeleton is done, looks like a bigger project than we
 thought. LayoutView alone has over 100 references that need
 converting. Have started migrating first HTML element class to serve
 as a template for future work. (pilgrim)
-LayoutNG \[[crbug.com/591099](http://crbug.com/591099)\]
+LayoutNG \[[crbug.com/591099](https://crbug.com/591099)\]
 - We're doing a prototype for layoutNG inside of out current layout
 engine. Part of the motivation here is to address big architectural
 issues in the layout engine itself and part of it is to support the
@@ -66,10 +66,10 @@ rest of the week, should have data to share by the end of the week.
 Work is on a [chromium.org](https://www.chromium.org/) experimental branch, see bug
 for URI.
 (leviw, dgrogan, ikilpatrick, shanestephens)
-CSS Containment (leviw) \[[crbug.com/312978](http://crbug.com/312978)\]
+CSS Containment (leviw) \[[crbug.com/312978](https://crbug.com/312978)\]
 - No update since last week -
 Intersection Observer (szager, mpb)
-\[[crbug.com/540528](http://crbug.com/540528)\]
+\[[crbug.com/540528](https://crbug.com/540528)\]
 - Intersection observer work is dragging on for much longer than
 originally anticipated. Got a bunch of feedback on the intent to ship
 that will be incorporated into the feature before shipping. (szager)

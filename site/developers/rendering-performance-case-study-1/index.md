@@ -236,7 +236,7 @@ one hand it’s an application bug, in the sense that it could technically be
 worked around, but on the other hand Chrome could be made smarter not to
 invalidate these layers (especially those that are just reparented). Enabling
 Ganesh on this page will also make those invalidations much less painful.
-Speculatively file [crbug.com/412551](http://crbug.com/412551) for the
+Speculatively file [crbug.com/412551](https://crbug.com/412551) for the
 reparenting-of-existing-layers question.
 
 Symptom: Slow, unresponsive comment display on articles
@@ -277,7 +277,7 @@ for an interesting discussion; the ambitious might consider filing a bug here.
 
 More obviously problematic is the huge style recalculation block that comes
 afterward, which weighs in around half a second. This is worth a bug so at least
-the pattern is understood: [crbug.com/412558](http://crbug.com/412558).
+the pattern is understood: [crbug.com/412558](https://crbug.com/412558).
 
 ## Conclusion
 

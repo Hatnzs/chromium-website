@@ -215,7 +215,7 @@ draft](http://dev.w3.org/2006/webapi/XMLHttpRequest-2/#dom-xmlhttprequest-send)
 
 Dev Contact: Eric Uhrhane (ericu)
 
-Tickets: [crbug.com/51267](http://crbug.com/51267)
+Tickets: [crbug.com/51267](https://crbug.com/51267)
 
 #### XHR supports xhr.send(FormData)
 
@@ -242,7 +242,7 @@ error when `.responseType` is set.
 
 Spec: [w3 draft](http://dev.w3.org/2006/webapi/XMLHttpRequest-2/#xmlhttprequest)
 
-Tickets: [crbug.com/52486](http://crbug.com/52486) (arraybuffer works, blob does
+Tickets: [crbug.com/52486](https://crbug.com/52486) (arraybuffer works, blob does
 not)
 
 Dev Contact: Michael Nordman (michaeln)
@@ -274,7 +274,7 @@ Also can register 'online' and 'offline' event handlers.
 
 Availability: m14
 
-Tickets: [~~crbug.com/7469~~](http://crbug.com/7469)
+Tickets: [~~crbug.com/7469~~](https://crbug.com/7469)
 
 Notes: <https://developer.mozilla.org/en/Online_and_offline_events>
 
@@ -302,7 +302,7 @@ Allow specifying a directory to upload (`<input type="file" multiple
 webkitdirectory />`), which is just be an extension of existing form
 mime-multipart file upload.
 
-Availability: m8. m21 [landed](http://crbug.com/58977) dragging and dropping a
+Availability: m8. m21 [landed](https://crbug.com/58977) dragging and dropping a
 folder onto an &lt;input type="file" webkidirectory&gt; element).
 
 Demo:
@@ -699,7 +699,7 @@ Provides an API to draw 2D graphics
 
 Availability: m1, Safari, Firefox, Opera, IE9
 
-Notes: Accelerated 2D canvas [targeting](http://crbug.com/61526) m14 for
+Notes: Accelerated 2D canvas [targeting](https://crbug.com/61526) m14 for
 windows/linux; perhaps m15 for mac. Currently, available in about:flags.
 
 webp format: `canvas.toDataURL("image/webp")`
@@ -771,7 +771,7 @@ input](http://updates.html5rocks.com/2012/09/Live-Web-Audio-Input-Enabled)
 calls](https://code.google.com/p/chromium/issues/detail?id=160176) to the latest
 spec.
 
-Android availability: TBD ([issue 166003](http://crbug.com/166003))
+Android availability: TBD ([issue 166003](https://crbug.com/166003))
 
 Spec: [W3C Audio Incubator Group
 Proposal](http://chromium.googlecode.com/svn/trunk/samples/audio/specification/specification.html)
@@ -1114,7 +1114,7 @@ clearState](http://dev.w3.org/html5/spec-author-view/history.html#dom-history-pu
 methods provide applications with programmatic control over session history.
 
 Availability: m5. `history.state` was implemented in m18. popstate firing after
-page load: [crbug.com/63040](http://crbug.com/63040)
+page load: [crbug.com/63040](https://crbug.com/63040)
 
 Documentation:
 [MDN](https://developer.mozilla.org/en/DOM/Manipulating_the_browser_history)
@@ -1137,7 +1137,7 @@ Spec: [W3C Editor's
 draft](http://dvcs.w3.org/hg/webevents/raw-file/default/gamepad.html)
 Dev contact: scottmg
 
-Notes: [Chromium tracking issue](http://crbug.com/72754). Enabled in about:flags
+Notes: [Chromium tracking issue](https://crbug.com/72754). Enabled in about:flags
 
 #### Battery Status
 

@@ -54,10 +54,10 @@ title: August 2020 - Code Health, Animations, Context Menu and more!
 <td><td>liviutinta@ fixed several bugs:</td></td>
 
     <td><td>A Pointer Events tiltY reversed on Mac bug (<a
-    href="http://crbug.com/1111347">1111347</a>).</td></td>
+    href="https://crbug.com/1111347">1111347</a>).</td></td>
 
     <td><td>Fixed flaky test where pointermove on chorded mouse buttons when
-    pointer is locked (<a href="http://crbug.com/1025944">1025944</a> <a
+    pointer is locked (<a href="https://crbug.com/1025944">1025944</a> <a
     href="https://chromium-review.googlesource.com/c/chromium/src/+/2360494">CL</a>)</td></td>
 
     <td><td>Fixed 3 failing browser tests for Unified Scrolling: <a

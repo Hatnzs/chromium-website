@@ -321,7 +321,7 @@ The Platform Security team continues to make progress on sandboxing the network 
 The OffSec team finished and circulated our WebGPU analysis documents internally within Chrome, which led to ongoing engagement with graphics colleagues. We're particularly proud of two impactful engagements:
 
 *   A [fix](http://swiftshader-review.googlesource.com/c/SwiftShader/+/71928/comments/1dfa0e02_8dc3bd39?tab=comments) for SwitchShader that squashes 4 bug variants and also led to insightful discussion with graphics colleagues.
-*   Collaboration with Android and partners to verify the fix for [crbug.com/1420130](http://crbug.com/1420130) reported in Q1. 
+*   Collaboration with Android and partners to verify the fix for [crbug.com/1420130](https://crbug.com/1420130) reported in Q1. 
 
 We did several presentations about attacking Chrome, including a quick summary of our WebGPU findings for Parisa Tabriz, a Learning Lunch about fuzzing Chrome with partners at Intel, and a Mojo bug walk-through at a sandbox escape analysis session with our colleagues in the Chrome Security Architecture team. Speaking of attacking Chrome, we continue to find and report security bugs ([crbug.com/1431761](https://crbug.com/1431761) , [crbug.com/1430985](https://crbug.com/1430985), [crbug.com/1430221](https://crbug.com/1430221))  as well as landing new automation to find bugs in areas of interest, such as this protobuf-mutator [fuzzer](https://dawn-review.googlesource.com/c/dawn/+/114721) for Dawn, which landed upstream after a multi-quarter review process. Finally, we hosted the inaugural [Browser Vulnerability Research Summit](http://goo.gle/BrowserVRSummit), with much gratitude to colleagues at Google, Webkit, Microsoft and Mozilla who made it possible by participating and establishing an atmosphere of collaboration.
 
@@ -495,7 +495,7 @@ We made progress on building the foundations needed for stronger protection of c
 
 We implemented a dangling pointer detector and fixed ~150 dangling pointers in the codebase.
 
-Chrome's new Offensive Security team reported a bug in Blink's V8 bindings and then created an [exploit](http://crbug.com/1352549#c46) (bug currently restricted) for it, which was notable because it establishes new techniques to achieve code execution in the renderer sandbox. Separately in V8 land, we [delivered](https://crrev.com/c/3794525) a domain specific mitigation for a historically exploitable bug class. 
+Chrome's new Offensive Security team reported a bug in Blink's V8 bindings and then created an [exploit](https://crbug.com/1352549#c46) (bug currently restricted) for it, which was notable because it establishes new techniques to achieve code execution in the renderer sandbox. Separately in V8 land, we [delivered](https://crrev.com/c/3794525) a domain specific mitigation for a historically exploitable bug class. 
 
 We also continued our WebGPU audit that [began in Q2](https://bugs.chromium.org/u/bookholt@google.com/hotlists/ChromeOffensiveSecurity22Q2?can=1) and will extend into 2023. In addition to [reporting more security bugs](https://bugs.chromium.org/u/bookholt@google.com/hotlists/ChromeOffensiveSecurity22Q3?can=1) in Q3, we're developing multiple fuzzers and staying engaged with the WebGPU team. Google Summer of Code gave us an opportunity to host Rares Moiseanu, a talented student who helped us add new Mojo IPC fuzzers and advanced our prototype Chrome snapshot fuzzer based on Nyx. We're planning to apply snapshot fuzzing widely across Chrome, including to WebGPU. 
 
@@ -4023,7 +4023,7 @@ been helping on some security consulting for [Service
 Worker](/blink/serviceworker); kudos to the team for making changes to [handle
 plugins more
 securely](https://code.google.com/p/chromium/issues/detail?id=413094), [restrict
-usage to secure origins](http://crbug.com/394213), and for addressing some
+usage to secure origins](https://crbug.com/394213), and for addressing some
 memory caching issues. If you want to learn more about what’s going on in the
 Blink Security world, check out the
 [Blink-SecurityFeature](https://code.google.com/p/chromium/issues/list?q=label:Cr-Blink-SecurityFeature)
@@ -4587,9 +4587,9 @@ particular, we audited a bunch of IPC implementations after the
 [two](http://blog.chromium.org/2012/10/pwnium-2-results-and-wrap-up_10.html)
 [impressive](http://blog.chromium.org/2012/05/tale-of-two-pwnies-part-1.html)
 IPC-based exploits from last year - aedla found some juicy sandbox bypass
-vulnerabilities ([161564](http://crbug.com/161564),
-[162114](http://crbug.com/162114), [167840](http://crbug.com/167840),
-[169685](http://crbug.com/169685)) and cdn and cevans found / fixed a bunch of
+vulnerabilities ([161564](https://crbug.com/161564),
+[162114](https://crbug.com/162114), [167840](https://crbug.com/167840),
+[169685](https://crbug.com/169685)) and cdn and cevans found / fixed a bunch of
 other interesting memory corruption bugs
 ([169973](https://code.google.com/p/chromium/issues/detail?id=169973),
 [166708](https://code.google.com/p/chromium/issues/detail?id=166708),

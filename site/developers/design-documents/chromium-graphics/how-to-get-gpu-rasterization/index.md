@@ -51,7 +51,7 @@ settings and a device allow-list.
     *   In development (as of August 2015)
     *   We will eventually enable GPU rasterization on all platforms and
                 devices where we use the GPU for compositing. You can track
-                progress towards this goal [here](http://crbug.com/419521).
+                progress towards this goal [here](https://crbug.com/419521).
 
 To use the experimental hardware rasterizer on all pages, regardless of device
 and content: --force-gpu-rasterization or

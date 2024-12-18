@@ -12,7 +12,7 @@ title: Compositor (Touch) Hit Testing
 
 # Implementation status:
 
-# Implemented: [crbug.com/135818](http://crbug.com/135818), overhauled: [crbug.com/](http://crbug.com/248522)[248522](http://crbug.com/248522), [crbug.com/261307](http://crbug.com/261307)
+# Implemented: [crbug.com/135818](https://crbug.com/135818), overhauled: [crbug.com/](https://crbug.com/248522)[248522](https://crbug.com/248522), [crbug.com/261307](https://crbug.com/261307)
 
 **NOW Obsolete** - replaced by much more elegant [RenderingNG hit
 testing](https://docs.google.com/document/d/1WZKlOSUK4XI0Le0fgCsyUTVw0dTwutZXGWwzlHXewiU/edit#heading=h.pzukwhsoocqx)

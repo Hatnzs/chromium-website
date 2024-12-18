@@ -181,7 +181,7 @@ Running an origin trial requires the following:
                 tested even before beta (if possible).
     *   If feasible, this could include doing your own testing within
                 the developer's environment (any of test/staging/production).
-    *   For an example, see [crbug.com/709211](http://crbug.com/709211).
+    *   For an example, see [crbug.com/709211](https://crbug.com/709211).
 *   Publish a blog post on
             [developers.google.com/web/updates](http://developers.google.com/web/updates)
             about the feature when it lands beta.

@@ -43,7 +43,7 @@ GetDC(NULL) returns newly created screen DC. So, you must release it by using
 ReleaseDC. You may want to use ScopedGetDC
 (<http://codesearch.google.com/#OAMlx_jo-ck/src/base/win/scoped_hdc.h>)
 
-**I would like to draw in bitmap** (<http://crbug.com/98523>)
+**I would like to draw in bitmap** (<https://crbug.com/98523>)
 
 > In print_web_view_helper_win.cc(237)
 
@@ -73,7 +73,7 @@ ReleaseDC. You may want to use ScopedGetDC
 ### Play Enhanced Metafile Record More Than Once
 
 Oops, some devices don't support alpha blending. We should do alpha blending by
-ourselves by using bitmap DC (<http://crbug.com/98523>)
+ourselves by using bitmap DC (<https://crbug.com/98523>)
 
 Since, metafile records having GDI object creation command and stores into
 *lpHandleTable* of second parameter of **EnhMetaFileProc**.

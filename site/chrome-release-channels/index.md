@@ -173,7 +173,7 @@ Before reporting bugs, consult the following pages:
             before reporting problems in Mac or Linux Dev channel builds
 
 If after reading the above, you think you have a real bug, file it at
-<http://crbug.com/new>
+<https://crbug.com/new>
 
 ### Going back to a more stable channel
 

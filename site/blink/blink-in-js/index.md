@@ -267,7 +267,7 @@ file:
     *   **You should wait step #1 blink change is rolled into Chromium
                 rather than landed into blink repository.**
 
-Note: Due to [crbug/415908](http://crbug.com/415908), blink_resources.pak isn't
+Note: Due to [crbug/415908](https://crbug.com/415908), blink_resources.pak isn't
 rebuild when your private script file changed. You may want to remove it,
 `out/Debug/gen/blink/public/resources/blink_resources.pak`.
 

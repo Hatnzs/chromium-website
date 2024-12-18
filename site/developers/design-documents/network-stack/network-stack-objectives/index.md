@@ -62,7 +62,7 @@ title: Network Stack Objectives
             sockets (mbelshe, willchan)
 *   Finish Downloads System major refactors (dataflow, file
             determination, state granularity) (ahendrickson, rdsmith)
-*   Fix Download incorrect name problems -- see http://crbug.com/78200
+*   Fix Download incorrect name problems -- see https://crbug.com/78200
             (asanka)
 *   Fix Downloads error detection and cache interface (ahendrickson)
 *   Substantially reduce downloads crashers. Tentative Goal: halve
@@ -302,7 +302,7 @@ davidben)**
 
 **Implement HTTP pipelining (vandebo)**
 
-*   [crbug.com/8991](http://crbug.com/8991)
+*   [crbug.com/8991](https://crbug.com/8991)
 
 **WebKit/Chrome network integration (tonyg)**
 

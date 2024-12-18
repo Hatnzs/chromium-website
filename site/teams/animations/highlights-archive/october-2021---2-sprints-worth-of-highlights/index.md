@@ -129,7 +129,7 @@ title: October 2021 - 2 sprint's worth of highlights
 
 <td><td>Smooth scroll vs. JS scroll (skobes@)</td></td>
 
-<td><td>Achievements: Learned a lot about how to handle JS scrolls in the middle of a user-triggered smooth scroll (wheel, keyboard). Both the main thread and the compositor thread were handling this improperly in different ways. A <a href="http://crbug.com/1264266">new proposal</a> enables "adjustment" behavior in virtual scrollers.</td></td>
+<td><td>Achievements: Learned a lot about how to handle JS scrolls in the middle of a user-triggered smooth scroll (wheel, keyboard). Both the main thread and the compositor thread were handling this improperly in different ways. A <a href="https://crbug.com/1264266">new proposal</a> enables "adjustment" behavior in virtual scrollers.</td></td>
 
 <td><td><img alt="easeinout.png" src="https://lh4.googleusercontent.com/yGrqbqHLvUia7IuId5eOlAJfQBx_nDnxaIoHd3zkYY81tyIbm70sr05msy4z1E1VKMayvR5eN_AK49mDMAfUfmlpLmHKlgqOCYiNpw9GoSwuUkq6hmFltMGkvFXk4ybC-MZphtoMMA" height=145 width=148></td></td>
 

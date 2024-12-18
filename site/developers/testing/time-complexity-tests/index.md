@@ -13,7 +13,7 @@ title: Time Complexity Tests
 **HISTORICAL (documentation)**
 
 **Removed in [crrev.com/1149253002](http://crrev.com/1149253002)
-([crbug.com/488986](http://crbug.com/488986)).**
+([crbug.com/488986](https://crbug.com/488986)).**
 
 Time complexity tests verify the order of growth of time complexity *T*(*n*) for
 various operations, generally verifying that this is *O*(1) or *O*(*n*), rather
@@ -59,7 +59,7 @@ function testFoo(magnitude)
 {
     // ...
 }
-Magnitude.description('Verifies that fooing is linear in the number of bars. See http://crbug.com/42');
+Magnitude.description('Verifies that fooing is linear in the number of bars. See https://crbug.com/42');
 Magnitude.initialExponent = 0;
 Magnitude.numPoints = 10;
 Magnitude.trim = 1;

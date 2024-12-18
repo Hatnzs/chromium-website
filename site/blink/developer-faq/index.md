@@ -246,7 +246,7 @@ that have made Chrome the browser it is today. You should also expect improved
 transparency in Blink's development processes, so getting involved will be
 easier than ever. Please, review the [Chromium Feature
 Dashboard](http://www.chromestatus.com/features), experiment with future
-features in Dev/Canary and [file any bugs](http://crbug.com/) you find.
+features in Dev/Canary and [file any bugs](https://crbug.com/) you find.
 
 ~ FAQ authored by Paul Irish and Paul Lewis on the Chrome Developer Relations
 team

@@ -38,7 +38,7 @@ title: Test Cases
             numbers.
 6.  Please do not use this form to send us feature requests or
             information about unrelated crashes or bugs. Please file them
-            directly on <http://crbug.com> where they will be looked at along
+            directly on <https://crbug.com> where they will be looked at along
             with other bugs.
 
 ### Test cases
