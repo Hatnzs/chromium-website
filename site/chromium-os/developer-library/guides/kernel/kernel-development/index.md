@@ -1734,4 +1734,4 @@ cat $OUT
 [trace-cmd man pages]: https://man7.org/linux/man-pages/man1/trace-cmd.1.html
 [LWN trace-cmd HOWTO]: https://lwn.net/Articles/410200/
 [kernel.eclass]: https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/eclass/cros-kernel.eclass
-[KCSan]: http://issuetracker.google.com/issues/182965087
+[KCSan]: https://issuetracker.google.com/issues/182965087
