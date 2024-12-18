@@ -180,4 +180,12 @@ def CheckLinks(input_api, output_api):
             _create_result(link, 'Use www.chromium.org in links',
                            o._replace(netloc='www.chromium.org'))
 
+        # Check relative links for generated docs (under site/).
+        if o.scheme == o.netloc == '' and link.file.startswith('site/'):
+            # The /site/ prefix is removed in generated content, but works when
+            # viewing under gitiles, so sometimes people test the wrong page.
+            if o.path.startswith('/site/'):
+                _create_result(link, 'Omit the /site/ prefix in local paths',
+                               o._replace(path=o.path[5:]))
+
     return results
