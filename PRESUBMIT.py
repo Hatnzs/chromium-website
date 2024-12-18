@@ -130,6 +130,18 @@ class _MdLink(NamedTuple):
     line_num: int
 
 
+# Mapping of preferred host names.  If we find people using <key>, we'll
+# make them use <value> instead.
+_MD_HOST_ALIASES = {
+    # keep-sorted start
+    'b': 'issuetracker.google.com',
+    'chromium.org': 'www.chromium.org',
+    'dev.chromium.org': 'www.chromium.org',
+    'goto': 'go',
+    # keep-sorted end
+}
+
+
 def CheckLinks(input_api, output_api):
     """Check links used in markdown."""
     # Build up the files to analyze.
@@ -175,14 +187,11 @@ def CheckLinks(input_api, output_api):
     for link in links:
         o = urllib.parse.urlparse(link.uri)
 
-        # Check www.chromium.org aliases.
-        if o.netloc in ('chromium.org', 'dev.chromium.org'):
-            _create_result(link, 'Use www.chromium.org in links',
-                           o._replace(netloc='www.chromium.org'))
-
-        # Check go/ aliases.
-        if o.netloc == 'goto':
-            _create_result(link, 'Use go/ in links', o._replace(netloc='go'))
+        # Check host aliases.
+        for oldhost, newhost in _MD_HOST_ALIASES.items():
+            if o.netloc == oldhost:
+                _create_result(link, f'Use {newhost} in links',
+                               o._replace(netloc=newhost))
 
         # Check relative links for generated docs (under site/).
         if o.scheme == o.netloc == '' and link.file.startswith('site/'):
