@@ -245,6 +245,13 @@ def CheckLinks(input_api, output_api):
 
         # Check relative links for generated docs (under site/).
         if o.scheme == o.netloc == '' and link.file.startswith('site/'):
+            # Relative links to markdown files don't work in generated pages.
+            if (o.path.startswith('/')
+                    or o.path.startswith('.')) and o.path.endswith('.md'):
+                _create_result(
+                    link, 'Do not link directly to markdown files',
+                    o._replace(path='/'.join(o.path.split('/')[:-1])))
+
             # The /site/ prefix is removed in generated content, but works when
             # viewing under gitiles, so sometimes people test the wrong page.
             if o.path.startswith('/site/'):
