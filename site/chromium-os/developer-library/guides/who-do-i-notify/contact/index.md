@@ -62,7 +62,7 @@ nights & weekends), so please be patient when first joining.
     or JS at all).
 
 For more specific developer groups, see this page:
-https://dev.chromium.org/developers/technical-discussion-groups
+https://www.chromium.org/developers/technical-discussion-groups
 
 ## Issue tracker (bugs & features)
 
