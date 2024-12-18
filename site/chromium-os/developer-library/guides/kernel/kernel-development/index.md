@@ -1652,7 +1652,8 @@ If you have a different mail server, please contact the system administrator
 (or check some help docs related to your email service) for the correct
 settings.
 
-**NOTE**: For Googlers, note that [DMARC](http://b/14415867) restrictions
+**NOTE**: For Googlers, note that
+[DMARC](https://issuetracker.google.com/14415867) restrictions
 prevent usage of your @google.com email address. Use http://go/chromium-account
 to obtain an @chromium.org address.
 

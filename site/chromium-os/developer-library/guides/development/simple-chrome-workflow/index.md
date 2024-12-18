@@ -80,8 +80,8 @@ is mostly community-supported. In practice, however, the two flows are mostly
 identical under the hood. So if one works, the other is likely to as well.
 
 The shell-less flow currently [does not handle custom
-toolchains](http://b//187793436) thus you should use the traditional flow
-if you need custom toolchains.
+toolchains](https://issuetracker.google.com/187793436) thus you should use the
+traditional flow if you need custom toolchains.
 
 ### Shell-less flow
 
