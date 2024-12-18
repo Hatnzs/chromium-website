@@ -180,6 +180,10 @@ def CheckLinks(input_api, output_api):
             _create_result(link, 'Use www.chromium.org in links',
                            o._replace(netloc='www.chromium.org'))
 
+        # Check go/ aliases.
+        if o.netloc == 'goto':
+            _create_result(link, 'Use go/ in links', o._replace(netloc='go'))
+
         # Check relative links for generated docs (under site/).
         if o.scheme == o.netloc == '' and link.file.startswith('site/'):
             # The /site/ prefix is removed in generated content, but works when
