@@ -36,7 +36,7 @@ process. But this process will be kicked off from the same process as above! (*)
 ## How does the Chrome security review process work?
 
 The whole process is detailed here:
-[go/chrome-security-reviews-process](https://go/chrome-security-reviews-process)
+[go/chrome-security-reviews-process](http://go/chrome-security-reviews-process)
 (Google-internal, sorry).
 
 #### Informal pre-review consultation (optional):
