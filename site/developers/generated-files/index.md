@@ -48,7 +48,7 @@ build won't function properly (it will rebuild excessively). One case of this
 are byte-compiled Python files (`.pyc`), which are implicitly generated on
 import: if you generate Python files, you must *also* list the .pyc files in the
 outputs. See Bug [397909](https://crbug.com/397909) and CL
-[463063003](http://crrev.com/463063003).
+[463063003](https://crrev.com/463063003).
 
 ## Clobber build
 

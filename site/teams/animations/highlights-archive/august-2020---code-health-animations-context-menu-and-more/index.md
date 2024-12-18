@@ -121,7 +121,7 @@ title: August 2020 - Code Health, Animations, Context Menu and more!
     href="https://groups.google.com/a/chromium.org/forum/?utm_medium=email&utm_source=footer#!msg/blink-dev/ZRI-7X_4GwM/Sp1ZMIw5AgAJ">Intent
     to Ship</a></td></td>
 
-    <td><td>Landed <a href="http://crrev.com/c/2343385">CL</a> to enable the
+    <td><td>Landed <a href="https://crrev.com/c/2343385">CL</a> to enable the
     feature flag by default</td></td>
 
     <td><td>No feedback yet from <a

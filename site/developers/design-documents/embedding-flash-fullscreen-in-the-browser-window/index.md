@@ -195,10 +195,10 @@ true for the Chromium browser on supported platforms.
 
 # Work Plan
 
-Prototyping/Feasibility of Design: Completed (<http://crrev.com/23656002>).
+Prototyping/Feasibility of Design: Completed (<https://crrev.com/23656002>).
 
 Implementation for Aura, Windows and Mac; disabled by default, behind feature
-flag: M31 (<http://crrev.com/23477051>).
+flag: M31 (<https://crrev.com/23477051>).
 
 Implementation for GTK: M32 (with M31 as a stretch goal).
 

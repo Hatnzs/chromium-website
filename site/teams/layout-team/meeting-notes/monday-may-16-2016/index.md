@@ -15,7 +15,7 @@ Scrolling
 - Wrapping up overflow: auto work. Split up into three separate patches,
 first one landed last week and fixes scrollbars in general in the
 presence of "interesting" flex direction, writing mode and text
-direction combinations. \[[crrev.com/392981](http://crrev.com/392981)\] (szager)
+direction combinations. \[[crrev.com/392981](https://crrev.com/392981)\] (szager)
 - The second patch (wip) overhauls how the flex algorithm handles
 overflow: auto scrollbars. It basically makes it much clearer and
 reduces unnecessary work that flex algorithm has to do to handle the

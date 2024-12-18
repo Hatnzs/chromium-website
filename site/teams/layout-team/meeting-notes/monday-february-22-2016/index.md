@@ -34,7 +34,7 @@ CSS Grid Layout (svillar, jfernandez, rego, javif)
 - No update since last week -
 CSS Multi-column (mstensho) \[[crbug.com/334335](https://crbug.com/334335)\]
 - Multi column properties unprefixed! Congrats!
-\[[crrev.com/376249](http://crrev.com/376249)\]
+\[[crrev.com/376249](https://crrev.com/376249)\]
 - Added partial support for modern breaking properties. Work on these
 continues.
 CSS Houdini (ikilpatrick)

@@ -12,7 +12,7 @@ title: Time Complexity Tests
 
 **HISTORICAL (documentation)**
 
-**Removed in [crrev.com/1149253002](http://crrev.com/1149253002)
+**Removed in [crrev.com/1149253002](https://crrev.com/1149253002)
 ([crbug.com/488986](https://crbug.com/488986)).**
 
 Time complexity tests verify the order of growth of time complexity *T*(*n*) for

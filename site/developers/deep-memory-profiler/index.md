@@ -579,4 +579,4 @@ It classifies memory blocks based on their type_info.
 
 ## Cases
 
-*   <http://crrev.com/166963>
+*   <https://crrev.com/166963>
