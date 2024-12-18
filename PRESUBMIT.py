@@ -141,6 +141,14 @@ _MD_HOST_ALIASES = {
     # keep-sorted end
 }
 
+# These hosts should always use http://
+_MD_HTTP_HOSTS = {
+    # keep-sorted start
+    'g',
+    'go',
+    # keep-sorted end
+}
+
 
 def CheckLinks(input_api, output_api):
     """Check links used in markdown."""
@@ -186,6 +194,11 @@ def CheckLinks(input_api, output_api):
 
     for link in links:
         o = urllib.parse.urlparse(link.uri)
+
+        # Check bad https:// usage.
+        if o.scheme == 'https' and o.netloc in _MD_HTTP_HOSTS:
+            _create_result(link, 'Always use http:// with this host',
+                           o._replace(scheme='http'))
 
         # Check host aliases.
         for oldhost, newhost in _MD_HOST_ALIASES.items():
