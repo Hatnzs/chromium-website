@@ -232,6 +232,15 @@ def CheckLinks(input_api, output_api):
                 _create_result(link, f'Use {newhost} in links',
                                o._replace(netloc=newhost))
 
+        # Have people use relative /foo/bar links instead of
+        # https//www.chromium.org/foo/bar so we can check target links, and so
+        # navigating via the sandbox website works correctly.
+        if (link.relative_ok and o.netloc == 'www.chromium.org'
+                and link.file.startswith('site/')):
+            _create_result(
+                link, 'Use local paths instead of www.chromium.org in links',
+                o._replace(scheme='', netloc='', path=o.path or '/'))
+
         # Check relative links for generated docs (under site/).
         if o.scheme == o.netloc == '' and link.file.startswith('site/'):
             # The /site/ prefix is removed in generated content, but works when
