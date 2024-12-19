@@ -24,7 +24,7 @@ for maximal review speed, please cross-link the reviews so each reviewer can con
 each other (which will also ensure you get consistent and cohesive answers.)
 
 - For changes to web APIs, you'll likely want the
-[Blink intents process](https://www.chromium.org/blink/launching-features/) (Note, as of
+[Blink intents process](/blink/launching-features/) (Note, as of
 August 2024, there are plans to better synchronize this with the Chrome Browser review
 in the coming months!)
 - For changes to Chrome application features, or any other

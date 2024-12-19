@@ -19,7 +19,7 @@ to NaCl module developers.
 ### Chrome
 
 Chrome is a
-[multi-process](http://www.chromium.org/developers/design-documents/multi-process-architecture)
+[multi-process](/developers/design-documents/multi-process-architecture)
 browser. It uses multiple processes to provide increased security comparing to
 other single-process browsers like Firefox.
 The main process is called "browser". It runs the UI (including the
@@ -32,7 +32,7 @@ the bitmap for displaying the page. It runs in a sandbox (known as Chrome or
 outer sandbox) and has limited access permissions. It cannot open files or
 network connections and can only respond to communication requests by the
 browser. Communication is done via a combination of
-[IPC](http://www.chromium.org/developers/design-documents/inter-process-communication)
+[IPC](/developers/design-documents/inter-process-communication)
 techniques. Using sandboxed renderers ensures that if one tab misbehaves or
 crashes, the rest of the tabs and the browser are isolated. It also limits the
 ability of malicious software running in one tab from accessing activity in
@@ -50,12 +50,12 @@ Reader](https://en.wikipedia.org/wiki/Acrobat_reader) and
 In general, existing plugins cannot be sandboxed like the render process because
 they rely on file system and network access as well as use of native fonts.
 Therefore, Chrome supports [out of process
-plugins](http://www.chromium.org/developers/design-documents/plugin-architecture)
+plugins](/developers/design-documents/plugin-architecture)
 that run in a separate process with full privileges (i.e. no sandbox) and
 communicate with the renderer and browser via
-[IPC](http://www.chromium.org/developers/design-documents/inter-process-communication).
+[IPC](/developers/design-documents/inter-process-communication).
 Chrome also supports [in process
-plugins](http://www.chromium.org/developers/design-documents/plugin-architecture).
+plugins](/developers/design-documents/plugin-architecture).
 They run within a render process and can use faster direct access for
 communication. They have also been used as an integration mechanism for adding
 new statically linked functionality to the browser.

@@ -86,7 +86,7 @@ meaning to an existing string will trigger a retranslation.
 
 Note: String token names must start with `IDS_`. For guidance on writing useful
 descriptions and meanings, see
-[here](https://www.chromium.org/developers/design-documents/ui-localization/#give-context-to-translators).
+[here](/developers/design-documents/ui-localization/#give-context-to-translators).
 Additionally, you can always reach out to the UX writers for any guidance with
 writing descriptions and meanings.
 
@@ -251,7 +251,7 @@ go/cr-strings-process.
 
 ## Other Resources
 
--   [Adding a new .grd(p) file](https://www.chromium.org/developers/design-documents/ui-localization/#add-a-new-grdp-file):
+-   [Adding a new .grd(p) file](/developers/design-documents/ui-localization/#add-a-new-grdp-file):
     should rarely be done.
 -   go/chrome-translation-process: More detailed look of the internals of how
     strings are translated/localized.

@@ -15,7 +15,7 @@ title: Autotest client tests
 *   [Autotest Coding Style
             Guide](http://git.chromium.org/gitweb/?p=chromiumos/third_party/autotest.git;a=blob;f=CODING_STYLE;h=777cc1de3e409a69581ae44a9432d8634dc114e6;hb=HEAD)
 *   [Writing
-            Autotests](http://www.chromium.org/chromium-os/testing/autotest-developer-faq#TOC-Writing-Autotests)
+            Autotests](/chromium-os/testing/autotest-developer-faq#TOC-Writing-Autotests)
 *   [Dynamic Suites Codelab](dynamic-suite-codelab)
 *   [Server Side Autotests Codelab](server-side-test)
 *   [Result logs](autotest-results-logs)
@@ -106,7 +106,7 @@ In this codelab, we will:
 
 First, get the autotest source:
 
-a. If you [Got the Code](http://www.chromium.org/chromium-os/developer-guide),
+a. If you [Got the Code](/chromium-os/developer-guide),
 you already have autotest.
 
 b. If you do not wish to sync the entire source and reimage a device, you can
@@ -134,7 +134,7 @@ run tests in a vm.
         ```
 
 *   [Get a
-            VM](http://www.chromium.org/running-smoke-suite-on-a-vm-image):
+            VM](/running-smoke-suite-on-a-vm-image):
     *   The unzipped folder from 2.b should contain a VM.
 
         ```none
@@ -147,7 +147,7 @@ apt-get install cpu-checker’ first). It will either say /dev/kvm exists and kv
 acceleration can be used or that /dev/kvm doesn’t and kvm acceleration can NOT
 be used. In the latter case, hit esc on boot and go to ‘system security:’, turn
 on virtualization. More information about running tests on a vm can be found
-[here](http://www.chromium.org/running-smoke-suite-on-a-vm-image).
+[here](/running-smoke-suite-on-a-vm-image).
 
 Once you have autotest, there are 2 ways to run tests, either using your machine
 as a server or from the client DUT. Running it directly on the device is faster,
@@ -374,7 +374,7 @@ from autotest_lib.client.<dir> import <module>
 ```
 
 You might also benefit from reading how the framework [makes
-autotest_lib](http://www.chromium.org/chromium-os/testing/autotest-developer-faq#TOC-Writing-Autotests)
+autotest_lib](/chromium-os/testing/autotest-developer-faq#TOC-Writing-Autotests)
 available for you.
 
 kernel_HdParmBasic Needs test.test, so it needs to import test from client/bin.
@@ -435,7 +435,7 @@ class kernel_HdParmBasic(test.test):
 ```
 
 Note the use of [performance
-keyvals](http://www.chromium.org/chromium-os/testing/autotest-developer-faq#TOC-How-do-I-write-a-performance-test-)
+keyvals](/chromium-os/testing/autotest-developer-faq#TOC-How-do-I-write-a-performance-test-)
 instead of plain logging statements. The keyvals are written to
 `/usr/local/autotest/results/default/kernel_HdParmBasic/results/keyval `on the
 client and will be reported on your console when run through run_remote_tests:

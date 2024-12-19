@@ -20,7 +20,7 @@ This page provides developer-related information for Chrome devices. These are
 systems that *shipped from the factory* with Google ChromeOS on them. For
 details about Google ChromeOS and how it differs from ChromiumOS, see the
 [note in the FAQ about Google Chrome
-OS](https://www.chromium.org/chromium-os/developer-library/reference/development/chromium-os-faq/#whats-the-difference-between-chromiumos-and-google-chromeos).
+OS](/chromium-os/developer-library/reference/development/chromium-os-faq/#whats-the-difference-between-chromiumos-and-google-chromeos).
 ChromeOS devices typically require special setup in order to be used for
 ChromiumOS development.
 

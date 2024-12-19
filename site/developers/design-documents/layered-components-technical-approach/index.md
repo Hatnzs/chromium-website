@@ -9,7 +9,7 @@ title: 'Layered Components: Technical Approach'
 ---
 
 This document assumes that the reader has read the [high-level
-design](http://www.chromium.org/developers/design-documents/layered-components-design)
+design](/developers/design-documents/layered-components-design)
 of layered components, and presents strategies for realizing that design.
 
 # Choosing Features to Refactor

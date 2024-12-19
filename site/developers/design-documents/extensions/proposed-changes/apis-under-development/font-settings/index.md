@@ -94,7 +94,7 @@ using your API that would not be reversed when that consumer is removed from the
 system?
 
 No. It just uses the standard [extension-controlled
-preferences](http://www.chromium.org/developers/design-documents/preferences#TOC-Extension-Controlled-Preferences)
+preferences](/developers/design-documents/preferences#TOC-Extension-Controlled-Preferences)
 feature which handles cleanup when the extension is uninstalled.
 
 How would you implement your desired features if this API didn't exist?

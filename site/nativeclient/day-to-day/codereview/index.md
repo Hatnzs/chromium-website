@@ -51,8 +51,7 @@ Explicitly reply to comments in Rietveld.
 ## Code reviewers
 
 Ensure
-1) The CL conforms to the [NaCl coding
-conventions](http://www.chromium.org/nativeclient/styleguide).
+1) The CL conforms to the [NaCl coding conventions](/nativeclient/styleguide).
 2) The CL passed the trybots.
 3) The CL follows the designated author tasks above.
 4) You understand what the CL is doing and believe it is doing it correctly.

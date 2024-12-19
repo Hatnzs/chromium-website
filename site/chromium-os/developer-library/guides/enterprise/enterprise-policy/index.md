@@ -38,7 +38,7 @@ To test an enterprise policy on ChromeOS quickly--without needing to set up a
 policy test server (see
 [add_new_policy.md](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/enterprise/add_new_policy.md))--
 we can simply add a file to the DUT (see also
-[linux-quick-start](https://www.chromium.org/administrators/linux-quick-start)).
+[linux-quick-start](/administrators/linux-quick-start)).
 For example, to set the `NearbyShareAllowed` policy value,
 
 1.  ssh into your DUT,
@@ -52,7 +52,7 @@ No special account is required on the DUT to perform this testing.
 
 [^1]: For unofficial Chromium builds, this might need to be
     `/etc/chromium/policies/managed/test_policy.json`. See
-    [linux-quick-start](https://www.chromium.org/administrators/linux-quick-start).
+    [linux-quick-start](/administrators/linux-quick-start).
 
 ## Using the Enterprise Policies Admin Panel
 

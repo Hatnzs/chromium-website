@@ -14,7 +14,7 @@ Most websites on mobile devices are painfully janky. The problems are obvious
 and everywhere, but it can be challenging to isolate janky behavior and
 understand its cause. This sort of performance investigation is not a very
 widely known practice, and often involves advanced tools such as Chrome’s
-[tracing](http://www.chromium.org/developers/how-tos/trace-event-profiling-tool).
+[tracing](/developers/how-tos/trace-event-profiling-tool).
 This article seeks to provide an example of jank identification and triage.
 
 There’s very little explaining the “why” of anything here, just examples of jank

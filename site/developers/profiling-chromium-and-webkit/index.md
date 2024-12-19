@@ -10,7 +10,7 @@ There are a few ways to profile Chromium and Blink. Here are some of the tools
 that work well for diagnosing performance problems.
 
 See also the [Deep memory
-profiler](http://www.chromium.org/developers/deep-memory-profiler).
+profiler](/developers/deep-memory-profiler).
 
 ## Built-In Tools
 

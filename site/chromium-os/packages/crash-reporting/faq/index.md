@@ -31,7 +31,7 @@ minidump to a core file. You can build it in a Chrome checkout with
 checkout with `sudo emerge google-breakpad`.
 
 Once you have `minidump-2-core`, you can look at section [Use gdb to show a
-backtrace](http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/crash-reporting/debugging-a-minidump#TOC-Use-gdb-to-show-a-backtrace)
+backtrace](/chromium-os/packages/crash-reporting/debugging-a-minidump/#use-gdb-to-show-a-backtrace)
 of the [Debugging a Minidump
 File](/chromium-os/packages/crash-reporting/debugging-a-minidump) guide. This is
 my collection of instructions for how I've made use of `gdb` given a minidump
@@ -237,7 +237,7 @@ No. When a system is running out of memory, the kernel will invoke its OOM
 killer to kill some process with the hopes that it will free up enough memory.
 On Chrome OS the killed process should always be one of Chrome's, because we
 make all others unkillable. Search for "init on ChromeOS" in [Out of memory
-handling](http://www.chromium.org/chromium-os/chromiumos-design-docs/out-of-memory-handling)
+handling](/chromium-os/chromiumos-design-docs/out-of-memory-handling)
 to see which processes should be killed first.
 
 When the OOM killer runs, you should see a message like the following in the
@@ -262,7 +262,7 @@ called by the kernel.
 
 There's been talk about handling this within Chrome by having a soft memory
 limit. See [Out of memory
-handling](http://www.chromium.org/chromium-os/chromiumos-design-docs/out-of-memory-handling)
+handling](/chromium-os/chromiumos-design-docs/out-of-memory-handling)
 for the design doc. Otherwise, I imagine we could modify the kernel to do
 something smarter than a SIGKILL. A simpler solution would be to have something
 monitor the system logs, and simply report the OOM killing (at least with an UMA

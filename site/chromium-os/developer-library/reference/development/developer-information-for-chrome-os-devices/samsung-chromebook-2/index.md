@@ -17,7 +17,7 @@ This page contains information about the [Samsung Chromebook
 interesting and/or useful to software developers. For general information about
 getting started with developing on ChromiumOS (the open-source version of the
 software on the Chrome Notebook), see the [ChromiumOS Developer
-Guide](http://www.chromium.org/chromium-os/developer-guide).
+Guide](/chromium-os/developer-guide).
 
 ## Specifications
 

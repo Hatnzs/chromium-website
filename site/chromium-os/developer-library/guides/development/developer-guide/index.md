@@ -796,7 +796,7 @@ HARD DISK CLEAN**.
 
 Many times it is easier to simply run ChromiumOS in a virtual machine like QEMU.
 You can use the
-[cros_vm](https://www.chromium.org/chromium-os/developer-library/guides/containers/cros-vm)
+[cros_vm](/chromium-os/developer-library/guides/containers/cros-vm)
 command to start a VM with the previously built image.
 
 When you start the VM, `cros_vm` will print out information about how to connect
@@ -2270,10 +2270,10 @@ Below are a few links to external sites that you might also find helpful
 [install depot_tools]: https://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up
 [Sync to Green]: #Sync-to-Green
 [Making sudo a little more permissive]: /chromium-os/developer-library/guides/recipes/tips-and-tricks/#how-to-make-sudo-a-little-more-permissive
-[Gerrit guide]: https://www.chromium.org/chromium-os/developer-guide/gerrit-guide
+[Gerrit guide]: /chromium-os/developer-guide/gerrit-guide
 [repo]: https://code.google.com/p/git-repo/
 [git]: https://git-scm.com/
-[API Keys]: https://www.chromium.org/developers/how-tos/api-keys
+[API Keys]: /developers/how-tos/api-keys
 [working on a branch page]: /chromium-os/developer-library/guides/development/work-on-branch/
 [chroot]: https://en.wikipedia.org/wiki/Chroot
 [gsutil]: /chromium-os/developer-library/reference/tools/gsutil/
@@ -2292,10 +2292,10 @@ Below are a few links to external sites that you might also find helpful
 [cros deploy]: /chromium-os/developer-library/reference/tools/cros-deploy/
 [Create a branch for your changes]: #Create-a-branch-for-your-changes
 [chromeos-uprev-tester]: /chromium-os/developer-library/guides/development/simple-chrome-workflow/#testing-a-chromium-cl-remotely-on-cros-cq
-[Remote Debugging in ChromiumOS]: https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/remote-debugging
+[Remote Debugging in ChromiumOS]: /chromium-os/how-tos-and-troubleshooting/remote-debugging
 [cgdb]: https://cgdb.github.io/
 [crbug.com/new]: https://crbug.com/new
-[Simple Chrome Workflow]: https://www.chromium.org/chromium-os/developer-library/guides/development/simple-chrome-workflow
+[Simple Chrome Workflow]: /chromium-os/developer-library/guides/development/simple-chrome-workflow
 [Tast]: https://chromium.googlesource.com/chromiumos/platform/tast/
 [Autotest]: https://autotest.github.io/
 [Tast Quickstart]: https://chromium.googlesource.com/chromiumos/platform/tast/+/HEAD/docs/quickstart.md

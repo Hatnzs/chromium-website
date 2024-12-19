@@ -6,7 +6,7 @@ page_name: developer-faq
 title: Developer FAQ - Why Blink?
 ---
 
-[« Back to the Blink project page](http://www.chromium.org/blink)
+[« Back to the Blink project page](/blink)
 
 [TOC]
 
@@ -35,9 +35,8 @@ benefits all users of the web, on all browsers.
 
 ### What sorts of things should I expect from Chrome?
 
-In the Blink [Architectural
-Changes](http://www.chromium.org/blink#architectural-changes) section we have
-listed a few changes that will improve the speed and stability of the web
+In the Blink [Architectural Changes](/blink#architectural-changes) section we
+have listed a few changes that will improve the speed and stability of the web
 platform in Chrome. Meanwhile, there are more improvements whose feasibility and
 performance benefits we're excited to investigate:
 
@@ -58,10 +57,9 @@ performance benefits we're excited to investigate:
                 loaded pages.
 *   Keep the platform secure
     *   Better sandboxing of the compositor thread
-    *   [Out-of-process
-                iframes](http://www.chromium.org/developers/design-documents/oop-iframes).
+    *   [Out-of-process iframes](/developers/design-documents/oop-iframes).
                 Use renderer processes [as a security
-                boundary](http://www.chromium.org/developers/design-documents/site-isolation)
+                boundary](/developers/design-documents/site-isolation)
                 between cross-site iframes.
 *   Refactor for performance
     *   Reduce binding layer overhead. We can make things even faster by
@@ -103,7 +101,7 @@ currently shares and runs tests that were authored by Opera, Mozilla, and W3C
 Working Groups and we'll be doing a better job of this going forward. Developers
 need to be able to rely on Chrome’s implementation of standards, and that’s
 something we take very seriously. See the
-[Testing](http://www.chromium.org/blink#testing) section for our plans.
+[Testing](/blink#testing) section for our plans.
 
 ### Hold up, isn't more browsers sharing WebKit better for compatibility?
 
@@ -181,10 +179,10 @@ what's in Chrome on Android.
 Our goal is to drive innovation and improve the compatible, open web platform,
 not to add a ton of features and break compatibility with other browsers. We're
 introducing strong developer-facing policies on [adding new
-features](http://www.chromium.org/blink#new-features), the [use of vendor
-prefixes](http://www.chromium.org/blink#vendor-prefixes), and [when a feature
+features](/blink#new-features), the [use of vendor
+prefixes](/blink#vendor-prefixes), and [when a feature
 should be considered stable enough to
-ship](http://www.chromium.org/blink#compatibility). This codifies our policy on
+ship](/blink#compatibility). This codifies our policy on
 thoughtfully augmenting the platform, and as transparency is a core principle of
 Blink, we hope this process is equally visible to you. The [Chromium Feature
 Dashboard](http://www.chromestatus.com/features) we recently introduced offers a
@@ -204,7 +202,7 @@ the broader open web community by letting our actions speak louder than words.
 ### Is this just a ruse to land Google-developed technologies?
 
 Nope, not at all! We're instituting [strong guidelines on new
-features](http://www.chromium.org/blink#new-features) that emphasize standards,
+features](/blink#new-features) that emphasize standards,
 interoperability, and transparency. We expect to hold all new shipping features
 that affect web developers on the open web up to the same level of scrutiny.
 Technologies and standards developed primarily within Google will be held to the
@@ -221,9 +219,9 @@ open web.
 
 ### Is this going to be open source?
 
-Yes, of course. [Chromium is already open-source](http://www.chromium.org/Home)
+Yes, of course. [Chromium is already open-source](/Home)
 and Blink is part of that project. Transparency is one of our core principles.
-[Developing Blink](http://www.chromium.org/blink#participating) covers this in
+[Developing Blink](/blink#participating) covers this in
 detail.
 
 ### Opera recently announced they adopted Chromium for their browsers. What's their plan?

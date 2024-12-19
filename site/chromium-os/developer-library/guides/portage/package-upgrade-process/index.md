@@ -489,6 +489,6 @@ cros_portage_upgrade --local-only [args]
 [re-applying a patch]: #Re_applying-a-patch-after-upgrade
 [upgrading to unstable versions]: #Upgrading-to-unstable-version
 [the ChromeOS development mailing list]: /chromium-os/developer-library/guides/who-do-i-notify/contact/
-[trybot]: https://www.chromium.org/chromium-os/build/local-trybot-documentation
+[trybot]: /chromium-os/build/local-trybot-documentation
 [USE flags]: /chromium-os/developer-library/guides/portage/ebuild-faq/
 [eclasses]: https://wiki.gentoo.org/wiki/Eclass

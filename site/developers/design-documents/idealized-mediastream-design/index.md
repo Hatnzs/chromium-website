@@ -49,13 +49,12 @@ This document assumes familiarity with the
 [MediaStream](http://dev.w3.org/2011/webrtc/editor/getusermedia.html) and
 [PeerConnection](http://dev.w3.org/2011/webrtc/editor/webrtc.html) HTML5
 specifications, with Chrome's [multi-process
-architecture](http://www.chromium.org/developers/design-documents/multi-process-architecture),
-its [Content](http://www.chromium.org/developers/content-module),
-[Blink](http://www.chromium.org/blink) and
-[Media](http://www.chromium.org/audio-video) layers, as well as common
-[abstractions](http://www.chromium.org/developers/coding-style/important-abstractions-and-data-structures)
+architecture](/developers/design-documents/multi-process-architecture),
+its [Content](/developers/content-module), Blink](/blink) and
+[Media](/audio-video) layers, as well as common
+[abstractions](/developers/coding-style/important-abstractions-and-data-structures)
 and approaches to
-[threading](http://www.chromium.org/developers/design-documents/threading).
+[threading](/developers/design-documents/threading).
 
 # Objectives
 

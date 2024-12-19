@@ -124,7 +124,7 @@ KERN-B) and kernel modules will be updated to the matching rootfs partition
 (matching ROOT-B partition). If the kernel crashes early on then a reboot will
 fallback to the A slot kernel and rootfs that is known to be good and
 working. If the [boot is considered
-successful](https://www.chromium.org/chromium-os/chromiumos-design-docs/boot-design#TOC-Rollback-Protection-After-Update)
+successful](/chromium-os/chromiumos-design-docs/boot-design#TOC-Rollback-Protection-After-Update)
 the partition is marked with a successful boot and will be used from the next
 time.
 
@@ -215,10 +215,10 @@ slow. There are a couple approaches that can be useful to recover quickly.
 ### Kernel configuration
 
 [Kernel
-configuration](https://www.chromium.org/chromium-os/developer-library/guides/kernel/kernel-configuration/)
+configuration](/chromium-os/developer-library/guides/kernel/kernel-configuration/)
 in ChromiumOS has an extra level of indirection from the normal
 .config file. So do the instructions - [see this page for more
-information](https://www.chromium.org/chromium-os/developer-library/guides/kernel/kernel-configuration/).
+information](/chromium-os/developer-library/guides/kernel/kernel-configuration/).
 
 See also the [cros-kernel eclass documentation].
 

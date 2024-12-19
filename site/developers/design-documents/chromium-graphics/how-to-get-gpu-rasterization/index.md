@@ -79,7 +79,7 @@ icons), GPU rasterization may get disabled for that page load.
                     within the Args.
     *   off (viewport) - viewport trigger not available
 3.  Take a [frame viewer recording using about
-            tracing](http://www.chromium.org/developers/how-tos/trace-event-profiling-tool/frame-viewer).
+            tracing](/developers/how-tos/trace-event-profiling-tool/frame-viewer).
             Click a frame. It will tell you if GPU raster is on.
 
 ## GPU Rasterization Before/After

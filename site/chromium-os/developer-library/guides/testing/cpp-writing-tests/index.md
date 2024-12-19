@@ -53,7 +53,7 @@ may fail at once, and the tests are both more cumbersome to maintain and less
 informative when they break.
 
 The way to fix this problem is to use
-[fakes](https://www.chromium.org/chromium-os/developer-library/reference/cpp/cpp-patterns/index.md##abstract-base-class-impl-fake). As a bonus, code
+[fakes](/chromium-os/developer-library/reference/cpp/cpp-patterns#abstract-base-class-impl-fake). As a bonus, code
 written in this way tends to be more modular and flexible.
 
 ### Test the API, not the implementation
@@ -284,7 +284,7 @@ for more details on usage.
 ### RunLoops - Prefer QuitClosure()+Run() to RunUntilIdle()
 
 Another recommended option (per the
-[Chromium style guide](https://www.chromium.org/chromium-os/developer-library/guides/testing/unit-tests))
+[Chromium style guide](/chromium-os/developer-library/guides/testing/unit-tests))
 is to use `base::RunLoop`. A RunLoop will run the message loop asynchronously
 and verify the behavior is expected, or injecting a task runner so tests can
 control where tasks are run. Chromium best practice for these types of tests is
@@ -477,5 +477,5 @@ TEST_P(UniqueTestSuiteName, Flag0Enabled_Test) {
 
 ## Mojo
 
-See [Stubbing Mojo Pipes](https://www.chromium.org/chromium-os/developer-library/reference/cpp/cpp-mojo/#stubbing-mojo-pipes) for pointers on how
-to unit test Mojo calls.
+See [Stubbing Mojo Pipes](/chromium-os/developer-library/reference/cpp/cpp-mojo/#stubbing-mojo-pipes)
+for pointers on how to unit test Mojo calls.

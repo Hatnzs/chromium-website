@@ -206,7 +206,7 @@ variables can be used with a single mutex.
 Both `Signal()` and `Broadcast()` are efficient if there are no threads to wake.
 (TODO: verify this) Clients should call `Signal()` or `Broadcast()` [inside the
 critical
-section](http://www.chromium.org/developers/lock-and-condition-variable#TOC-Why-put-Signal-inside-the-critical-section-)
+section](/developers/lock-and-condition-variable#TOC-Why-put-Signal-inside-the-critical-section-)
 that makes the condition true.
 
 The call `TimedWait()` allows a thread to wait until either a condition is true,

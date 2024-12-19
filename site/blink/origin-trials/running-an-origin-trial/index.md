@@ -240,7 +240,7 @@ Recommended process:
 
 Origin trials can run for up to 6 milestones (~24 weeks), and can be extended
 under certain conditions.
-See [here](https://www.chromium.org/blink/launching-features/#step-3-optional-origin-trial)
+See [here](/blink/launching-features/#step-3-optional-origin-trial)
 for more details.
 
 ## What is the process to extend an origin trial?
@@ -281,7 +281,7 @@ this generally means starting a new origin trial, to follow the previous trial.
 
 In order to be eligible for an extension, you must demonstrate substantial
 progress towards meeting the bar for shipping the feature.
-See [here](https://www.chromium.org/blink/launching-features/#step-3-optional-origin-trial)
+See [here](/blink/launching-features/#step-3-optional-origin-trial)
 for more details.
 
 

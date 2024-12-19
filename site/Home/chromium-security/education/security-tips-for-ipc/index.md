@@ -17,9 +17,9 @@ title: Security Tips for IPC
 too](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/security/integer-semantics.md).**
 
 Chrome's[inter-process communication
-(IPC)](http://www.chromium.org/developers/design-documents/inter-process-communication)
+(IPC)](/developers/design-documents/inter-process-communication)
 layer is the communication channel supporting our [multi-process
-architecture](http://www.chromium.org/developers/design-documents/multi-process-architecture).
+architecture](/developers/design-documents/multi-process-architecture).
 Security bugs in IPC can have [nasty
 consequences](http://blog.chromium.org/2012/05/tale-of-two-pwnies-part-1.html),
 but sticking to these tips should help you avoid most pitfalls. Questions,

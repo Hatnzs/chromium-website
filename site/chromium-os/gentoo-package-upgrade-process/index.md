@@ -32,7 +32,7 @@ use to you, in any case.
 ### Quickstart
 
 A quick reminder of the steps to perform in your chroot set up per [Chromium OS
-Developer Guide](http://www.chromium.org/chromium-os/developer-guide):
+Developer Guide](/chromium-os/developer-guide):
 
 1.  Enter chroot: **$REPO/chromite/bin/cros_sdk**
 2.  Set up boards to test on: **~/trunk/src/scripts/setup_board
@@ -60,7 +60,7 @@ The following assumptions are made with these instructions:
 *   You are familiar with the build environment from a developer
             perspective. You know how to start branches, amend commits, upload
             commits, end branches, etc. See the [Chromium OS Developer
-            Guide](http://www.chromium.org/chromium-os/developer-guide).
+            Guide](/chromium-os/developer-guide).
 
 ### Brief Background
 

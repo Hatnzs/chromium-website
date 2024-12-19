@@ -289,7 +289,7 @@ top-level renderer process must not be able to read the pixels that are drawn
 within the frame. The ability to do this would allow a compromised renderer
 process access to cross-site content, which is contrary to [the goals of the
 site isolation
-project](http://www.chromium.org/developers/design-documents/site-isolation).
+project](/developers/design-documents/site-isolation).
 
 We don’t believe this to be a feasible goal without the availability of
 ubercompositor. It would be very difficult, given the performance constraints of

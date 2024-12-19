@@ -1099,7 +1099,7 @@ of the chromeOS along with dmesg output.
 [Configuring Automounting]: https://help.ubuntu.com/community/Mount/USB#Configuring_Automounting
 [data_fmap_expect_p.txt]: https://chromium.googlesource.com/chromiumos/platform/vboot_reference/+/HEAD/tests/futility/data_fmap_expect_p.txt
 [developer-guide]: /chromium-os/developer-library/guides/development/developer-guide/
-[Disk format]: https://www.chromium.org/chromium-os/chromiumos-design-docs/disk-format
+[Disk format]: /chromium-os/chromiumos-design-docs/disk-format
 [EC documentation]: https://chromium.googlesource.com/chromiumos/platform/ec/+/HEAD/README.md
 [FAFT]: https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/docs/faft-how-to-run-doc.md
 [firmware_LockedME]: https://chromium.googlesource.com/chromiumos/third_party/autotest/+/HEAD/client/site_tests/firmware_LockedME/control

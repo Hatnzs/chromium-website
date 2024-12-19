@@ -60,7 +60,7 @@ Note: You can set `symbol_level=2` for more detailed debugging and
 `dcheck_always_on=true` to test [DCHECKs](developing.md#turn-onoff-dchecks).
 
 Note: Here is more information on
-[gn configurations](https://www.chromium.org/developers/gn-build-configuration)
+[gn configurations](/developers/gn-build-configuration)
 and symbolized builds.
 
 ### Deploying Chrome with symbols
@@ -261,7 +261,7 @@ Note: generating a stack trace does noticeably impact performance of Chrome, so
 don’t be shocked to see some mild stuttering when they are generated.
 
 See
-[How to get a stack trace at runtime for debugging purposes](https://www.chromium.org/chromium-os/developer-library/guides/debugging/stack-traces)
+[How to get a stack trace at runtime for debugging purposes](/chromium-os/developer-library/guides/debugging/stack-traces)
 for more troubleshooting.
 
 ## Debugging JS BrowserTest failures

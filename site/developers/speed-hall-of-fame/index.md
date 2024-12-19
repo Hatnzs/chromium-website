@@ -136,7 +136,7 @@ upgraded](https://src.chromium.org/viewvc/chrome?revision=266629&view=revision)
 the capabilities of our bisect bots so that they can now bisect functional
 breakages and changes in variance. You can find instructions in the ["tips"
 section of the
-documentation](http://www.chromium.org/developers/tree-sheriffs/perf-sheriffs/bisecting-performance-regressions#TOC-Tips),
+documentation](/developers/tree-sheriffs/perf-sheriffs/bisecting-performance-regressions#TOC-Tips),
 but it's as easy as setting bisect_mode to return_code or std_dev in your bisect
 jobs. Simon's work should help us quite a bit in our quest for reliable, stable
 benchmarks!

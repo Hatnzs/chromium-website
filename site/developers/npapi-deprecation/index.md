@@ -121,7 +121,7 @@ to be universally allowed and the list will be removed in January 2015.
 
 Enterprise administrators will be able to allow specific NPAPI plug-ins by
 adding them to the
-[EnabledPlugins](http://www.chromium.org/administrators/policy-list-3#EnabledPlugins)
+[EnabledPlugins](/administrators/policy-list-3#EnabledPlugins)
 policy list, to avoid their users seeing the UI mentioned above. Setting this
 policy also re-enables NPAPI plugins. This, however, will not be relevant once
 support for NPAPI is completely removed from Chrome in September 2015. Hence we

@@ -13,7 +13,7 @@ release, or to flash a specific version for debugging), you will need to be able
 to flash ChromiumOS to your device. This guide will walk you through the
 process of checking out the ChromiumOS code and setting up your environment to
 flash a device over SSH. For more context, please refer to the full
-[ChromiumOS developer guide](https://www.chromium.org/chromium-os/developer-library/guides/development/developer-guide).
+[ChromiumOS developer guide](/chromium-os/developer-library/guides/development/developer-guide).
 
 ## Prerequisites
 
@@ -86,7 +86,7 @@ Once you're inside the chroot, you will see `(cr)` prepended to your prompt.
 ## Flash a pre-built chromiumOS image
 
 You can now flash ChromiumOS to your DUT over SSH using a tool called
-[xBuddy](https://www.chromium.org/chromium-os/developer-library/reference/tools/xbuddy).
+[xBuddy](/chromium-os/developer-library/reference/tools/xbuddy).
 You can reference the examples below to get started. Be sure to customize the
 address of your DUT in the ssh URL, as well as the board name and version in the
 xBuddy URL.
@@ -133,7 +133,7 @@ under `~/chromiumos/devserver/static/`.
 
 Sometimes it may be required to work on a local build of ChromiumOS and to test
 changes on your DUT. The following instructions are from the
-[ChromiumOS developer guide](https://www.chromium.org/chromium-os/developer-library/guides/development/developer-guide)
+[ChromiumOS developer guide](/chromium-os/developer-library/guides/development/developer-guide)
 but summarized here.
 
 NOTE: If this your first time running these commands, it could take a long time.

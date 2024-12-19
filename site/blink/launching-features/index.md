@@ -764,7 +764,7 @@ The following criteria are worthwhile to consider:
   - Is it possible that existing code relies on the current behavior?
   - What would that coding pattern look like? How likely it is that this
   coding pattern is used in the wild? Our collection of
-  [compat tools](https://www.chromium.org/blink/platform-predictability/compat-tools/)
+  [compat tools](/blink/platform-predictability/compat-tools/)
   can help with such an assessment.
   - Non-user-visible breakage (e.g. breakage in reporting or monetization) is
  still considered functional breakage.

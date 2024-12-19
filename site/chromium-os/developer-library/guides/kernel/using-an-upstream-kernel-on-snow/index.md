@@ -136,7 +136,7 @@ Certainly there are lots of ways to build and install the kernel. I'm not going
 to copy them all here but I'll just point you at the [Kernel
 FAQ](/chromium-os/how-tos-and-troubleshooting/kernel-faq). Specifically read the
 [How to quickly test kernel modifications (the fast
-way)](http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/kernel-faq#TOC-How-to-quickly-test-kernel-modifications-the-fast-way-)
+way)](/chromium-os/how-tos-and-troubleshooting/kernel-faq#TOC-How-to-quickly-test-kernel-modifications-the-fast-way-)
 section carefully.
 
 I would strongly suggest that you boot from a fast SD card rather than directly

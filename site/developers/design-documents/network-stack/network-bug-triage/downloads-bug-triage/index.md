@@ -30,7 +30,7 @@ Triagers should
                 and explain why this feature is unlikely to be implemented.
     *   Crash reports frequently do not contain crash ids. Send
                 reporters to [Reporting a Crash
-                Bug](http://www.chromium.org/for-testers/bug-reporting-guidelines/reporting-crash-bug)
+                Bug](/for-testers/bug-reporting-guidelines/reporting-crash-bug)
                 and set Needs-Feedback.
     *   [Providing Network Details for bug
                 reports](/for-testers/providing-network-details)

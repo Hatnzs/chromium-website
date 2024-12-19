@@ -50,7 +50,7 @@ For the impatient, here is a very cut-down version of the detailed instructions.
 ```
 
 ```none
-If anything here gives you trouble, refer to the [official documentation](http://www.chromium.org/chromium-os/developer-guide) instead.
+If anything here gives you trouble, refer to the [official documentation](/chromium-os/developer-guide) instead.
 ```
 
 ```none

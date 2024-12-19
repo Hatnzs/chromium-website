@@ -204,7 +204,7 @@ reference and else. We have some existing leak finding tools like Massif (in
 > #### [Tab Discarder](/chromium-os/chromiumos-design-docs/tab-discarding-and-reloading)
 
 > c.f. [Chrome OS out-of-memory design
-> doc](http://www.chromium.org/chromium-os/chromiumos-design-docs/out-of-memory-handling)
+> doc](/chromium-os/chromiumos-design-docs/out-of-memory-handling)
 
 > #### Memory Purger
 

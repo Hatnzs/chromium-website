@@ -28,7 +28,7 @@ same kinds that substantially affect other platforms, but in some cases there
 may be more risk to WebView, especially if it involves places where the WebView
 architecture [differs significantly](https://chromium.googlesource.com/chromium/src/+/HEAD/android_webview/docs/web-platform-compatibility.md)
 from other platform. In addition, just as with
-[enterprise changes](https://www.chromium.org/developers/enterprise-changes),
+[enterprise changes](/developers/enterprise-changes),
 some APIs may be more prevalant on that platform than others.
 
 A change to Android WebView is *potentially high risk* if one of the following hold:

@@ -165,7 +165,7 @@ chrome.memoryBenchmarking.heapProfilerDump("browser" or "renderer", "some reason
 You can use a Telemetry profiler to drive chrome and, if running on android, to
 also fetch the files from the device. It utilizes the above Memory Benchmarking
 V8 API internally. See [Telemetry
-instructions](http://www.chromium.org/developers/telemetry/profiling#TOC-Memory-Profiling---Linux-Android).
+instructions](/developers/telemetry/profiling#TOC-Memory-Profiling---Linux-Android).
 
 ### Phase 4: Get the dumps
 

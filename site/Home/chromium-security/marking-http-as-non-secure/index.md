@@ -320,7 +320,7 @@ them have a good answer. Here is a brief selection.
     *   Hopefully, free/simple certificate setup will be able to help
                 people who had previously considered it inconvenient. Also note
                 that [localhost is considered
-                secure](http://www.chromium.org/Home/chromium-security/prefer-secure-origins-for-powerful-new-features),
+                secure](/Home/chromium-security/prefer-secure-origins-for-powerful-new-features),
                 even without HTTPS.
     *   As mentioned above, plain HTTP will continue to work.
 

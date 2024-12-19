@@ -17,7 +17,7 @@ This page contains information about the [Dell Chromebook
 that is interesting and/or useful to software developers. For general
 information about getting started with developing on ChromiumOS (the
 open-source version of the software on the Chrome Notebook), see the [Chromium
-OS Developer Guide](http://www.chromium.org/chromium-os/developer-guide).
+OS Developer Guide](/chromium-os/developer-guide).
 
 ### Specifications
 
@@ -60,7 +60,7 @@ center](https://support.google.com/chromebook/answer/1080595?hl=en) site.
 
 You can build and run ChromiumOS on your Dell Chromebook 11 (versions R31 and
 later). Follow the [quick start
-guide](http://www.chromium.org/chromium-os/quick-start-guide) to setup a build
+guide](/chromium-os/quick-start-guide) to setup a build
 environment. The board name for Dell Chromebook 11 is "wolf". Build an image and
 write it to a USB stick or SD card.
 

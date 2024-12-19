@@ -100,8 +100,7 @@ updates make sure to join their public mailing lists as well.
             tradeoff](https://docs.google.com/a/chromium.org/document/d/1aOQRw76C0enLBd0mCG_-IM6bso7DxXwvqTiRWgNdTn8/edit)
 *   [Chromium throttled async touchmove
             scrolling](https://docs.google.com/a/chromium.org/document/d/1sfUup3nsJG3zJTf0YR0s2C5vgFTYEmfEqZs01VVj8tE/edit)
-*   [Gesture
-            Recognition](http://www.chromium.org/developers/design-documents/aura/gesture-recognizer)
+*   [Gesture Recognition](/developers/design-documents/aura/gesture-recognizer)
 *   [Vsync-aligned buffered
             input](https://docs.google.com/document/d/1L2JTgYMksmXgujKxxhyV45xL8jNhbCh60NQHoueKyS4/edit?usp=sharing)
 *   [Touchpad and Wheel

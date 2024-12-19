@@ -437,7 +437,7 @@ the main Blink class to include these.
 Further, in some cases we must use type extension (static methods) for
 implemented interfaces as well. This is due to componentization in Blink (see
 [Browser
-Components](http://www.chromium.org/developers/design-documents/browser-components)),
+Components](/developers/design-documents/browser-components)),
 currently `core` versus `modules.` Code in `core` cannot inherit from code in
 `modules,` and thus if an interface in `core` implements an interface in
 `modules,` this must be implemented via type extension (static methods in

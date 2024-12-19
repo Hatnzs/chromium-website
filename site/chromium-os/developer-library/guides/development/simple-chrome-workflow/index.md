@@ -48,7 +48,7 @@ In order to sign in to ChromeOS you must have Google API keys:
 ### Set up gsutil
 
 Make sure you have credentials to access Google Storage bucket by setting up
-your `~/.boto` file. See the [gsutil setup documentation](https://www.chromium.org/chromium-os/developer-library/reference/tools/gsutil/) for
+your `~/.boto` file. See the [gsutil setup documentation](/chromium-os/developer-library/reference/tools/gsutil/) for
 more details.
 
 ### Install additional build dependencies
@@ -142,7 +142,7 @@ sure that you keep the import statement like this (if your board is
 ```
 
 > **Note:** Unbranded Chrome [applies experimental field trial
-> flags](https://www.chromium.org/developers/gn-build-configuration/#official-chrome-build)
+> flags](/developers/gn-build-configuration/#official-chrome-build)
 > by default.
 
 You can also use `gn args out_hatch/Release` to edit your GN flags with a
@@ -865,7 +865,7 @@ $ cros_sdk --chrome-root <path-to-chrome-checkout> cros_workon_make --board=${BO
 
 Some notes about the above:
 *   If you run into Google Storage authentication issues, be sure to follow
-    the gsutil [setup](https://www.chromium.org/chromium-os/developer-library/reference/tools/gsutil/) instructions.
+    the gsutil [setup](/chromium-os/developer-library/reference/tools/gsutil/) instructions.
 *   `.gclient` in your Chrome checkout should not define `cros_boards` in `custom_vars`.
 *   If you run into errors with `pkg-config`, try first running a full
     `cros build-packages --board=${BOARD}` invocation without
@@ -884,33 +884,33 @@ Some notes about the above:
 [Updating the version of the ChromeOS SDK]: #updating-the-version-of-the-chromeos-sdk
 [Using a custom ChromeOS build]: #using-a-custom-chromeos-build
 [custom gclient var]: https://chromium.googlesource.com/chromium/src/+/HEAD/docs/chromeos_build_instructions.md#additional-gclient-setup
-[Chrome's builders]: https://www.chromium.org/chromium-os/developer-library/guides/development/chrome-commit-pipeline/
+[Chrome's builders]: /chromium-os/developer-library/guides/development/chrome-commit-pipeline/
 [Command-line flags and environment variables]: #command-line-flags-and-environment-variables
 [Deploying Chrome to the user partition]: #deploying-chrome-to-the-user-partition
 [Debug builds]: #debug-builds
 [Create a bootable USB stick]: #create-a-bootable-usb-stick
 [Set up the ChromeOS device]: #set-up-the-chromeos-device
-[OS development guide]: https://www.chromium.org/chromium-os/developer-library/guides/development/developer-guide
+[OS development guide]: /chromium-os/developer-library/guides/development/developer-guide
 [Chrome source code and depot_tools]: https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/build_instructions.md
 [instructions for running tests on Linux]: https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/build_instructions.md#Running-test-targets
 [update .gclient]: https://chromium.googlesource.com/chromium/src/+/HEAD/docs/chromeos_build_instructions.md#updating-your-gclient-config
-[ChromeOS board name]: https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices
-[GN build configuration]: https://www.chromium.org/developers/gn-build-configuration
+[ChromeOS board name]: /chromium-os/developer-information-for-chrome-os-devices
+[GN build configuration]: /developers/gn-build-configuration
 [quick start guide]: https://gn.googlesource.com/gn/+/HEAD/docs/quick_start.md
-[device-specific instructions]: https://www.chromium.org/chromium-os/developer-information-for-chrome-os-devices
-[generic instructions]: https://www.chromium.org/a/chromium.org/dev/chromium-os/developer-information-for-chrome-os-devices/generic
+[device-specific instructions]: /chromium-os/developer-information-for-chrome-os-devices
+[generic instructions]: /chromium-os/developer-information-for-chrome-os-devices/generic
 [rootfs has been removed]: /chromium-os/developer-library/guides/device/developer-mode/#TOC-Making-changes-to-the-filesystem
-[remounted as read-write]: https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-tips#TOC-Setting-up-the-device
-[additional debugging tips]: https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-tips#TOC-Enabling-core-dumps
+[remounted as read-write]: /chromium-os/developer-library/guides/debugging#TOC-Setting-up-the-device
+[additional debugging tips]: /chromium-os/developer-library/guides/debugging#TOC-Enabling-core-dumps
 [chromite repo]: https://chromium.googlesource.com/chromiumos/chromite/
 [issue 437877]: https://crbug.com/403086
-[CrOS Flash page]: https://www.chromium.org/chromium-os/developer-library/reference/tools/cros-flash/
-[VM]: https://www.chromium.org/chromium-os/developer-library/guides/containers/cros-vm/
+[CrOS Flash page]: /chromium-os/developer-library/reference/tools/cros-flash/
+[VM]: /chromium-os/developer-library/guides/containers/cros-vm/
 [Running a Chrome Google Test binary in the VM]: /chromium-os/developer-library/guides/containers/cros-vm/#Run-a-Chrome-GTest-binary-in-the-VM
 [go/shortleash]: http://go/shortleash
-[debugging tips]: https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-tips
+[debugging tips]: /chromium-os/developer-library/guides/debugging
 [chrome build instructions]: https://g3doc.corp.google.com/company/teams/chrome/linux_build_instructions.md
-[api-keys]: https://www.chromium.org/developers/how-tos/api-keys
+[api-keys]: /developers/how-tos/api-keys
 [install-build-deps.py]: https://chromium.googlesource.com/chromium/src/+/HEAD/build/install-build-deps.py
 [reclient]: https://github.com/bazelbuild/reclient
 [reclient-googlers]: http://go/chrome-linux-build#set-up-remote-execution

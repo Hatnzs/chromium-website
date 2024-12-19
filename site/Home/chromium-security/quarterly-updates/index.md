@@ -33,7 +33,7 @@ We published a draft spec for [Device Bound Session Credentials](https://wicg.gi
 
 The Chrome Root Program removed [two](https://groups.google.com/a/ccadb.org/g/public/c/wRs-zec8w7k/m/G_9QprJ2AQAJ) [CAs](https://groups.google.com/a/ccadb.org/g/public/c/29CRLOPM6OM/m/-tvW5l-lAAAJ) from the Chrome Root Store, each with a sustained history of compliance issues that posed risk to Chrome users and the integrity of the Web PKI.
 
-We continue to lead security-forward initiatives within the CA/Browser Forum, with recent efforts focused on strengthening domain control validation (DCV) through [Ballot SC-67](https://cabforum.org/2024/08/05/ballot-sc-67-v3-require-domain-validation-and-caa-checks-to-be-performed-from-multiple-network-perspectives-corroboration/) (“Require Multi-Perspective Issuance Corroboration”) and [Ballot SC-80](https://github.com/cabforum/servercert/pull/551) (“Sunset the use of WHOIS to identify Domain Contacts and relying DCV Methods"). We updated “[Moving Forward, Together](https://www.chromium.org/Home/chromium-security/root-ca-policy/moving-forward-together/)", which serves as a public roadmap for our top priorities. The update highlights many of our recent accomplishments. 
+We continue to lead security-forward initiatives within the CA/Browser Forum, with recent efforts focused on strengthening domain control validation (DCV) through [Ballot SC-67](https://cabforum.org/2024/08/05/ballot-sc-67-v3-require-domain-validation-and-caa-checks-to-be-performed-from-multiple-network-perspectives-corroboration/) (“Require Multi-Perspective Issuance Corroboration”) and [Ballot SC-80](https://github.com/cabforum/servercert/pull/551) (“Sunset the use of WHOIS to identify Domain Contacts and relying DCV Methods"). We updated “[Moving Forward, Together](/Home/chromium-security/root-ca-policy/moving-forward-together/)", which serves as a public roadmap for our top priorities. The update highlights many of our recent accomplishments.
 
 On the engineering side of the Chrome Root Store, we landed a read-only UI on Windows and Mac to show the contents of the Chrome Root Store and any local trust anchors imported from the platform. You can see the new UI at chrome://certificate-manager. We also announced the rough shape of plans to allow for the new Monologue / Static CT API logs to be used in Certificate Transparency. We anticipate this new log format will be considerably cheaper to run.
 
@@ -104,7 +104,7 @@ We’ve added support for certificate revocations due to key compromise to CRLSe
 
 The Chrome Root Program announced the distrust of two CAs—[e-commerce Monitoring GmbH](https://groups.google.com/a/ccadb.org/g/public/c/wRs-zec8w7k) and [Entrust](https://security.googleblog.com/2023/11/qualified-certificates-with-qualified.html)—for compliance failures. Both distrusts used a new gradual approach to distrust, where certificates logged to a Certificate Transparency log prior to a well defined enforcement date continue to be trusted until expiry. 
 
-Within the CA/Browser Forum, the Chrome Root Program contributed to [Ballot SC-75](https://github.com/cabforum/servercert/pull/518) (passed), which focused on linting. This ballot was partially motivated by “[Moving Forward, Together](https://www.chromium.org/Home/chromium-security/root-ca-policy/moving-forward-together/)" and the wide-spread certificate mis-issuance detected by our team in the Spring. We also continued pushing forward with [Ballot SC-67](https://github.com/cabforum/servercert/pull/517) (moving to vote on approximately 7/15), which is focused on strengthening security practices via multi-perspective domain validation.  At CA/Browser Forum Face-to-Face, we [presented](https://drive.google.com/file/d/1ZwYXcr3Wzjkgh8iPKPFuCLfwfJBD0dbf/view) our expectations around incident response.
+Within the CA/Browser Forum, the Chrome Root Program contributed to [Ballot SC-75](https://github.com/cabforum/servercert/pull/518) (passed), which focused on linting. This ballot was partially motivated by “[Moving Forward, Together](/Home/chromium-security/root-ca-policy/moving-forward-together/)" and the wide-spread certificate mis-issuance detected by our team in the Spring. We also continued pushing forward with [Ballot SC-67](https://github.com/cabforum/servercert/pull/517) (moving to vote on approximately 7/15), which is focused on strengthening security practices via multi-perspective domain validation.  At CA/Browser Forum Face-to-Face, we [presented](https://drive.google.com/file/d/1ZwYXcr3Wzjkgh8iPKPFuCLfwfJBD0dbf/view) our expectations around incident response.
 
 The Chrome Security Architecture team reached an exciting milestone in Q2, enabling [isolated sandboxed frames](https://crbug.com/510122) by default! This adds a process boundary between origins and untrustworthy content they host, and it required solving numerous challenges with srcdoc URLs, data URLs, base URLs, and other corner cases. We also shipped [RenderDocument](https://crbug.com/936696) for all subframes, ensuring that a new RenderFrameHost is consistently used for each new subframe document. We added several new security enforcements against compromised renderer processes as well, including opaque origin checks and expanding the new CanCommitURL checks to Android WebView. To prepare for future experiments, we made progress on [Origin Isolation](https://crbug.com/40259221) and [SiteInstanceGroup](https://crbug.com/1447896) modes. Finally, we expanded our [memory-safe browser kernel model](https://docs.google.com/document/d/1f9OOpmKPV1A7J7i78xBePVmaM2N6IcVI8025qUDLY_A/edit?usp=sharing) in Rust to simulate documents, navigations, and session history.
 
@@ -162,7 +162,7 @@ After several months of experimentation for compatibility and performance impact
 
 We continue to build out tooling and engineering support for the Chrome Root Program. This quarter, we began experimenting with expanded support for revocation of leaf certificates. We also built policy support for enterprises to customize root stores, and implemented new capabilities for distrusting CAs with minimal compatibility impact.
 
-In the policy realm, our experiments with certificate linting tools revealed a large number of misissued certificates, leading to various active incident reports from CAs. Responding to these incidents should become less burdensome as more certificate issuance becomes automated and misissued certificates can be replaced more quickly and with less manual intervention. To that end, we published our latest Chrome Root Program [policy](https://www.chromium.org/for-testers/providing-network-details/) update; among other changes, Chrome now requires new CA applicants to support automated certificate issuance.
+In the policy realm, our experiments with certificate linting tools revealed a large number of misissued certificates, leading to various active incident reports from CAs. Responding to these incidents should become less burdensome as more certificate issuance becomes automated and misissued certificates can be replaced more quickly and with less manual intervention. To that end, we published our latest Chrome Root Program [policy](/for-testers/providing-network-details/) update; among other changes, Chrome now requires new CA applicants to support automated certificate issuance.
 
 We re-evaluated our efforts to make crossOriginIsolation more deployable. To that end, we propose a new policy, [DocumentIsolationPolicy](https://github.com/explainers-by-googlers/document-isolation-policy), that enables process isolation for a document and allows it to become crossOriginIsolated, without restrictions on popups it can communicate with and frames it can embed. On the XSS mitigation side, we’ve been following up on spec issues raised by Mozilla as [TrustedTypes](https://www.w3.org/TR/trusted-types/) are implemented in Firefox. We also produced a first draft of the [Sanitizer](https://github.com/WICG/sanitizer-api) specification.
 
@@ -260,7 +260,7 @@ In the extensions safety space, we launched the “Extension Module” in the Sa
 
 Within the Trusty Transports team, we’ve been working on  [TLS post-quantum key agreement](https://blog.chromium.org/2023/08/protecting-chrome-traffic-with-hybrid.html) which is currently rolling out to 1% Stable. This quarter we resolved server incompatibilities that appeared while on Beta and we are now proceeding with a gradual rollout. We also published an IETF [draft](https://www.ietf.org/archive/id/draft-davidben-tls-key-share-prediction-00.html) to ease future compatibility and security problems with upcoming post-quantum transitions. Elsewhere in the TLS stack, we fully launched [Encrypted Client Hello](https://datatracker.ietf.org/doc/draft-ietf-tls-esni/) (ECH), in partnership with Mozilla, Cloudflare, and the IETF, and we completed the [removal](https://chromium.googlesource.com/chromium/src/+/refs/heads/main/docs/security/tls-sha1-server-signatures.md) of SHA1 in signatures in the handshake.
 
-We announced an upcoming iteration of our [root program policy](https://www.chromium.org/Home/chromium-security/root-ca-policy/), focusing on requiring automation for new applicants, as previously explored in our [Moving Forward Together](https://www.chromium.org/Home/chromium-security/root-ca-policy/moving-forward-together/) roadmap. We [blogged](https://blog.chromium.org/2023/10/unlocking-power-of-tls-certificate.html) about why automation is critical for a secure and agile PKI. To improve the robustness of the web PKI’s Certificate Transparency (CT) infrastructure, we announced a significant [update](https://groups.google.com/a/chromium.org/g/ct-policy/c/8w_aOfpUcBs) to our CT log monitoring tooling, which will allow us to detect many more types of CT log issues before they have broader ecosystem impact.
+We announced an upcoming iteration of our [root program policy](/Home/chromium-security/root-ca-policy/), focusing on requiring automation for new applicants, as previously explored in our [Moving Forward Together](/Home/chromium-security/root-ca-policy/moving-forward-together/) roadmap. We [blogged](https://blog.chromium.org/2023/10/unlocking-power-of-tls-certificate.html) about why automation is critical for a secure and agile PKI. To improve the robustness of the web PKI’s Certificate Transparency (CT) infrastructure, we announced a significant [update](https://groups.google.com/a/chromium.org/g/ct-policy/c/8w_aOfpUcBs) to our CT log monitoring tooling, which will allow us to detect many more types of CT log issues before they have broader ecosystem impact.
 
 After a gradual rollout, we fully launched HTTPS upgrading in Chrome 117, which automatically attempts all plaintext navigation over HTTPS, and silently falls back to plaintext HTTP if the upgrade fails. This helps protect against passive eavesdropping, and marks a notable step in our [continued march](https://blog.chromium.org/2023/08/towards-https-by-default.html) to make plaintext an aberration on the web. Along those lines, the [replacement of the lock icon](https://blog.chromium.org/2023/05/an-update-on-lock-icon.html) started to make its debut on Chrome Stable.
 
@@ -312,7 +312,7 @@ The Trusty Transport team advanced our years-long march towards ubiquitous HTTPS
 
 We continue to improve the technologies underlying HTTPS via the Chrome Root Program and our BoringSSL library. We integrated the postquantum-secure X25519Kyber768 key encapsulation mechanism for TLS into BoringSSL and Chrome, and plan to begin experimenting with it in Chrome 116. The Chrome Root Store is now launched on stable for all platforms except iOS, bringing significant performance improvements to Android in particular. On the policy fronts, we passed a CA/Browser Forum [ballot](https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/yqALPG5PC4s/m/ktsJ7LxiAgAJ) to incentivize short-lived and automated certificates and promote more privacy-preserving revocation infrastructure, and we [distrusted](https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/yqALPG5PC4s/m/ktsJ7LxiAgAJ) the e-Tugra root certificates after a researcher discovered significant security issues in their systems.
 
-The Web Platform Security team started an [OT](https://groups.google.com/a/chromium.org/g/blink-dev/c/JBTWXSHE8M0/m/fP4eXvFzAAAJ) for a new COOP mode ([restrict-properties](https://github.com/hemeryar/coi-with-popups#the-coop-restrict-properties-proposal)) in Chrome 116. This allows websites to deploy cross-origin isolation, unlocking access to powerful web features, as well as secure themselves against cross-site leaks. On the road to enabling origin isolation, deprecating document.domain (aka Origin-keyed Agent Clustering by Default), is now enabled on 1% stable, and will keep ramping up to 100%. ORB ([Opaque Response Blocking](https://chromestatus.com/feature/4933785622675456)) v0.1 shipped to stable, improving on [CORB](https://www.chromium.org/Home/chromium-security/corb-for-developers/) to better protect cross-origin subresources from Spectre attacks. ORB v0.2 was scoped down to avoid web compatibility concerns and align with Firefox. We sent the [I2S](https://groups.google.com/a/chromium.org/g/blink-dev/c/RcuAzHEI2CU/m/7PsOrCjUAAAJ) and are aiming to ship soon. Implementation continues on a new permission prompt allowing secure websites to bypass mixed content when accessing the private network. We are aiming to start an OT with an MVP in Chrome 117.
+The Web Platform Security team started an [OT](https://groups.google.com/a/chromium.org/g/blink-dev/c/JBTWXSHE8M0/m/fP4eXvFzAAAJ) for a new COOP mode ([restrict-properties](https://github.com/hemeryar/coi-with-popups#the-coop-restrict-properties-proposal)) in Chrome 116. This allows websites to deploy cross-origin isolation, unlocking access to powerful web features, as well as secure themselves against cross-site leaks. On the road to enabling origin isolation, deprecating document.domain (aka Origin-keyed Agent Clustering by Default), is now enabled on 1% stable, and will keep ramping up to 100%. ORB ([Opaque Response Blocking](https://chromestatus.com/feature/4933785622675456)) v0.1 shipped to stable, improving on [CORB](/Home/chromium-security/corb-for-developers/) to better protect cross-origin subresources from Spectre attacks. ORB v0.2 was scoped down to avoid web compatibility concerns and align with Firefox. We sent the [I2S](https://groups.google.com/a/chromium.org/g/blink-dev/c/RcuAzHEI2CU/m/7PsOrCjUAAAJ) and are aiming to ship soon. Implementation continues on a new permission prompt allowing secure websites to bypass mixed content when accessing the private network. We are aiming to start an OT with an MVP in Chrome 117.
 
 The Security Architecture team made progress on several launch experiments in Q2, aimed at improving security. The new [base URL inheritance rules](https://groups.google.com/a/chromium.org/g/blink-dev/c/qhl64uMLjGA/m/SiugtWfvBAAJ) were approved and are in a beta field trial, which allowed us to restart the experiment for Site Isolation for [sandboxed iframes](https://crbug.com/510122). The trials for [RenderDocument](https://crbug.com/936696) and navigation queueing are also in progress. In parallel, we built a new mode for origin isolation ([OriginKeyedProcessesByDefault](https://crbug.com/1421329)) built on top of [OAC-by-default](https://groups.google.com/a/chromium.org/g/blink-dev/c/nrLl0IxSxSI/m/Sm4IH4yNAwAJ), with plans for performance experiments, and started work on a [SiteInstanceGroup mode](https://crbug.com/1447896) that uses a separate SiteInstance in the same group for data: URLs. We also made some improvements to [BrowserContext lifetime](https://crbug.com/1444204) to reduce the risk of use-after-frees. Finally, we started work on a new early RenderFrameHost swap approach to replace the old [early commit optimization](https://crbug.com/1072817), and formed a navigation bug triage rotation to better manage the queue of bugs.
 
@@ -363,7 +363,7 @@ Also in the HTTPS space, we’re launching[ mixed content autoupgrading](https:/
 
 Following our[ announcement](https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/oxX69KFvsm4/m/PKpJf5W6AQAJ) in December that we planned to distrust the Trustcor certification authority, we posted a[ blog](https://security.googleblog.com/2023/01/sustaining-digital-certificate-security_13.html) about our plan and removed Trustcor from Chrome 111.
 
-The Chrome Root Program continues to operate effectively and look to the future. We updated our public-facing, non-normative, forward-looking[ “Moving Forward, Together”](https://www.chromium.org/Home/chromium-security/root-ca-policy/moving-forward-together/) document about future directions for the Chrome Root Program and the Web PKI. We included our intent to eventually reduce the maximum intermediate CA validity to 3 years, reduce the max leaf certificate validity and domain validation reuse period to 90 days, require[ ACME/ARI](https://letsencrypt.org/2023/03/23/improving-resliiency-and-reliability-with-ari.html), and require[ multi-perspective domain validation](https://letsencrypt.org/2020/02/19/multi-perspective-validation.html). The CA/Browser Forum[ passed a ballot](https://cabforum.org/2023/03/17/ballot-sc62v2-certificate-profiles-update/) defining a certificate profile for Web PKI certificates, which reduces the set of X.509 features that can be included in trusted certificates to those relevant to authenticating TLS connections. This furthers our goal of agility, helping to ensure that as the Web PKI can safely evolve without impacting other uses of X.509 certificates. 
+The Chrome Root Program continues to operate effectively and look to the future. We updated our public-facing, non-normative, forward-looking[ “Moving Forward, Together”](/Home/chromium-security/root-ca-policy/moving-forward-together/) document about future directions for the Chrome Root Program and the Web PKI. We included our intent to eventually reduce the maximum intermediate CA validity to 3 years, reduce the max leaf certificate validity and domain validation reuse period to 90 days, require[ ACME/ARI](https://letsencrypt.org/2023/03/23/improving-resliiency-and-reliability-with-ari.html), and require[ multi-perspective domain validation](https://letsencrypt.org/2020/02/19/multi-perspective-validation.html). The CA/Browser Forum[ passed a ballot](https://cabforum.org/2023/03/17/ballot-sc62v2-certificate-profiles-update/) defining a certificate profile for Web PKI certificates, which reduces the set of X.509 features that can be included in trusted certificates to those relevant to authenticating TLS connections. This furthers our goal of agility, helping to ensure that as the Web PKI can safely evolve without impacting other uses of X.509 certificates.
 
 The Web Platform Security team made progress on implementing [COOP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy): restrict-properties and are targeting an Origin Trial in Chrome 115. COOP: restrict-properties will allow crossOriginIsolated websites to exchange with cross-origin popups and is an important step in making crossOriginIsolation more deployable.
 
@@ -409,7 +409,7 @@ Greetings,
 
 With 2023 well underway, here's a look back at what the Chrome Security team got up to in the last quarter of last year.
 
-After multiple years of laying policy and engineering groundwork, Chrome’s built-in certificate verifier and root store launched on Chrome for Windows and Mac – bringing both security and performance benefits. Chrome’s recently launched [root program](https://www.chromium.org/Home/chromium-security/root-ca-policy/) governs the certificates that are included in the root store, and this quarter we continued to refine Chrome’s root program policies and improve workflows for CA applicants, particularly through [Common CA Database](https://ccadb.org) integration. To help keep users safe and ensure the integrity of certificates accepted by Chrome, we [announced](https://security.googleblog.com/2023/01/sustaining-digital-certificate-security_13.html) that Chrome will no longer trust the TrustCor CA as of Chrome 111.
+After multiple years of laying policy and engineering groundwork, Chrome’s built-in certificate verifier and root store launched on Chrome for Windows and Mac – bringing both security and performance benefits. Chrome’s recently launched [root program](/Home/chromium-security/root-ca-policy/) governs the certificates that are included in the root store, and this quarter we continued to refine Chrome’s root program policies and improve workflows for CA applicants, particularly through [Common CA Database](https://ccadb.org) integration. To help keep users safe and ensure the integrity of certificates accepted by Chrome, we [announced](https://security.googleblog.com/2023/01/sustaining-digital-certificate-security_13.html) that Chrome will no longer trust the TrustCor CA as of Chrome 111.
 
 Want more HTTPS in your life? On Canary and Dev, you can now enable the #https-upgrades and #https-first-mode-v2 at chrome://flags to tell Chrome to automatically [attempt all your navigations over HTTPS](https://github.com/dadrian/https-upgrade/blob/main/explainer.md). You can also enable #block-insecure-downloads to protect yourself from any download delivered over an insecure connection.
 
@@ -421,7 +421,7 @@ We started applying [Private Network Access checks to web workers](https://chrom
 
 The [deprecation of document.domain](https://developer.chrome.com/blog/immutable-document-domain/) — enabling origin-based Agent Clustering by default — is still on track. We are receiving a low-frequency stream of issues around the deprecation, as site owners notice document.domain is going away. We're working through these, and so far nothing appears to be blocking. With a bit of luck we will be able to finish this on [the current schedule](https://groups.google.com/a/chromium.org/g/blink-dev/c/nrLl0IxSxSI/m/oHuvwntDAAAJ), in Chrome 112 or 113.
 
-The first step of moving from [CORB](https://www.chromium.org/Home/chromium-security/corb-for-developers/) to [ORB](https://chromestatus.com/feature/4933785622675456) — ORB "v0.1" — is now enabled on 50% of stable, with no reported issues. We'd previously landed a fix for SVG images, and the last known origin mismatches between the browser and renderer processes. This makes us confident that we can launch "v0.2" next, which will change error handling to be conforming to the ORB proposal.
+The first step of moving from [CORB](/Home/chromium-security/corb-for-developers/) to [ORB](https://chromestatus.com/feature/4933785622675456) — ORB "v0.1" — is now enabled on 50% of stable, with no reported issues. We'd previously landed a fix for SVG images, and the last known origin mismatches between the browser and renderer processes. This makes us confident that we can launch "v0.2" next, which will change error handling to be conforming to the ORB proposal.
 
 The Chrome Security Architecture team wrapped up 2022 by shipping Site Isolation for [<webview> tags](https://crbug.com/1267977), one of the few remaining places on desktop platforms that didn't have locked renderer processes. We also locked third party New Tab Page processes as we got closer to fully enabling ["citadel-style" enforcements](https://crbug.com/764958) everywhere, so that unlocked processes won't have any access to protected sites. Finally, we made steady progress on other necessary architecture work, including [base URL inheritance](https://chromestatus.com/feature/5161101671530496), [RenderDocument](https://crbug.com/936696), and [SiteInstanceGroup](https://crbug.com/1195535), including support for local frame swaps and speculative RenderViewHosts.
 
@@ -441,7 +441,7 @@ A new clang GC plugin is now banning some problematic unsafe patterns of GC obje
 
 The V8 Security team landed many improvements to [Fuzzilli](https://github.com/googleprojectzero/fuzzilli), our JavaScript engine fuzzer, such as new mutators and support for more language features. We shipped the [External Pointer Table](https://docs.google.com/document/d/1V3sxltuFjjhp_6grGHgfqZNK57qfzGzme0QTk0IXDHk/edit?usp=sharing) for the V8 Sandbox in Chrome 107 and started working on code pointer sandboxing - further design and prototype work around CFI for V8.
 
-The Chrome Offensive Security team continued our deep dive into Chromium graphics acceleration with an emphasis on inter-process communication (IPC) channels, namely the [Dawn ](https://dawn.googlesource.com/dawn)Wire protocol introduced by WebGPU and the enduring [Command Buffer](https://www.chromium.org/developers/design-documents/gpu-command-buffer/) protocol. We filed two high severity [security](https://crbug.com/1393177) [bugs](https://crbug.com/1373314), both found through manual analysis. Beyond IPC, we started an audit of [Tint](https://dawn.googlesource.com/tint), the WebGPU shader compiler. We also made good progress writing two new fuzzers, one for Dawn Wire and the other for the Command Buffer, which will land separately in 2023Q1. We're excited to integrate them for cross-protocol fuzzing. 
+The Chrome Offensive Security team continued our deep dive into Chromium graphics acceleration with an emphasis on inter-process communication (IPC) channels, namely the [Dawn ](https://dawn.googlesource.com/dawn)Wire protocol introduced by WebGPU and the enduring [Command Buffer](/developers/design-documents/gpu-command-buffer/) protocol. We filed two high severity [security](https://crbug.com/1393177) [bugs](https://crbug.com/1373314), both found through manual analysis. Beyond IPC, we started an audit of [Tint](https://dawn.googlesource.com/tint), the WebGPU shader compiler. We also made good progress writing two new fuzzers, one for Dawn Wire and the other for the Command Buffer, which will land separately in 2023Q1. We're excited to integrate them for cross-protocol fuzzing.
 
 The Chrome Vulnerability Reward Program updated our [policies and rewards](https://g.co/chrome/vrp). One of the changes was the introduction of a [Bisect Bonus](https://bughunters.google.com/about/rules/5745167867576320/chrome-vulnerability-reward-program-rules#bisect-bonus), following which we've seen an increase in the reporting of bisections provided by reporters. We are now receiving bisects as part of VRP reports in up to 40% of reports some weeks, but at a general average of 27%. This has reduced the amount of manual reproductions required by Security Sheriffs during bug triage to determine how far back bugs reproduce in active release channels. 
 
@@ -529,7 +529,7 @@ Separately, we also landed changes to resolve some performance regressions on mo
 
 Our new extension telemetry signals have proven useful by helping the Chrome Web Store to catch and quickly take down a malware campaign.
 
-In Trusty Transport news, at the June [CA/Browser Forum](https://cabforum.org/) meeting, we announced a significant update to the Chrome Root Store [policy](https://g.co/chrome/root-policy). This update introduces improved security requirements for new Certificate Authority applicants to our program, and details some of our future [priorities](https://www.chromium.org/Home/chromium-security/root-ca-policy/#moving-forward-together) for the web public key infrastructure. We also announced that we’ll be beginning to process applications – the official launch of our root program – in September. We implemented a cross-platform certificate viewer UI (currently in Canary) and mechanism for dynamically updating Chrome’s root store (launched to Stable) in preparation for this launch.
+In Trusty Transport news, at the June [CA/Browser Forum](https://cabforum.org/) meeting, we announced a significant update to the Chrome Root Store [policy](https://g.co/chrome/root-policy). This update introduces improved security requirements for new Certificate Authority applicants to our program, and details some of our future [priorities](/Home/chromium-security/root-ca-policy/#moving-forward-together) for the web public key infrastructure. We also announced that we’ll be beginning to process applications – the official launch of our root program – in September. We implemented a cross-platform certificate viewer UI (currently in Canary) and mechanism for dynamically updating Chrome’s root store (launched to Stable) in preparation for this launch.
 
 We built a mechanism for dynamically updating the static [key pinning](https://www.rfc-editor.org/rfc/rfc7469#section-2.7) list, and are using that capability to launch key pinning support on Chrome for Android (currently in a stable experiment).
 
@@ -575,7 +575,7 @@ We also completed the launch of a new TfLite-based client-side phishing detectio
 
 This quarter we launched a major [new Certificate Transparency policy](https://groups.google.com/a/chromium.org/g/ct-policy/c/507lPdbbwSk/m/JpxJEtrQAwAJ) that removes Google from the critical path of global HTTPS certificate issuance, made possible in part by expanding our [SCT Auditing](https://docs.google.com/document/d/16G-Q7iN3kB46GSW5b-sfH5MO3nKSYyEb77YsM7TMZGE/preview) efforts. This quarter also saw CT enforcement and protections coming to Android, vastly expanding the number of users protected by CT.
 
-In preparation for the upcoming rollout of our own [Chrome Root Store](https://www.chromium.org/Home/chromium-security/root-ca-policy/), we've also been developing several major policies and processes for interacting with certificate authorities, and the engineering to deliver root certificates to Chrome out-of-band. This enables Chrome to directly validate site certificates, rather than relying on each operating system’s verification.
+In preparation for the upcoming rollout of our own [Chrome Root Store](/Home/chromium-security/root-ca-policy/), we've also been developing several major policies and processes for interacting with certificate authorities, and the engineering to deliver root certificates to Chrome out-of-band. This enables Chrome to directly validate site certificates, rather than relying on each operating system’s verification.
 
 Following last quarter's investments in better infrastructure for handling [lookalike warnings](https://g.co/chrome/lookalike-warnings) appeals, and this quarter's work on safer rollout mechanisms, we are rolling out a new heuristic to detect additional lookalike domains and prepping for an intern on the project starting in Q2. Our initial implementation of [TLS ECH](https://chromestatus.com/feature/6196703843581952) is also now nearly code complete, with only polish work remaining.
 
@@ -593,7 +593,7 @@ On continued progress towards safer defaults, we shipped warnings for document.d
 
 In Web Platform memory safety news, we implemented a C++ dangling pointer detector. We are now working on fixing all the occurrences, and refactoring Chrome for using safer memory ownership patterns.
 
-In Q1, the Security Architecture team continued several projects to improve Site Isolation and related defenses, including implementation work for [<webview> tag Site Isolation](https://crbug.com/1267977), [Site Isolation for sandboxed iframes](https://crbug.com/510122), and the first steps towards [ORB](https://github.com/annevk/orb) as a replacement for [CORB](https://www.chromium.org/Home/chromium-security/corb-for-developers/). We worked on other security fixes for a series of use-after-free bugs involving RenderFrameHost, as well as safer ways to handle renderer process termination. We also made progress on [SiteInstanceGroups](https://crbug.com/1195535), stricter enforcements for extensions and [citadel](https://crbug.com/1286501) checks, and [Origin-Agent-Cluster by default](https://groups.google.com/a/chromium.org/g/blink-dev/c/_oRc19PjpFo/m/10vHgsmwAQAJ).
+In Q1, the Security Architecture team continued several projects to improve Site Isolation and related defenses, including implementation work for [<webview> tag Site Isolation](https://crbug.com/1267977), [Site Isolation for sandboxed iframes](https://crbug.com/510122), and the first steps towards [ORB](https://github.com/annevk/orb) as a replacement for [CORB](/Home/chromium-security/corb-for-developers/). We worked on other security fixes for a series of use-after-free bugs involving RenderFrameHost, as well as safer ways to handle renderer process termination. We also made progress on [SiteInstanceGroups](https://crbug.com/1195535), stricter enforcements for extensions and [citadel](https://crbug.com/1286501) checks, and [Origin-Agent-Cluster by default](https://groups.google.com/a/chromium.org/g/blink-dev/c/_oRc19PjpFo/m/10vHgsmwAQAJ).
 
 Until next time,
 
@@ -2318,7 +2318,7 @@ can be stolen by such attacks. We're working to fix the currently known
 issues so that we can start enabling it by default.
 
 Implemented [cross-site document
-blocking](http://www.chromium.org/developers/design-documents/blocking-cross-site-documents)
+blocking](/developers/design-documents/blocking-cross-site-documents)
 in (M63) when Site Isolation is enabled. This ensures that cross-site HTML,
 XML, JSON, and plain text files are not given to a renderer process on
 subresource requests unless allowed by [CORS](https://www.w3.org/TR/cors/).
@@ -3714,7 +3714,7 @@ discovered by [ClusterFuzz](/Home/chromium-security/bugs/using-clusterfuzz)! We
 also expanded fuzzing platform support (Android Lollipop, Linux with Nvidia
 GPU), added [archived
 builds](http://storage.cloud.google.com/chrome-test-builds/media) for
-[proprietary media codecs](http://www.chromium.org/audio-video) testing on all
+[proprietary media codecs](/audio-video) testing on all
 platforms, and used more code annotations to find bugs (like
 [this](https://code.google.com/p/chromium/issues/detail?id=468519&can=1&q=%22Container-overflow%20in%20%22%20type%3Dbug-security%20-status%3AWontFix%2CDuplicate&sort=-id%20-security_severity%20-secseverity%20-owner%20-modified&colspec=ID%20Pri%20Status%20Summary%20Modified%20OS%20M%20Security_severity%20Security_impact%20Owner%20Reporter)
 or
@@ -3833,7 +3833,7 @@ Hello from the Chrome Security Team!
 
 For those that don’t know us already, we do stuff to help make Chrome the[ most
 secure platform to browse the
-Internet](http://www.chromium.org/Home/chromium-security). Here’s a recap of
+Internet](/Home/chromium-security). Here’s a recap of
 some work from last quarter:
 
 The[ Bugs--](/Home/chromium-security/bugs) effort aims to find (and exterminate)
@@ -3920,7 +3920,7 @@ Hello from the Chrome Security Team!
 
 For those that don’t know us already, we do stuff to help make Chrome the[ most
 secure platform to browse the
-Internet](http://www.chromium.org/Home/chromium-security). Here’s a recap of
+Internet](/Home/chromium-security). Here’s a recap of
 some work from last quarter:
 
 The[ Bugs--](/Home/chromium-security/bugs) effort aims to find (and exterminate)
@@ -3975,12 +3975,12 @@ we added Win32k system call filtering behind a
 [switch](https://code.google.com/p/chromium/codesearch#chromium/src/content/public/common/content_switches.cc&sq=package:chromium&l=966),
 further reducing the kernel attack surface accessible from the renderer. We also
 locked down the [alternate
-desktop](http://www.chromium.org/developers/design-documents/sandbox#TOC-The-alternate-desktop)
+desktop](/developers/design-documents/sandbox#TOC-The-alternate-desktop)
 sandbox tokens and refactored the sandbox startup to cache tokens, which
 improves new tab responsiveness.
 
 Finally, work continues on [site
-isolation](http://www.chromium.org/developers/design-documents/site-isolation).
+isolation](/developers/design-documents/site-isolation).
 Over the past few months, we’ve started creating RemoteFrames in Blink's frame
 tree to support out-of-process iframes (OOPIF) and got
 [Linux](http://build.chromium.org/p/chromium.fyi/builders/Site%20Isolation%20Linux)
@@ -4053,13 +4053,13 @@ Hello from the Chromium Security Team!
 
 For those that don’t know us already, we do stuff to help make Chrome the[ most
 secure platform to browse the
-Internet](http://www.chromium.org/Home/chromium-security). Here’s a recap of
+Internet](/Home/chromium-security). Here’s a recap of
 some work from last quarter:
 
 One of our primary responsibilities is security **adviser**, and the main way we
 do this is via security reviews. A few weeks ago, jschuh@ announced [a new and
 improved security review
-process](http://www.chromium.org/Home/chromium-security/security-reviews) that
+process](/Home/chromium-security/security-reviews) that
 helps teams better assess their current security posture and helps our team
 collect more meaningful data about Chrome engineering. All features for M37 went
 through the new process, and we’ll be shepherding new projects and launches
@@ -4141,7 +4141,7 @@ The Win64 release also reduced ~⅓ of the crashes we were seeing on Windows, so
 it’s more stable too!
 
 Finally, work continues on [site
-isolation](http://www.chromium.org/developers/design-documents/site-isolation):
+isolation](/developers/design-documents/site-isolation):
 lots of code written / rewritten / rearchitected and unknown unknowns discovered
 along the way. We're close to having "remote" frames for each out-of-process
 iframe, and you can now see subframe processes in Chrome's Task Manager when
@@ -4188,7 +4188,7 @@ Hello from the Chrome Security Team!
 
 For those that don’t know us already, we help make Chrome the [most secure
 platform to browse the
-Internet](http://www.chromium.org/Home/chromium-security). In addition to
+Internet](/Home/chromium-security). In addition to
 security reviews and consulting, running a [vulnerability reward
 program](/Home/chromium-security/vulnerability-rewards-program), and dealing
 with security surprises, we instigate and work on engineering projects that make
@@ -4232,7 +4232,7 @@ this in Android, landed the baseline policy in upstream Clankium, and are
 working on the required [upstream Linux Kernel
 changes](https://lkml.org/lkml/2014/1/13/795) to be incorporated into Chrome
 Linux, Chrome OS, and Android L. The [site isolation
-project](http://www.chromium.org/developers/design-documents/site-isolation)
+project](/developers/design-documents/site-isolation)
 (i.e. sandboxing at the site level) landed a usable cross-process iframe
 implementation behind --site-per-process, which supports user interaction,
 nested iframes (one per doc), sad frame, and basic DevTools support. Major
@@ -4284,7 +4284,7 @@ Parisa, on behalf of Chrome Security
 Hello from the Chrome Security Team!
 For those that don’t know us already, we help make Chromium the [most secure
 browsing platform in the
-market](http://www.chromium.org/Home/chromium-security). In addition to security
+market](/Home/chromium-security). In addition to security
 reviews and consulting, running a [vulnerability reward
 program](/Home/chromium-security/vulnerability-rewards-program), and dealing
 with security surprises, we instigate and work on engineering projects that make
@@ -4368,7 +4368,7 @@ and (late) quarter update from the Chrome Security Team!
 
 For those that don’t know us already, we help make Chromium the [most secure
 browsing platform in the
-market](http://www.chromium.org/Home/chromium-security). In addition to security
+market](/Home/chromium-security). In addition to security
 reviews and consulting, running a [vulnerability reward
 program](/Home/chromium-security/vulnerability-rewards-program), and dealing
 with security surprises, we instigate and work on engineering projects that make
@@ -4459,7 +4459,7 @@ Parisa, on behalf of Chrome Security
 Hello from the Chrome Security Team!
 
 For those that don’t know us, we’re here to help make Chrome a very (the most!)
-[secure browser](http://www.chromium.org/Home/chromium-security). That boils
+[secure browser](/Home/chromium-security). That boils
 down to a fair amount of work on security reviews (and other consulting), but
 here’s some insight into some of the other things we were up to last quarter:
 
@@ -4541,9 +4541,9 @@ Site Isolation Efforts
 
 After some design and planning in Q1, we started building the early support for
 [out-of-process
-iframes](http://www.chromium.org/developers/design-documents/oop-iframes) so
+iframes](/developers/design-documents/oop-iframes) so
 that [Chrome's sandbox can help us enforce the Same Origin
-Policy](http://www.chromium.org/developers/design-documents/site-isolation). In
+Policy](/developers/design-documents/site-isolation). In
 Q2, we added a FrameTreeNode class to track frames in the browser process,
 refactored some navigation logic, made DOMWindow own its Document (rather than
 vice versa) in Blink, and got our prototype to handle simple input events. We'll
@@ -4571,7 +4571,7 @@ Parisa, on behalf of Chrome Security
 Hi from the Chrome Security Team!
 
 For those that don’t know us already, we’re here to help make Chrome the [most
-secure browser in the market](http://www.chromium.org/Home/chromium-security).
+secure browser in the market](/Home/chromium-security).
 We do a fair bit of work on security reviews of new features (and other
 consulting), but here’s a summary of some of the other things we were up to last
 quarter:
@@ -4579,9 +4579,9 @@ quarter:
 Bug, bugs, bugs
 
 Though some time is still spent [handeling external security
-reports](http://www.chromium.org/Home/chromium-security/security-sheriff)
+reports](/Home/chromium-security/security-sheriff)
 (mainly from participants of our [vulnerability reward
-program](http://www.chromium.org/Home/chromium-security/vulnerability-rewards-program)),
+program](/Home/chromium-security/vulnerability-rewards-program)),
 we spent comparatively more time in Q1 hunting for security bugs ourselves. In
 particular, we audited a bunch of IPC implementations after the
 [two](http://blog.chromium.org/2012/10/pwnium-2-results-and-wrap-up_10.html)
@@ -4652,12 +4652,12 @@ sandboxing and improved HTTPS authentication.
 Site isolation
 
 Work continues on the ambitious project to support [site-per-process
-sandboxing](http://www.chromium.org/developers/design-documents/site-isolation),
+sandboxing](/developers/design-documents/site-isolation),
 which should help us [prevent additional attacks aimed at stealing or tampering
 with user data from a specific
 site](https://docs.google.com/a/google.com/document/d/1X5xZ2hYZurR_c2zU11AoEn15Ebu1er4cCLEudLJvPHA/edit).
 Last quarter, we published a more complete [design for out-of-process
-iframes](http://www.chromium.org/developers/design-documents/oop-iframes), set
+iframes](/developers/design-documents/oop-iframes), set
 up performance and testing infrastructure, and hacked together a prototype
 implementation that helped confirm the feasibility of this project and surface
 some challenges and open questions that need more investigation.

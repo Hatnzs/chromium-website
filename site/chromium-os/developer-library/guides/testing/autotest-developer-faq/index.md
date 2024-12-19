@@ -267,7 +267,7 @@ test to IUSE_TESTS or it won't be picked up by autotest when you ask it to build
 specific tests.
 
 For more information on writing your test, see the [user
-docs](http://www.chromium.org/chromium-os/testing/autotest-user-doc).
+docs](/chromium-os/testing/autotest-user-doc).
 
 ### Adding binaries for your tests to call as part of the test
 

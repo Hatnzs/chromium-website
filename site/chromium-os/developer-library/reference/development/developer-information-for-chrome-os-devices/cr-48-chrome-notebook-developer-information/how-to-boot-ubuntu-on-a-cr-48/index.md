@@ -14,13 +14,12 @@ title: How to boot Ubuntu on a Cr-48
 
 Introduction
 
-While [ChromeOS verified
-boot](http://www.chromium.org/chromium-os/chromiumos-design-docs/verified-boot)
+While [ChromeOS verified boot](/chromium-os/chromiumos-design-docs/verified-boot)
 protects against unintended system modification by malicious or buggy software,
 **the ability to hack your own device is an
 [intentional](/chromium-os/chromiumos-design-docs/developer-mode) design feature
 of Google Chrome notebooks**. The instructions for [building your own version of
-ChromiumOS](http://www.chromium.org/chromium-os/developer-guide), and
+ChromiumOS](/chromium-os/developer-guide), and
 installing it on a Cr-48 are given elsewhere. Some enthusiasts, however, may
 want to install something completely different. This page provides an example,
 showing how the official ChromeOS software can coexist with
@@ -75,7 +74,7 @@ immediately. This screen is always shown when booting in developer mode, to
 ensure that someone doesn't change your OS without your knowledge.
 
 Switch to
-[VT2](http://www.chromium.org/poking-around-your-chrome-os-device#TOC-Get-the-command-prompt-through-VT-2)
+[VT2](/poking-around-your-chrome-os-device#TOC-Get-the-command-prompt-through-VT-2)
 (press \[ Ctrl \] \[ Alt \] \[ =&gt; \]), and log in as user 'chronos' (no
 password required), then run `sudo bash`.
 
@@ -236,7 +235,7 @@ stateful partition. This will do a safe wipe first, so you'll have to wait a bit
 
 At this point we're through fiddling with the partition table, so you may want
 to go back to VT2 and set a password according to these
-[instructions](http://www.chromium.org/poking-around-your-chrome-os-device#TOC-Get-the-command-prompt-through-VT-2).
+[instructions](/poking-around-your-chrome-os-device#TOC-Get-the-command-prompt-through-VT-2).
 
 ## Acquire an Ubuntu filesystem
 
@@ -272,7 +271,7 @@ We'll need our disk image to be a little larger than 5G so it has room for the
 GPT headers.
 
 So, do the following in the [ChromiumOS
-chroot](http://www.chromium.org/chromium-os/developer-guide#TOC-Create-a-chroot):
+chroot](/chromium-os/developer-guide#TOC-Create-a-chroot):
 
 ```none
 cd /tmp

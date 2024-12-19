@@ -867,7 +867,7 @@ examples](http://tools.ietf.org/html/draft-alvestrand-constraints-resolution-00#
 in Chrome Dev channel:
 
 -
-[proposal](http://www.chromium.org/developers/design-documents/extensions/proposed-changes/apis-under-development/webrtc-tab-content-capture)
+[proposal](/developers/design-documents/extensions/proposed-changes/apis-under-development/webrtc-tab-content-capture)
 
 - [documentation for
 chrome.tabCapture](http://developer.chrome.com/trunk/extensions/tabCapture.html)
@@ -1365,7 +1365,7 @@ Info:
 ## Webforms
 
 Availability: **See [HTML5 Forms
-Status](http://www.chromium.org/developers/web-platform-status/forms) for all
+Status](/developers/web-platform-status/forms) for all
 details.** (Updated as recently as Nov 28th, 2012).
 
 Includes details in input types (like date and color), input attributes,
