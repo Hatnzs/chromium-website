@@ -182,11 +182,11 @@ the untrusted nexes running within it.
 
 Chrome
 
-<http://www.chromium.org/developers/design-documents/multi-process-architecture>
+<https://www.chromium.org/developers/design-documents/multi-process-architecture>
 
-<http://www.chromium.org/developers/design-documents/inter-process-communication>
+<https://www.chromium.org/developers/design-documents/inter-process-communication>
 
-<http://www.chromium.org/developers/design-documents/plugin-architecture>
+<https://www.chromium.org/developers/design-documents/plugin-architecture>
 
 <http://code.google.com/chrome/extensions/npapi.html>
 
@@ -212,7 +212,7 @@ NaCl
 
 <http://code.google.com/p/naclports/>
 
-<http://www.chromium.org/nativeclient/simple-rpc>
+<https://www.chromium.org/nativeclient/simple-rpc>
 
 [Native Client integration with Chrome](/system/errors/NodeNotFound)
 

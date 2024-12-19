@@ -3,7 +3,7 @@
 # found in the LICENSE file.
 """Top-level presubmit script for the Git repo backing chromium.org.
 
-See http://www.chromium.org/developers/how-tos/depottools/presubmit-scripts
+See https://www.chromium.org/developers/how-tos/depottools/presubmit-scripts
 for more details about the presubmit API built into depot_tools.
 """
 
@@ -156,6 +156,7 @@ _MD_HTTPS_HOSTS = {
     'github.com',
     'google.com',
     'issuetracker.google.com',
+    'www.chromium.org',
     'www.w3.org',
     'youtu.be',
     'youtube.com',

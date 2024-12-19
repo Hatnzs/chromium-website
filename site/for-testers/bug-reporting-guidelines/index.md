@@ -99,7 +99,7 @@ To better understand the various fields and statuses, please visit:
 
 ## Helping with bug triage
 
-Read <http://www.chromium.org/getting-involved/bug-triage> if you're interested
+Read <https://www.chromium.org/getting-involved/bug-triage> if you're interested
 in helping with bug triage.
 
 Infrastructure and build tools

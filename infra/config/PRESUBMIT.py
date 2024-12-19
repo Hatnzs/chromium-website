@@ -3,7 +3,7 @@
 # found in the LICENSE file.
 """Enforces generated //infra/config files are up to date.
 
-See http://www.chromium.org/developers/how-tos/depottools/presubmit-scripts
+See https://www.chromium.org/developers/how-tos/depottools/presubmit-scripts
 for more details on the presubmit API built into depot_tools.
 """
 

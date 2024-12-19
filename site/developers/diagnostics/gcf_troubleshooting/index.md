@@ -22,7 +22,7 @@ This document describes the troubleshooting flow for Google Chrome Frame users.
 
 If the problem has serious security implications please report it using
 guidelines posted here:
-<http://www.chromium.org/Home/chromium-security/reporting-security-bugs>
+<https://www.chromium.org/Home/chromium-security/reporting-security-bugs>
 
 Before you file any bug, please search Google Chrome Frame bug tracker:
 <http://code.google.com/p/chromium/issues/list?q=Area%3DChromeFrame> If your
@@ -123,9 +123,9 @@ thread:<http://groups.google.com/group/google-chrome-frame/browse_thread/thread/
             automatically turn on for every site.
 3.  Make sure that the site XYZ is sending the ChromeFrame &lt;meta&gt;
             tag, or the HTTP headers as described here:
-            <http://www.chromium.org/developers/how-tos/chrome-frame-getting-started#TOC-Making-Your-Pages-Work-With-Google->
+            <https://www.chromium.org/developers/how-tos/chrome-frame-getting-started#TOC-Making-Your-Pages-Work-With-Google->
 4.  If the user wants Chrome Frame on for every site, see
-            <http://www.chromium.org/developers/how-tos/chrome-frame-getting-started#TOC-Testing-Your-Sites>
+            <https://www.chromium.org/developers/how-tos/chrome-frame-getting-started#TOC-Testing-Your-Sites>
 
 Example support threads:
 

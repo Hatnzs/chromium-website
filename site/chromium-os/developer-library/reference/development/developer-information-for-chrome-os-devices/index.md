@@ -1549,7 +1549,7 @@ such as the auto update until date, first release, and more.
   <tr>
     <td>2017-06-30</td>
     <td>Acer</td>
-    <td><a href="http://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic">Acer Chromebook  Spin 11 R751T</a></td>
+    <td><a href="https://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic">Acer Chromebook  Spin 11 R751T</a></td>
     <td>Electro</td>
     <td>reef</td>
     <td>reef</td>
@@ -1594,7 +1594,7 @@ such as the auto update until date, first release, and more.
   <tr>
     <td>2017-09-08</td>
     <td>Acer</td>
-    <td><a href="http://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic">Chromebook 15 CB515-1HT/1H</a></td>
+    <td><a href="https://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic">Chromebook 15 CB515-1HT/1H</a></td>
     <td>Sand</td>
     <td>sand</td>
     <td>reef</td>
@@ -2869,7 +2869,7 @@ such as the auto update until date, first release, and more.
   <tr>
     <td>2020-10-23</td>
     <td>HP</td>
-    <td><a href="http://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic">HP Chromebox G3</a></td>
+    <td><a href="https://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic">HP Chromebox G3</a></td>
     <td>Noibat</td>
     <td>Puff</td>
     <td>Puff</td>
@@ -2884,7 +2884,7 @@ such as the auto update until date, first release, and more.
   <tr>
     <td>2020-10-29</td>
     <td>ASUS</td>
-    <td><a href="http://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic">ASUS Chromebox 4</a></td>
+    <td><a href="https://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic">ASUS Chromebox 4</a></td>
     <td>Duffy</td>
     <td>Puff</td>
     <td>Puff</td>
@@ -2899,7 +2899,7 @@ such as the auto update until date, first release, and more.
   <tr>
     <td>2020-10-29</td>
     <td>Acer</td>
-    <td><a href="http://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic">Acer Chromebox CXI4</a></td>
+    <td><a href="https://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic">Acer Chromebox CXI4</a></td>
     <td>Kaisa</td>
     <td>Puff</td>
     <td>Puff</td>
@@ -2914,7 +2914,7 @@ such as the auto update until date, first release, and more.
   <tr>
     <td>2020-11-13</td>
     <td>ASUS</td>
-    <td><a href="http://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic">ASUS Fanless Chromebox</a></td>
+    <td><a href="https://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic">ASUS Fanless Chromebox</a></td>
     <td>Faffy</td>
     <td>Puff</td>
     <td>Puff</td>
@@ -3364,7 +3364,7 @@ such as the auto update until date, first release, and more.
   <tr>
     <td>2021-08-23</td>
     <td>ASUS</td>
-    <td><a href="http://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic">ASUS Chromebook Flip CM1</a></td>
+    <td><a href="https://www.chromium.org/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/generic">ASUS Chromebook Flip CM1</a></td>
     <td>Jelboz360</td>
     <td>zork</td>
     <td>dalboz</td>

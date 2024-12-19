@@ -22,7 +22,7 @@ For a broader understanding of Chromium speed and bottlenecks, as well as
 understanding how posted-task and threads interact in aggregate, there is a
 cross-platform, task-level profiler built in. Profiler results can be seen in
 about:profiler (or equivalently chrome://profiler) For more details, visit
-(<http://www.chromium.org/developers/threaded-task-tracking>).
+(<https://www.chromium.org/developers/threaded-task-tracking>).
 
 See chrome://tracing for timelines showing TRACE_EVENT activity across all the
 different threads; originally used for GPU performance, and will probably

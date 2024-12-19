@@ -72,4 +72,4 @@ If you LGTM a CL that breaks the build, you share responsibility for the break.
 1) The first responsibility at all times is to keep the tree open. Even if that
 means going back to the last known good revision.
 2) Can summarily revoke CLs, and ask author or a reviewer(s) to do revocation.
-3) For more details, see <http://www.chromium.org/developers/tree-sheriffs>
+3) For more details, see <https://www.chromium.org/developers/tree-sheriffs>

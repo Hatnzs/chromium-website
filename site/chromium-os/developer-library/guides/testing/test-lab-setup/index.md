@@ -15,7 +15,7 @@ that Chrome OS runs internally to validate builds on real hardware.
     *   Note you can run them all on one machine or multiple in order to
                 scale and spread load.
 *   A Chromiumos checkout
-    *   <http://www.chromium.org/test lab setup (i.e. Autotest Server
+    *   <https://www.chromium.org/test lab setup (i.e. Autotest Server
                 and Devserver)chromium-os/quick-start-guide>
 *   A Chrome OS Device.
 

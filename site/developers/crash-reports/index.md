@@ -205,7 +205,7 @@ a good percentage of crashes, especially since the symbolized stack may be
 available on the crash server.
 
 See also
-<http://www.chromium.org/chromium-os/how-tos-and-troubleshooting/crash-reporting/debugging-a-minidump>
+<https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/crash-reporting/debugging-a-minidump>
 
 ## Symbolizing Minidumps
 
@@ -222,7 +222,7 @@ To symbolize a minidump that was not uploaded, you can use the
 
 To symbolize a minidump for a local build, follow the steps in
 <https://code.google.com/p/chromium/issues/detail?id=304846#c14> for Mac, and
-see <http://www.chromium.org/developers/decoding-crash-dumps> for linux.
+see <https://www.chromium.org/developers/decoding-crash-dumps> for linux.
 
 # Production Debugging
 

@@ -99,7 +99,7 @@ text file that contains JSON markup, and will look something like this:
 
 ```json
 {
-  "homepage" : "http://www.chromium.org/",
+  "homepage" : "https://www.chromium.org/",
   "homepage_is_newtabpage" : false,
   "distribution" : {
       ...more stuff here ...
