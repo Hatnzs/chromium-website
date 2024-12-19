@@ -291,7 +291,7 @@ really fast if something goes bad. Also, the intrinsic goal of the testing is to
 gather feedback so we must make sure we are getting it. On a web service, it's
 relatively easy to manage. It's much more fun to do on client applications. We
 made [privacy aware anonymous feedback
-infrastructure](http://www.google.com/chrome/intl/en/more/privacy.html) to
+infrastructure](https://www.google.com/chrome/intl/en/more/privacy.html) to
 gather experiment information only from users who opted to send statistics.
 
 This gives valuable information for things where the test matrix is too large.

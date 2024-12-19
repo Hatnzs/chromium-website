@@ -44,7 +44,7 @@ android.
 
 Run the script to start mandoline on your device:
 
-`./mandoline/tools/android/run_mandoline.py http://www.google.com `
+`./mandoline/tools/android/run_mandoline.py https://www.google.com `
 
 If you just want to install, you can run the install_mandoline.py script in the
 same directory.
@@ -60,7 +60,7 @@ target_cpu="x86" use_aura=true'
 
 Run the script to start mandoline on the Android emulator:
 
-`./mandoline/tools/android/run_mandoline.py --target=x86 http://www.google.com `
+`./mandoline/tools/android/run_mandoline.py --target=x86 https://www.google.com `
 
 **Note:** You will need to create and run a x86 AVD(Android Virtual Device)
 first.

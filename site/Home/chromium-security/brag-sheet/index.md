@@ -99,7 +99,7 @@ title: Security Brag Sheet
 ### Advanced Anti- Phishing and Malware defenses
 
 *   We [warn
-            you](http://www.google.com/support/chrome/bin/answer.py?answer=99020&hl=en)
+            you](https://www.google.com/support/chrome/bin/answer.py?answer=99020&hl=en)
             when you're about to visit a website we've previously identify as a
             malware or phishing site.
 *   We keep the user better informed against phishing and similar

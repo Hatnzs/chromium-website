@@ -113,7 +113,7 @@ Chromebox still has a valid read-write BIOS, Google-signed kernel, and an
 unmodified ChromeOS root filesystem, then that's what will boot and you'll be
 back running the official ChromeOS image. Or, if you've modified any part of
 the verified boot chain so that a full verified boot process isn't possible,
-you'll be dropped into [recovery mode](http://www.google.com/chromeos/recovery).
+you'll be dropped into [recovery mode](https://www.google.com/chromeos/recovery).
 That will require you to create a bootable USB key to restore your chromebook to
 its fresh-from-the-factory state. That's annoying, but not dangerous. As long as
 you haven't taken the device apart, you shouldn't be able to permanently break
@@ -189,7 +189,7 @@ pressed, turn the device on again. This sometimes requires three hands or a bit
 of contortion, but you'll know it worked when you see the recovery screen
 instead of booting normally.
 
-Follow the [recovery mode instructions](http://www.google.com/chromeos/recovery)
+Follow the [recovery mode instructions](https://www.google.com/chromeos/recovery)
 to restore your device to its factory-fresh state.
 
 ---

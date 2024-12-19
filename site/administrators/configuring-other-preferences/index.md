@@ -126,7 +126,7 @@ fully-functional initial_preferences file):
 
 ```json
 {
-  "homepage": "http://www.google.com",
+  "homepage": "https://www.google.com",
   "homepage_is_newtabpage": false,
   "browser": {
     "show_home_button": true
@@ -134,7 +134,7 @@ fully-functional initial_preferences file):
   "session": {
     "restore_on_startup": 4,
     "startup_urls": [
-      "http://www.google.com/ig"
+      "https://www.google.com/ig"
     ]
   },
   "bookmark_bar": {

@@ -268,7 +268,7 @@ webgl_conformance --show-stdout --browser=cros-chrome --passthrough -v \
 
 ```bash
 (vm) localhost ~ # /usr/local/autotest/bin/autologin.py \
---url "http://www.google.com/chromebook"
+--url "https://www.google.com/chromebook"
 ```
 
 ## Launch a VM built by a waterfall bot

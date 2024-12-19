@@ -606,7 +606,7 @@ resulting from this howto...
 *   It's not a trick. We really don't care what you do with your own
             property. As long as you don't crack open the case, you should
             always be able to [restore it to the original
-            state](http://www.google.com/chromeos/recovery).
+            state](https://www.google.com/chromeos/recovery).
 *   I put this hack together in about a day (with another day or so for
             my coworkers to proofread it) which is why it's so complicated. I
             figured you'd want to see an example sooner rather than later.

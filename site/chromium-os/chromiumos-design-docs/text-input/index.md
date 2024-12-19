@@ -165,7 +165,7 @@ We'll use the following open source conversion engines.
 </tr>
 </table>
 New: For Japanese, we plan to port [Google Japanese
-Input](http://www.google.com/intl/ja/ime/) to Chromium OS.
+Input](https://www.google.com/intl/ja/ime/) to Chromium OS.
 
 ### User experience
 

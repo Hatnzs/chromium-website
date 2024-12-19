@@ -81,7 +81,7 @@ The media router consists of four distinct components:
 2.  The Media Router extension is an external component extension
             responsible for direct interaction with media sinks. The component
             extension will initially support use of
-            [Cast](http://www.google.com/cast/) and
+            [Cast](https://www.google.com/cast/) and
             [DIAL](http://www.dial-multiscreen.org/) devices with more types of
             sinks to be added over time. The component extension interacts with
             the Chrome Media Router via the Media Router API Mojo service, and

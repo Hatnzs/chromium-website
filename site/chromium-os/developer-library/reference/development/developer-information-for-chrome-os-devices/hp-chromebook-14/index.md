@@ -13,7 +13,7 @@ title: HP Chromebook 14
 ## Introduction
 
 This page contains information about the [HP Chromebook
-14](http://www.google.com/intl/en/chrome/devices/hp-14-chromebook.html) that is
+14](https://www.google.com/intl/en/chrome/devices/hp-14-chromebook.html) that is
 interesting and/or useful to software developers. For general information about
 getting started with developing on ChromiumOS (the open-source version of the
 software on the Chrome Notebook), see the [ChromiumOS Developer

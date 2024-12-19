@@ -13,7 +13,7 @@ documentation at <https://www.chromium.org/administrators>.
 **1. Download the MSI.**
 
 Download the [Google Chrome
-MSI](http://www.google.com/chrome/eula.html?msi=true).
+MSI](https://www.google.com/chrome/eula.html?msi=true).
 **2. Download the ADM / ADMX template.**
 You can download the ADM template or ADMX template
 [here](/administrators/policy-templates).

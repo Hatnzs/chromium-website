@@ -13,7 +13,7 @@ title: Acer C7 Chromebook
 ## Introduction
 
 This page contains information about the [Acer C7
-Chromebook](http://www.google.com/intl/en/chrome/devices/acer-c7-chromebook.html)
+Chromebook](https://www.google.com/intl/en/chrome/devices/acer-c7-chromebook.html)
 that is interesting and/or useful to software developers. For general
 information about getting started with developing on ChromiumOS (the
 open-source version of the software on the Chrome Notebook), see the [Chromium

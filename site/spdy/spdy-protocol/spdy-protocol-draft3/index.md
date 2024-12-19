@@ -1249,7 +1249,7 @@ from today's HTTP header block, with the following differences:
                 "POST", "HEAD", etc)
     *   ":path" - the url-path for this url with "/" prefixed. (See
                 [RFC3986](http://mbelshe.github.com/SPDY-Specification/draft-mbelshe-spdy-00.xml#RFC3986)).
-                For example, for "http://www.google.com/search?q=dogs" the path
+                For example, for "https://www.google.com/search?q=dogs" the path
                 would be "/search?q=dogs".
     *   ":version" - the HTTP version of this request (e.g. "HTTP/1.1")
 *   In addition, the following two name/value pairs must also be present

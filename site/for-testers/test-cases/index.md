@@ -51,7 +51,7 @@ title: Test Cases
 *   Go to Chrome Menu -&gt; Options -&gt; Basic and click on 'Make
             Google Chrome my default browser'.
 *   Verification: Go to Start -&gt; Run and type and valid URL like
-            'http://www.google.com' in the run dialog. When you hit enter, it
+            'https://www.google.com' in the run dialog. When you hit enter, it
             should be opened in a new Google Chrome window.
 
 #### Test case: Default Browser (non-admin user)
@@ -62,7 +62,7 @@ title: Test Cases
 *   Go to Chrome Menu -&gt; Options -&gt; Basic and click on 'Make
             Google Chrome my default browser'.
 *   Verification: Go to Start -&gt; Run and type and valid URL like
-            'http://www.google.com' in the run dialog. When you hit enter, it
+            'https://www.google.com' in the run dialog. When you hit enter, it
             should be opened in a new Google Chrome window.
 
 #### Test case: Clear Browsing Data (time range 1-day)

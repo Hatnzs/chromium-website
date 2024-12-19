@@ -13,7 +13,7 @@ title: Chromebook Pixel (2015)
 ## Introduction
 
 This page contains information about the [Chromebook Pixel
-(2015)](http://www.google.com/chromebook/pixel) that is interesting and/or
+(2015)](https://www.google.com/chromebook/pixel) that is interesting and/or
 useful to software developers. For general information about getting started
 with developing on ChromiumOS (the open-source version of the software on the
 Chrome Notebook), see the [ChromiumOS Developer

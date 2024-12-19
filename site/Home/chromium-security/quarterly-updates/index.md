@@ -2973,7 +2973,7 @@ with marking HTTP pages with password or credit card form fields as “Not secur
 starting in Chrome 56 (Jan 2017). We [added YouTube and
 Calendar](https://security.googleblog.com/2016/08/adding-youtube-and-calendar-to-https.html)
 to the HTTPS Transparency Report. We’re also happy to report that
-[www.google.com](http://www.google.com/) [uses
+[www.google.com](https://www.google.com/) [uses
 HSTS](https://security.googleblog.com/2016/07/bringing-hsts-to-wwwgooglecom.html)!
 
 In addition to #MOARTLS, we want to ensure more secure TLS.
@@ -4294,7 +4294,7 @@ of from the last quarter of 2013:
 Make security more usable: We made a number of changes to the malware download
 warning to discourage users from installing malware. We also worked on a
 reporting feature that lets users upload suspicious files to [Safe
-Browsing](http://www.google.com/transparencyreport/safebrowsing/), which will
+Browsing](https://www.google.com/transparencyreport/safebrowsing/), which will
 help Safe Browsing catch malicious downloads even faster.
 Since PDFs are a common vehicle for exploit delivery, we’ve modified PDF
 handling in Chrome so that they're all opened in Chrome’s PDF viewer by default.
@@ -4352,7 +4352,7 @@ Mobile, mobile, mobile: We’ve started focusing more attention to hardening
 Chrome on Android. In particular, we’ve been hacking on approaches for strong
 sandboxing (e.g.
 [seccomp-bpf](http://blog.chromium.org/2012/11/a-safer-playground-for-your-linux-and.html)),
-adding [Safe Browsing](http://www.google.com/transparencyreport/safebrowsing/)
+adding [Safe Browsing](https://www.google.com/transparencyreport/safebrowsing/)
 protection, and getting [ClusterFuzz](https://cluster-fuzz.appspot.com/) tuned
 for Android.
 For more thrilling security updates and feisty rants, catch ya on

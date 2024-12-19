@@ -62,7 +62,7 @@ for increased security and performance. We are working with manufacturers to
 develop reference hardware for Google ChromeOS.
 
 Chromebooks are available for sale now! Check out the [Google Chromebook
-site](http://www.google.com/chromebook/) for more information.
+site](https://www.google.com/chromebook/) for more information.
 
 ## Where can I download ChromiumOS?
 

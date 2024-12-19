@@ -13,7 +13,7 @@ title: Cr-48 Chrome Notebook Developer Information
 ## Introduction
 
 This page contains information about the [Cr-48 Chrome
-Notebook](http://www.google.com/chromeos/pilot-program-cr48.html) that is
+Notebook](https://www.google.com/chromeos/pilot-program-cr48.html) that is
 interesting and/or useful to software developers. For general information about
 getting started with developing on ChromiumOS (the open-source version of the
 software on the Chrome Notebook), see the [ChromiumOS Developer
@@ -112,7 +112,7 @@ will be bootable. If you haven't modified the original kernel or rootfs
 partitions in any way, you should have no problems. If you've made changes to
 the kernel partitions, the Cr-48 will refuse to boot that kernel and will
 display a recovery screen. You'll have to [create a recovery USB
-drive](http://www.google.com/chromeos/recovery) to restore your Cr-48 to the
+drive](https://www.google.com/chromeos/recovery) to restore your Cr-48 to the
 factory condition. If you've made changes to the rootfs partition but not the
 kernel, the Cr-48 **may** appear to boot normally, but may later suddenly reboot
 and/or display the recovery screen. This happens because the kernel verifies the
@@ -146,7 +146,7 @@ pressed, turn the Cr-48 on again. This sometimes requires three hands or a bit
 of contortion, but you'll know it worked when you see the recovery screen
 instead of booting normally.
 There is little use for this button other than booting a [recovery USB
-drive](http://www.google.com/chromeos/recovery). In developer mode you can run
+drive](https://www.google.com/chromeos/recovery). In developer mode you can run
 your own scripts from the recovery USB drive, but in developer mode you can
 trigger recovery mode by just pressing SPACE at boot. Still, there it is.
 

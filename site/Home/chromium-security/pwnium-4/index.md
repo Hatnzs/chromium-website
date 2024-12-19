@@ -249,7 +249,7 @@ share and otherwise use personally identifiable information provided during the
 registration process and the Program, including, but not limited to, name,
 mailing address, phone number, and email address. Google will use this
 information in accordance with its Privacy Policy
-(<http://www.google.com/policies/privacy/>), including for administering the
+(<https://www.google.com/policies/privacy/>), including for administering the
 Program and verifying Participant’s identity, postal address and telephone
 number in the event an entry qualifies for a reward.
 

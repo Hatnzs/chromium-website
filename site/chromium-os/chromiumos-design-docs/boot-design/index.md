@@ -17,7 +17,7 @@ Chrome OS based systems. It covers what happens after /sbin/init first starts
 execution, until all services in the system are ready.
 
 Chrome OS Core uses
-[Upstart](http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUpstart&sa=D&sntz=1&usg=AFQjCNEuUVRg10UCp5SZDMxMYm7uXUDFrQ)
+[Upstart](https://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUpstart&sa=D&sntz=1&usg=AFQjCNEuUVRg10UCp5SZDMxMYm7uXUDFrQ)
 for its /sbin/init package. Readers of this document should have some basic
 familiarity with Upstart concepts, such as the syntax of [job configuration
 files](http://manpages.ubuntu.com/manpages/trusty/man5/init.5.html),
@@ -27,9 +27,9 @@ and
 [started](http://manpages.ubuntu.com/manpages/trusty/man7/started.7.html).
 Readers should also have some understanding of Linux file system management
 concepts, like
-[mounting](http://www.google.com/url?q=http%3A%2F%2Flinux.die.net%2Fman%2F8%2Fmount&sa=D&sntz=1&usg=AFQjCNHWgzSgniJkKUaQX0F6aoV6tub_Zw)
+[mounting](https://www.google.com/url?q=http%3A%2F%2Flinux.die.net%2Fman%2F8%2Fmount&sa=D&sntz=1&usg=AFQjCNHWgzSgniJkKUaQX0F6aoV6tub_Zw)
 and
-[creating](http://www.google.com/url?q=http%3A%2F%2Flinux.die.net%2Fman%2F8%2Fmkfs&sa=D&sntz=1&usg=AFQjCNHT-LvbDmluahoYo1skfkb28btuiA)
+[creating](https://www.google.com/url?q=http%3A%2F%2Flinux.die.net%2Fman%2F8%2Fmkfs&sa=D&sntz=1&usg=AFQjCNHT-LvbDmluahoYo1skfkb28btuiA)
 file systems.
 
 If you want to go deeper and read the source code, you’ll need some
@@ -100,7 +100,7 @@ At the end of basic services startup (that is, when Upstart emits started
 boot-services), the following services are guaranteed available:
 
 *   A file system generally conforming to the [Linux
-            FHS](http://www.google.com/url?q=http%3A%2F%2Fwww.pathname.com%2Ffhs%2F&sa=D&sntz=1&usg=AFQjCNHWdZjRwe5FA0JKIi0EVckcCzGvaQ).
+            FHS](https://www.google.com/url?q=http%3A%2F%2Fwww.pathname.com%2Ffhs%2F&sa=D&sntz=1&usg=AFQjCNHWdZjRwe5FA0JKIi0EVckcCzGvaQ).
 *   A logging service compatible with rsyslogd.
 *   Device hotplug detection. User input devices or other devices
             necessary to the system application will be detected, with modules
@@ -515,7 +515,7 @@ the critical path.
 
 System startup time is heavily influenced by the wait time required to read data
 that isn’t yet in the file buffer cache. The
-[ureadahead](http://www.google.com/url?q=http%3A%2F%2Fmanpages.ubuntu.com%2Fmanpages%2Fprecise%2Fman8%2Fureadahead.8.html&sa=D&sntz=1&usg=AFQjCNGq-lkbAxTEkiTp_Yc2moX8IPPY5g)
+[ureadahead](https://www.google.com/url?q=http%3A%2F%2Fmanpages.ubuntu.com%2Fmanpages%2Fprecise%2Fman8%2Fureadahead.8.html&sa=D&sntz=1&usg=AFQjCNGq-lkbAxTEkiTp_Yc2moX8IPPY5g)
 program can improve boot time by requesting data in advance of when it’s needed,
 so that boot spends less time waiting for data from the boot device. Some key
 facts about ureadahead:

@@ -13,7 +13,7 @@ title: Dell Chromebook 11
 ## Introduction
 
 This page contains information about the [Dell Chromebook
-11](http://www.google.com/intl/en/chrome/education/devices/chromebooks.html#d11)
+11](https://www.google.com/intl/en/chrome/education/devices/chromebooks.html#d11)
 that is interesting and/or useful to software developers. For general
 information about getting started with developing on ChromiumOS (the
 open-source version of the software on the Chrome Notebook), see the [Chromium

@@ -87,7 +87,7 @@ permissions section. For example:
     ...
     "permissions": [
         "web_progress",
-        "http://www.google.com/"
+        "https://www.google.com/"
     ],
     ...
 }
@@ -96,7 +96,7 @@ chrome.webRequest.onBeforeRequest.addListener(
     function(object details) { ... }, null, ["requestHeaders"]);
 // This is allowed.
 chrome.webRequest.onBeforeRequest.addListener(
-    function(object details) { ... }, {urls: ["http://www.google.com/foo*bar"]},
+    function(object details) { ... }, {urls: ["https://www.google.com/foo*bar"]},
     ["requestHeaders"]);
 // This is allowed too, since it doesn’t request any extra information.
 chrome.webRequest.onBeforeRequest.addListener(

@@ -48,7 +48,7 @@ release it is.
 
 **[Source Quicklinks](https://chrome.google.com/extensions/detail/ncjnjlfeffaclcioiphpaofhkebnmknj)**
 Adds a page action to quickly jump between [Code
-Search](http://www.google.com/codesearch?vert=chromium), Trac, ViewVC, and
+Search](https://www.google.com/codesearch?vert=chromium), Trac, ViewVC, and
 Gitweb.
 
 **[Hide chromium code search banner](https://chrome.google.com/webstore/detail/hide-chromium-code-search/podmafjjpjkcjldlhcigjmelmdpignni)**

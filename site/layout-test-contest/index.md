@@ -117,7 +117,7 @@ gained, who starts AFTER October 14, 11:59pm PST.**
 **Your choice of:**
 
 [Kitchit Dinner
-Party](http://www.google.com/url?q=http%3A%2F%2Fwww.kitchit.com%2Flistings%2Flate-summer-farmers-market-dinner&sa=D&sntz=1&usg=AFrqEzeeon2ePMRBRFaHc6luP02HSn0e3w)
+Party](https://www.google.com/url?q=http%3A%2F%2Fwww.kitchit.com%2Flistings%2Flate-summer-farmers-market-dinner&sa=D&sntz=1&usg=AFrqEzeeon2ePMRBRFaHc6luP02HSn0e3w)
 for 2
 <img alt="image"
 src="https://kitchit-static01.insnw.net/images/4453/Large/6215_1160623569817_1054627764_484055_6067109_n.jpg"

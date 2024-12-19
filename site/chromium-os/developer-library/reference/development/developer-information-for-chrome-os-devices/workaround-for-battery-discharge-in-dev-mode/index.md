@@ -78,7 +78,7 @@ through the recovery process, because that will wipe the disk.
 ### Download a recovery image
 
 If you go to
-[www.google.com/chromeos/recovery](http://www.google.com/chromeos/recovery),
+[www.google.com/chromeos/recovery](https://www.google.com/chromeos/recovery),
 you'll find instructions for running a Linux script that will download and
 format a USB stick for you. Follow them, but **don't** remove the USB stick
 afterwards, and **really** don't insert it in your Chromebook. \[Update: okay,

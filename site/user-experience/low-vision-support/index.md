@@ -22,8 +22,8 @@ page, you can use either the keyboard shortcuts (see table below) or access
 src="/developers/design-documents/accessibility/xoom_menu.png">](/developers/design-documents/accessibility/xoom_menu.png)
 
 Page zoom level will be remembered for *each unique domain*, e.g. if you
-increase zoom for Google Search (http://www.google.com), zoom level will also be
-increased for Google Calendar (http://www.google.com/calendar). However, since
+increase zoom for Google Search (https://www.google.com), zoom level will also be
+increased for Google Calendar (https://www.google.com/calendar). However, since
 Gmail (http://mail.google.com) is on a different domain, zoom level will remain
 unchanged in this example.
 
@@ -87,7 +87,7 @@ partial support for system-level color schemes. Dark mode for Chrome's UI is now
 supported on Mac, and Windows support is on the way.
 
 1.  Install a [Chrome
-            Extension](http://www.google.com/support/chrome/bin/answer.py?answer=154007)
+            Extension](https://www.google.com/support/chrome/bin/answer.py?answer=154007)
             which allows you to specify your own custom color combinations, for
             instance the [Change
             Colors](https://chrome.google.com/extensions/detail/jbmkekhehjedonbhoikhhkmlapalklgn)

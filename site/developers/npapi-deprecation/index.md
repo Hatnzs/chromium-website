@@ -168,7 +168,7 @@ The basic building blocks are WebRTC and media elements:
     designed for real time communication between peers and the technology can
     also be used for applications like live streaming media and data. Google’s
     [Chromecast
-    device](http://www.google.com/intl/en/chrome/devices/chromecast/) uses
+    device](https://www.google.com/intl/en/chrome/devices/chromecast/) uses
     WebRTC to stream HD video between a browser and TV.
 
 Several features on top of these building blocks support more advanced use
