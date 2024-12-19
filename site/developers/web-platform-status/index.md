@@ -1060,7 +1060,7 @@ window.
 [WHATWG](http://www.whatwg.org/specs/web-apps/current-work/multipage/commands.html#the-dialog-element)
 
 #### Bug:
-[webk.it/](goog_742956014)[84635](https://bugs.webkit.org/show_bug.cgi?id=84635)
+[webk.it/84635](https://bugs.webkit.org/show_bug.cgi?id=84635)
 
 #### Availability: Behind a flag in m25. Enable "Experimental WebKit Features"
 in about:flags.

@@ -65,8 +65,7 @@ The hit testing is currently done just for the touchStart events since the point
 at which these event hit determines where the next train of events will be sent
 until we receive another touchStart (due to a different gesture starting or due
 to another finger being pressed on screen). On the compositor, (as of the fix
-for [bug
-](goog_353685820)[351723](https://code.google.com/p/chromium/issues/detail?id=351723))
+for [bug 351723](https://crbug.com/351723))
 we do a ray cast at the point of the touch and consult the
 touchEventHandlerRegion for each layer until we hit a layer we know is opaque to
 hit testing. If there is a hit, the compositor forwards this touch event to the
