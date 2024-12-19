@@ -376,7 +376,7 @@ window.onclick = function(evt) {
     propname = propname.length ? propname[0].textContent.replace('$', '') : '';
     if (propname === 'AGILE_PN') {
       return onTextClick(target, function(t) {
-        return 'https://goto.google.com/ee-part/G' + t.replace('G', '');
+        return 'http://go/ee-part/G' + t.replace('G', '');
       });
     } else if (propname.startsWith('XR')) {
       return onTextClick(target, function(t) {

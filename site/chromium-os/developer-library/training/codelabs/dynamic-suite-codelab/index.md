@@ -8,7 +8,7 @@ title: Creating and deploying ChromiumOS dynamic test suites
 
 [TOC]
 
-[go/dynamic_suite_codelab](http://goto.google.com/dynamic_suite_codelab)
+[go/dynamic_suite_codelab](http://go/dynamic_suite_codelab)
 
 ## References and Further Reading
 

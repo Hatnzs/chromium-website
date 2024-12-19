@@ -15,7 +15,7 @@ when you need a device with specific config for WiFi/Cellular.
 ## Setup
 
 1.  Follow the setup instructions at
-[go/crosfleet-cli](http://goto.google.com/crosfleet-cli)
+[go/crosfleet-cli](http://go/crosfleet-cli)
 2.  Complete the SSH setup described in go/chromeos-lab-duts-ssh.
 
 ## Lease
@@ -47,7 +47,7 @@ other.
 Connecting over SSH is as straightforward as `ssh <host>`.
 
 To connect over CRD, follow the instructions at
-[go/arc-wfh#remote-desktop](http://goto.google.com/arc-wfh#remote-desktop).
+[go/arc-wfh#remote-desktop](http://go/arc-wfh#remote-desktop).
 There are a few gotchas:
 
 *   You will need to run a Tast test on the DUT to generate an access code. This

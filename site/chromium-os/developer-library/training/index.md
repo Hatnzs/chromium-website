@@ -28,13 +28,13 @@ title: Training
     <tr>
       <td>Callbacks in Chromium</td>
       <td>
-        <a href="http://goto.google.com/callbacks-in-chromium-video"
+        <a href="http://go/callbacks-in-chromium-video"
            target="_blank">
           Video
         </a>
       </td>
       <td>
-        <a href="http://goto.google.com/callbacks-in-chromium-slides"
+        <a href="http://go/callbacks-in-chromium-slides"
            target="_blank">
           Slides
         </a>
@@ -79,13 +79,13 @@ title: Training
     <tr>
       <td>ChromeOS Software Bluetooth 101</td>
       <td>
-        <a href="http://goto.google.com/chromeos-software-bt-101"
+        <a href="http://go/chromeos-software-bt-101"
            target="_blank">
           go/chromeos-software-bt-101
         </a>
       </td>
       <td>
-        <a href="http://goto.google.com/chromeos-software-bt-101-slides"
+        <a href="http://go/chromeos-software-bt-101-slides"
            target="_blank">
           go/chromeos-software-bt-101-slides
         </a>

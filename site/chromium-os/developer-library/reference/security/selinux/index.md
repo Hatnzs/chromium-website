@@ -1166,7 +1166,7 @@ writing policies.
 
 For Googlers, there's a nice introduction presentation slides how debugging
 SELinux policies to refer to though it's for Android, at
-[go/sepolicy-debug](https://goto.google.com/sepolicy-debug)
+[go/sepolicy-debug](http://go/sepolicy-debug)
 
 [SELinux talk]: https://drive.google.com/file/d/1zT0IH3fg2KoTx0phU78aj6pEscHPIqAq/view
 [File Contexts]: https://www.chromium.org/chromium-os/developer-library/reference/security/selinux/#file-contexts

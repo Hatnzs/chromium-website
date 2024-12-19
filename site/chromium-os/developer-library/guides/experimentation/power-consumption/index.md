@@ -44,7 +44,7 @@ The
 provides support for ChromeOS developers who want A/B experimentation. The steps
 below are based on the Data team's [process](http://go/cros-exp-process).
 
-1.  Make a copy of [go/cros-exp-launch-report](http://goto.google.com/cros-exp-launch-report), and fill out the Pre-Consultation
+1.  Make a copy of [go/cros-exp-launch-report](http://go/cros-exp-launch-report), and fill out the Pre-Consultation
     section.
 2.  Optional: Set up an [Office Hours](http://go/cros-exp-oh) appointment with a
     Data team analyst.
@@ -58,11 +58,11 @@ References
 
 ### Setting up the Finch experiment
 
-Read through [go/finch101](http://goto.google.com/finch101) for a more in depth walkthrough of Finch best
+Read through [go/finch101](http://go/finch101) for a more in depth walkthrough of Finch best
 practices.
 
 There are several steps common to all Finch launches, which can be found at
-[go/finch-best-practices.](http://goto.google.com/finch-best-practices.) An abridged list of these steps is below:
+[go/finch-best-practices.](http://go/finch-best-practices.) An abridged list of these steps is below:
 
 1.  Implement the feature behind a new `DISABLED_BY_DEFAULT`
     [base::Feature](http://go/finch-feature-api) flag.

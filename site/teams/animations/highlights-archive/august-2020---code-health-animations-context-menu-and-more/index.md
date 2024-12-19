@@ -34,7 +34,7 @@ title: August 2020 - Code Health, Animations, Context Menu and more!
 
 <td><td><img alt="image" src="https://lh4.googleusercontent.com/owiAyDpZzfTYW5rAik3nJan9W6E4DsI0s127oetssl1Zpt1CrnI3BFqNW_HoOR3IRQFga05EQ1eiobzNGqISyuo4jxVC6H8eGZyxNXd_uGdBAVUImHk-koHYjRv4E26J-BPZ-7h9QA" height=168 width=307></td></td>
 
-<td><td>Thanks to kevers@, we now have a bug dashboard (<a href="http://goto.google.com/interactions-dashboard">go/interactions-dashboard</a>). The above graph shows opened vs closed bugs during this sprint. The dashboard also includes:</td></td>
+<td><td>Thanks to kevers@, we now have a bug dashboard (<a href="http://go/interactions-dashboard">go/interactions-dashboard</a>). The above graph shows opened vs closed bugs during this sprint. The dashboard also includes:</td></td>
 
     <td><td>Breakdown of cumulative issues opened and closed by
     component</td></td>

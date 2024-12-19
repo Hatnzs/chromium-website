@@ -64,7 +64,7 @@ via [github](https://github.com/kristijanburnik/codesearch-theme).
 **[Colorize raw diffs on codereview.chromium.org](http://code.google.com/p/codereview-color-diffs/)**
 Adds git diff-style colors to "raw patch sets" on the code review site.
 
-**[Googler-specific extensions](http://goto.google.com/kjnqp)**
+**[Googler-specific extensions](http://go/kjnqp)**
 Note: must be on google network to load this link.
 
 [**Reload build.chromium.org at a given

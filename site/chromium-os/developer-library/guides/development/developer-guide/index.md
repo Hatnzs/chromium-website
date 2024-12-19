@@ -498,7 +498,7 @@ cache such as RBE for faster builds. If your organization (Google, and maybe
 eventually others) has enabled remote caching in RBE for your Bazel-based
 builds, you'll need to install the `gcloud` CLI
 (https://cloud.google.com/sdk/docs/install, or
-[go/installgcloud](https://goto.google.com/installgcloud) for Googlers) and run:
+[go/installgcloud](http://go/installgcloud) for Googlers) and run:
 
 ```bash
 (outside)
@@ -1704,7 +1704,7 @@ Please choose an option [0-1]: 1
 #### Tips For Googlers
 Googlers may find the SSH setup instructions [here](#for-googlers) helpful,
 especially for connecting to DUTs which require corp-ssh.
-[corp-ssh-helper-helper](https://goto.google.com/corp-ssh-helper-helper) creates
+[corp-ssh-helper-helper](http://go/corp-ssh-helper-helper) creates
 the most seamless experience with `cros debug`.
 
 
@@ -1936,10 +1936,10 @@ If you are a Google engineer using a corp workstation, you may be required some
 extra settings, depending on where your DUT is.
 
 -   DUT at office: Use
-    [corp-ssh-helper-helper](https://goto.google.com/corp-ssh-helper-helper).
--   DUT at your home: See [go/arc-wfh](https://goto.google.com/arc-wfh).
+    [corp-ssh-helper-helper](http://go/corp-ssh-helper-helper).
+-   DUT at your home: See [go/arc-wfh](http://go/arc-wfh).
 -   DUT at lab: See
-    [go/chromeos-lab-duts-ssh](https://goto.google.com/chromeos-lab-duts-ssh).
+    [go/chromeos-lab-duts-ssh](http://go/chromeos-lab-duts-ssh).
 
 ### Tast
 

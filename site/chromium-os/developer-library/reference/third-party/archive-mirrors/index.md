@@ -576,7 +576,7 @@ this remains a non-issue.
 [BSD license]: https://en.wikipedia.org/wiki/BSD_licenses
 [bugs]: /chromium-os/developer-library/guides/bugs/reporting-bugs/
 [Contact]: /chromium-os/developer-library/guides/who-do-i-notify/contact/
-[CPFE]: https://goto.google.com/cpfe
+[CPFE]: http://go/cpfe
 [cros-cpfe]: https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/HEAD/eclass/cros-cpfe.eclass
 [Custom Artifacts]: #custom-artifacts
 [Custom Naming]: #custom-naming

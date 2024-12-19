@@ -33,13 +33,13 @@ Source code and everything in between to run, develop and test IGT.
 - [ChromiumOS Git](https://chromium.googlesource.com/chromiumos/third_party/igt-gpu-tools)
 
 ### Google lab links
-- [Everything IGT](http://goto.google.com/igtlab)
-- [IGT KMS](http://goto.google.com/igtlab-kms)
-- [IGT Chamelium](http://goto.google.com/igtlab-chamelium)
-- [IGT for Intel Devices](http://goto.google.com/igtlab-intel)
-- [IGT for AMD Devices](http://goto.google.com/igtlab-amd)
-- [IGT for Qcom Devices](http://goto.google.com/igtlab-qcom)
-- [IGT for MTK Devices](http://goto.google.com/igtlab-mtk)
+- [Everything IGT](http://go/igtlab)
+- [IGT KMS](http://go/igtlab-kms)
+- [IGT Chamelium](http://go/igtlab-chamelium)
+- [IGT for Intel Devices](http://go/igtlab-intel)
+- [IGT for AMD Devices](http://go/igtlab-amd)
+- [IGT for Qcom Devices](http://go/igtlab-qcom)
+- [IGT for MTK Devices](http://go/igtlab-mtk)
 
 
 ### Upstream

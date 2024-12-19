@@ -1725,7 +1725,7 @@ cat $OUT
 [crbug.com/468342]: https://crbug.com/468342
 [example CL]: https://crrev.com/c/1325821
 [ftrace]: https://www.kernel.org/doc/Documentation/trace/ftrace.txt
-[go/chromeos-kernel-tips-and-tricks]: https://goto.google.com/chromeos-kernel-tips-and-tricks
+[go/chromeos-kernel-tips-and-tricks]: http://go/chromeos-kernel-tips-and-tricks
 [Heisenbug]: https://en.wikipedia.org/wiki/Heisenbug
 [imap-upload]: https://github.com/rgladwell/imap-upload
 [KASan]: https://www.kernel.org/doc/html/v4.14/dev-tools/kasan.html

@@ -415,12 +415,12 @@ This allows more CrOS infra developers to help in testing new changes.
 
 ### Who can push to the CrOS repo fork?
 
-Contact the [CrOS infra group](https://goto.google.com/cros-infra-help)
+Contact the [CrOS infra group](http://go/cros-infra-help)
 for assistance.
 
 ### Who can sign new tags?
 
-See [go/repo-release](https://goto.google.com/repo-release) for details.
+See [go/repo-release](http://go/repo-release) for details.
 
 ### Do we rebase our branches?
 
@@ -488,8 +488,8 @@ Check out our [source checkout] documentation.
 [cros_portage_upgrade]: /chromium-os/developer-library/guides/portage/package-upgrade-process/
 [depot_tools]: https://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html
 [dev-vcs/repo]: https://chromium.googlesource.com/chromiumos/overlays/portage-stable/+/HEAD/dev-vcs/repo
-[go/cros-infra-chat]: https://goto.google.com/cros-infra-chat
-[go/cros-oncall]: https://goto.google.com/cros-oncall
+[go/cros-infra-chat]: http://go/cros-infra-chat
+[go/cros-oncall]: http://go/cros-oncall
 [production]: #prod
 [repo tool]: https://gerrit.googlesource.com/git-repo
 [rollbacks]: #rollback

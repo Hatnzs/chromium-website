@@ -147,7 +147,7 @@ have an idea about to understand the big picture:
 
 Currently the set of columns and the allocations of bots to back them is managed
 by the Chrome Infrastructure team, please file an
-[Infrastructure](https://goto.google.com/cros-infra-bug)
+[Infrastructure](http://go/cros-infra-bug)
 bug OS-Chrome to start the process of correcting it. Please
 describe the type of build, and the cbuildbot configuration it should be
 running.

@@ -32,7 +32,7 @@ cause hardware, software or security issues and may void warranty.**
 > if something breaks.
 
 Googlers not finding what they're looking for may want to look at
-[go/cros-names](http://goto.google.com/cros-names).
+[go/cros-names](http://go/cros-names).
 
 ## Routers
 

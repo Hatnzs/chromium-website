@@ -165,7 +165,7 @@ Running an origin trial requires the following:
             ([see
             above](/blink/origin-trials/running-an-origin-trial#is-feature-ready)).
 *   Review
-            [go/ChromeLaunchProcess](https://goto.google.com/ChromeLaunchProcess)
+            [go/ChromeLaunchProcess](http://go/ChromeLaunchProcess)
             and determine what launch approvals you require.
 *   Integrate with the origin trials framework ([see
             below](/blink/origin-trials/running-an-origin-trial#integrate-feature)).
@@ -195,7 +195,7 @@ Running an origin trial requires the following:
             to "Origin trial".
 *   You can review the developer registrations for your feature (and
             renewals) by following the instructions in the [feature author
-            guide](https://goto.google.com/running-an-origin-trial).
+            guide](http://go/running-an-origin-trial).
     *   In particular, be aware of any registrations that expect
                 &gt;10,000 page views per day to be using the feature
 
@@ -231,7 +231,7 @@ Recommended process:
 *   Notify the OT team with the final link to the blog post.
     *   The link will be updated in the developer console and recorded
                 in
-                [go/origin-trials-feature-pipeline](http://goto.google.com/origin-trials-feature-pipeline/).
+                [go/origin-trials-feature-pipeline](http://go/origin-trials-feature-pipeline/).
 *   Notify the OT team when the trial is ready for registration.
     *   OT team will activate the trial to make it available to the
                 public.

@@ -138,6 +138,7 @@ _MD_HOST_ALIASES = {
     'chromium.org': 'www.chromium.org',
     'dev.chromium.org': 'www.chromium.org',
     'goto': 'go',
+    'goto.google.com': 'go',
     'www.youtube.com': 'youtube.com',
     # keep-sorted end
 }

@@ -26,7 +26,7 @@ Testing Infrastructure](/developers/testing/isolated-testing/infrastructure).
 Note: If you're a Googler who needs to perform a manual test on a platform for
 which you cannot readily build (e.g. Windows Developer with no development
 environment on your Mac book), follow [these instructions to get the build from
-a try run](https://goto.google.com/runtrybuiltbits).
+a try run](http://go/runtrybuiltbits).
 
 ### What's "Isolate"?
 

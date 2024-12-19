@@ -74,7 +74,7 @@ services that facilitate the creation of that build, must abide by these rules.
 
 See the [FAQ] below for some concrete questions.
 
-Googlers should also see https://goto.google.com/change-management-policy for a
+Googlers should also see http://go/change-management-policy for a
 lot more in-depth detail & company wide policies that CrOS is subject to.
 
 ## Commit messages
@@ -562,7 +562,7 @@ It can sometimes take several tries to get it to pass.
 If you're still unsure, feel free to reach out to the reviewers.
 
 (Googlers only) You may also reach out to sheriffs using this link:
-[go/cros-oncall](https://goto.google.com/cros-oncall)
+[go/cros-oncall](http://go/cros-oncall)
 
 *** note
 **Also see**: [Breakage and Flake Policy]

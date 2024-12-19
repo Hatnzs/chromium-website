@@ -907,13 +907,13 @@ Some notes about the above:
 [CrOS Flash page]: https://www.chromium.org/chromium-os/developer-library/reference/tools/cros-flash/
 [VM]: https://www.chromium.org/chromium-os/developer-library/guides/containers/cros-vm/
 [Running a Chrome Google Test binary in the VM]: /chromium-os/developer-library/guides/containers/cros-vm/#Run-a-Chrome-GTest-binary-in-the-VM
-[go/shortleash]: https://goto.google.com/shortleash
+[go/shortleash]: http://go/shortleash
 [debugging tips]: https://www.chromium.org/chromium-os/how-tos-and-troubleshooting/debugging-tips
 [chrome build instructions]: https://g3doc.corp.google.com/company/teams/chrome/linux_build_instructions.md
 [api-keys]: https://www.chromium.org/developers/how-tos/api-keys
 [install-build-deps.py]: https://chromium.googlesource.com/chromium/src/+/HEAD/build/install-build-deps.py
 [reclient]: https://github.com/bazelbuild/reclient
-[reclient-googlers]: https://goto.google.com/chrome-linux-build#set-up-remote-execution
+[reclient-googlers]: http://go/chrome-linux-build#set-up-remote-execution
 [Chrome-related logs]: https://chromium.googlesource.com/chromium/src/+/lkgr/docs/chrome_os_logging.md
 [crbug.com/360342]: https://crbug.com/360342
 [crbug.com/403086]: https://crbug.com/403086

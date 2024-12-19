@@ -56,7 +56,7 @@ one Gerrit account you can link them yourself:
             click the Send Verification button, and follow the instructions.
     1.  If you see an error on clicking the link, use this link to file
                 a ticket
-                [go/fix-chrome-git](http://goto.google.com/fix-chrome-git)
+                [go/fix-chrome-git](http://go/fix-chrome-git)
 4.  To verify that it worked, open [Settings -&gt;
             Identities](https://chromium-review.googlesource.com/#/settings/web-identities)
             and verify your @chromium.org, @google.com and ldapuser/\*
