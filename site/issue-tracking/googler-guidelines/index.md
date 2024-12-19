@@ -74,4 +74,4 @@ to Chrome that we preserve our culture of being open by default.
   because then it will become an orphan bug which needs to be rescued.
 
 - Any additional issues, please reach out to
-[chromium-issue-tracker-admins@google.com](chromium-issue-tracker-admins@google.com)
+[chromium-issue-tracker-admins@google.com](mailto:chromium-issue-tracker-admins@google.com)
