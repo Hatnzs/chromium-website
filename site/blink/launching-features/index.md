@@ -247,7 +247,7 @@ a “Ready for Developer Testing” email that you should send to
 [blink-dev](mailto:blink-dev@chromium.org) to notify the community they can
 try out the feature. At this point, you should consider asking other browser
 vendors and the web developer community for
-[signals on their opinion of the API](https://docs.google.com/document/d/1xkHRXnFS8GDqZi7E0SSbR3a7CZsGScdxPUWBsNgo-oo/edit#heading=h.tgzhprxcmw4u).
+[signals on their opinion of the API](/blink/launching-features/wide-review).
 
 This is the main iterating stage of feature development and helps you assess
 product-market-fit early on before you corner yourself (does your API address a
@@ -285,7 +285,7 @@ running an experiment you're not intending to ship as is), you can ask for an
 exception from the API owners.
 
 If you haven't already received [signals on their opinion of the
-API](https://docs.google.com/document/d/1xkHRXnFS8GDqZi7E0SSbR3a7CZsGScdxPUWBsNgo-oo/edit#heading=h.tgzhprxcmw4u)
+API](/blink/launching-features/wide-review)
 from other browser vendors and the web developer community, now is the time to
 pursue getting those signals. You should ask at least a month ahead of sending
 an Intent to Ship, to give reviewers sufficient time for meaningful feedback.
@@ -364,7 +364,7 @@ progress is demonstrated in all of these areas:
 * Draft spec (early draft is ok, but must be spec-like and associated with the
   appropriate standardization venue, or WICG)
 * TAG review (see [exceptions](/blink/guidelines/api-owners/process-exceptions/))
-* bit.ly/blink-signals requests
+* [signals](/blink/launching-features/wide-review) requests
 * Outreach for feedback from the spec community
 * WPT tests
 
@@ -387,7 +387,7 @@ discuss this option.
 
 By this stage, you need to have a complete specification available that matches
 what you have implemented, and you should have given the TAG and [other
-browser vendors](https://bit.ly/blink-signals) at least a month to
+browser vendors](/blink/launching-features/wide-review) at least a month to
 comment on that specification. If you are a Googler you should get a final spec
 review from your [spec mentor](/blink/spec-mentors), and discuss options for
 moving your spec to a final standardization venue. You should get final signoff
@@ -599,7 +599,7 @@ other engines and to spec editors in order to ensure that the feature is removed
 in a coordinated way. We usually don't want to try to remove a feature from
 Chromium if Gecko and WebKit are going to keep supporting it. Once you have a
 coordinated removal plan, [file standards position
-issues](https://bit.ly/blink-signals) to document the agreement.
+issues](/blink/launching-features/wide-review) to document the agreement.
 
 <a id="deprecation-motivation"></a>
 #### Step 3: Deprecate the feature {:#deprecate}

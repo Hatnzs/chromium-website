@@ -270,7 +270,7 @@ bring the proposal to their implementation, or not.
 ### Browser engine reviews
 
 The Blink process requires most features to ask for [vendor
-signals](https://bit.ly/blink-signals) because they can give us some of the most
+signals](/blink/launching-features/wide-review) because they can give us some of the most
 direct indications of [interoperability risk](#interoperability-risk) and
 [specification](#specifications) quality. The feedback we get from the other
 vendors comes in several categories, which get different sorts of attention from
