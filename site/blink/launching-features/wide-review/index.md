@@ -5,53 +5,103 @@ breadcrumbs:
 - - /blink/launching-features
   - Launching Features
 page_name: wide-review
-title: Signals from other implementations in an intent-to-ship
+title: Getting Wide Review
 ---
 
-TL;DR
+To help the [API owners](/blink/guidelines/api-owners) follow the [guidelines
+for Web Platform changes](/blink/guidelines/web-platform-changes-guidelines),
+every intent to ship has to show what external stakeholders (in particular the
+[W3C TAG](#tag), the [non-Chromium browser engines](#standards-positions), and
+[web developers](https://goo.gle/developer-signals)) think about the new
+feature. These signals are only a few inputs that the process takes into
+consideration. None of them are either a veto nor an implicit approval to ship.
 
-Every intent-to-ship requires (*) an Implementation Signals List as part of the
-“Interoperability and Compatibility” subsection for Gecko and WebKit only. Other
-implementations/browsers are not required. For example, such a list for a
-hypothetical feature might read:
+This page describes how to collect that evidence. See the [launch
+process](/blink/launching-features) when to request reviews.
 
-> Gecko: Worth Prototyping (&lt;link to Mozilla standards position>)<br>
-> WebKit: Support (&lt;link to WebKit standards position>)
+## Exceptions {:#exceptions}
 
-These signals are reported for the purpose of giving a clear indication of the
-views of those implementers. [Web Developers](https://goo.gle/developer-signals)
-is yet another signal separate from an Implementation Signal, and is not less
-important. As with other signals, the Implementation Signal is only one input
-into the intent-to-ship process to take into consideration, and is neither a
-veto nor an implicit approval to ship.
+Some changes are too small and non-controversial to justify the effort of [TAG
+review](#tag) or [requesting standards positions](#standards-positions). Whether
+a feature is in this category is up to the discretion of the API owners during
+their [approval of an intent to ship](/blink/guidelines/api-owners/procedures/).
+You can ask ahead of time via
+[blink-api-owners-discuss@chromium.org](https://groups.google.com/a/chromium.org/g/blink-api-owners-discuss/).
+Mark these as "Not applicable" and "No signals".
 
-(*) Three notable exceptions:
+Consensus features in certain working groups don't need either [TAG
+reviews](#tag) or [standards positions from other browser
+engines](#standards-positions):
 
-*   If it is an ECMAScript feature that has reached
-    [stage 3](https://tc39.es/process-document/).
-*   If it is a WebAssembly feature that has reached
-    [phase 4](https://github.com/WebAssembly/proposals/blob/master/README.md#phase-4---standardize-the-feature-wg).
-*   It is a feature standardized by Khronos under its Working Group Guidelines,
-    and the specification has been committed to the relevant Khronos standard &
-    reflected on the Khronos website.
-    ([documentation](https://groups.google.com/a/chromium.org/g/blink-api-owners-discuss/c/CVkhZNVPlSg))
+* ECMAScript features at [stage 3](https://tc39.es/process-document/) or higher.
+* WebAssembly features at [phase
+  4](https://github.com/WebAssembly/proposals/blob/master/README.md#phase-4---standardize-the-feature-wg)
+  or higher.
+* Khronos features developed under its [Working Group
+  Guidelines](https://www.khronos.org/files/working-group-guidelines.pdf), for
+  which the specification has been committed to the relevant Khronos standard &
+  reflected on the Khronos website.
+  ([documentation](https://groups.google.com/a/chromium.org/g/blink-api-owners-discuss/c/CVkhZNVPlSg))
 
-In these exception cases, signals are not required.
+Other features don't need to request a [TAG review](#tag) but still need to
+request [standards positions](#standards-positions):
 
-## Details
+* The intent ships a new API or augmentation of an API, or changing an API to
+  match a spec, that is
+  * already specified and accepted by the relevant standardization body, and
+  * has already shipped in at least one other browser.
+* The intent removes a feature or part of a feature.
+* The intent is for WebDriver / WebDriver BiDi support for a feature already
+  shipped in Chromium.
+
+## TAG review {:#tag}
+
+The [W3C TAG](https://www.w3.org/2001/tag/) is most effective when it can
+suggest changes early in a feature's design. To get this input at the right
+time, try to [request an "early design
+review"](https://github.com/w3ctag/design-reviews/issues/new/choose) when you
+have a solid description of the problem you're trying to solve, a collection of
+alternative solutions, and one solution prototyped to demonstrate that it's
+viable. This is likely around when you [start developer
+trials](/blink/launching-features/#dev-trials).
+
+When you have a complete specification for your feature, you should give the TAG
+another opportunity to review it, unless they said not to in the early design
+review. If they didn't close the early design review, or if your final
+specification does not differ in any significant way from the the form reviewed
+by the TAG, just comment on the early design review saying that a specification
+is ready. No need to reopen the issue in that case. Otherwise (the early design
+review is closed and the design has changed in any significant way), [open a new
+"specification
+review"](https://github.com/w3ctag/design-reviews/issues/new/choose).
+
+<div id="slow-tag-review">
+
+The TAG sometimes leaves a review open for several months, during which the
+relevant stakeholders find consensus or Chromium ships the feature. If that
+happens, it's best to notify the TAG so that they can close the issue and
+prioritize other issues. If Chromium ships without wide consensus, it's still
+polite to inform the TAG that Chromium considers the feature stable, and future
+proposals for changes will be weighed against the compatibility risk of changing
+a shipping feature.
+
+</div>
+
+## Browser engine standards positions {:#standards-positions}
+
+Request formal standards positions from the Gecko and WebKit browser engines
+around when a specification goes to [Origin
+Trial](/blink/launching-features/#origin-trials) or [when you believe the
+feature is in close to its final form](/blink/launching-features/#widen-review),
+at least a month before you plan to send your intent to ship.
 
 For cases where the signal is not Shipping/Shipped or In Development, the
 [Official Standards Signal Process](#signal-process) (see next section) for that
 implementation should be followed to obtain a signal. If the Official Standards
-SIgnal Process is skipped or incomplete and N/A or No Signal is reported, it
+Signal Process is skipped or incomplete and N/A or No Signal is reported, it
 should be reported why. Reasons why can include:
 
-*   Change is too small to justify this effort. Note that Mozilla in particular
-    have
-    [indicated](https://groups.google.com/a/chromium.org/g/blink-api-owners-discuss/c/q5C44gYgqyA/m/gJfUKuUqAgAJ)
-    that they trust the judgment of blink API owners in determining when
-    something is sufficiently small and/or non-controversial to bother
-    requesting a position on.
+*   The feature has an [exception](#exceptions).
 *   The Official Standards Signal Process was followed but no response came in a
     reasonable timeframe
 
@@ -99,12 +149,9 @@ For each of Gecko and WebKit, state one of the following signals:
     case
 </table>
 
-## Official Standards Signal Process {:#signal-process}
+### Official Standards Signal Process {:#signal-process}
 
-In all cases, a reasonable amount of time (at least one week, but ideally much
-more) should be allowed for responses to this process.
-
-### Gecko
+#### Gecko
 
 [File a Mozilla standards position issue.](https://github.com/mozilla/standards-positions)
 The
@@ -112,7 +159,7 @@ The
 of this are: **positive**, **neutral**, **negative**, **defer**, and **under
 consideration**. Link to the issue in the Implementation Signals List.
 
-### WebKit
+#### WebKit
 
 [File a WebKit standards position issue](https://github.com/WebKit/standards-positions/),
 and link to the issue in the Implementation Signals List. The

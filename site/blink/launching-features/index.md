@@ -239,10 +239,10 @@ next step.
 
 Once you have a functional and reasonably complete feature implementation
 available as a runtime enabled feature, we recommend (but don't require) that
-you request an [Early Design Review](https://github.com/w3ctag/design-reviews/issues/new?assignees=&labels=Progress%3A+untriaged%2C+Review+type%3A+early+review&template=005-early-design-review.md&title=)
-from the [TAG](https://www.w3.org/2001/tag/) and proceed to
+you [request an Early Design Review
+from the TAG](/blink/launching-features/wide-review/#tag) and proceed to
 the “Dev Trials” stage in ChromeStatus (note also exceptions enumerated
-[here](/blink/guidelines/api-owners/process-exceptions/)). This will generate
+[here](/blink/launching-features/wide-review/#exceptions)). This will generate
 a “Ready for Developer Testing” email that you should send to
 [blink-dev](mailto:blink-dev@chromium.org) to notify the community they can
 try out the feature. At this point, you should consider asking other browser
@@ -309,18 +309,11 @@ Once you have a complete specification:
 
 1. If you have one, ask your spec mentor to [review the
    specification](/blink/spec-mentors/#reviewing-the-specification).
-2. Request a [Specification
-   Review](https://github.com/w3ctag/design-reviews/issues/new?assignees=&labels=Progress%3A+untriaged&template=010-specification-review.md)
-   from the TAG (except in the cases noted
-   [here](/blink/guidelines/api-owners/process-exceptions/)). You should submit
+2. [Request a Specification Review
+   from the TAG](/blink/launching-features/wide-review/#tag) (except in the cases noted
+   [here](/blink/launching-features/wide-review/#exceptions)). You should submit
    this at least a month ahead of sending an Intent to Ship, to give the TAG
    sufficient time for meaningful feedback.
-
-   Note that if the TAG takes several months to review the feature,
-   and during that time the implementations and relevant standards
-   bodies find consensus on the feature, the TAG's review might not
-   be able to influence the design anymore. If that happens, it's best to notify the TAG so
-   that they can close the issue and prioritize other issues.
 
 #### Step 5 (Optional): Origin Trial or other Experiments {:#origin-trials}
 
@@ -363,7 +356,7 @@ for *3 milestones* at a time, and will not be approved unless substantial
 progress is demonstrated in all of these areas:
 * Draft spec (early draft is ok, but must be spec-like and associated with the
   appropriate standardization venue, or WICG)
-* TAG review (see [exceptions](/blink/guidelines/api-owners/process-exceptions/))
+* TAG review (see [exceptions](/blink/launching-features/wide-review/#exceptions))
 * [signals](/blink/launching-features/wide-review) requests
 * Outreach for feedback from the spec community
 * WPT tests
@@ -398,10 +391,9 @@ other than [`Resolution:
 satisfied`](https://github.com/w3ctag/design-reviews/issues?q=is%3Aissue+label%3A%22Resolution%3A+satisfied%22),
 the API Owners should be able to see evidence that you've seriously and
 comprehensively engaged with their comments, and tried to resolve any concerns.
-If the TAG has _not_ commented, then after your I2S is approved, it's courteous
-to post to the review saying that Chromium considers the feature stable, and
-future proposals for changes will be weighed against the compatibility risk of changing a
-shipping feature.
+If the TAG has _not_ commented, [clean up the
+review](/blink/launching-features/wide-review/#slow-tag-review) after your I2S
+is approved.
 
 If your specification is still in an [incubation venue](#incubation-venue) and
 not a working group, propose that the feature migrate to a working group.
@@ -480,9 +472,9 @@ feature ready for developers to try out under a flag, proceed to the next step.
 #### Step 2: Feature Complete behind a flag and implementation refinement {:#existing-standard-dev-trials}
 
 If the TAG has not already reviewed the consensus specification, request a
-[Specification Review](https://github.com/w3ctag/design-reviews/issues/new?assignees=&labels=Progress%3A+untriaged&template=010-specification-review.md)
+[Specification Review](/blink/launching-features/wide-review/#tag)
 (except in the cases noted
-[here](/blink/guidelines/api-owners/process-exceptions/))
+[here](/blink/launching-features/wide-review/#exceptions))
 and proceed to the “Dev Trials” stage in ChromeStatus. This will generate a
 “Ready for Developer Testing” email that you should send to
 [blink-dev](mailto:blink-dev@chromium.org) to notify the community they can
