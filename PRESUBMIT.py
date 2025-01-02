@@ -178,6 +178,8 @@ def CheckLinks(input_api, output_api):
     affected_files = input_api.AffectedFiles(
         file_filter=lambda x: x.LocalPath().endswith('.md'))
 
+    results = []
+
     # Extract the links from the files.  We have a variety of styles:
     #   [text](link)
     #   [anchor]: link
@@ -187,7 +189,28 @@ def CheckLinks(input_api, output_api):
     links = []
     for affected_file in affected_files:
         file = affected_file.LocalPath()
-        for i, line in enumerate(affected_file.NewContents(), start=1):
+        line_gen = enumerate(affected_file.NewContents(), start=1)
+        for i, line in line_gen:
+            # Ignore ``` blocks because the contents are not markdown, and they
+            # might use code that matches the link syntax (e.g. regexes).
+            sline = line.strip()
+            # Handle things like:
+            # ```
+            # ```language
+            # ```this is triple ` quotes inline```
+            if sline.startswith('```') and (len(sline) == 3
+                                            or not sline.endswith('```')):
+                while True:
+                    try:
+                        _, line = next(line_gen)
+                    except StopIteration:
+                        results.append(
+                            output_api.PresubmitError(
+                                f'{file}:{i}: Missing closing ``` blocks'))
+                        line = '```'
+                    if line.lstrip().startswith('```'):
+                        break
+
             # [text](link)
             # We don't match the opening [ because it can span multiple lines.
             # The ](...) part has to be on one line.
@@ -206,7 +229,6 @@ def CheckLinks(input_api, output_api):
             ]
 
     # Check links.
-    results = []
 
     def _create_result(link, msg, want_uri) -> None:
         want_link = urllib.parse.urlunparse(want_uri)
