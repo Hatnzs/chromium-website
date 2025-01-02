@@ -259,7 +259,7 @@ Assuming /opt/google/chrome on device as /home/self/chromeos/chroot/build/x86-ge
 Given a specific component listed in the graph above, sue the following command
 to
 
-## ```none
+```none
 # HEAP_FILE => TCMalloc .heap file
 # COMPONENT => One of the components displayed in the graph.
 # POLICY => the json file used to generate the graph.
