@@ -255,4 +255,19 @@ def CheckLinks(input_api, output_api):
                 _create_result(link, 'Omit the /site/ prefix in local paths',
                                o._replace(path=o.path[5:]))
 
+            # Verify local paths exist.
+            if o.path:
+                # Anchor absolute paths under site/, otherwise it's relative to
+                # the document.
+                local_path = input_api.os_path.join(
+                    'site' if o.path.startswith('/') else
+                    input_api.os_path.dirname(link.file),
+                    urllib.parse.unquote(o.path.lstrip('/')))
+
+                if o.path == '/system/errors/NodeNotFound':
+                    results.append(
+                        output_api.PresubmitPromptWarning(
+                            f'{link.file}:{link.line_num}: '
+                            f'Missing link: {o.path}'))
+
     return results
