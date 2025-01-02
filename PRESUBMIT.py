@@ -184,6 +184,8 @@ def CheckLinks(input_api, output_api):
     #   [text](link)
     #   [anchor]: link
     #   [anchor]: link "extra text"
+    #   [^footnote]
+    #   [^footnote]: content
     #   <link>
     #   link
     links = []
@@ -219,9 +221,11 @@ def CheckLinks(input_api, output_api):
                 for x in re.findall(r'\]\(([^) ]+)\)', line)
             ]
             # [anchor]: link
-            m = re.match(r'^\[[^]]+\]:\s*(\S+)', line)
+            m = re.match(r'^\[([^]]+)\]:\s*(\S+)', line)
             if m:
-                links.append(_MdLink(file, m.group(1), True, i))
+                # [^footnote]: link
+                if not m.group(1).startswith('^'):
+                    links.append(_MdLink(file, m.group(2), True, i))
             # <link>
             links += [
                 _MdLink(file, x, False, i)
