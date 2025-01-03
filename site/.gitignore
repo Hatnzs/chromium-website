@@ -1168,4 +1168,8 @@ chromium-os/developer-library/guides/testing/cpp-writing-tests/gerrit_test_cover
 chromium-os/developer-library/guides/testing/cpp-writing-tests/gerrit_test_coverage_line_by_line.png
 chromium-os/developer-library/guides/testing/e2e-tests/verified_submit_requirement.png
 chromium-os/developer-library/reference/security/cpp-security-best-practices/rule-of-two.png
+chromium-os/developer-library/guides/debugging/firmware-ui/fallback_screen.jpg
+chromium-os/developer-library/guides/testing/firmware-test-manual/menu_ui_screen_state_diagram.png
+chromium-os/developer-library/reference/device/cros-board-info/wp_circuitry_1.png
+chromium-os/developer-library/reference/device/cros-board-info/wp_circuitry_2.png
 #end_lob_ignore

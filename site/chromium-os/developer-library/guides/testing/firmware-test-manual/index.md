@@ -480,7 +480,7 @@ New screen for diagnostic tools device created post 2020.
 
 ##### Menu UI Screen State Diagram
 
-![Diagram](images/menu_ui_screen_state_diagram.png)
+![Diagram](./menu_ui_screen_state_diagram.png)
 
 ## General Procedure
 

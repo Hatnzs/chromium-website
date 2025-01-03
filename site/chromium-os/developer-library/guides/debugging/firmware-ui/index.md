@@ -59,7 +59,7 @@ in bmpblk.
 
 ## Fallback screen
 
-![fallback screen](images/fallback_screen.jpg)
+![fallback screen](./fallback_screen.jpg)
 
 ### Fallback message
 
