@@ -272,7 +272,7 @@ yourself getting stuck with debugging, you can use Chrome DevTools.
 First, on your workstation or corp laptop, add `-L 9222:localhost:9222` to the
 "SSH Arguments" field on the configuration page of the Secure Shell App.
 
-![](images/debugging_ssh.png){style="display:block;margin:auto;width:800px"}
+![](./debugging_ssh.png){style="display:block;margin:auto;width:800px"}
 <div align="center">
   Figure 1:
 [Add `-L 9222:localhost:9222` to your SSH configuration.](https://screenshot.googleplex.com/BWVDUgHgQckD2so.png)
@@ -297,7 +297,7 @@ Once you run the above command, go to your browser and navigate to
 **chrome://inspect/**. Find the test process in the **Devices > Remote Target**
 section, and click the "inspect" link.
 
-![](images/debugging_chrome_inspect.png){style="display:block;margin:auto;width:800px"}
+![](./debugging_chrome_inspect.png){style="display:block;margin:auto;width:800px"}
 <div align="center">
   Figure 2:
 [Open chrome://inspect and click the "inspect" link for your test process.](https://screenshot.googleplex.com/6zSXiMEuA375Kgq.png)
@@ -306,7 +306,7 @@ section, and click the "inspect" link.
 This should open a new DevTools window. To run the test, go to the console tab
 in the DevTools window and run "go()."
 
-![](images/debugging_devtools.png){style="display:block;margin:auto;width:800px"}
+![](./debugging_devtools.png){style="display:block;margin:auto;width:800px"}
 <div align="center">
   Figure 3:
 [In the DevTools window, type and run the command "go()" in the Console tab.](https://screenshot.googleplex.com/8rSsYTVXsZ9vXGe.png)

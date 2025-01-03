@@ -1160,4 +1160,12 @@ chromium-os/developer-library/guides/cpp/resolving-dependency-issues/delegate_di
 chromium-os/developer-library/guides/testing/touch-firmware-tests/TouchFWTests.png
 chromium-os/developer-library/guides/kernel/kernel-configuration/kernel_config_diag.png
 chromium-os/developer-library/guides/kernel/kernel-configuration/kernel_config_diag.svg
+chromium-os/developer-library/guides/debugging/debugging/debugging_chrome_inspect.png
+chromium-os/developer-library/guides/debugging/debugging/debugging_devtools.png
+chromium-os/developer-library/guides/debugging/debugging/debugging_ssh.png
+chromium-os/developer-library/guides/testing/cpp-writing-tests/gerrit_hashtags.png
+chromium-os/developer-library/guides/testing/cpp-writing-tests/gerrit_test_coverage.png
+chromium-os/developer-library/guides/testing/cpp-writing-tests/gerrit_test_coverage_line_by_line.png
+chromium-os/developer-library/guides/testing/e2e-tests/verified_submit_requirement.png
+chromium-os/developer-library/reference/security/cpp-security-best-practices/rule-of-two.png
 #end_lob_ignore

@@ -114,7 +114,7 @@ CL. All you need to do is click the "DRY RUN" button and wait for the tests to
 finish running. It's best to do this before sending a CL for review, since your
 reviewer will want to know that the tests are passing and see the test coverage.
 
-![](images/gerrit_test_coverage.png)
+![](./gerrit_test_coverage.png)
 
 For each file, Gerrit displays two types of coverage, absolute coverage (|Cov|)
 and incremental coverage (ΔCov). Absolute coverage is based on all lines in the
@@ -130,7 +130,7 @@ Finally, Gerrit color-codes individual lines so that you can see whether they
 have test coverage or not. This makes it easy to decide what tests to write in
 order to increase coverage.
 
-![](images/gerrit_test_coverage_line_by_line.png)
+![](./gerrit_test_coverage_line_by_line.png)
 
 ### Looking at test coverage by directory
 
@@ -162,7 +162,7 @@ There are two ways to set hashtags:
 WARNING: Changing a CL's title after the first upload will not add/remove
 hashtags from the CL. It only works on the very first `git cl upload`.
 
-![](images/gerrit_hashtags.png)
+![](./gerrit_hashtags.png)
 
 ## Common testing patterns
 
