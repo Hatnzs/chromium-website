@@ -126,17 +126,17 @@ and all paperwork your received first. If you just want to see what the inside
 looks like, gaze upon this (click for a high res version):
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/lenovo-thinkpad-x131e-chromebook/stout-inside-top.jpg"
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/lenovo-thinkpad-x131e-chromebook/stout-inside-top.jpg)
+src="stout-inside-top.jpg"
+width=320>](./stout-inside-top.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/lenovo-thinkpad-x131e-chromebook/stout-inside-bottom.jpg"
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/lenovo-thinkpad-x131e-chromebook/stout-inside-bottom.jpg)
+src="stout-inside-bottom.jpg"
+width=320>](./stout-inside-bottom.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/lenovo-thinkpad-x131e-chromebook/stout-bare-top.jpg"
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/lenovo-thinkpad-x131e-chromebook/stout-bare-top.jpg)
+src="stout-bare-top.jpg"
+width=320>](./stout-bare-top.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/lenovo-thinkpad-x131e-chromebook/stout-bare-bottom.jpg"
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/lenovo-thinkpad-x131e-chromebook/stout-bare-bottom.jpg)
+src="stout-bare-bottom.jpg"
+width=320>](./stout-bare-bottom.jpg)
 
 ### Servo Header
 

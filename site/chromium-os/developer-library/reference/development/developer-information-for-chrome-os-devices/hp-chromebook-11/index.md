@@ -42,7 +42,7 @@ Note: there have been multiple devices released under the moniker "HP Chromebook
 *   WiFi: 802.11 a/b/g/n
     *   USB ports can handle Ethernet dongle
 *   Power supply: 5.25V <img alt="image"
-            src="/chromium-os/developer-information-for-chrome-os-devices/direct-current.svg"
+            src="/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/direct-current.svg"
             height=5> ([DC](https://en.wikipedia.org/wiki/Direct_current)) 3.A
             [micro
             USB](https://play.google.com/store/devices/details/Charger_for_HP_Chromebook_11)

@@ -20,19 +20,19 @@ on the Chrome Notebook), see the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide).
 
 <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c910-chromebook/chromebook_0001s_0000_Acer-Chromebook-15-01-front.jpg"
+src="chromebook_0001s_0000_Acer-Chromebook-15-01-front.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c910-chromebook/chromebook_0001s_0001_Acer-Chromebook-15-02-left.jpg"
+src="chromebook_0001s_0001_Acer-Chromebook-15-02-left.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c910-chromebook/chromebook_0001s_0002_Acer-Chromebook-15-03-right.jpg"
+src="chromebook_0001s_0002_Acer-Chromebook-15-03-right.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c910-chromebook/chromebook_0001s_0003_Acer-Chromebook-15-04-side-left.jpg"
+src="chromebook_0001s_0003_Acer-Chromebook-15-04-side-left.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c910-chromebook/chromebook_0001s_0004_Acer-Chromebook-15-05-side-right.jpg"
+src="chromebook_0001s_0004_Acer-Chromebook-15-05-side-right.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c910-chromebook/chromebook_0001s_0005_Acer-Chromebook-15-06-group-black.jpg"
+src="chromebook_0001s_0005_Acer-Chromebook-15-06-group-black.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c910-chromebook/chromebook_0001s_0006_Acer-Chromebook-15-07-group-white.jpg"
+src="chromebook_0001s_0006_Acer-Chromebook-15-07-group-white.jpg"
 height=150 width=200>
 
 ### Specifications

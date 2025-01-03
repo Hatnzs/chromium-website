@@ -73,9 +73,9 @@ secure again.
 Here's a photo showing the location of the developer switch:
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-ac700-chromebook/newback.jpg"
+src="newback.jpg"
 height=300
-width=400>](/chromium-os/developer-information-for-chrome-os-devices/acer-ac700-chromebook/newback.jpg)
+width=400>](./newback.jpg)
 
 ### Developer-mode BIOS
 
@@ -195,9 +195,9 @@ using the recovery mode button. On the bottom of the Acer AC700 on the side
 nearest the Enter key, there is a tiny pinhole:
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-ac700-chromebook/back.jpg"
+src="back.jpg"
 height=300
-width=400>](/chromium-os/developer-information-for-chrome-os-devices/acer-ac700-chromebook/back.jpg)
+width=400>](./back.jpg)
 
 If you stick a paperclip into this hole, you'll feel it press a button. To force
 recovery mode, turn the device off, press this button, and while keeping it
@@ -226,17 +226,17 @@ and all paperwork your received first. If you just want to see what the inside
 looks like, gaze upon this (click for high res versions):
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-ac700-chromebook/acer-zgb-bottom.jpg"
+src="acer-zgb-bottom.jpg"
 height=224
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/acer-ac700-chromebook/acer-zgb-bottom.jpg)
+width=320>](./acer-zgb-bottom.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-ac700-chromebook/acer-zgb-bottm-guts.jpg"
+src="acer-zgb-bottm-guts.jpg"
 height=182
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/acer-ac700-chromebook/acer-zgb-bottm-guts.jpg)
+width=320>](./acer-zgb-bottm-guts.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-ac700-chromebook/acer-zgb-top-guts.jpg"
+src="acer-zgb-top-guts.jpg"
 height=230
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/acer-ac700-chromebook/acer-zgb-top-guts.jpg)
+width=320>](./acer-zgb-top-guts.jpg)
 
 However, we acknowledge that some people like to tinker. So here's a quick guide
 to taking it apart.

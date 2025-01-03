@@ -70,16 +70,16 @@ Entering Developer mode is easy:
 Here are some pictures that might help:
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/Mario_DevSwitchTape.png"
+src="Mario_DevSwitchTape.png"
 height=225
-width=400>](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/Mario_DevSwitchTape.png)
+width=400>](./Mario_DevSwitchTape.png)
 
 **Image 1: Location of Developer Switch**
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/Mario_DevSwitchOn.png"
+src="Mario_DevSwitchOn.png"
 height=225
-width=400>](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/Mario_DevSwitchOn.png)
+width=400>](./Mario_DevSwitchOn.png)
 
 **Image 2: Developer Switch in "Developer Mode" position.**
 
@@ -138,7 +138,7 @@ the recovery mode button.
 On the bottom of the Cr-48, directly below the ESC key, there is a tiny pinhole:
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/cr48_recovery_button.jpg">](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/cr48_recovery_button.jpg)
+src="cr48_recovery_button.jpg">](./cr48_recovery_button.jpg)
 
 If you stick a paperclip into this hole, you'll feel it press a button. To force
 recovery mode, turn the Cr-48 off, press this button, and while keeping it
@@ -411,10 +411,10 @@ familiar with this process.**
 Here is a rundown of the parts that are not soldered down:
 
 *   Power supply: 19.5V <img alt="image"
-            src="/chromium-os/developer-information-for-chrome-os-devices/direct-current.svg"
+            src="/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/direct-current.svg"
             height=5> ([DC](https://en.wikipedia.org/wiki/Direct_current)) 2.05A
             <img alt="image"
-            src="/chromium-os/developer-information-for-chrome-os-devices/center-positive-polarity.svg"
+            src="/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/center-positive-polarity.svg"
             height=12> ([positive polarity
             tip](https://en.wikipedia.org/wiki/Polarity_symbols))
 *   SSD: 16GiB mSATA
@@ -428,13 +428,13 @@ to see what the inside looks like, gaze upon this (click for a high res
 version):
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/mario-bottom-guts.jpg"
+src="mario-bottom-guts.jpg"
 height=231
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/mario-bottom-guts.jpg)
+width=320>](./mario-bottom-guts.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/mario-top-guts.jpg"
+src="mario-top-guts.jpg"
 height=102
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/cr-48-chrome-notebook-developer-information/mario-top-guts.jpg)
+width=320>](./mario-top-guts.jpg)
 
 However, we acknowledge that some people like to tinker. So here's a quick guide
 to taking it apart:

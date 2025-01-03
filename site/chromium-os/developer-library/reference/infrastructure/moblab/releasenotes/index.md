@@ -647,8 +647,7 @@ the update you will be running version R87-13505.101.0
 To check you have the latest Moblab software you can just look at this text in
 the configuration page, if it says No updated found you have the latest.
 
-[<img alt="image"
-src="/chromium-os/testing/moblab/releasenotes/7tG9QTai4PUH2ue.png">](/chromium-os/testing/moblab/releasenotes/7tG9QTai4PUH2ue.png)
+[<img alt="image" src="7tG9QTai4PUH2ue.png">](./7tG9QTai4PUH2ue.png)
 
 Moblab checks for new versions every 1 hour.
 
@@ -708,8 +707,7 @@ This is a regularly scheduled release of Moblab.
 To check you have the latest Moblab software you can just look at this text in
 the configuration page, if it says No updated found you have the latest.
 
-[<img alt="image"
-src="/chromium-os/testing/moblab/releasenotes/7tG9QTai4PUH2ue.png">](/chromium-os/testing/moblab/releasenotes/7tG9QTai4PUH2ue.png)
+[<img alt="image" src="7tG9QTai4PUH2ue.png">](./7tG9QTai4PUH2ue.png)
 
 Moblab checks for new versions every 1 hour.
 
@@ -723,8 +721,7 @@ Manage DUT’s:
         still a beta feature please file bugs / ask questions if you have
         issues.
 
-[<img alt="image"
-src="/chromium-os/testing/moblab/releasenotes/944NKgXvoL9ubsp.png">](/chromium-os/testing/moblab/releasenotes/944NKgXvoL9ubsp.png)
+[<img alt="image" src="944NKgXvoL9ubsp.png">](./944NKgXvoL9ubsp.png)
 
 **Configuration:**
 

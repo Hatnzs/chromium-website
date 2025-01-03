@@ -73,9 +73,9 @@ secure again.
 Here's a photo showing the location of the developer switch:
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-series-5-chromebook/b.jpg"
+src="b.jpg"
 height=171
-width=400>](/chromium-os/developer-information-for-chrome-os-devices/samsung-series-5-chromebook/b.jpg)
+width=400>](./b.jpg)
 
 ### Developer-mode BIOS
 
@@ -195,9 +195,9 @@ using the recovery mode button. On the bottom of the Samsung Series 5, on the
 corner nearest the developer switch, there is a tiny pinhole:
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-series-5-chromebook/cc.jpg"
+src="cc.jpg"
 height=300
-width=400>](/chromium-os/developer-information-for-chrome-os-devices/samsung-series-5-chromebook/cc.jpg)
+width=400>](./cc.jpg)
 
 If you stick a paperclip into this hole, you'll feel it press a button. To force
 recovery mode, turn the device off, press this button, and while keeping it
@@ -222,9 +222,9 @@ a paperclip to gently press the battery reset button through the hole on the
 back of the chromebook. Hold it down for a few seconds, then release it.
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-series-5-chromebook/alex_reset.jpg"
+src="alex_reset.jpg"
 height=300
-width=400>](/chromium-os/developer-information-for-chrome-os-devices/samsung-series-5-chromebook/alex_reset.jpg)
+width=400>](./alex_reset.jpg)
 
 This process turns the battery off. It won't turn on again until you've
 connected the AC power cord and the EC has booted. After that, things should
@@ -252,17 +252,17 @@ and all paperwork your received first. If you just want to see what the inside
 looks like, gaze upon this (click for a high res version):
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-series-5-chromebook/alex-bottom-guts.jpg"
+src="alex-bottom-guts.jpg"
 height=236
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/samsung-series-5-chromebook/alex-bottom-guts.jpg)
+width=320>](./alex-bottom-guts.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-series-5-chromebook/alex-bottom-guts-no-battery.jpg"
+src="alex-bottom-guts-no-battery.jpg"
 height=236
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/samsung-series-5-chromebook/alex-bottom-guts-no-battery.jpg)
+width=320>](./alex-bottom-guts-no-battery.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-series-5-chromebook/alex-top-guts.jpg"
+src="alex-top-guts.jpg"
 height=190
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/samsung-series-5-chromebook/alex-top-guts.jpg)
+width=320>](./alex-top-guts.jpg)
 
 However, we acknowledge that some people like to tinker. So here's a quick guide
 to taking it apart:

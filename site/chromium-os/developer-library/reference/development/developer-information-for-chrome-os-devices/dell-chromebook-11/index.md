@@ -104,6 +104,6 @@ red arrow below. Remove the screw, boot the system and run "flashrom
 --wp-disable" to enable writing to the write protected regions of flash.
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/dell-chromebook-11/Selection_459.png"
+src="Selection_459.png"
 height=231
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/dell-chromebook-11/Selection_459.png)
+width=320>](./Selection_459.png)

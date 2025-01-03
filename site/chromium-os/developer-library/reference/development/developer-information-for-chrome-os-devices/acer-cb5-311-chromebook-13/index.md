@@ -20,15 +20,15 @@ software on the Chrome Notebook), see the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide).
 
 <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-cb5-311-chromebook-13/gallery-Acer-Chromebook13-1-front.jpg"
+src="gallery-Acer-Chromebook13-1-front.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-cb5-311-chromebook-13/gallery-Acer-Chromebook13-2-left.jpg"
+src="gallery-Acer-Chromebook13-2-left.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-cb5-311-chromebook-13/gallery-Acer-Chromebook13-3-right.jpg"
+src="gallery-Acer-Chromebook13-3-right.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-cb5-311-chromebook-13/gallery-Acer-Chromebook13-4-side-left.jpg"
+src="gallery-Acer-Chromebook13-4-side-left.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-cb5-311-chromebook-13/gallery-Acer-Chromebook13-5-side-right.jpg"
+src="gallery-Acer-Chromebook13-5-side-right.jpg"
 height=150 width=200>
 
 ### Specifications

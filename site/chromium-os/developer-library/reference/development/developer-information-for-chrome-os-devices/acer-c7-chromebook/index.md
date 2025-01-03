@@ -41,10 +41,10 @@ OS Developer Guide](/chromium-os/developer-guide).
     *   Dedicated Ethernet port
     *   USB ports can handle Ethernet dongles
 *   Power supply: 19V <img alt="image"
-            src="/chromium-os/developer-information-for-chrome-os-devices/direct-current.svg"
+            src="/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/direct-current.svg"
             height=5> ([DC](https://en.wikipedia.org/wiki/Direct_current)) 2.15A
             <img alt="image"
-            src="/chromium-os/developer-information-for-chrome-os-devices/center-positive-polarity.svg"
+            src="/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/center-positive-polarity.svg"
             height=12> ([positive polarity
             tip](https://en.wikipedia.org/wiki/Polarity_symbols))
 *   [Kensington Security
@@ -142,14 +142,14 @@ and all paperwork your received first. If you just want to see what the inside
 looks like, gaze upon this (click for high res versions):
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c7-chromebook/acer-c7-bottom-guts.jpg"
+src="acer-c7-bottom-guts.jpg"
 height=221
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/acer-c7-chromebook/acer-c7-bottom-guts.jpg)
+width=320>](./acer-c7-bottom-guts.jpg)
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c7-chromebook/acer-c7-top-guts.jpg"
+src="acer-c7-top-guts.jpg"
 height=226
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/acer-c7-chromebook/acer-c7-top-guts.jpg)
+width=320>](./acer-c7-top-guts.jpg)
 
 However, we acknowledge that some people like to tinker. So here's a quick guide
 to taking it apart.
@@ -160,7 +160,7 @@ This is very easy to do and gets you access to all the pieces you most likely
 care about:
 
 <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c7-chromebook/acer-c7-case-bottom.jpg"
+src="acer-c7-case-bottom.jpg"
 height=277 width=400>
 
 *   The hard drive is easy to remove & replace/upgrade
@@ -198,7 +198,7 @@ Check out the high res picture above for overview.
 While it is possible to remove the motherboard entirely, there isn't much of a
 point. You can see a high res image of what it looks like above if you just want
 that.<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c7-chromebook/acer-c7-bottom-screws.jpg"
+src="acer-c7-bottom-screws.jpg"
 height=222 width=320>
 
 If you really want to remove it, then here's how:

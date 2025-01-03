@@ -52,13 +52,13 @@ and all paperwork your received first. If you just want to see what the inside
 looks like, gaze upon this (click for a high res version):
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook/butterfly-top-guts.jpg"
+src="butterfly-top-guts.jpg"
 height=216
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook/butterfly-top-guts.jpg)
+width=320>](./butterfly-top-guts.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook/butterfly-bottom-guts.jpg"
+src="butterfly-bottom-guts.jpg"
 height=198
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook/butterfly-bottom-guts.jpg)
+width=320>](./butterfly-bottom-guts.jpg)
 
 However, we acknowledge that some people like to tinker. So here's a quick guide
 to taking it apart:
@@ -73,9 +73,9 @@ to taking it apart:
 *   Remove the battery
 *   Remove all screws on D-panel (see pic) w/phillips head (there are
             10)[<img alt="image"
-            src="/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook/butterfly-dpanel.jpg"
+            src="butterfly-dpanel.jpg"
             height=137
-            width=200>](/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook/butterfly-dpanel.jpg)
+            width=200>](./butterfly-dpanel.jpg)
 *   Pry off keyboard using a flat instrument
     *   The keyboard can bend inward and upward to dislodge the tabs
                 which are all along the top and bottom of the keyboard
@@ -87,18 +87,18 @@ to taking it apart:
                 needs to be disconnected from the motherboard
 
         [<img alt="image"
-        src="/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook/butterfly-keyboard.jpg"
+        src="butterfly-keyboard.jpg"
         height=150
-        width=200>](/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook/butterfly-keyboard.jpg)
+        width=200>](./butterfly-keyboard.jpg)
 
 *   Remove all screws on C-panel. Note location of
             [servo](/chromium-os/servo) connector (non-standard 2x25 connector),
             circled in blue.
 
     [<img alt="image"
-    src="/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook/butterfly-cpanel.jpg"
+    src="butterfly-cpanel.jpg"
     height=150
-    width=200>](/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook/butterfly-cpanel.jpg)
+    width=200>](./butterfly-cpanel.jpg)
 
 *   Disconnect the two ribbon cables and pry off C-panel
     *   You can use the open holes in the metal plate to pull up until
@@ -108,6 +108,6 @@ to taking it apart:
 *   Unit is now disassembled. Note the location of the WP switch.
 
     [<img alt="image"
-    src="/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook/butterfly-top-wp.jpg"
+    src="butterfly-top-wp.jpg"
     height=200
-    width=150>](/chromium-os/developer-information-for-chrome-os-devices/hp-pavilion-14-chromebook/butterfly-top-wp.jpg)
+    width=150>](./butterfly-top-wp.jpg)

@@ -36,10 +36,10 @@ OS Developer Guide](/chromium-os/developer-guide).
 *   WiFi: 802.11 a/b/g/n
     *   USB slot can handle Ethernet dongle
 *   Power supply: 12V <img alt="image"
-            src="/chromium-os/developer-information-for-chrome-os-devices/direct-current.svg"
+            src="/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/direct-current.svg"
             height=5> ([DC](https://en.wikipedia.org/wiki/Direct_current)) 3.33A
             <img alt="image"
-            src="/chromium-os/developer-information-for-chrome-os-devices/center-positive-polarity.svg"
+            src="/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/center-positive-polarity.svg"
             height=12> ([positive polarity
             tip](https://en.wikipedia.org/wiki/Polarity_symbols))
 *   No [Kensington Security
@@ -259,17 +259,17 @@ and all paperwork your received first. If you just want to see what the inside
 looks like, gaze upon this (click for a high res version):
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook/arm-chromebook-inside.jpg"
+src="arm-chromebook-inside.jpg"
 height=224
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook/arm-chromebook-inside.jpg)
+width=320>](./arm-chromebook-inside.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook/snow-bottom-guts.jpg"
+src="snow-bottom-guts.jpg"
 height=140
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook/snow-bottom-guts.jpg)
+width=320>](./snow-bottom-guts.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook/snow-top-guts.jpg"
+src="snow-top-guts.jpg"
 height=140
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/samsung-arm-chromebook/snow-top-guts.jpg)
+width=320>](./snow-top-guts.jpg)
 
 However, we acknowledge that some people like to tinker. So here's a quick guide
 to taking it apart:

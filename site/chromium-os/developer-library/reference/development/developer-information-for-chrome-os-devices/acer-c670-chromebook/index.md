@@ -20,23 +20,23 @@ on the Chrome Notebook), see the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide).
 
 <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c670-chromebook/gallery-AcerChromebook11-1-front.jpg"
+src="gallery-AcerChromebook11-1-front.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c670-chromebook/gallery-AcerChromebook11-2-front-grey.jpg"
+src="gallery-AcerChromebook11-2-front-grey.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c670-chromebook/gallery-AcerChromebook11-4-left-grey.jpg"
+src="gallery-AcerChromebook11-4-left-grey.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c670-chromebook/gallery-AcerChromebook11-5-right.jpg"
+src="gallery-AcerChromebook11-5-right.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c670-chromebook/gallery-AcerChromebook11-6-right-grey.jpg"
+src="gallery-AcerChromebook11-6-right-grey.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c670-chromebook/gallery-AcerChromebook11-7-side-left.jpg"
+src="gallery-AcerChromebook11-7-side-left.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c670-chromebook/gallery-AcerChromebook11-8-side-left-grey.jpg"
+src="gallery-AcerChromebook11-8-side-left-grey.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c670-chromebook/gallery-AcerChromebook11-9-side-right.jpg"
+src="gallery-AcerChromebook11-9-side-right.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c670-chromebook/gallery-AcerChromebook11-10-side-right-grey.jpg"
+src="gallery-AcerChromebook11-10-side-right-grey.jpg"
 height=150 width=200>
 
 ### Specifications

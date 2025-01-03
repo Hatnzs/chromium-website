@@ -43,11 +43,11 @@ Kensington lock hole, and can be operated with a small paperclip (be gentle). To
 enable developer mode, simply move the switch and reboot.
 
 [<img alt="lumpy dev switch"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/lumpy-dev-switch.jpg"
+src="lumpy-dev-switch.jpg"
 height=132
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/lumpy-dev-switch.jpg)
+width=320>](./lumpy-dev-switch.jpg)
 <img alt="stumpy dev switch"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/stumpy-dev-switch.jpg"
+src="stumpy-dev-switch.jpg"
 height=133 width=320>
 
 The first time you reboot after turning the developer switch on, your chromebook
@@ -174,14 +174,14 @@ pinhole on the bottom, directly underneath the power button. On the Chromebox,
 the pinhole is on the back corner, next to the outer Display Port connector.
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/lumpy-case.jpg"
+src="lumpy-case.jpg"
 height=145
-width=200>](/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/lumpy-case.jpg)
+width=200>](./lumpy-case.jpg)
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/stumpy.jpg"
+src="stumpy.jpg"
 height=86
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/stumpy.jpg)
+width=320>](./stumpy.jpg)
 
 If you stick a paperclip into this hole, you'll feel it press a button. To force
 recovery mode, turn the device off, press this button, and while keeping it
@@ -238,17 +238,17 @@ looks like, gaze upon this (click for high res versions):
 ### Samsung Series 5 550 Chromebook (lumpy)
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/lumpy-internals.jpg"
+src="lumpy-internals.jpg"
 height=233
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/lumpy-internals.jpg)
+width=320>](./lumpy-internals.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/lumpy-internals-bare.jpg"
+src="lumpy-internals-bare.jpg"
 height=233
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/lumpy-internals-bare.jpg)
+width=320>](./lumpy-internals-bare.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/lumpy-internals-top.jpg"
+src="lumpy-internals-top.jpg"
 height=121
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/lumpy-internals-top.jpg)
+width=320>](./lumpy-internals-top.jpg)
 
 However, we acknowledge that some people like to tinker. So here's a quick guide
 to taking it apart.
@@ -286,10 +286,10 @@ You'll see that some of the components are replaceable:
 *   The hard drive is a 16GiB mSATA
 *   There is one slot for 204-Pin DDR3 SO-DIMM laptop memory
 *   Power supply: 19V <img alt="image"
-            src="/chromium-os/developer-information-for-chrome-os-devices/direct-current.svg"
+            src="/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/direct-current.svg"
             height=5> ([DC](https://en.wikipedia.org/wiki/Direct_current)) 2.1A
             <img alt="image"
-            src="/chromium-os/developer-information-for-chrome-os-devices/center-positive-polarity.svg"
+            src="/chromium-os/developer-library/reference/development/developer-information-for-chrome-os-devices/center-positive-polarity.svg"
             height=12> ([positive polarity
             tip](https://en.wikipedia.org/wiki/Polarity_symbols))
 *   The [servo connector](/chromium-os/servo) (may not be present on
@@ -298,22 +298,22 @@ You'll see that some of the components are replaceable:
 ### Samsung Series 3 Chromebox (stumpy)
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/stumpy-top-full.jpg"
+src="stumpy-top-full.jpg"
 height=200
-width=198>](/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/stumpy-top-full.jpg)
+width=198>](./stumpy-top-full.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/stumpy-top-mid.jpg"
+src="stumpy-top-mid.jpg"
 height=200
-width=198>](/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/stumpy-top-mid.jpg)
+width=198>](./stumpy-top-mid.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/stumpy-top-bare.jpg"
+src="stumpy-top-bare.jpg"
 height=200
-width=198>](/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/stumpy-top-bare.jpg)
+width=198>](./stumpy-top-bare.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/stumpy-bottom-cards.jpg"
+src="stumpy-bottom-cards.jpg"
 height=200
-width=177>](/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/stumpy-bottom-cards.jpg)
+width=177>](./stumpy-bottom-cards.jpg)
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/stumpy-bottom-bare.jpg"
+src="stumpy-bottom-bare.jpg"
 height=200
-width=200>](/chromium-os/developer-information-for-chrome-os-devices/samsung-sandy-bridge/stumpy-bottom-bare.jpg)
+width=200>](./stumpy-bottom-bare.jpg)

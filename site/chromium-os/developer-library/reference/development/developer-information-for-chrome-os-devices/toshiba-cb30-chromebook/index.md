@@ -106,6 +106,6 @@ picture below. Then, boot the system and run "flashrom --wp-disable" to enable
 writing to the write protected regions of flash.
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/toshiba-cb30-chromebook/chromebook_leon_write_protect.jpg"
+src="chromebook_leon_write_protect.jpg"
 height=295
-width=400>](/chromium-os/developer-information-for-chrome-os-devices/toshiba-cb30-chromebook/chromebook_leon_write_protect.jpg)
+width=400>](./chromebook_leon_write_protect.jpg)

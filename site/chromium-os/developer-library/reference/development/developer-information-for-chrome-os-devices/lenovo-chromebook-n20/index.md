@@ -19,19 +19,19 @@ developing on ChromiumOS (the open-source version of the software on the Chrome
 Notebook), see the [ChromiumOS Developer Guide](/chromium-os/developer-guide).
 
 <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/lenovo-chromebook-n20/gallery-LenovoChromebookN20p-1-hinge.jpg"
+src="gallery-LenovoChromebookN20p-1-hinge.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/lenovo-chromebook-n20/gallery-LenovoChromebookN20p-2-front.jpg"
+src="gallery-LenovoChromebookN20p-2-front.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/lenovo-chromebook-n20/gallery-LenovoChromebookN20p-3-left.jpg"
+src="gallery-LenovoChromebookN20p-3-left.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/lenovo-chromebook-n20/gallery-LenovoChromebookN20p-4-right.jpg"
+src="gallery-LenovoChromebookN20p-4-right.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/lenovo-chromebook-n20/gallery-LenovoChromebookN20p-5-hinge.jpg"
+src="gallery-LenovoChromebookN20p-5-hinge.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/lenovo-chromebook-n20/gallery-LenovoChromebookN20p-6-side-left.jpg"
+src="gallery-LenovoChromebookN20p-6-side-left.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/lenovo-chromebook-n20/gallery-LenovoChromebookN20p-7-side-right.jpg"
+src="gallery-LenovoChromebookN20p-7-side-right.jpg"
 height=150 width=200>
 
 ### Specifications

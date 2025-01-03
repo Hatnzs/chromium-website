@@ -193,10 +193,10 @@ troubles, please seek assistance first from an authorized center. Be advised
 that disassembly might void warranties or other obligations, so please consult
 any and all paperwork your received first. If you just want to see what the
 inside looks like, gaze upon this ([high-res
-version](/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook/c720-chromebook-innards.png)):
+version](./c720-chromebook-innards.png)):
 
 <img alt="c720 innards"
-src="/chromium-os/developer-information-for-chrome-os-devices/acer-c720-chromebook/c720-chromebook-annotated-innards.png">
+src="c720-chromebook-annotated-innards.png">
 
 1.  CPU
 2.  RAM

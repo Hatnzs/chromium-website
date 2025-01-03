@@ -20,21 +20,21 @@ software on the Chrome Notebook), see the [ChromiumOS Developer
 Guide](/chromium-os/developer-guide).
 
 <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/hp-chromebook-14/large-1.jpg"
+src="large-1.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/hp-chromebook-14/large-2.jpg"
+src="large-2.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/hp-chromebook-14/large-3.jpg"
+src="large-3.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/hp-chromebook-14/large-4.jpg"
+src="large-4.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/hp-chromebook-14/large-5.jpg"
+src="large-5.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/hp-chromebook-14/large-6.jpg"
+src="large-6.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/hp-chromebook-14/large-7.jpg"
+src="large-7.jpg"
 height=150 width=200> <img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/hp-chromebook-14/large-8.jpg"
+src="large-8.jpg"
 height=150 width=200>
 
 ### Specifications

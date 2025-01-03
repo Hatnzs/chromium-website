@@ -212,9 +212,9 @@ paperwork you received first. If you just want to see what the inside looks
 like, gaze upon this (click for a high res version):
 
 [<img alt="image"
-src="/chromium-os/developer-information-for-chrome-os-devices/chromebook-pixel/link-bottom-guts.jpg"
+src="link-bottom-guts.jpg"
 height=239
-width=320>](/chromium-os/developer-information-for-chrome-os-devices/chromebook-pixel/link-bottom-guts.jpg)
+width=320>](./link-bottom-guts.jpg)
 
 Fine. If you **must** risk breaking it for good, at least do it the right way.
 
