@@ -78,14 +78,11 @@ module.exports = config => {
     '.graffle',
     '.ico',
     '.jpg',
-    'jpg', // Some files are missing the '.' :(.,
     '.jpeg',
     '.mp4',
     '.msi',
     '.pdf',
-    'pdf',  // Some files are missing the '.' :(.
     '.png',
-    'png',  // Some files are missing the '.' :(.
     '.PNG',
     '.swf',
     '.svg',

@@ -43,14 +43,11 @@ LOB_EXTENSIONS = [
     '.graffle',
     '.ico',
     '.jpg',
-    'jpg',  # Some files are missing the '.' :(.
     '.jpeg',
     '.mp4',
     '.msi',
     '.pdf',
-    'pdf',  # Some files are missing the '.' :(.
     '.png',
-    'png',  # Some files are missing the '.' :(.
     '.PNG',
     '.swf',
     '.svg',
@@ -60,7 +57,7 @@ LOB_EXTENSIONS = [
     '.webp',
     '.xcf',
     '.xlsx',
-    '.zip'
+    '.zip',
 ]
 
 
