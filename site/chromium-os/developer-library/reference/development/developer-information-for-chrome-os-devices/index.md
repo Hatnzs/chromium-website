@@ -3679,14 +3679,14 @@ such as the auto update until date, first release, and more.
   <tr>
     <td>2023-01-18</td>
     <td>Lenovo</td>
-    <td>Lenovo 100e Chromebook Gen 4</td>
+    <td><a href="https://pcsupport.lenovo.com/us/en/products/chromebook-laptops/lenovo-chromebooks-series/100e-chromebook-gen4">Lenovo 100e Chromebook Gen 4</a></td>
     <td>Rusty</td>
     <td>Corsola</td>
     <td>Corsola</td>
     <td>aarch64</td>
     <td>5.15</td>
     <td>aarch64</td>
-    <td>MT8186</td>
+    <td>MT8186/MT8186T</td>
     <td>Clamshell</td>
     <td></td>
     <td>Yes</td>
@@ -3694,14 +3694,14 @@ such as the auto update until date, first release, and more.
   <tr>
     <td>2023-01-18</td>
     <td>Lenovo</td>
-    <td>Lenovo 300e Yoga Chromebook Gen 4</td>
+    <td><a href="https://pcsupport.lenovo.com/us/en/products/chromebook-laptops/lenovo-chromebooks-series/lenovo-300e-yoga-chromebook-gen4">Lenovo 300e Yoga Chromebook Gen 4</a></td>
     <td>Steelix</td>
     <td>Corsola</td>
     <td>Corsola</td>
     <td>aarch64</td>
     <td>5.15</td>
     <td>aarch64</td>
-    <td>MT8186</td>
+    <td>MT8186/MT8186T</td>
     <td>Convertible</td>
     <td></td>
     <td>Yes</td>
@@ -3724,7 +3724,7 @@ such as the auto update until date, first release, and more.
   <tr>
     <td>2023-01-18</td>
     <td>Lenovo</td>
-    <td>Lenovo IdeaPad Slim 3 Chromebook (14M868)</td>
+    <td><a href="https://pcsupport.lenovo.com/us/en/products/chromebook-laptops/lenovo-chromebooks-series/ip-slim-3-chrome-14m868">Lenovo IdeaPad Slim 3 Chromebook (14M868)</a></td>
     <td>Magneton</td>
     <td>Corsola</td>
     <td>Corsola</td>
