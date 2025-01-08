@@ -101,6 +101,9 @@ def _download(path, expected_sha1):
     for i in range(4):
         try:
             resp = http_session.get(url)
+            if resp.status_code != requests.codes.ok:
+                return (f'download failed with HTTP/{resp.status_code}',
+                        (False, len(resp.content)))
             s = hashlib.sha1()
             s.update(resp.content)
             actual_sha1 = s.hexdigest()
