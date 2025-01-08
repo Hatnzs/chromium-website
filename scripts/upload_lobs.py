@@ -31,6 +31,8 @@ import common
 # duplication and need to keep them in sync.
 
 LOB_EXTENSIONS = [
+    # keep-sorted start
+    '.PNG',
     '.ai',
     '.bin',
     '.bmp',
@@ -42,22 +44,22 @@ LOB_EXTENSIONS = [
     '.gif',
     '.graffle',
     '.ico',
-    '.jpg',
     '.jpeg',
+    '.jpg',
     '.mp4',
     '.msi',
     '.pdf',
     '.png',
-    '.PNG',
-    '.swf',
     '.svg',
+    '.swf',
     '.tar.gz',
     '.tiff',
-    '_trace',
     '.webp',
     '.xcf',
     '.xlsx',
     '.zip',
+    '_trace',
+    # keep-sorted end
 ]
 
 
