@@ -112,10 +112,10 @@ module.exports = config => {
     '.html',
     '.js',
     '.json',
+    '.patch',
     '.py',
     '.txt',
     '.xml',
-    'patch'
     // keep-sorted end
   ]);
 
