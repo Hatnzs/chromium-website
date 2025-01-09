@@ -26,6 +26,7 @@ module.exports = config => {
     leftDelimiter: '{:',
     rightDelimiter: '}',
     allowedAttributes: ['id', 'class'],
+  }).use(require('markdown-it-footnote'), {
   }).use(anchor, {
     slugify: s => uslug(s),
     level: 2,
