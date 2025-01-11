@@ -22,7 +22,7 @@ to be larger, more complicated tests, and are slower to run. Chrome has several
 kinds of integration tests, most importantly browser tests and end-to-end (E2E)
 tests.
 
-[Browser tests](https://chromium.googlesource.com/website/+/HEAD/site/developers/testing/browser-tests/index.md),
+[Browser tests](/developers/testing/browser-tests),
 unlike unit tests, run inside a browser process instance and are attached to a
 window for rendering. These are most often used for testing UIs, but have other
 uses as well.

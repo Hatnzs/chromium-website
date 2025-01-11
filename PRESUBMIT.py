@@ -268,6 +268,16 @@ def CheckLinks(input_api, output_api):
                 link, 'Use local paths instead of www.chromium.org in links',
                 o._replace(scheme='', netloc='', path=o.path or '/'))
 
+        # People shouldn't link to chromium.org markdown pages via gitiles.
+        if o.netloc == 'chromium.googlesource.com' and o.path.startswith(
+                '/website/+/HEAD/site/'):
+            path = o.path[20:]
+            if path.endswith('/index.md'):
+                path = path[:-9]
+            _create_result(
+                link, 'Use local paths instead of chromium.googlesource.com',
+                o._replace(scheme='', netloc='', path=path))
+
         # Check relative links for generated docs (under site/).
         if o.scheme == o.netloc == '' and link.file.startswith('site/'):
             # Relative links to markdown files don't work in generated pages.
