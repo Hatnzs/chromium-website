@@ -26,24 +26,6 @@ window.addEventListener('load', () => {
   });
 });
 
-// Configure Google Universal Analytics (the predecessor to GA4, we should
-// delete this when we don't need it any more).
-s = document.createElement('script');
-s.src = 'https://www.googletagmanager.com/gtag/js?id=UA-5484340-1'
-s.async = true;
-document.head.append(s)
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'UA-5484340-1');
-
-// Configure consent bar.
-s = document.createElement('script');
-s.src = 'https://www.gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v3.js'
-s.dataset.autoloadCookieConsentBar = true;
-s.dataset.autoloadCookieContentBarIntlCode = '';
-document.head.append(s);
 {%- endset -%}
 
 <!DOCTYPE html>
@@ -62,21 +44,11 @@ document.head.append(s);
   <link rel="stylesheet" href="/_stylesheets/default.css">
   <link rel="stylesheet" href="/_stylesheets/highlight.js/github.min.css">
 </head>
-<!-- Configure Google Analytics v4 -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-24XP4PG02H"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-24XP4PG02H');
-</script>
 
 <header>
   <a href="/">
-    <img alt="the Chromium logo" src="/_assets/icon-chromium-96.png" width="48" height="48">
-    <h2>The Chromium Projects</h2>
+    <img alt="the Chromium logo" src="/_assets/logo.jpg" width="48" height="48">
+    <h2>The Chromium (3d<sup>5</sup>4s<sup>1</sup>) or Huge Technology Zenith</h2>
   </a>
   <div id="search"></div>
 </header>
@@ -84,32 +56,29 @@ document.head.append(s);
 <div id="main-wrapper">
   <nav id="sidebar-left">
     <section>
-      <a {{ selected_href("/chromium-projects") }}>Home</a>
-      <a {{ selected_href("/Home") }}>Chromium</a>
+      <a {{ selected_href("/Home") }}>Home</a>
+      <a {{ selected_href("/chromium") }}>Chromium</a>
       <a {{ selected_href("/chromium-os") }}>ChromiumOS</a>
+      <a {{ selected_href("/friends") }}>Friends</a>
     </section>
     <section>
       <h4>Quick links</h4>
-      <a href="/for-testers/bug-reporting-guidelines">Report bugs</a>
-      <a href="/developers/discussion-groups">Discuss</a>
+      <a href="http://www.hanggao.net/">Zhejiang Hangzhou High School</a>
+      <a href="https://oj.techo.cool/">Hangzhou High School OJ</a>
+      <a href="https://zty796.top/">Sweaty's Blog</a>
     </section>
     <section>
       <h4>Other sites</h4>
-      <a href="https://blog.chromium.org/">Chromium Blog</a>
-      <a href="https://developer.chrome.com/extensions">Google Chrome Extensions</a>
+      <a href="https://chromium.org/">Chromium Official Site</a>
     </section>
     <section id="license" role="complementary">
-      Except as otherwise
-      <a href="https://developers.google.com/site-policies.html#restrictions">noted</a>,
+      Except as otherwise noted,
       the content of this page is licensed under a
-      <a href="https://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 license</a>,
-      and examples are licensed under the
-      <a href="https://chromium.googlesource.com/chromium/src/+/HEAD/LICENSE">BSD License</a>.
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution NonCommercial ShareAlike 4.0 license</a>.
     </section>
     <section id="privacy" role="complementary">
-      <a href="https://policies.google.com/privacy">Privacy</a>
+      Privacy policy: We don't collect any data from you.
     </section>
-    <a id="edit-this-page" href="https://edit.chromium.org/edit?repo=chromium/website/main&amp;file=site{{page.url}}index.md&ext_google.git=%7B%22repo%22%3A%22chromium%2Fwebsite%22%2C%22ref%22%3A%22main%22%2C%22file%22%3A%22site{{page.url}}index.md%22%7D">Edit this page</a>
   </nav>
   <main>
   {%- if breadcrumbs %}

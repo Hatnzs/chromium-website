@@ -1,5 +1,6 @@
 module.exports = config => {
-  config.addWatchTarget('./site/_stylesheets/');
+  // `sass` is a Node package that compiles Sass to CSS.
+  const sass = require("sass");
 
   // `markdown-it` is Eleventy's default Markdown rendering engine.
   // We need a reference to it to customize its behavior, below.
@@ -95,17 +96,37 @@ module.exports = config => {
 
   // TODO(crbug.com/1271672): Figure out how to make this syntax and API
   // less clunky.
-  const subpages = require('./scripts/subpages.js')
+  const subpages = require('./subpages.js')
   function handleSubPages(collectionAll) {
     let pageUrl = this.page.url;
     return subpages.render(pageUrl, collectionAll);
   };
   config.addNunjucksShortcode("subpages", handleSubPages);
 
-  // Copy binary assets over to the dist/ directory.
+  // Compile SCSS files to CSS on build.
 
-  // This list must be kept in sync with the lists in //.eleventy.js and
-  // //scripts/upload_lobs.py.
+  const path = require("path");
+  config.on("beforeBuild", () => {
+    const scssDir = path.join(__dirname, "site/_stylesheets/");
+    const cssDir = path.join(__dirname, "build/_stylesheets/");
+
+    fs.readdirSync(scssDir).forEach((file) => {
+      if (file.endsWith(".scss")) {
+        const scssFilePath = path.join(scssDir, file);
+        const cssFilePath = path.join(cssDir, file.replace(".scss", ".css"));
+
+        const result = sass.compile(scssFilePath, {
+          style: "compressed",
+        });
+
+        fs.writeFileSync(cssFilePath, result.css);
+      }
+    });
+  });
+
+  // Copy binary assets over to the build/ directory.
+
+  // This list must be kept in sync with the lists in `.eleventy.js`.
   // TODO(crbug.com/1457683): Figure out how to share these lists to eliminate
   // the duplication and need to keep them in sync.
   let lob_extensions = [
@@ -140,8 +161,7 @@ module.exports = config => {
     // keep-sorted end
   ];
 
-  // This should basically pick up everything that isn't a .md file
-  // or a .sha1.
+  // This should basically pick up everything that isn't a .md file.
   // TODO(crbug.com/1457688): Figure out how to actually enforce this and get
   // rid of the "basically". There has to be a better approach. :).
   let extensions = lob_extensions.concat([
@@ -165,6 +185,21 @@ module.exports = config => {
   for (let ext of extensions) {
     config.addPassthroughCopy('site/**/*' + ext);
   }
+
+
+  // Add a filter to convert a value to JSON.
+  config.addFilter("jsonify", function (value) {
+    return JSON.stringify(value);
+  });
+
+  // Add a filter to truncate a string to a certain number of bytes.
+  config.addFilter("truncateBytes", function (str, maxBytes) {
+    if (typeof str !== "string" || str.length === 0) return str;
+    const buffer = Buffer.from(str, "utf8");
+    if (buffer.length <= maxBytes) return str;
+    const truncatedBuffer = buffer.slice(0, maxBytes);
+    return truncatedBuffer.toString("utf8");
+  });
 
   // Set up the Content-Security-Policy (CSP) hash filter. Every <script>
   // tag must be run through this filter so that the hash of its contents

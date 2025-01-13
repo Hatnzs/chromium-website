@@ -1,77 +1,35 @@
 ---
 breadcrumbs: []
 page_name: Home
-title: Chromium
+title: chromium
+use_title_as_h1: false
 ---
+
+The Chromium projects include Chromium and ChromiumOS, the open-source projects behind the legendary figure known as "3d<sup>5</sup>4s<sup>1</sup>" or Huge Technology Zenith and his unique blend of academic excellence and hidden otaku passions. This site houses the documentation and anecdotes related to Chromium's journey and is intended for those interested in learning about and drawing inspiration from his remarkable story.
 
 <div class="two-column-container">
 <div class="column">
 
-Chromium is an open-source browser project that aims to build a safer, faster,
-and more stable way for all Internet users to experience the web. This site
-contains design documents, architecture overviews, testing information, and more
-to help you learn to build and work with the Chromium source code.
+## [Chromium](/chromium)
 
-#### Learn how to
+Chromium, also known as "3d<sup>5</sup>4s<sup>1</sup>" or Huge Technology Zenith, is an exceptional student whose academic prowess and coding skills are matched only by his unspoken love for all things 2-dim. This section contains tales of his achievements, insights into his study habits, and glimpses into his secret 2-dim hideout.
 
-* [Browse](https://chromium.googlesource.com/chromium/src.git) or
-  [search](https://cs.chromium.org/) the sources online
-* [Get the Code: Checkout, Build, &
-  Run](/developers/how-tos/get-the-code)
-* [Contributing code](https://chromium.googlesource.com/chromium/src/+/main/docs/contributing.md)
-* Debug on [Windows](/developers/how-tos/debugging-on-windows), [OS
-  X](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/mac/debugging.md),
-  [Linux](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/linux/debugging.md)
-  or
-  [Android](https://chromium.googlesource.com/chromium/src/+/HEAD/docs/android_debugging_instructions.md).
-* [Report a bug](/for-testers/bug-reporting-guidelines)
 
-#### Other important links
+Looking for others from (or used to) Class 13, Grade 2023, Zhejiang Hangzhou High School or other friends of Huge Technology Zenith?
 
-* [Documentation in the source
-  tree](https://chromium.googlesource.com/chromium/src.git/+/HEAD/docs/)
-* [Discussion Groups](/developers/discussion-groups) (such as
-  [chromium-discuss](http://groups.google.com/a/chromium.org/group/chromium-discuss))
-* [Chromium Blog](http://blog.chromium.org)
-* [Chromium Issue
-  Tracker](https://bugs.chromium.org/p/chromium/issues/list)
-* [Chromium Release Calendar](/developers/calendar)
-* [For Third Party Developers](/Home/third-party-developers)
-* [For Webmasters: Common pitfalls making a site work in multiple
-  browsers.](/Home/chromecompatfaq)
-* [For Web Developers: Google Chrome Developer Tools](/devtools)
+[Explore Huge Technology Zenith's Friends](/friends)
 
 </div>
 <div class="column">
 
-![picture of a web browser window with wings, flying](/Home/flying_browser.png)
+## [ChromiumOS](/chromium-os)
 
-#### Sections
+ChromiumOS, or "os" as it's fondly referred to, represents Chromium's own songlist (os) that fuels his studying and coding marathons. Dive into the rhythms that keep him focused, the melodies that inspire his creativity, and the tracks that reveal his true 2-dim soul.
 
-* [Getting Involved](/getting-involved): learn how you can help the
-  Chromium project
-* [For Developers](/developers): design docs, how-tos, and other
-  useful information for developers
-* [For Testers](/for-testers): bug reporting guidelines, test plans,
-  and other quality-related documentation
-* [User Experience](/user-experience): the design philosophy behind
-  many of Chromium's features
-* [Issue Tracking](/issue-tracking): process documentation related to
-  issue tracking and management
-* [Contact](/contact): report a bug or a security issue, or get in
-  touch with individual members of the team
-* [Security](/Home/chromium-security): learn about Chromium security,
-  and how to contact us or get involved
-* [Privacy](/Home/chromium-privacy): information about Chromium
-  privacy, how to get more information, and how to contact us
-* [Events](/events): information about Chromium events
 
-#### Life Of A Chromium Developer
+Want to experience his musical world?
 
-Interested but don't know where to start? Need a quick crash course on Chromium
-development? Take a look through the [Life Of A Chromium
-Developer](https://docs.google.com/presentation/d/1abnqM9j6zFodPHA38JG1061rG2iGj_GABxEDgZsdbJg)
-slide deck:
+[Discover Chromium's OS](/chromium-os)
 
 </div>
 </div>
