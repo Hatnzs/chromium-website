@@ -14,33 +14,29 @@ The Chromium projects include Chromium and ChromiumOS, the open-source projects 
 
 Chromium, also known as "3d<sup>5</sup>4s<sup>1</sup>" or Huge Technology Zenith, is an exceptional student whose academic prowess and coding skills are matched only by his unspoken love for all things 2-dim. This section contains tales of his achievements, insights into his study habits, and glimpses into his secret 2-dim hideout.
 
-<img class="icon" src="/friends/gasgaller.jpg" alt="">
-<img class="icon" src="/friends/define.jpg" alt="">
-<img class="icon" src="/friends/temporal-pilgram.jpg" alt="">
-<img class="icon" src="/friends/kerman.jpg" alt="">
-<img class="icon" src="/friends/lsheep.jpg" alt="">
-<img class="icon" src="/friends/pww.png" alt="">
-<img class="icon" src="/friends/qiwang.jpg" alt="">
-
 Looking for others from (or used to) Class 13, Grade 2023, Zhejiang Hangzhou High School or other friends of Huge Technology Zenith?
 
 [Explore Huge Technology Zenith's Friends](/friends)
+
+Want to admire a poem?  
+
+【作者】苏**宇彬** 【朝代】**诵**  
+心似已灰之木，身如不系之**洲**。  
+问汝平生功业，黄**洲**惠**洲**儋**洲**。  
 
 </div>
 <div class="column">
 
 ## [ChromiumOS](/chromium-os)
 
+
+<a href="/chromium-os" ><img style="width: 96px; height: 96px;" class="icon" src="/Home/icon-chromium-96.png" alt=""></a>
+
 ChromiumOS, or "os" as it's fondly referred to, represents Chromium's own songlist (os) that fuels his studying and coding marathons. Dive into the rhythms that keep him focused, the melodies that inspire his creativity, and the tracks that reveal his true 2-dim soul.
 
-<a href="/chromium-os" ><img class="icon" src="/Home/icon-chromium-96.png" alt=""></a>
+Want to learn more about ChromiumOS?
 
-Want to admire his poem?
-
-【作者】苏宇彬 【朝代】诵  
-
-心似已灰之木，身如不系之洲。  
-问汝平生功业，黄洲惠洲儋洲。  
+[Learn More About ChromiumOS](/chromium-os)
 
 </div>
 </div>
