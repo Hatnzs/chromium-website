@@ -1,3 +1,4 @@
 ---
+title: Home
 redirect: /Home
 ---

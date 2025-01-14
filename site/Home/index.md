@@ -1,7 +1,7 @@
 ---
 breadcrumbs: []
 page_name: Home
-title: chromium
+title: The Chromium Projects
 use_title_as_h1: false
 ---
 
@@ -14,6 +14,13 @@ The Chromium projects include Chromium and ChromiumOS, the open-source projects 
 
 Chromium, also known as "3d<sup>5</sup>4s<sup>1</sup>" or Huge Technology Zenith, is an exceptional student whose academic prowess and coding skills are matched only by his unspoken love for all things 2-dim. This section contains tales of his achievements, insights into his study habits, and glimpses into his secret 2-dim hideout.
 
+<img class="icon" src="/friends/gasgaller.jpg" alt="">
+<img class="icon" src="/friends/define.jpg" alt="">
+<img class="icon" src="/friends/temporal-pilgram.jpg" alt="">
+<img class="icon" src="/friends/kerman.jpg" alt="">
+<img class="icon" src="/friends/lsheep.jpg" alt="">
+<img class="icon" src="/friends/pww.png" alt="">
+<img class="icon" src="/friends/qiwang.jpg" alt="">
 
 Looking for others from (or used to) Class 13, Grade 2023, Zhejiang Hangzhou High School or other friends of Huge Technology Zenith?
 
@@ -26,6 +33,7 @@ Looking for others from (or used to) Class 13, Grade 2023, Zhejiang Hangzhou Hig
 
 ChromiumOS, or "os" as it's fondly referred to, represents Chromium's own songlist (os) that fuels his studying and coding marathons. Dive into the rhythms that keep him focused, the melodies that inspire his creativity, and the tracks that reveal his true 2-dim soul.
 
+[![](/Home/icon-chromium-96.png)](/chromium-os)
 
 Want to experience his musical world?
 

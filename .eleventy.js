@@ -104,7 +104,8 @@ module.exports = config => {
   config.addNunjucksShortcode("subpages", handleSubPages);
 
   // Compile SCSS files to CSS on build.
-
+  config.addWatchTarget("site/_stylesheets/**/*.scss");
+  
   const path = require("path");
   config.on("beforeBuild", () => {
     const scssDir = path.join(__dirname, "site/_stylesheets/");

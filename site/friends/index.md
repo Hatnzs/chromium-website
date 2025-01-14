@@ -9,16 +9,22 @@ Welcome to the **Friends** page of Chromium (3d<sup>5</sup>4s<sup>1</sup>). Here
 ---
 
 ## **Featured Friends**
-
+<a href="https://zty796.top/"><img class="icon" src="/friends/brian-zhang.jpg" alt="Sweaty"></a>  
 ### [Sweaty](https://zty796.top/)  
 A friend with a passion for creativity and exploration. Their website showcases their projects, writings, and personal reflections.
 
-### [Security](https://almswt.top/)  
-A friend who identifies as a transgender individual, sharing their thoughts, experiences, and creative works. Their website is a space for self-expression and advocacy.
 
+<a href="https://almswt.top/"><img class="icon" src="/friends/security.jpg" alt="Security"></a>  
+### [Security](https://almswt.top/)  
+A friend who identifies as a transgensder individual, sharing their thoughts, experiences, and creative works. Their website is a space for self-expression and advocacy.
+
+
+<a href="https://main.zzzssshhh.top/"><img class="icon" src="/friends/fluorine.jpg" alt="Z Shell"></a>  
 ### [Z Shell](https://main.zzzssshhh.com/)  
 A tech-savvy friend who specializes in programming and system optimization. Their website is a hub for coding tutorials, tools, and insights into the world of software development.
 
+
+<a href="https://www.vriancao.top/"><img class="icon" src="/friends/vrian-cao.jpg" alt="Vriancao"></a>  
 ### [Vriancao](https://vriancao.top/)  
 A senior friend and mentor, known for her academic excellence and leadership. Her website features her research, writings, and advice for students navigating their academic journeys.
 

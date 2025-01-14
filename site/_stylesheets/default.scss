@@ -423,3 +423,13 @@ main {
     }
   }
 }
+
+.logo,
+.icon {
+  display: inline;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #ccc;
+}

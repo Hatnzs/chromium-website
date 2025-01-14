@@ -1,8 +1,11 @@
 ---
 breadcrumbs: []
 page_name: chromium
-title: The Legend of Chromium)
+title: Chromium. 3d54s1. Huge Technology Zenith.
+use_title_as_h1: false
 ---
+
+# Chromium. 3d<sup>5</sup>4s<sup>1</sup>. Huge Technology Zenith.
 
 Welcome to the **Legend of Chromium (3d<sup>5</sup>4s<sup>1</sup>)**, a blog series dedicated to exploring the life, achievements, and secrets of a remarkable individual known as the "Huge Technology Genius." Chromium is not just a top student in his class of five, but also a hidden otaku who balances academics, coding, and his love for 2-dim culture. Dive into his world and discover how he manages to excel in both academics and his passions.
 
