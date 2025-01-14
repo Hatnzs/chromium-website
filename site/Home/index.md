@@ -33,11 +33,14 @@ Looking for others from (or used to) Class 13, Grade 2023, Zhejiang Hangzhou Hig
 
 ChromiumOS, or "os" as it's fondly referred to, represents Chromium's own songlist (os) that fuels his studying and coding marathons. Dive into the rhythms that keep him focused, the melodies that inspire his creativity, and the tracks that reveal his true 2-dim soul.
 
-[![](/Home/icon-chromium-96.png)](/chromium-os)
+<a href="/chromium-os" ><img class="icon" src="/Home/icon-chromium-96.png" alt=""></a>
 
-Want to experience his musical world?
+Want to admire his poem?
 
-[Discover Chromium's OS](/chromium-os)
+【作者】苏宇彬 【朝代】诵  
+
+心似已灰之木，身如不系之洲。  
+问汝平生功业，黄洲惠洲儋洲。  
 
 </div>
 </div>
