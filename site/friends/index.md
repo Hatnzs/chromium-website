@@ -13,7 +13,7 @@ Welcome to the **Friends** page of Chromium (3d<sup>5</sup>4s<sup>1</sup>). Here
 <a href="https://zty796.top/"><img class="icon" src="/friends/brian-zhang.jpg" alt="Sweaty"></a>  
 
 ### [Sweaty](https://zty796.top/)  
-A rare blend of scientific mind and artistic soul, he excels in both logical reasoning and creative expression. His website serves as a vibrant canvas, showcasing his innovative projects, eloquent writings, and profound personal reflections. With his exceptional communication skills and warm personality, he effortlessly connects with people from all walks of life.
+A rare blend of scientific mind and artistic soul, he excels in both logical reasoning and creative expression. His website serves as a vibrant canvas, showcasing his innovative projects, eloquent writings, and profound personal reflections. With his exceptional communication skills and warm personality, he effortlessly connects with people from all walks of life. Additionally, he is a privacy protection master who is proficient in using The Onion Router (Tor) and other proxy services.
 
 <div class="warning-container">
 <div class="warning-overlay" onclick="this.style.display='none';">
