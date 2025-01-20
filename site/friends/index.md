@@ -33,12 +33,12 @@ A friend who identifies as a transgender individual, sharing their thoughts, exp
 <img class="icon" src="/friends/gasgaller.jpg" alt="Gasgaller">  
 
 ### Gasgaller  
-A physics prodigy and winner of the first prize in physics competitions, Gasgaller is a prominent figure in the school. His deep understanding of physics and his ability to solve complex problems make him a respected figure among his peers.
+A physics prodigy and winner of the first prize in physics competitions, Gasgaller is a prominent figure in the school. His deep understanding of physics and his ability to solve complex problems make him a respected figure among his peers. He recently scored an impressive 95 in his final physics exam, though a grading error initially marked it as 85—still a testament to his exceptional understanding and passion for both physics and space exploration.
 
 <img class="icon" src="/friends/define.jpg" alt="Define">  
 
 ### Define  
-The General Secretary of the Dormitory Central Committee, Define is a leader we all support. His organizational skills and dedication to the well-being of his peers make him an indispensable part of our community.
+The General Secretary of the Dormitory Central Committee, Define is a leader we all support. His organizational skills and dedication to the well-being of his peers make him an indispensable part of our community.Recently, he achieved an outstanding score of 117 in Chinese, ranking first in his class during the final exams, further showcasing his exceptional abilities and commitment to excellence.
 
 <img class="icon" src="/friends/temporal-pilgram.jpg" alt="Temporal Pilgram">  
 
