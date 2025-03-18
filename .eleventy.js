@@ -146,6 +146,7 @@ module.exports = config => {
     '.ico',
     '.jpeg',
     '.jpg',
+    '.mp3',
     '.mp4',
     '.msi',
     '.pdf',
