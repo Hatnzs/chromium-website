@@ -11,7 +11,7 @@ use_title_as_h1: false
   let audio;
   button.addEventListener("click", function() {
     if (!audio) {
-      audio = new Audio("/Home/gangguan.mp3");
+      audio = new Audio("/Home/Mortis.mp3");
       audio.preload = 'auto';
     }
     audio.currentTime = 0;
