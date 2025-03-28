@@ -219,52 +219,6 @@ module.exports = config => {
   }
 
   config.addFilter('cspHash', cspHash);
-
-  // Write out the firebase.json config file once we know which CSP
-  // headers to set.
-  config.on('afterBuild', () => {
-    let script_src = " 'none'";
-    if (script_hashes.size > 0) {
-      script_src = '';
-      for (const script_hash of script_hashes.values()) {
-        script_src += ' ' + script_hash;
-      }
-      script_src += " 'unsafe-inline' 'strict-dynamic'";
-    }
-
-    fs.writeFileSync('firebase.json',
-      JSON.stringify({
-        'hosting': {
-          'public': 'build',
-          'ignore': [
-            'firebase.json',
-            '**/.*',
-            '**/node_modules/**',
-          ],
-          'headers': [{
-            'source': '**/*',
-            'headers': [{
-              'key': 'Content-Security-Policy',
-              'value':
-                "script-src" + script_src +
-                "; object-src 'none'; base-uri 'none'; " +
-                "report-uri https://csp.withgoogle.com/csp/chromium-website/",
-              }],
-          }],
-        },
-      }, null, 2) + '\n');
-  });
-
-  // Copy over Algolia files.
-  config.addPassthroughCopy({
-     'node_modules/@docsearch/js/dist/umd':
-       '_scripts/@docsearch',
-     'node_modules/@docsearch/css/dist':
-       '_stylesheets/@docsearch',
-     'node_modules/highlight.js/styles/github*.min.css':
-       '_stylesheets/highlight.js/',
-  });
-
   return {
     dir: {
       input: 'site',

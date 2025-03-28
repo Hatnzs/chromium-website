@@ -1,5 +1,4 @@
 __pycache__
-/.firebase
 /.gclient_entries
 /.gclient_previous_sync_commits
 /.gcs_entries
@@ -8,7 +7,6 @@ __pycache__
 *.swp
 
 /build
-/firebase.json
 /infra/.recipe_deps
 /node_modules
 /node_modules.tar.gz

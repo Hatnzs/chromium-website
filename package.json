@@ -3,18 +3,12 @@
     "build": "npm-run-all build:sass build:eleventy",
     "build:eleventy": "eleventy --quiet",
     "build:sass": "sass site/_stylesheets:build/_stylesheets",
-    "deploy:login": "firebase login",
-    "deploy:preview": "firebase hosting:channel:deploy --project prod --expires 7d",
-    "deploy:prod": "firebase deploy --only hosting --project prod",
-    "deploy:staging": "firebase deploy --only hosting --project staging",
     "start": "npm-run-all build:sass --parallel watch:*",
     "watch:eleventy": "eleventy --serve --port=8080 --quiet",
     "watch:sass": "sass --watch site/_stylesheets:build/_stylesheets"
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@docsearch/js": "^3.6.0",
-    "firebase-tools": "^13.13.3",
     "highlight.js": "^11.11.1",
     "markdown-it-anchor": "^9.0.1",
     "markdown-it-attrs": "^4.1.6",

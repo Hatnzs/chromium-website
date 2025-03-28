@@ -11,20 +11,6 @@ href="{{ url }}"
 {%- endmacro -%}
 
 {%- set script_tag %}
-// Configure Algolia search.
-let s = document.createElement('script');
-s.src = '/_scripts/@docsearch/index.js';
-document.head.append(s);
-
-window.addEventListener('load', () => {
-  // Add the Algolia search widget.
-  docsearch({
-    container: '#search',
-    appId: 'CQRESEDKXK',
-    apiKey: '94f77c916b34e968dd1f625407876aab',
-    indexName: '3d54s1-algolia'
-  });
-});
 
 {%- endset -%}
 
@@ -40,7 +26,6 @@ window.addEventListener('load', () => {
   {%- if title %}
   <title>{{ title }}</title>
   {%- endif %}
-  <link rel="stylesheet" href="/_stylesheets/@docsearch/style.css">
   <link rel="stylesheet" href="/_stylesheets/default.css">
   <link rel="stylesheet" href="/_stylesheets/highlight.js/github.min.css">
 </head>
@@ -50,7 +35,6 @@ window.addEventListener('load', () => {
     <img class ="logo" style="width: 80px; height: 80px;" alt="the Chromium logo" src="/_assets/logo.jpg">
     <h2>The Chromium (3d<sup>5</sup>4s<sup>1</sup>) or Huge Technology Zenith</h2>
   </a>
-  <div id="search"></div>
 </header>
 
 <div id="main-wrapper">
